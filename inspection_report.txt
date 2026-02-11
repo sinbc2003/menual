@@ -1,0 +1,193 @@
+================================================================================
+전수조사 검증 보고서 v2
+================================================================================
+
+입력: 8010개
+통과: 3926개
+탈락: 4084개 (51.0%)
+
+============================================================
+탈락 사유별 통계 (Critical)
+============================================================
+  DUPLICATE_ANSWER: 1907개
+  QUESTION_TOPIC_NOT_ON_PAGE: 952개
+  FORM_CONTENT: 757개
+  ANSWER_QUESTION_DISCONNECT: 542개
+  SOURCE_TITLE_MEANINGLESS: 334개
+  QUESTION_RAW_MARKDOWN: 311개
+  SOURCE_TEXT_MISMATCH: 284개
+  ANSWER_ESCAPED_MARKDOWN: 185개
+  ANSWER_FORM_TEMPLATE_DATA: 185개
+  GRAMMAR_ERROR: 144개
+  QUESTION_FAKE_RELATION: 101개
+  QUESTION_QA_NUMBER: 71개
+  QUESTION_NONSENSE_VERB: 26개
+  REFERENCE_TABLE: 25개
+  ANSWER_TOPIC_MISMATCH: 22개
+  QUESTION_PASTED_CONTENT: 5개
+  QUESTION_VAGUE_REFERENCE: 2개
+
+============================================================
+전체 이슈 통계
+============================================================
+  ANSWER_IS_JUST_SOURCE_COPY: 3885개
+  DUPLICATE_ANSWER: 1907개
+  QUESTION_TOPIC_NOT_ON_PAGE: 952개
+  FORM_CONTENT: 757개
+  ANSWER_QUESTION_DISCONNECT: 542개
+  SOURCE_TITLE_MEANINGLESS: 334개
+  QUESTION_RAW_MARKDOWN: 311개
+  SOURCE_TEXT_MISMATCH: 284개
+  ANSWER_ESCAPED_MARKDOWN: 185개
+  ANSWER_FORM_TEMPLATE_DATA: 185개
+  GRAMMAR_ERROR: 144개
+  QUESTION_FAKE_RELATION: 101개
+  QUESTION_QA_NUMBER: 71개
+  QUESTION_TEMPLATE_MISMATCH: 65개
+  QUESTION_NONSENSE_VERB: 26개
+  REFERENCE_TABLE: 25개
+  ANSWER_TOPIC_MISMATCH: 22개
+  SOURCE_TITLE_NOT_IN_PAGE: 19개
+  QUESTION_PASTED_CONTENT: 5개
+  QUESTION_VAGUE_REFERENCE: 2개
+
+============================================================
+카테고리별 통계
+============================================================
+  계약제교원: 총 1653개, 통과 714개, 탈락 939개 (56.8%)
+  교원의 임용: 총 1330개, 통과 669개, 탈락 661개 (49.7%)
+  복무: 총 1635개, 통과 879개, 탈락 756개 (46.2%)
+  승급 및 호봉획정: 총 190개, 통과 108개, 탈락 82개 (43.2%)
+  정원 및 순회교사제: 총 278개, 통과 163개, 탈락 115개 (41.4%)
+  징계 및 직위해제: 총 779개, 통과 407개, 탈락 372개 (47.8%)
+  평정 업무: 총 962개, 통과 441개, 탈락 521개 (54.2%)
+  휴직 및 복직: 총 1183개, 통과 545개, 탈락 638개 (53.9%)
+
+통과 엔트리 중 경고: 1849개
+  ANSWER_IS_JUST_SOURCE_COPY: 1834개
+  QUESTION_TEMPLATE_MISMATCH: 16개
+  SOURCE_TITLE_NOT_IN_PAGE: 8개
+
+============================================================
+탈락 샘플 (20개)
+============================================================
+
+ID: q_5_1054
+  Q: [계약제교원 자료전송 - 요청 화면]의 기간은 얼마나 되나요?
+  A길이: 330자
+  출처: page 379
+  사유: ['DUPLICATE_ANSWER']
+
+ID: q_1_1017
+  Q: 학교장이 제출서류 관련하여 권한이 있나요?
+  A길이: 318자
+  출처: page 74
+  사유: ['DUPLICATE_ANSWER', 'ANSWER_QUESTION_DISCONNECT:ratio=0.14']
+
+ID: q_1_0267
+  Q: 보직교사에서 관련 규정에 대한 규정은 무엇인가요?
+  A길이: 328자
+  출처: page 18
+  사유: ['GRAMMAR_ERROR']
+
+ID: q_5_1578
+  Q: Q3. 육아휴직을 허용하지 않을 수 있는 경우는?의 단서 조항이 있나요?
+  A길이: 342자
+  출처: page 429
+  사유: ['DUPLICATE_ANSWER', 'QUESTION_QA_NUMBER']
+
+ID: q_3_0722
+  Q: (발령사항)과 관련된 참고 서식이 있나요?
+  A길이: 299자
+  출처: page 160
+  사유: ['FORM_CONTENT:page=160', 'ANSWER_FORM_TEMPLATE_DATA']
+
+ID: q_3_0464
+  Q: 선정기준에서 3년이라는 기준은 어떤 의미인가요?
+  A길이: 473자
+  출처: page 137
+  사유: ['DUPLICATE_ANSWER', 'ANSWER_QUESTION_DISCONNECT:ratio=0.14']
+
+ID: q_3_0300
+  Q: 병역휴직은 어떤 경우에 해당하나요?
+  A길이: 489자
+  출처: page 131
+  사유: ['SOURCE_TEXT_MISMATCH:page=131,ratio=0.40', 'SOURCE_TEXT_MISMATCH:page=132,ratio=0.40']
+
+ID: q_1_1163
+  Q: 신청인 제출서류를 하려면 어떻게 해야 하나요?
+  A길이: 587자
+  출처: page 91
+  사유: ['QUESTION_NONSENSE_VERB']
+
+ID: q_5_1552
+  Q: (임용기안문 세부내용 작성) 신청 방법을 알려주세요.
+  A길이: 526자
+  출처: page 428
+  사유: ['DUPLICATE_ANSWER']
+
+ID: q_1_0927
+  Q: 지급제외대상을 하려면 어떻게 해야 하나요?
+  A길이: 890자
+  출처: page 71
+  사유: ['QUESTION_NONSENSE_VERB']
+
+ID: q_5_1284
+  Q: 교원 인사 업무에서 이용기관 명칭 : *0000학교*가 실제로 어떻게 적용되나요?
+  A길이: 423자
+  출처: page 394
+  사유: ['FORM_CONTENT:page=394']
+
+ID: q_5_1574
+  Q: Q3. 육아휴직을 허용하지 않을 수 있는 경우는?의 횟수 제한이 있나요?
+  A길이: 348자
+  출처: page 429
+  사유: ['QUESTION_QA_NUMBER']
+
+ID: q_7_0056
+  Q: 의 결정이나 판결을 받은 경우 주의해야 할 점이 있나요?
+  A길이: 533자
+  출처: page 530
+  사유: ['DUPLICATE_ANSWER']
+
+ID: q_5_0108
+  Q: ※ 참고 사항을 한눈에 이해할 수 있도록 설명해주세요.
+  A길이: 802자
+  출처: page 342
+  사유: ['ANSWER_QUESTION_DISCONNECT:ratio=0.12', 'QUESTION_TOPIC_NOT_ON_PAGE']
+
+ID: q_1_0818
+  Q: 직권 면직의 횟수 제한이 있나요?
+  A길이: 551자
+  출처: page 54
+  사유: ['DUPLICATE_ANSWER', 'QUESTION_TOPIC_NOT_ON_PAGE']
+
+ID: q_5_0536
+  Q: [별표] 관련 최근 변경사항이 있나요?
+  A길이: 994자
+  출처: page 357
+  사유: ['QUESTION_TOPIC_NOT_ON_PAGE']
+
+ID: q_4_0693
+  Q: 겸직허가의 구체적인 적용 기준과 범위를 설명해주세요.
+  A길이: 628자
+  출처: page 290
+  사유: ['ANSWER_QUESTION_DISCONNECT:ratio=0.11']
+
+ID: q_1_0349
+  Q: 교장 임기가 얼마나 되나요?
+  A길이: 313자
+  출처: page 26
+  사유: ['SOURCE_TEXT_MISMATCH:page=26,ratio=0.40']
+
+ID: q_1_0326
+  Q: 보직구분설정에서 설정이 승진에 미치는 영향은 무엇인가요?
+  A길이: 267자
+  출처: page 25
+  사유: ['DUPLICATE_ANSWER']
+
+ID: q_1_0855
+  Q: 교육공무원법의 기간은 얼마나 되나요?
+  A길이: 331자
+  출처: page 61
+  사유: ['FORM_CONTENT:page=61', 'ANSWER_QUESTION_DISCONNECT:ratio=0.12']
