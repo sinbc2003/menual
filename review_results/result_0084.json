@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_3_0016",
+    "verdict": "FAIL",
+    "reason": "Extensive hallucination. Source pages 121/126 cover 질병휴직 but not 병가 details. Answer fabricates 병가 specifics (60일, 봉급 100%, 경력평정 산입, 승급 인정, etc.) and invents date examples and a comparison table not found in the source. The 병가 topic belongs to 복무 regulations, not these pages."
+  },
+  {
+    "id": "q_3_0018",
+    "verdict": "FAIL",
+    "reason": "Massive hallucination. Source page 121 only states 육아휴직 is 3년 이내 for 교육공무원. Answer invents extensive content about 교장 정년 62세, 교감 대리 임명, 관리업무수당, 명예퇴직 rules, 실제 사례, 권한대행 details, etc. - none of which appear in the source pages."
+  },
+  {
+    "id": "q_3_0019",
+    "verdict": "FAIL",
+    "reason": "Bad question with grammar error (기간 repeated twice: '휴직기간 기간'). Answer is a raw dump of page 121 content. Question asks 'how to calculate' but answer just lists 휴직사유. Duplicate answer with q_3_0020, q_3_0021, q_3_0022, q_3_0027, q_3_0028, q_3_0029."
+  },
+  {
+    "id": "q_3_0020",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer. Content is identical to q_3_0019, q_3_0021, q_3_0022, q_3_0027, q_3_0028, q_3_0029 - all dump the same 직권휴직/청원휴직 list from page 121."
+  },
+  {
+    "id": "q_3_0021",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_3_0019-0022 and q_3_0027-0029. Vague question ('원칙은 무엇인가요') not specifically addressed; answer is the same raw dump of 휴직사유 list."
+  },
+  {
+    "id": "q_3_0022",
+    "verdict": "FAIL",
+    "reason": "Question-answer mismatch. Question asks '대상자는 어떻게 선발하나요' (how are candidates selected) but answer is the same 휴직사유/기간 dump that does not address selection procedures. Also duplicate answer with q_3_0019-0021."
+  },
+  {
+    "id": "q_3_0027",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer. Same core content as q_3_0019-0022, q_3_0028, q_3_0029 - a slightly truncated version of the 직권휴직/청원휴직 list from page 121."
+  },
+  {
+    "id": "q_3_0028",
+    "verdict": "FAIL",
+    "reason": "Question-answer mismatch and duplicate. Question asks about relationship with other regulations but answer is the same 휴직사유/기간 dump without discussing inter-regulation relationships. Duplicate of q_3_0019-0022, q_3_0027, q_3_0029."
+  },
+  {
+    "id": "q_3_0029",
+    "verdict": "FAIL",
+    "reason": "Question-answer mismatch and duplicate. Question asks about impact on teacher status ('신분에 미치는 영향') but answer dumps the same 휴직사유 list without addressing status implications. Duplicate of q_3_0019-0022, q_3_0027, q_3_0028."
+  },
+  {
+    "id": "q_3_0030",
+    "verdict": "PASS",
+    "reason": "Accurate overview of 휴·복직 제도 from page 121. Includes 목적 section and 직권휴직 details that match the source. Question asks for an overview summary and the answer delivers source-faithful content."
+  }
+]

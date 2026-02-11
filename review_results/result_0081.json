@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_2_0249",
+    "verdict": "FAIL",
+    "reason": "Vague question: '필수 확인 사항' is generic. Answer is raw dump of page 116 기안문 작성 content, identical to batch_0080 entries. Duplicate answer."
+  },
+  {
+    "id": "q_2_0250",
+    "verdict": "FAIL",
+    "reason": "Vague question: '실제로 어떻게 적용되나요' is generic. Answer is same raw dump of page 116 기안문 작성 content as all prior entries. Duplicate answer."
+  },
+  {
+    "id": "q_2_0251",
+    "verdict": "FAIL",
+    "reason": "Bad question: asks about '기간은 어떻게 계산' (how to calculate period) which is not discussed in the source. Source describes 시행 procedure, not time calculation. Question-content mismatch."
+  },
+  {
+    "id": "q_2_0252",
+    "verdict": "FAIL",
+    "reason": "Bad question: asks about '일수' (number of days) which the source does not mention. Source is about 시행 button click procedure. Duplicate answer with q_2_0251."
+  },
+  {
+    "id": "q_2_0253",
+    "verdict": "FAIL",
+    "reason": "Question-content mismatch: asks about '경력평정' (career evaluation scoring) but source discusses '인사기록의 경력에 반영' (career record reflection) - different concepts. Answer is raw dump including irrelevant procedure steps."
+  },
+  {
+    "id": "q_2_0255",
+    "verdict": "FAIL",
+    "reason": "Bad question: asks about '기준' (standards) which the source does not discuss. Source describes a procedure, not standards. Duplicate answer identical to q_2_0251/0252/0253."
+  },
+  {
+    "id": "q_2_0256",
+    "verdict": "FAIL",
+    "reason": "Bad question: asks about '원칙' (principles) which the source does not discuss. Source is a NEIS procedure guide. Duplicate answer identical to other 기안문 시행 entries."
+  },
+  {
+    "id": "q_2_0258",
+    "verdict": "FAIL",
+    "reason": "Bad question: asks about '모든 규정' (all regulations) but source contains NEIS procedures, not regulations. Answer is raw dump of entire page 117 content."
+  },
+  {
+    "id": "q_2_0261",
+    "verdict": "FAIL",
+    "reason": "Bad question: asks about '관련 법령' (related laws/statutes) but source contains NEIS system procedures, not legal provisions. Answer dumps page 117 content irrelevant to the question."
+  },
+  {
+    "id": "q_2_0262",
+    "verdict": "FAIL",
+    "reason": "Raw dump: question asks specifically about 기안문 시행 procedures but answer dumps entire page 117 including unrelated 기안문 작성 라) and 기안문 상신 sections. Not focused on the question."
+  }
+]

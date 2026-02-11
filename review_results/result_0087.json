@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_3_0081",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER of q_3_0080; identical content and same misattribution error (노조전임자 기타 attributed to 병역휴직)."
+  },
+  {
+    "id": "q_3_0083",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER of q_3_0080; identical content. Same misattribution of 기타 data."
+  },
+  {
+    "id": "q_3_0084",
+    "verdict": "FAIL",
+    "reason": "Question asks about 횟수 제한 (frequency limits) but answer never addresses this; just dumps same 직권휴직 table content. DUPLICATE_ANSWER of q_3_0080."
+  },
+  {
+    "id": "q_3_0087",
+    "verdict": "FAIL",
+    "reason": "Malformed question: starts with '에 따른' (missing '「병역법」'). Broken/incomplete question text. DUPLICATE_ANSWER of q_3_0080."
+  },
+  {
+    "id": "q_3_0096",
+    "verdict": "PASS",
+    "reason": "Specific question about 육아휴직 기간. Answer accurately reflects page 124: 자녀 1인당 3년 이내, 만8세/초등2학년, 승급 인정(첫째둘째 1년/셋째 전기간), 경력평정 산입. All verified."
+  },
+  {
+    "id": "q_3_0098",
+    "verdict": "FAIL",
+    "reason": "Excessive hallucination: fabricated detailed timelines, 호봉 calculations (10->12->15호봉), 정년 62세, 장기근속수당 details, 실무 팁 section all not in source pages 124/220. Core facts correct but massively padded with unsourced content."
+  },
+  {
+    "id": "q_3_0099",
+    "verdict": "FAIL",
+    "reason": "Misattributes 기타 data: 경기도교원육아휴직처리기준 is for 육아/입양휴직 (page 124) but answer attributes it to 고용휴직. Table row attribution error."
+  },
+  {
+    "id": "q_3_0100",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER of q_3_0099; identical content with same 기타 misattribution error (육아휴직처리기준 wrongly under 고용휴직)."
+  },
+  {
+    "id": "q_3_0101",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER of q_3_0099; question asks specifically about 기간 but answer dumps entire table. Same misattribution error."
+  },
+  {
+    "id": "q_3_0102",
+    "verdict": "FAIL",
+    "reason": "Vague question ('얼마나 인정되나요'); DUPLICATE_ANSWER of q_3_0099; same misattribution error."
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_2_0263",
+    "verdict": "FAIL",
+    "reason": "Question asks about 겸임자 현황 출력 but answer describes 기안문 상신/시행 procedures from different sections of page 117; source title says 겸임자 현황 출력 but source text is from sections 2-3, not section 4 which is the actual 현황 출력 content"
+  },
+  {
+    "id": "q_2_0264",
+    "verdict": "FAIL",
+    "reason": "Hallucinated confirmation details (겸임 시작일, 겸임 종료일, 겸임 학교/기관) not in source; source only mentions checking 경력 tab, does not list specific verification items"
+  },
+  {
+    "id": "q_2_0265",
+    "verdict": "FAIL",
+    "reason": "Hallucinated correction procedures (시행 전 수정, 시행 후 재발령 steps) not in source; page 118 only describes 겸임해제 procedure, not date correction workflow"
+  },
+  {
+    "id": "q_2_0266",
+    "verdict": "FAIL",
+    "reason": "Vague generic question '기안문 작성은 어떻게 진행되나요' without specifying context (겸임해제); answer is raw source dump with minimal reformatting"
+  },
+  {
+    "id": "q_2_0267",
+    "verdict": "FAIL",
+    "reason": "Question asks about 기안문 상신의 기준 (criteria) which is not addressed by the answer; answer is identical raw procedure dump as q_2_0266; source contains no criteria/기준 information"
+  },
+  {
+    "id": "q_2_0268",
+    "verdict": "FAIL",
+    "reason": "Bad question with broken prefix '가 기안문 작성' from section numbering artifact (가)); duplicate answer identical to q_2_0266 and q_2_0267"
+  },
+  {
+    "id": "q_2_0269",
+    "verdict": "FAIL",
+    "reason": "Question asks what problems occur if 기안문 작성 is done incorrectly, but answer is same raw procedure dump; source has no content about error consequences"
+  },
+  {
+    "id": "q_2_0270",
+    "verdict": "FAIL",
+    "reason": "Question asks about 기안문 작성 impact on 교원 신분 (teacher status) which is not addressed; answer is same raw procedure dump; source has no content about 신분 영향"
+  },
+  {
+    "id": "q_2_0271",
+    "verdict": "FAIL",
+    "reason": "Question asks about most important point of 기안문 작성 which is not specifically addressed; duplicate raw procedure dump identical to q_2_0266 through q_2_0270"
+  },
+  {
+    "id": "q_2_0272",
+    "verdict": "PASS",
+    "reason": "Accurate comprehensive summary of 순회교사 발령해지 section from page 118 including all steps (기안문 작성, 상신, 결재처리, 기안문 시행) and Tip about 경력탭 확인; well-structured answer"
+  }
+]

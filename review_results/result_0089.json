@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_3_0129",
+    "verdict": "FAIL",
+    "reason": "Massive hallucination. Source p125는 겸직금지를 신분상 의무 중 하나로 언급하고, p122는 목적 외 사용 시 봉급 징수만 기재. 그러나 답변은 금지 업종 목록(식당/카페/학원/유튜버 등), 구체적 적발 사례(사교육업체 운영→해임 등), 허용/불허 기준, SNS 주의사항 등을 대량 날조."
+  },
+  {
+    "id": "q_3_0130",
+    "verdict": "FAIL",
+    "reason": "Bad question: '휴직의 효력 신청 자격'은 개념 오류. 휴직의 효력은 법적 효과이지 신청 대상이 아님. 답변도 질문에 맞지 않게 가/나/다 내용을 그대로 덤프."
+  },
+  {
+    "id": "q_3_0131",
+    "verdict": "FAIL",
+    "reason": "Vague/nonsensical question: '휴직의 효력이 가능한 경우'는 의미 불명. 또한 q_3_0130과 답변 완전 동일 — duplicate answer."
+  },
+  {
+    "id": "q_3_0132",
+    "verdict": "FAIL",
+    "reason": "Bad question: '휴직의 효력 신청 방법'은 개념 오류 — 효력은 신청하는 것이 아님. q_3_0130/0131과 답변 완전 동일 — duplicate answer."
+  },
+  {
+    "id": "q_3_0133",
+    "verdict": "FAIL",
+    "reason": "Bad question: '휴직의 효력의 처리 절차'는 개념 오류 — 효력에는 처리 절차가 없음. q_3_0130-0132와 답변 완전 동일 — duplicate answer."
+  },
+  {
+    "id": "q_3_0134",
+    "verdict": "FAIL",
+    "reason": "Question-answer mismatch: '효력 기간 계산 방법'을 질문하나 답변에 기간 계산 관련 내용 전무. q_3_0130-0133과 답변 완전 동일 — duplicate answer."
+  },
+  {
+    "id": "q_3_0137",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer: q_3_0130-0134와 답변 내용 완전 동일. 질문은 일반적이지만 동일 소스/동일 답변의 반복 생성으로 가치 없음."
+  },
+  {
+    "id": "q_3_0138",
+    "verdict": "FAIL",
+    "reason": "Question-answer mismatch: '학교 행정실에서 처리하는 업무'를 질문하나 답변은 휴직의 효력 가/나/다 내용만 덤프. 행정실 업무에 대한 내용 전무. q_3_0130 등과 답변 동일."
+  },
+  {
+    "id": "q_3_0139",
+    "verdict": "FAIL",
+    "reason": "Question-answer mismatch: '학교장의 권한'을 질문하나 답변에 학교장 관련 내용 전무. 휴직의 효력 가/나/다 내용만 동일하게 덤프. Duplicate answer."
+  },
+  {
+    "id": "q_3_0141",
+    "verdict": "FAIL",
+    "reason": "Source mismatch: 질문은 '휴직의 효력' 전체 구조를 묻지만 답변은 청원휴직 종류별 비교표(연수/가족돌봄/동반휴직)를 덤프. 휴직의 효력 가/나/다 내용은 포함되지 않음. 질문과 답변 내용 불일치."
+  }
+]

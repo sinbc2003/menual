@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_3_0031",
+    "verdict": "FAIL",
+    "reason": "Question-answer mismatch. Question asks for administrative procedures ('행정적으로 필요한 절차') but answer provides the same overview dump (목적 + 직권휴직 list). Page 122 라. 휴직절차 has the actual procedure content, which is not used."
+  },
+  {
+    "id": "q_3_0033",
+    "verdict": "FAIL",
+    "reason": "Hallucinated legal reference. Answer cites '교육공무원법 제44조제1항 제8호' but source page 125 table shows 가족돌봄휴직 is 제9호. Core content about 1년/3년 and conditions is accurate but wrong statute number is a factual error in a legal context."
+  },
+  {
+    "id": "q_3_0034",
+    "verdict": "FAIL",
+    "reason": "Hallucinated legal reference. Answer cites '교육공무원법 제44조제1항 제9호' but source page 125 table shows 동반휴직 is 제10호. Core 동반휴직 content (3년, 3년 연장, 배우자 기간 제한) is accurate but wrong statute number."
+  },
+  {
+    "id": "q_3_0035",
+    "verdict": "PASS",
+    "reason": "Accurate and concise answer matching source page 122 다. 휴직의 효력. Correctly states 30일 이내 복직신고, 당연복직, 신분보유/직무종사 불가, 지체없이 복직조치. Well-structured answer that addresses both parts of the question."
+  },
+  {
+    "id": "q_3_0044",
+    "verdict": "FAIL",
+    "reason": "Extensive hallucination. Core 동반휴직 facts from pages 122/125 are correct (3년, 연장 3년, 무보수, 경력 제외), but answer fabricates detailed 제출 서류 list, 부부 교원 comparison, 실태 보고 requirements, 연장 신청 15일 rule, and 2년 이상 직무연수 requirement not found in source."
+  },
+  {
+    "id": "q_3_0045",
+    "verdict": "FAIL",
+    "reason": "Extensive hallucination. Core facts from pages 122/125 are correct (10년 이상, 1년 이내, 1회, 무보수, 경력 제외), but answer fabricates 자기개발 범위 list (취미활동, 봉사활동 등), detailed 유학휴직 comparison table, 제출 서류, and 실태 보고 requirements not in source."
+  },
+  {
+    "id": "q_3_0046",
+    "verdict": "FAIL",
+    "reason": "Hallucination. Core 봉급 감액 rates from page 122 are correct (70%, 50%, 전액, 50%), but answer fabricates specific 육아휴직수당 amounts (250만원, 200만원, 160만원, 70만원), 일할계산 date examples, and a salary comparison table with specific won amounts not in source."
+  },
+  {
+    "id": "q_3_0047",
+    "verdict": "FAIL",
+    "reason": "Massive hallucination. Source page 122 contains a single sentence about 봉급 징수 for purpose violation. Answer invents elaborate case studies, 징계 처분 severity levels, 적발 경로 list (SNS, 국민신문고 등), 예방 guidelines, and multiple specific violation scenarios not in source."
+  },
+  {
+    "id": "q_3_0048",
+    "verdict": "FAIL",
+    "reason": "Extensive hallucination. Core facts from pages 122/126 are correct (30일 이내, 지체없이 복직, 소급발령 불가), but answer fabricates 완쾌진단서 동일병원 requirement, detailed date examples, 학기 단위 복직 discussion, 복직 후 재휴직 rules, and 봉급 일할계산 details not in source."
+  },
+  {
+    "id": "q_3_0049",
+    "verdict": "FAIL",
+    "reason": "Bad/nonsensical question. Asks about '횟수 제한' (frequency limit) of 공무원보수규정 제28조 which makes no sense - this is a regulation about salary reduction, not something with a frequency limit. Answer ignores the question entirely and dumps the raw source text."
+  }
+]

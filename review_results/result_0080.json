@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_2_0235",
+    "verdict": "FAIL",
+    "reason": "Source page mismatch: question asks about 기안문 상신 (page 117 content) but source listed as page 116 (기안문 작성). Answer fabricates numbered step list not in source."
+  },
+  {
+    "id": "q_2_0236",
+    "verdict": "FAIL",
+    "reason": "Bad question: asks '몇 년까지 가능한가요' (how many years) which is irrelevant to NEIS procedure content. Answer is raw dump of source ignoring the question."
+  },
+  {
+    "id": "q_2_0237",
+    "verdict": "FAIL",
+    "reason": "Bad question: asks '얼마나 인정되나요' (how much recognized) which is nonsensical for NEIS procedure content. Duplicate answer identical to q_2_0236."
+  },
+  {
+    "id": "q_2_0238",
+    "verdict": "FAIL",
+    "reason": "Vague question: '해당하는 것들은 무엇인가요' is too generic. Duplicate answer - same raw dump of page 116 기안문 작성 as multiple other entries."
+  },
+  {
+    "id": "q_2_0240",
+    "verdict": "FAIL",
+    "reason": "Bad question: asks about '기준' (standards/criteria) which the source does not discuss - source is a procedure guide. Duplicate answer identical to q_2_0236/0237/0238."
+  },
+  {
+    "id": "q_2_0243",
+    "verdict": "FAIL",
+    "reason": "Bad question: asks about '가장 중요한 조건' (most important condition) not discussed in source. Answer is same raw dump with different formatting. Duplicate answer."
+  },
+  {
+    "id": "q_2_0244",
+    "verdict": "FAIL",
+    "reason": "Vague question: '핵심 포인트를 정리해주세요' is generic prompt-style, not a specific question. Duplicate answer - same content dump as q_2_0243 and others."
+  },
+  {
+    "id": "q_2_0245",
+    "verdict": "FAIL",
+    "reason": "Bad question: asks about '자주 혼동되는 부분' (commonly confused parts) which the source doesn't discuss. Answer dumps same content without addressing confusion points. Duplicate answer."
+  },
+  {
+    "id": "q_2_0246",
+    "verdict": "FAIL",
+    "reason": "Vague question: '꼭 알아야 할 내용' is too broad. Answer is raw dump of entire page 116 content. Duplicate answer of same source material."
+  },
+  {
+    "id": "q_2_0248",
+    "verdict": "FAIL",
+    "reason": "Bad question: asks about '규정' (regulations) but source content is NEIS system procedures, not regulations. Duplicate answer - same raw dump of page 116."
+  }
+]
