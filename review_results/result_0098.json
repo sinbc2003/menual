@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_3_0270",
+    "verdict": "FAIL",
+    "reason": "Extensive hallucination: adds fabricated details not in source p129 (경기도교육감 행정권한 위임 규칙 제7조제6호, 7일 이내 보고, 1개월 전 신청 권장, specific other-leave type enumeration, comparison table). Core idea correct but majority of content is invented."
+  },
+  {
+    "id": "q_3_0271",
+    "verdict": "FAIL",
+    "reason": "Bad/vague question: '처리과정 및 절차의 처리 절차' is circular/redundant. Answer is a raw dump of table content without proper synthesis."
+  },
+  {
+    "id": "q_3_0272",
+    "verdict": "FAIL",
+    "reason": "Question asks about '일수' (number of days/duration) but source p129 contains no timeline or day-count information. Answer ignores the question and dumps the same table content as q_3_0271."
+  },
+  {
+    "id": "q_3_0273",
+    "verdict": "FAIL",
+    "reason": "Nonsensical question: '대상자는 어떻게 선발하나요' (how are subjects selected) makes no sense for a processing procedure. Answer is identical raw dump that does not address selection. Duplicate answer of q_3_0271/q_3_0272."
+  },
+  {
+    "id": "q_3_0275",
+    "verdict": "FAIL",
+    "reason": "Question asks about process/과정 but answer only lists required documents (구비서류) from a different subsection, missing the actual procedure table. Duplicate answer with q_3_0276/q_3_0284/q_3_0285/q_3_0286."
+  },
+  {
+    "id": "q_3_0276",
+    "verdict": "PASS",
+    "reason": "Reasonable question about leave application requirements. Answer accurately lists the 5 required documents from p129 나)(1)(가) section matching source exactly."
+  },
+  {
+    "id": "q_3_0282",
+    "verdict": "FAIL",
+    "reason": "Question asks about '서류 제출 기한' (document submission deadline) which is not in source p129. Answer dumps processing method details without addressing any deadline."
+  },
+  {
+    "id": "q_3_0284",
+    "verdict": "FAIL",
+    "reason": "Question asks about '자주 혼동되는 부분' (commonly confused parts) which is not discussed in source. Answer just lists the same 5 documents. Duplicate answer of q_3_0276."
+  },
+  {
+    "id": "q_3_0285",
+    "verdict": "FAIL",
+    "reason": "Vague question ('핵심 포인트 정리'). Answer is identical duplicate of q_3_0276/q_3_0284/q_3_0286 listing only the 5 documents."
+  },
+  {
+    "id": "q_3_0286",
+    "verdict": "FAIL",
+    "reason": "Question about '가장 중요한 점' is subjective and not supported by source. Answer is identical duplicate of q_3_0276/q_3_0284/q_3_0285."
+  }
+]

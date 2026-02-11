@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_3_0290",
+    "verdict": "PASS",
+    "reason": "Specific question about who issues reinstatement orders for non-질병/육아/가족돌봄 leave. Answer correctly identifies 교육지원청 as responsible, matching p130 table. Well-structured and accurate."
+  },
+  {
+    "id": "q_3_0292",
+    "verdict": "FAIL",
+    "reason": "Question asks about '처리 기한' (processing deadline) which is not in source p130. Answer dumps the reinstatement procedure table content without addressing any deadline."
+  },
+  {
+    "id": "q_3_0299",
+    "verdict": "PASS",
+    "reason": "Specific question about when 병역휴직 is applicable. Answer accurately covers 근거 (p131), 휴직사유/요건 (p131-132), 기간 (p132), 경력인정 (p133), and 보수 (p133), all verified against source."
+  },
+  {
+    "id": "q_3_0302",
+    "verdict": "PASS",
+    "reason": "Specific question about 본교 복직 requirements. Answer accurately lists the 5 required documents from p131 (가) section matching source exactly."
+  },
+  {
+    "id": "q_3_0303",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer: identical to q_3_0302 (same source, same 5-document list, same formatting). Questions are nearly synonymous."
+  },
+  {
+    "id": "q_3_0304",
+    "verdict": "FAIL",
+    "reason": "Bad question: '분류하면 어떻게 되나요' (how to classify) is meaningless for reinstatement document requirements. Answer is identical duplicate of q_3_0302/q_3_0303."
+  },
+  {
+    "id": "q_3_0305",
+    "verdict": "FAIL",
+    "reason": "Vague question: '해당하는 것들은 무엇인가요' is unclear. Answer is identical duplicate of q_3_0302/q_3_0303/q_3_0304."
+  },
+  {
+    "id": "q_3_0307",
+    "verdict": "FAIL",
+    "reason": "Question asks about '원칙' (principles) which source p131 does not discuss. Answer is identical duplicate listing documents instead of principles."
+  },
+  {
+    "id": "q_3_0309",
+    "verdict": "FAIL",
+    "reason": "Malformed question (starts with stray '가'). Asks about '처리 기한' (deadline) not in source. Answer is identical duplicate of q_3_0302-q_3_0307."
+  },
+  {
+    "id": "q_3_0310",
+    "verdict": "PASS",
+    "reason": "Question about 교육지원청 required documents. Answer accurately lists the 3 items (인사기안문, 인사발령통지서, 발령대장 및 현원대장) matching p131 (2) section."
+  }
+]

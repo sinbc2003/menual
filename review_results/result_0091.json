@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_3_0155",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_3_0154. Identical answer about 휴직사유 소멸자의 복직절차 (가~라). Only the question wording differs trivially ('조건은 무엇인가요' vs '어떤 요건이 필요한가요')."
+  },
+  {
+    "id": "q_3_0158",
+    "verdict": "FAIL",
+    "reason": "Bad question: '얼마나 인정되나요' (how much is recognized) is nonsensical for 복직절차 (reinstatement procedure). Also duplicate answer identical to q_3_0154/q_3_0155."
+  },
+  {
+    "id": "q_3_0160",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer identical to q_3_0154/q_3_0155/q_3_0158. While the question about legal basis is reasonable, the answer just dumps the entire section rather than specifically addressing legal grounds."
+  },
+  {
+    "id": "q_3_0162",
+    "verdict": "PASS",
+    "reason": "Accurately reproduces page 126 인정구분 section content including 11 leave types, 6-month condition, 별도 승인 불필요, and 별도정원 소멸 rules. Content verified against source. Minor formatting artifacts (double colons, double asterisks) but content is correct."
+  },
+  {
+    "id": "q_3_0163",
+    "verdict": "FAIL",
+    "reason": "Nonsensical question: '인정구분을 신청할 때' -- 인정구분 (recognition classification) is an administrative category, not something one applies for. Also duplicate answer identical to q_3_0162."
+  },
+  {
+    "id": "q_3_0165",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer identical to q_3_0162. Question asks about '기간과 횟수' (period and frequency) but the answer does not specifically address these aspects -- it just dumps the same 인정구분 section content."
+  },
+  {
+    "id": "q_3_0168",
+    "verdict": "FAIL",
+    "reason": "Bad/incomplete question: '개월 이상 사용하는 경우' is a fragment missing '6' before 개월 and lacking context about what is being used. Also duplicate answer identical to q_3_0162."
+  },
+  {
+    "id": "q_3_0170",
+    "verdict": "PASS",
+    "reason": "Accurate reproduction of page 126 휴직업무처리 시 유의사항 section. Both points about 임용권자 심사기준 and 단기간 휴직 검토 are verified against source. Question about 대상자 is reasonably answered (임용권자 is the subject)."
+  },
+  {
+    "id": "q_3_0171",
+    "verdict": "FAIL",
+    "reason": "Nonsensical question: '유의사항이 가능한가요' -- precautions/notes are not something that can be 'possible' or 'available'. Also duplicate answer identical to q_3_0170."
+  },
+  {
+    "id": "q_3_0172",
+    "verdict": "FAIL",
+    "reason": "Nonsensical question: '유의사항 신청 방법' -- you do not 'apply for' precautions/notes. Also duplicate answer identical to q_3_0170/q_3_0171."
+  }
+]
