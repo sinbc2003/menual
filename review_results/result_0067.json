@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_2_0003",
+    "verdict": "FAIL",
+    "reason": "Hallucination: answer claims '실무 기준 (경기도)' but neither source page 103 nor page 104 mentions 경기도. This regional attribution is fabricated."
+  },
+  {
+    "id": "q_2_0005",
+    "verdict": "PASS",
+    "reason": "Accurate content from source page 103. Correctly states 5학급 이하 + 최소 배치기준 이하 criteria and 교감 수업 담당 exception. Specific question with well-formatted answer."
+  },
+  {
+    "id": "q_2_0007",
+    "verdict": "PASS",
+    "reason": "Accurate content from source page 103. Correctly presents 교감 미배치 criteria, exception rule, and 수업 담당 requirement. Specific question."
+  },
+  {
+    "id": "q_2_0008",
+    "verdict": "FAIL",
+    "reason": "Source mismatch: the calculation formula '(학급 수) x 1.75명 + 2명 = 18명' comes from page 104, but cited source is page 103 general text about 교원의 구분 및 배치 which contains no calculation formulas."
+  },
+  {
+    "id": "q_2_0009",
+    "verdict": "FAIL",
+    "reason": "Source mismatch: the formula '(교사 수) = (학급 수) x 1.75명' for 11학급 이상 comes from page 104, but cited source is page 103 general text about 교원의 구분 및 배치 with no formula content."
+  },
+  {
+    "id": "q_2_0010",
+    "verdict": "FAIL",
+    "reason": "Source mismatch: answer states 학급당 1.95명 which comes from page 104 table, but cited source text is about 보직교사 from page 103 ('학교에는 원활한 학교 운영을 위하여 교사 중 교무를 분담하는 보직교사를 둘 수 있다') which is entirely unrelated to 배정 비율."
+  },
+  {
+    "id": "q_2_0012",
+    "verdict": "FAIL",
+    "reason": "Source mismatch: answer states 상업계 학급당 2.05명 which comes from page 104 table, but cited source text is about 보직교사 from page 103 - completely unrelated to 상업계 교사 배정 기준."
+  },
+  {
+    "id": "q_2_0014",
+    "verdict": "FAIL",
+    "reason": "Source mismatch: answer about 특수학급 교사 배치 (학급수x1명, 추가배치기준) comes from page 104, but cited source is page 103 section header '가) 교원의 구분 및 배치' which contains none of this specific content."
+  },
+  {
+    "id": "q_2_0017",
+    "verdict": "FAIL",
+    "reason": "Source mismatch: the 복수교감 배치 기준 '43학급 이상의 중·고등학교' is from page 104, but cited source is page 103 general text about 교원 배치. Page 104 is the actual source for this data."
+  },
+  {
+    "id": "q_2_0019",
+    "verdict": "FAIL",
+    "reason": "Source mismatch + hallucination: '정원배정 산식에 0.5 추가' is from page 104, not cited page 103. Additionally, answer fabricates interpretation ('학교별로 0.5명씩 정원에 반영', '여러 학교의 0.5를 합산하여 실제 수석교사를 배치') not found in any source."
+  }
+]

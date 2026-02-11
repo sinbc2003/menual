@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_1_1315",
+    "verdict": "FAIL",
+    "reason": "Bad question: asks about '행정 처리 담당자' (administrative processing person) which is not mentioned anywhere in the source. Answer dumps committee composition info without addressing the question."
+  },
+  {
+    "id": "q_1_1317",
+    "verdict": "FAIL",
+    "reason": "Vague question ('전체적인 내용을 요약해주세요') + answer is a raw dump of source text with minimal reformatting."
+  },
+  {
+    "id": "q_1_1318",
+    "verdict": "PASS",
+    "reason": "Accurate answer about 위원회의 운영. Source text from page 98 (가)(나) under '2) 위원회의 운영' is correctly reproduced. Question is reasonably specific."
+  },
+  {
+    "id": "q_1_1320",
+    "verdict": "FAIL",
+    "reason": "Grammatically broken question (missing closing parenthesis). Source title says '운용세칙' but the text is actually from '위원회의 구성' section (나) on page 98, not the 운용세칙 section."
+  },
+  {
+    "id": "q_1_1321",
+    "verdict": "FAIL",
+    "reason": "Vague question ('전체 구조와 내용을 설명해주세요') + raw dump of the entire page 98 spanning multiple sections (운용세칙, 지방교육전문직원 인사위원회, 위원회의 구성, 위원회의 운영)."
+  },
+  {
+    "id": "q_1_1323",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer: nearly identical content to q_1_1321/q_1_1325/q_1_1326/q_1_1327. Raw dump of page 98 content without meaningful differentiation."
+  },
+  {
+    "id": "q_1_1325",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer: nearly identical content to q_1_1321/q_1_1323/q_1_1326/q_1_1327. Raw dump of page 98 content."
+  },
+  {
+    "id": "q_1_1326",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer (same content as q_1_1321/q_1_1323/q_1_1325/q_1_1327). Question asks for '주의해야 할 점' (cautions) but answer is a generic raw dump with no specific cautions identified."
+  },
+  {
+    "id": "q_1_1327",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer: nearly identical content to q_1_1321/q_1_1323/q_1_1325/q_1_1326. Raw dump of page 98 content regardless of different question framing."
+  },
+  {
+    "id": "q_2_0002",
+    "verdict": "PASS",
+    "reason": "Accurate and specific. Source page 103 confirms 5학급 이하 교감 미배치 규정 and 교감 수업 담당 예외. Answer is well-structured with clear legal basis."
+  }
+]

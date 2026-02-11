@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_1_1201",
+    "verdict": "PASS",
+    "reason": "Clear specific question about special promotion exclusions. Answer accurately lists all 8 exclusion cases matching source page 94 (items 1-8). Note about 사립 교원 also supported by source."
+  },
+  {
+    "id": "q_1_1202",
+    "verdict": "FAIL",
+    "reason": "Bad question using raw section title as subject. Answer is a raw dump of source text with '※ ※' doubling artifacts. Question asks about 신청 자격 but answer just pastes exclusion list and form instructions without answering who qualifies."
+  },
+  {
+    "id": "q_1_1203",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer - identical to q_1_1202. Same raw section title in question. Different question wording but same verbatim answer."
+  },
+  {
+    "id": "q_1_1205",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer - identical to q_1_1202 and q_1_1203. Same raw section title in question with slightly different ending."
+  },
+  {
+    "id": "q_1_1207",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer - identical to q_1_1202. Question asks about 구분 (classification) but answer does not address categorization at all. Question-answer mismatch."
+  },
+  {
+    "id": "q_1_1210",
+    "verdict": "FAIL",
+    "reason": "Bad question using raw section title. Asks about qualification to receive the form, but answer dumps instructions about how to fill/verify it. Raw dump of source section 7 from page 94."
+  },
+  {
+    "id": "q_1_1211",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer - identical to q_1_1210. Different question wording but same verbatim answer content."
+  },
+  {
+    "id": "q_1_1212",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer - identical to q_1_1210. Question asks about required documents but answer lists verification procedures, not documents. Question-answer mismatch."
+  },
+  {
+    "id": "q_1_1215",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer - identical to q_1_1210. Question asks about exceptions but answer provides generic form instructions. Question-answer mismatch."
+  },
+  {
+    "id": "q_1_1217",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer - identical to q_1_1210. Question has formatting error (missing parentheses: 심사서신청인 instead of 심사서(신청인). Question asks about 대상자 but answer does not identify target persons."
+  }
+]
