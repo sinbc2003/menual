@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_3_0174",
+    "verdict": "FAIL",
+    "reason": "Bad question: asks '몇 년까지 가능한가요' (how many years possible) but source content is about cautionary notes with no time limit info. Question-answer mismatch. Also duplicate answer with q_3_0175/0184/0185/0186."
+  },
+  {
+    "id": "q_3_0175",
+    "verdict": "FAIL",
+    "reason": "Bad/vague question: '얼마나 인정되나요' (how much recognized) does not match source about processing cautions. Duplicate answer identical to q_3_0174/0184/0185/0186."
+  },
+  {
+    "id": "q_3_0178",
+    "verdict": "PASS",
+    "reason": "Specific question about document submission deadline for 복직. Answer correctly cites '30일 이내 제출' from source. Verified against page 126 markdown."
+  },
+  {
+    "id": "q_3_0179",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer: nearly identical content to q_3_0178 (same 가~라 복직절차 content with only intro line changed)."
+  },
+  {
+    "id": "q_3_0181",
+    "verdict": "FAIL",
+    "reason": "Bad question: '학교 행정실에서 처리하는 업무' is fabricated framing not present in source. Source is about 결원보충 인정구분, not school admin office duties."
+  },
+  {
+    "id": "q_3_0182",
+    "verdict": "PASS",
+    "reason": "Valid summary question about 인정구분. Answer accurately covers 결원보충 인정 조건 (6월 이상 휴직), 별도 승인 불필요, 별도정원 소멸 규정. Verified against page 126."
+  },
+  {
+    "id": "q_3_0184",
+    "verdict": "FAIL",
+    "reason": "Bad question: '행정 처리 담당자는 누구인가요' is a forced template that doesn't match source nature (cautionary notes, not role assignment). Answer dumps source without directly answering. Duplicate answer with q_3_0174/0175/0185/0186."
+  },
+  {
+    "id": "q_3_0185",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer: 5th entry in this batch with identical 휴직업무처리 시 유의사항 content (same as q_3_0174/0175/0184/0186)."
+  },
+  {
+    "id": "q_3_0186",
+    "verdict": "FAIL",
+    "reason": "Bad question: '최근에 어떻게 바뀌었나요' (how has it recently changed) is unanswerable from source which contains no amendment history. Answer ignores the question and dumps same source content."
+  },
+  {
+    "id": "q_3_0187",
+    "verdict": "PASS",
+    "reason": "Asks for 결원보충 key points. Answer covers 의의 (업무공백 방지, 정원관리 예외) and 인정구분 (6월 이상 휴직 조건) accurately from page 126. Includes some 복직절차 context but core content is correct."
+  }
+]
