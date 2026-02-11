@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_2_0020",
+    "verdict": "FAIL",
+    "reason": "Source mismatch: answer cites page 103 but specific numerical thresholds (특수학급 교사 수 × 6명/7명) are from page 104. Source text on page 103 is generic legal provision about 교원 배치, not allocation formulas."
+  },
+  {
+    "id": "q_2_0021",
+    "verdict": "FAIL",
+    "reason": "Source mismatch: the formula '(학급 수) × 1.75명' for 중학교 11학급 이상 is from page 104, not the cited page 103. The cited source text is the generic 법 제19조 provision."
+  },
+  {
+    "id": "q_2_0022",
+    "verdict": "FAIL",
+    "reason": "Source mismatch: the ratio '학급당 1.95명' for 일반계 고등학교 is from page 104, not the cited page 103. The cited source text is unrelated to the calculation."
+  },
+  {
+    "id": "q_2_0023",
+    "verdict": "FAIL",
+    "reason": "Source mismatch: the ratio '학급당 2.15명' for 공업계 고등학교 is from page 104, not the cited page 103. The cited source text is unrelated to the calculation."
+  },
+  {
+    "id": "q_2_0024",
+    "verdict": "FAIL",
+    "reason": "Source mismatch: 중학교 특수학급 추가배치 기준 (교사 수 × 6명 초과) is from page 104, not the cited page 103. Answer is vague with '2~3명 배치 검토' instead of a definitive answer."
+  },
+  {
+    "id": "q_2_0025",
+    "verdict": "FAIL",
+    "reason": "Source mismatch: 고등학교 특수학급 추가배치 기준 (1학급 학생수 4명 이하 제외) is from page 104, not the cited page 103. Also the answer omits the primary rule that 고등학교 gets 학교당 1명 추가."
+  },
+  {
+    "id": "q_2_0026",
+    "verdict": "FAIL",
+    "reason": "Hallucination: answer claims 학급 증설 정원 증원 신청 시 전문상담/영양/보건/사서/특수교사 제외 rule, which is not found on page 103 or 104. Source text does not support these exclusion details."
+  },
+  {
+    "id": "q_2_0027",
+    "verdict": "FAIL",
+    "reason": "Source mismatch: 보건교사 9학급 이상 배치 rule and 학급 수 무관 별도 기준 are from page 104, not the cited page 103. Cited source text is just a regulation title reference."
+  },
+  {
+    "id": "q_2_0028",
+    "verdict": "FAIL",
+    "reason": "Source mismatch: 보건교사 9학급 이상 배치 and 정원외기간제교사 allocation rules are from page 104, not the cited page 103. Cited source text is just a regulation title reference."
+  },
+  {
+    "id": "q_2_0030",
+    "verdict": "PASS",
+    "reason": "Answer matches page 103 content: 5학급 이하 교감 미배치 (line 17, 25-29), 교육감 인정 시 교감 1인 배치 가능, 수업 담당 의무, 근거법 시행령 제36조의2 all confirmed in source."
+  }
+]

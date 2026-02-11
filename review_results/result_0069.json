@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_2_0032",
+    "verdict": "FAIL",
+    "reason": "Source mismatch: '정원배정 산식에 0.5 추가' is from page 104, not cited page 103. Additionally, the multi-school aggregation explanation (A학교 0.5 + B학교 0.5 = 1명) is fabricated and not supported by either page."
+  },
+  {
+    "id": "q_2_0033",
+    "verdict": "FAIL",
+    "reason": "Hallucination: 병설학교 순회교사 여비, 2km 기준, 같은 교지 근접 등의 내용은 page 103에도 104에도 없음. Cited source text is just a regulation title. Content entirely unsupported."
+  },
+  {
+    "id": "q_2_0035",
+    "verdict": "PASS",
+    "reason": "Answer correctly reflects page 103 (2): '교사 중 교무를 분담하는 보직교사를 둘 수 있다.' Definition accurate, 정원 내 보직 부여 inference valid from '교사 중'. Law citation correct."
+  },
+  {
+    "id": "q_2_0036",
+    "verdict": "PASS",
+    "reason": "Answer correctly reflects page 103 (4): '교원 외에 산학겸임교사·명예교사 또는 강사 등을 두어' confirms 산학겸임교사 is outside 교원 정원. Law citation accurate."
+  },
+  {
+    "id": "q_2_0037",
+    "verdict": "PASS",
+    "reason": "Answer directly matches page 103 (3): '교육부장관은 교원의 정원에 관한 사항을 매년 국회에 보고하여야 한다.' Fully supported by source."
+  },
+  {
+    "id": "q_2_0038",
+    "verdict": "PASS",
+    "reason": "Answer directly matches page 103 (3): '학교급별 구체적인 배치기준은 동법 제6조에 따른 지도·감독기관(관할청)이 정하며.' Fully supported by source."
+  },
+  {
+    "id": "q_2_0040",
+    "verdict": "FAIL",
+    "reason": "Raw dump: answer is a verbatim copy of source (1)-(4) without any synthesis or interpretation. Does not actually identify specific '대상자' as the question asks."
+  },
+  {
+    "id": "q_2_0041",
+    "verdict": "FAIL",
+    "reason": "Raw dump and duplicate: identical answer content as q_2_0040. Question asks about '요건' (requirements) but answer is the same unprocessed copy of (1)-(4) without addressing requirements."
+  },
+  {
+    "id": "q_2_0042",
+    "verdict": "FAIL",
+    "reason": "Raw dump and duplicate: identical answer content as q_2_0040 and q_2_0041. Question asks '어떻게 해야 하나요' (how to) but answer is the same unprocessed copy of (1)-(4)."
+  },
+  {
+    "id": "q_2_0043",
+    "verdict": "FAIL",
+    "reason": "Raw dump and duplicate: identical answer content as q_2_0040/0041/0042. Four entries with the same raw dump answer to different questions. No synthesis or unique response."
+  }
+]
