@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_3_0503",
+    "verdict": "PASS",
+    "reason": "Question asks what documents are needed for 휴직신청서류. Answer accurately lists all documents from page 139: 휴직신청서, 입증서류 (고용사실 확인서, 출입국 사실증명 등), 임용권자 확인, and 재외교육기관 specific requirements."
+  },
+  {
+    "id": "q_3_0505",
+    "verdict": "FAIL",
+    "reason": "Question asks about 일수 (number of days) for 휴직신청서류. Source page 139 contains no day counts or timeframes for document submission. Answer dumps the same document list without addressing any day-related information. Fabricated question topic."
+  },
+  {
+    "id": "q_3_0506",
+    "verdict": "FAIL",
+    "reason": "Vague/nonsensical question. Asks how the 결과 (results) of 휴직신청서류 are processed, which does not make semantic sense for application documents. Answer is identical raw dump of document list without addressing any 'results' concept."
+  },
+  {
+    "id": "q_3_0508",
+    "verdict": "PASS",
+    "reason": "Question asks about 복직절차 documents/process. Answer accurately covers all three clauses from page 139: 사유 소멸 시 복직원 제출, 만료 전 복직원 제출 시 서류 징구, 30일 이내 복귀신고 시 당연 복직. Matches source."
+  },
+  {
+    "id": "q_3_0510",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer of q_3_0508. Same page 139 복직절차 content with identical answer text. Only the question wording differs (원칙 vs 서류)."
+  },
+  {
+    "id": "q_3_0515",
+    "verdict": "FAIL",
+    "reason": "Question asks about 서류 제출 기한 (document submission deadline) for 휴직신청서류. Source page 139 contains no specific deadlines or timeframes. Answer lists documents but does not address any deadline. Fabricated question topic."
+  },
+  {
+    "id": "q_3_0520",
+    "verdict": "FAIL",
+    "reason": "Bad question format. Question pastes raw source text as the question: '보수지급 증거자료(복직 시): 경력증명서에 기재된 월별은 어떤 내용인가요?' This is source text from the ※ note on page 139, not a natural question. Answer is a fragment dump of items (3)-(5)."
+  },
+  {
+    "id": "q_3_0521",
+    "verdict": "PASS",
+    "reason": "Question asks about key provisions of 휴직기간 및 횟수. Answer accurately covers section 4) 휴직기간 및 횟수 (법정기간, 신청, 횟수 제한 없음) and section 5) 휴직신청서류 from page 139. Factually correct and well-structured."
+  },
+  {
+    "id": "q_3_0525",
+    "verdict": "FAIL",
+    "reason": "Fabricated question premise. Asks about 교육청 FAQ regarding 휴직기간 및 횟수, but source page 139 contains no FAQ content. Answer is duplicate content of q_3_0521."
+  },
+  {
+    "id": "q_3_0527",
+    "verdict": "PASS",
+    "reason": "Question asks when 고용휴직 is possible. Answer accurately covers: 재외교육기관 전임 고용 원칙, 허가 불가 사유, 상근/비상근 구분 기준 (15시간/6-14시간/5시간 이하), 5년 초과 제한. All content verified against page 140 source."
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_3_0404",
+    "verdict": "PASS",
+    "reason": "Question asks about 유학휴직의 요건 qualification requirements. Answer accurately covers 휴직 대상, 유학/연수 범위, 교육기관/연수기관 정의 from page 135. Content matches source."
+  },
+  {
+    "id": "q_3_0405",
+    "verdict": "FAIL",
+    "reason": "Question asks about 신청 방법 (application method) but answer covers 휴직의 요건 (requirements), not application procedures. Actual application documents are on page 136. Also duplicate answer of q_3_0404."
+  },
+  {
+    "id": "q_3_0408",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer identical to q_3_0404. Same source text, same answer body with only intro sentence changed. Adds no distinct value."
+  },
+  {
+    "id": "q_3_0409",
+    "verdict": "FAIL",
+    "reason": "Question asks about 필요한 서류 (required documents) for 휴직기간 및 횟수, but answer covers leave period/frequency rules instead. The required documents are in 휴직신청서류 on page 136. Question-answer mismatch."
+  },
+  {
+    "id": "q_3_0410",
+    "verdict": "PASS",
+    "reason": "Question asks about leave period duration. Answer accurately provides 법정휴직기간 3년 이내, 연장 규정, 휴직 횟수 제한 없음 등 from page 135. Content matches source."
+  },
+  {
+    "id": "q_3_0411",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer identical to q_3_0410. Question is nearly identical in meaning ('얼마나 인정되나요' vs '기간은 얼마나 되나요'). No distinct information added."
+  },
+  {
+    "id": "q_3_0412",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer identical to q_3_0410 and q_3_0411. While question framing differs (asks about 제한사항), the answer body is verbatim the same."
+  },
+  {
+    "id": "q_3_0415",
+    "verdict": "FAIL",
+    "reason": "Question asks whether 학교장 (school principal) has authority regarding leave requirements. Page 135 source does not mention 학교장 at all. Answer ignores the question and dumps generic 휴직의 요건 content."
+  },
+  {
+    "id": "q_3_0416",
+    "verdict": "FAIL",
+    "reason": "Question asks about 행정 처리 담당자 (administrative processing person in charge). Page 135 source does not mention any specific 담당자. Answer ignores the question and dumps generic 휴직의 요건 content."
+  },
+  {
+    "id": "q_3_0418",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer of q_3_0410 group (휴직기간 및 횟수). Generic question wrapping identical content. No distinct value added."
+  }
+]

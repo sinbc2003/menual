@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_3_0486",
+    "verdict": "PASS",
+    "reason": "Question asks about 휴직의 요건 conditions. Answer accurately lists 휴직 대상 and 휴직의 범위 (1)-(6) matching page 138 source verbatim. Properly formatted with legal references."
+  },
+  {
+    "id": "q_3_0487",
+    "verdict": "FAIL",
+    "reason": "Question asks about 특례 (special exceptions) for 휴직의 요건, but source page 138 contains no 특례 information. Answer is identical content dump as q_3_0486 without addressing 특례. Question-answer mismatch and duplicate answer."
+  },
+  {
+    "id": "q_3_0493",
+    "verdict": "FAIL",
+    "reason": "Question asks about 서류 제출 기한 (document submission deadline) for 휴직의 요건. Source page 138 contains no deadline/timeframe information. Answer dumps 휴직 범위 content without addressing any deadline. Fabricated question topic."
+  },
+  {
+    "id": "q_3_0494",
+    "verdict": "PASS",
+    "reason": "Question asks about the 6th item of 고용휴직. Answer correctly identifies item (6) 대통령령으로 정하는 민간단체 with sub-items 교원단체 and 비영리법인, matching page 138 source."
+  },
+  {
+    "id": "q_3_0495",
+    "verdict": "PASS",
+    "reason": "Question asks key content about 고용휴직 for teachers. Answer provides comprehensive overview covering 근거, 휴직사유, 휴직의 요건 from page 138. All content factually accurate and well-structured."
+  },
+  {
+    "id": "q_3_0497",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer of q_3_0495. Same source page 138, nearly identical answer text covering 근거, 휴직사유, 휴직의 요건. Question phrasing differs but answer content is the same."
+  },
+  {
+    "id": "q_3_0499",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer of q_3_0495 and q_3_0497. Same page 138 content dump about 고용휴직 근거, 휴직사유, 휴직의 요건. Three entries with near-identical answers."
+  },
+  {
+    "id": "q_3_0500",
+    "verdict": "FAIL",
+    "reason": "Fabricated question premise. Asks about 교육청 FAQ regarding 휴직사유, but source page 138 contains no FAQ content. Answer is another duplicate content dump of 고용휴직 information."
+  },
+  {
+    "id": "q_3_0501",
+    "verdict": "FAIL",
+    "reason": "Fabricated question topic. Asks about common problems (문제점) when applying 휴직의 요건, but source page 138 discusses no problems or issues. Answer dumps requirement content without addressing any problems."
+  },
+  {
+    "id": "q_3_0502",
+    "verdict": "PASS",
+    "reason": "Question asks about 휴직신청서류 processing. Answer accurately lists all required documents from page 139: 휴직신청서, 입증서류, 임용권자 확인 requirements, and 재외교육기관 specific documents. Matches source."
+  }
+]
