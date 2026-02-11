@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_1_1143",
+    "verdict": "FAIL",
+    "reason": "Answer garbles table columns: labels 제공목적 as 항목, lists 제공항목 as 보유·이용 기간. Also form content about a consent form table row."
+  },
+  {
+    "id": "q_1_1144",
+    "verdict": "FAIL",
+    "reason": "Raw dump of form content from page 88. Does not explain why self-signing is important. Also cites 한국교직원공제회법 제11조 but source says 제11조의2 (hallucination)."
+  },
+  {
+    "id": "q_1_1148",
+    "verdict": "PASS",
+    "reason": "Correctly identifies 조사자=교감 (사인/개인도장), 확인자=교장 (직인) from page 89. Specific question with accurate, reformulated answer."
+  },
+  {
+    "id": "q_1_1149",
+    "verdict": "FAIL",
+    "reason": "Raw dump of blank form template fields (성명, 생년월일, 주소 etc.) from page 89. Lists empty form fields rather than providing meaningful content about what teachers should know."
+  },
+  {
+    "id": "q_1_1151",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_1_1149. Same raw dump of form template. Question asks about 특별승진 제외 대상 규정 but answer only restates 반드시 확인 without explaining actual exclusion criteria."
+  },
+  {
+    "id": "q_1_1154",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_1_1149/q_1_1151. Same form template dump from page 89. Does not explain how the document is applied in practice."
+  },
+  {
+    "id": "q_1_1155",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_1_1151/q_1_1154. Same raw dump from page 89. Does not identify specific mandatory verification items beyond restating the template."
+  },
+  {
+    "id": "q_1_1157",
+    "verdict": "FAIL",
+    "reason": "Form content: page 90 is a blank template (뒷면) with empty fields for 주요 경력 and 과거 포상 기록. Answer lists blank form fields rather than explaining any actual criteria."
+  },
+  {
+    "id": "q_1_1158",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_1_1157. Same raw dump of blank form template from page 90. Does not explain how 공적 내용 is applied."
+  },
+  {
+    "id": "q_1_1161",
+    "verdict": "PASS",
+    "reason": "Correctly identifies 출력자=교감 with 2쪽 모아찍기 printing, 교감 원본대조필, and 교육지원청 인사 담당 장학사 verification process. Matches page 91 section 2."
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_1_0984",
+    "verdict": "FAIL",
+    "reason": "Raw dump: answer pastes source text verbatim starting from exclusion criteria (items 9-10), then jumps to application/review process. Minimal reformulation; sections mixed without clear organization relative to the question."
+  },
+  {
+    "id": "q_1_0985",
+    "verdict": "PASS",
+    "reason": "Well-structured answer correctly explains the 3-tier computation formula for honorary retirement allowance (1-5yr, 5-10yr, 10yr+), calculation basis date, and tax treatment. All verified on page 73."
+  },
+  {
+    "id": "q_1_0986",
+    "verdict": "PASS",
+    "reason": "Good question about withdrawal possibility. Answer correctly distinguishes withdrawal (before decision) from administrative cancellation (after decision with disqualifying events). All content verified on page 73."
+  },
+  {
+    "id": "q_1_0987",
+    "verdict": "PASS",
+    "reason": "Good question about deceased officials. Answer correctly covers recognized cases (autograph application, voice recording proof) and excluded cases (post-death submission, spouse ghostwriting). Verified on page 73 section 8."
+  },
+  {
+    "id": "q_1_0989",
+    "verdict": "PASS",
+    "reason": "Reasonable question about cancellation scenarios. Answer summarizes both administrative cancellation (disqualifying events before retirement date) and voluntary withdrawal (before review decision). Adequately reformulated from page 73."
+  },
+  {
+    "id": "q_1_0990",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_1_0989 (same topic: cancellation of honorary retirement allowance recipient decision) with identical answer content. Also a raw dump copying source text verbatim with ga)/na) labels."
+  },
+  {
+    "id": "q_1_0992",
+    "verdict": "FAIL",
+    "reason": "Bad question: asks about '일수' (number of days) but neither the source page 73 nor the answer contain any day-count information. Answer is identical raw dump as q_1_0990. Duplicate answer."
+  },
+  {
+    "id": "q_1_0993",
+    "verdict": "FAIL",
+    "reason": "Bad question: asks '몇 년까지 가능한가요' (how many years is it possible) but there is no year-based time limit in the source or answer. Answer is identical raw dump as q_1_0990/q_1_0992. Duplicate answer."
+  },
+  {
+    "id": "q_1_0996",
+    "verdict": "FAIL",
+    "reason": "Bad question: asks about '최근 변경사항' (recent changes) but the answer contains no information about any changes or amendments. Answer is identical raw dump as q_1_0990/q_1_0992/q_1_0993. Duplicate answer."
+  },
+  {
+    "id": "q_1_0998",
+    "verdict": "FAIL",
+    "reason": "Bad question: starts with '※' (formatting artifact from source). Asks about tax deductions but answer dumps the computation table instead. The actual tax info from page 73 (income tax withholding per 소득세법 제4조) is barely mentioned at the end."
+  }
+]

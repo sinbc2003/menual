@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_1_1092",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_1_1091: same page 85 첨부서류 source, identical answer. Bad question ('어떤 과정을 거치나요' is nonsensical for attachments). Raw dump."
+  },
+  {
+    "id": "q_1_1094",
+    "verdict": "FAIL",
+    "reason": "Bad question: '첨부서류의 일수' (day count of attachments) is nonsensical. Duplicate of q_1_1091/q_1_1092 with identical answer. Raw dump."
+  },
+  {
+    "id": "q_1_1097",
+    "verdict": "FAIL",
+    "reason": "Bad question: '항에 따라 신청하는 경우' is an incomplete fragment (missing '제7조의2제1항'). Duplicate answer of q_1_1091. Raw dump."
+  },
+  {
+    "id": "q_1_1098",
+    "verdict": "FAIL",
+    "reason": "Bad question: '경기도교육감 귀하는 어떤 과정을 거치나요' is nonsensical - this is just a form addressee line, not a process. Answer is raw dump of 비고 section."
+  },
+  {
+    "id": "q_1_1100",
+    "verdict": "FAIL",
+    "reason": "Bad question: '경기도교육감 귀하의 기간' is nonsensical - an addressee line has no time period. Duplicate of q_1_1098. Raw dump."
+  },
+  {
+    "id": "q_1_1101",
+    "verdict": "FAIL",
+    "reason": "Bad question: '경기도교육감 귀하하면 어떤 효과가 있나요' is grammatically broken and nonsensical. Duplicate of q_1_1098/q_1_1100. Raw dump."
+  },
+  {
+    "id": "q_1_1102",
+    "verdict": "FAIL",
+    "reason": "Bad question: asks about '최근 변경사항' but no change information exists in the source. Answer doesn't address changes either. Duplicate of q_1_1098. Raw dump."
+  },
+  {
+    "id": "q_1_1103",
+    "verdict": "FAIL",
+    "reason": "Bad question: '만약 일 이후 발생한 범죄행위로 인한 경우' is an incomplete fragment (missing '2010년 3월 22'). Duplicate of q_1_1098. Raw dump."
+  },
+  {
+    "id": "q_1_1106",
+    "verdict": "FAIL",
+    "reason": "Bad question: '경기도교육감 귀하를 잘못 처리하면' is nonsensical - an addressee line cannot be 'processed incorrectly'. Duplicate of q_1_1098. Raw dump."
+  },
+  {
+    "id": "q_1_1107",
+    "verdict": "FAIL",
+    "reason": "Bad question: '경기도교육감 귀하의 전체적인 내용을 요약' - an addressee line has no content to summarize. Duplicate of q_1_1098. Raw dump."
+  }
+]

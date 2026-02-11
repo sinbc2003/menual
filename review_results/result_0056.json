@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_1_1073",
+    "verdict": "FAIL",
+    "reason": "Form content: page 82 is a blank form template with empty tables (주요 경력, 과거 포상기록). The answer just dumps the blank form fields. No actual regulations or substantive content exist on this page."
+  },
+  {
+    "id": "q_1_1081",
+    "verdict": "PASS",
+    "reason": "Well-structured summary of page 84 유의사항. Answer correctly covers 자필 작성, 호봉 기재, NEIS 확인, 직인 날인, 접수번호 rules, all verified against source markdown."
+  },
+  {
+    "id": "q_1_1083",
+    "verdict": "FAIL",
+    "reason": "Raw dump: answer reproduces page 84 source text nearly verbatim with minimal reformulation. Just adds bold formatting to the same text."
+  },
+  {
+    "id": "q_1_1084",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_1_1083: same page 84, same source text, nearly identical answer. Also raw dump."
+  },
+  {
+    "id": "q_1_1085",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_1_1083/q_1_1084: same page 84 content, same answer pattern. Question is vague ('실제로 어떻게 적용되나요'). Also raw dump."
+  },
+  {
+    "id": "q_1_1086",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_1_1083/q_1_1084/q_1_1085: same page 84 content, nearly identical answer. Also raw dump."
+  },
+  {
+    "id": "q_1_1087",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_1_1083-q_1_1086: same page 84 content, nearly identical answer. Also raw dump."
+  },
+  {
+    "id": "q_1_1088",
+    "verdict": "PASS",
+    "reason": "Good question about required documents for 명예퇴직수당. Answer properly lists all 4 items from page 85 with clear structure. Content verified against source."
+  },
+  {
+    "id": "q_1_1089",
+    "verdict": "PASS",
+    "reason": "Good question about who fills out the form. Answer clearly distinguishes 신청인 vs 소속기관 responsibilities with details from page 85 form. Well reformulated."
+  },
+  {
+    "id": "q_1_1091",
+    "verdict": "FAIL",
+    "reason": "Bad question: '첨부서류의 절차' makes no sense (attachments don't have a procedure). Answer is raw dump including form blanks (____년 ____월 ____일)."
+  }
+]

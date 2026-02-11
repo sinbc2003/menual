@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_1_1162",
+    "verdict": "FAIL",
+    "reason": "Raw dump of submission document list from page 91. Question asks about 신청 방법 (application method) but answer only lists documents. Also omits 서약서(자필) and 명예퇴직수당 지급신청서(자필) from the highlighted section."
+  },
+  {
+    "id": "q_1_1167",
+    "verdict": "FAIL",
+    "reason": "Bad question: asks about 승급 인정 (grade advancement) which is not discussed on page 91. Answer is a raw dump of the submission document list that does not address 승급 인정 at all."
+  },
+  {
+    "id": "q_1_1169",
+    "verdict": "FAIL",
+    "reason": "Raw dump of entire document list. Does not specifically explain the meaning of the 33-year threshold (재직기간 33년 이상 시 재직정보 조회 화면 제출 required). Buries the relevant line among unrelated items."
+  },
+  {
+    "id": "q_1_1170",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_1_1162. Raw dump of 공립 교원 document list only, omitting 사립 교원 side. Nearly identical to q_1_1171."
+  },
+  {
+    "id": "q_1_1171",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_1_1170. Identical answer structure and content. Same raw dump of 공립 교원 submission documents from page 91."
+  },
+  {
+    "id": "q_1_1192",
+    "verdict": "PASS",
+    "reason": "Clear and accurate calculation explanation: 정년일=출생연도+62, with 3~8월생 -> 8.31, 9~2월생 -> 2.28. Examples correctly derive from the formula on page 93."
+  },
+  {
+    "id": "q_1_1193",
+    "verdict": "PASS",
+    "reason": "Correctly describes 명예퇴직원 process from page 93 section 4: 자필 작성, 경유 for 공립 (학교장/교육장) and 사립 (학교장/이사장/교육장)."
+  },
+  {
+    "id": "q_1_1194",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_1_1193. Nearly identical question (신청 방법) and identical answer content about 명예퇴직원 경유 process."
+  },
+  {
+    "id": "q_1_1197",
+    "verdict": "PASS",
+    "reason": "Covers 재직기간 계산 방법, 정년일 calculation, 비위/형벌 사항, 수당 지급 대상 기간 from page 93. Different focus from q_1_1193 and accurately represents source."
+  },
+  {
+    "id": "q_1_1200",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_1_1197. Same content about 재직기간 계산 and field instructions from page 93 with nearly identical answer."
+  }
+]
