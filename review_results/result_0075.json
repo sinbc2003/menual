@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_2_0140",
+    "verdict": "FAIL",
+    "reason": "Fabricated question premise and duplicate answer. Question asks what 교육청 frequently asks about, but source contains no FAQ information. Answer is identical raw dump of definitions as q_2_0135/0137/0138/0139."
+  },
+  {
+    "id": "q_2_0141",
+    "verdict": "FAIL",
+    "reason": "Question-answer mismatch and duplicate. Question asks for 행정적 절차 (administrative procedures) but answer dumps the same term definitions, not procedures. Page 109 has actual procedure info (임용, 복무) that is ignored."
+  },
+  {
+    "id": "q_2_0143",
+    "verdict": "PASS",
+    "reason": "Accurate and specific. Source page 109 line 27 confirms: 교육행정기관 소속 순회교사에 연 5일 학습휴가, 근거법령 교원휴가에 관한 예규 제2조 및 제8조제3항. Answer correctly distinguishes 교육행정기관 소속 vs 학교 소속 순회교사."
+  },
+  {
+    "id": "q_2_0144",
+    "verdict": "PASS",
+    "reason": "Accurate and specific. Source page 109 line 14 confirms: 1학기 3월 1일~여름방학 종료일/8월 말일, 2학기 개학일~다음해 2월 말일. Additional details about 운영 범위 확대 and 수업시수 조정 금지 also verified on page 109 lines 8, 12."
+  },
+  {
+    "id": "q_2_0147",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_2_0144. Same question rephrased ('임용 기간은 어떻게 되나요' vs '임용 기간은 언제부터 언제까지인가요') with essentially identical answer content."
+  },
+  {
+    "id": "q_2_0155",
+    "verdict": "PASS",
+    "reason": "Accurate and specific. Source page 109 lines 31-35 confirms: 지급근거 (훈령 제237호), 지급대상 (겸임근무를 명받아 농어촌학교 포함 2개 이상 학교 순회 교원), 제외 대상 (병설/통합학교 겸임교원). All details match source."
+  },
+  {
+    "id": "q_2_0156",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_2_0155. Nearly identical question ('지급 신청 자격' vs '어떤 요건이 필요한가요') with identical answer content."
+  },
+  {
+    "id": "q_2_0157",
+    "verdict": "FAIL",
+    "reason": "Question-answer mismatch. Question specifically asks about '기간과 횟수' (period and frequency) of payment, but answer provides 지급근거 and 지급대상 (eligibility). Source page 109 does not contain period/frequency information either. Duplicate answer format."
+  },
+  {
+    "id": "q_2_0159",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer. While the source does mention exclusions (병설학교 겸임교원, 통합운영학교 겸임교원 제외), the answer is the same generic dump as q_2_0155/0156/0157 rather than focusing on the specific exceptions asked about."
+  },
+  {
+    "id": "q_2_0160",
+    "verdict": "FAIL",
+    "reason": "Hallucination/source mismatch. Question asks about 특례 (special exceptions) but source contains no mention of any 특례 for 농어촌 순회교원 수당. Answer is the same generic eligibility dump, not addressing 특례 at all."
+  }
+]

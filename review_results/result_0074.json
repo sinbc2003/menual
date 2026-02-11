@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_2_0128",
+    "verdict": "PASS",
+    "reason": "Answer accurately reflects page 108 content about 순회교사제 supporting 2015/2022 개정 교육과정: 다양한 교과 선택 지원, 학교교육과정 운영 자율권 확보. Source verified on lines 33-35."
+  },
+  {
+    "id": "q_2_0130",
+    "verdict": "FAIL",
+    "reason": "Hallucination. Question asks about NEIS UI '찾기 버튼' procedure but source text only defines 특정학교 소속 순회교사. Answer fabricates NEIS button-click steps, search screens, school code entry - none in source page 108."
+  },
+  {
+    "id": "q_2_0131",
+    "verdict": "FAIL",
+    "reason": "Hallucination. Source (page 108) only contains the definition of 순회·겸임교사. Answer fabricates specific claims about 수업 준비 location rules (소속학교에서 기본 준비, 순회학교에서 최종 준비) not found anywhere in source. Page 109 mentions 수업준비 in passing but cited source is page 108."
+  },
+  {
+    "id": "q_2_0132",
+    "verdict": "FAIL",
+    "reason": "Hallucination. Source (page 108) only has the definition. Answer fabricates specific evaluation duties: 지필평가 출제 및 채점, 수행평가 계획 및 실시, 성적 처리, 학업성적관리위원회 참여. Page 109 only mentions 지도교과 평가 업무 in general, not these specific items."
+  },
+  {
+    "id": "q_2_0133",
+    "verdict": "FAIL",
+    "reason": "Hallucination. Source (page 108) only has the definition. Answer fabricates a 이중 관리 체계 review system, claims 순회학교 교과부장 reviews learning plans. Neither page 108 nor 109 contains any information about who reviews 학습지도안."
+  },
+  {
+    "id": "q_2_0134",
+    "verdict": "FAIL",
+    "reason": "Hallucination. Source page 108 only defines 순회·겸임교사. Answer fabricates a comparison with 기간제교사 including details about 기간제교사 (계약직 성격, 기간 만료 시 임용 종료 etc.) that are not in the source material at all."
+  },
+  {
+    "id": "q_2_0135",
+    "verdict": "FAIL",
+    "reason": "Bad question (grammar error '순회교사제과' should be '순회교사제와') and raw dump. Answer is a verbatim copy of source definitions with no synthesis. Question asks for '모든 규정' but answer only dumps definitions, truncated at 목적 section."
+  },
+  {
+    "id": "q_2_0137",
+    "verdict": "FAIL",
+    "reason": "Vague/artificial question and duplicate answer. '용어의 정의가 어떻게 적용되나요?' is a nonsensical question - term definitions don't get 'applied'. Answer is identical raw dump to q_2_0135."
+  },
+  {
+    "id": "q_2_0138",
+    "verdict": "FAIL",
+    "reason": "Vague/artificial question and duplicate answer. '순회·겸임교사가 어떻게 적용되나요?' is artificially generated. Answer is identical raw dump as q_2_0135 and q_2_0137."
+  },
+  {
+    "id": "q_2_0139",
+    "verdict": "FAIL",
+    "reason": "Question-answer mismatch and duplicate. Question asks about '필수 확인 사항' (required checkpoints) for administrative processing, but answer just dumps the same term definitions. Does not address actual administrative requirements."
+  }
+]

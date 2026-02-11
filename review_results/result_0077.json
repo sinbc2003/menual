@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_2_0185",
+    "verdict": "FAIL",
+    "reason": "Bad question: asks about '신청할 때 유의사항' (precautions when applying) but 농어촌지역 classification is a legal definition, not something you apply for. No application process exists in the source. Answer is a raw dump of classification criteria."
+  },
+  {
+    "id": "q_2_0186",
+    "verdict": "FAIL",
+    "reason": "Bad question: asks '어떤 과정을 거치나요' (what process is involved) but the source describes a legal classification, not a process. Answer is identical dump of 농어촌지역 criteria as q_2_0185. Duplicate answer."
+  },
+  {
+    "id": "q_2_0187",
+    "verdict": "PASS",
+    "reason": "Good question asking what is included in 농어촌지역. Answer correctly lists the criteria from page 110: 용도지역 categories (주거·상업·공업지역 외, 생산·보전녹지지역, etc.) and verification method. Matches source."
+  },
+  {
+    "id": "q_2_0190",
+    "verdict": "FAIL",
+    "reason": "Question specifically asks about when 농어촌지역 does NOT apply. Answer dumps the full classification criteria without focusing on the exclusion (수도권정비계획법 자치구 제외). Does not directly address the question. Same content as other entries."
+  },
+  {
+    "id": "q_2_0191",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer: identical content to q_2_0185/q_2_0186/q_2_0187. While the question about 법적 근거 is reasonable and the 고시 number is mentioned, the full answer is an indistinguishable copy of multiple other entries."
+  },
+  {
+    "id": "q_2_0193",
+    "verdict": "FAIL",
+    "reason": "Question-answer mismatch: asks for '법적 근거가 되는 규정' (the regulations that serve as legal basis for the special law), but answer provides the content/definitions within the law (제3조) rather than its legal basis. Also duplicate of q_2_0182/q_2_0183."
+  },
+  {
+    "id": "q_2_0194",
+    "verdict": "FAIL",
+    "reason": "Vague question: asks about '자주 혼동되는 부분' (commonly confused parts) which is subjective and not addressed in source material. Answer is generic dump of 제3조 definitions without identifying any confusion points. Duplicate answer."
+  },
+  {
+    "id": "q_2_0195",
+    "verdict": "FAIL",
+    "reason": "Duplicate: answer is identical to q_2_0182/q_2_0183/q_2_0193/q_2_0194. Same 제3조(정의) content with only a different intro sentence. No unique value added."
+  },
+  {
+    "id": "q_2_0196",
+    "verdict": "FAIL",
+    "reason": "Bad question: asks about '서류 제출 기한' (document submission deadline) which does not exist in source material at all. Source describes 농어촌지역 classification criteria, not any submission process. Answer dumps classification criteria without addressing the non-existent deadline."
+  },
+  {
+    "id": "q_2_0197",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer: identical 농어촌지역 criteria dump as q_2_0185/q_2_0186/q_2_0187/q_2_0191. While the summary question is reasonable, this is the 5th+ entry with the exact same answer content from the same source."
+  }
+]
