@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_1_0753",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_1_0738 (batch_0042): same topic (교육전문직원의 전직), identical answer content. Question is generic ('전체적인 내용을 요약해주세요')."
+  },
+  {
+    "id": "q_1_0754",
+    "verdict": "FAIL",
+    "reason": "Bad question: asks for the overall structure of 경기도교육공무원인사관리세부기준, but the answer only covers content from page 51. The 세부기준 spans many pages. Answer is also a raw dump of the source text."
+  },
+  {
+    "id": "q_1_0755",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_1_0754: identical answer content. Question focuses on 전직등의 제한 criteria but the answer covers much broader content including 교원의 전직."
+  },
+  {
+    "id": "q_1_0756",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_1_0754 and q_1_0755: identical answer content from the same source page and section."
+  },
+  {
+    "id": "q_1_0759",
+    "verdict": "FAIL",
+    "reason": "Bad question: asks about '흔히 발생하는 문제점' (commonly occurring problems) when applying transfer restriction rules, but the answer just lists the rules themselves without discussing any problems. Raw dump of source text."
+  },
+  {
+    "id": "q_1_0760",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_1_0759: nearly identical answer about the same topic. Also a raw dump of source text with minimal formatting."
+  },
+  {
+    "id": "q_1_0776",
+    "verdict": "PASS",
+    "reason": "Specific question about 당연퇴직 cases. Answer accurately lists all 11 결격사유 from 국가공무원법 제33조 verified against page 53. Well-structured and properly reformulated as a helpful response."
+  },
+  {
+    "id": "q_1_0777",
+    "verdict": "PASS",
+    "reason": "Specific question about the 20-year restriction for minor sex crimes. Answer correctly identifies the 20-year period and accurately lists the 5 qualifying conditions (가~마) from 제33조 제6의4호, all verified against page 53."
+  },
+  {
+    "id": "q_1_0779",
+    "verdict": "PASS",
+    "reason": "Specific question about 결격사유. Answer comprehensively lists all items from 국가공무원법 제33조 with correct time periods, verified against page 53. Distinct from q_1_0776 (different angle: 결격사유 vs 당연퇴직)."
+  },
+  {
+    "id": "q_1_0780",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_1_0776: nearly identical question ('어떤 것들이 있나요' vs '언제인가요') about 당연퇴직. Answer is also incomplete, listing only 8 items while omitting items 6의2 (횡령/배임 300만원), 6의3 (성폭력범죄 100만원), and 6의4 (미성년자 성범죄 20년)."
+  }
+]

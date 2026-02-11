@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_1_0901",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_1_0890. Identical answer content about 재직기간 계산. Question asks about 민원 대응 (complaint handling) but answer just dumps the rules without addressing how to handle complaints."
+  },
+  {
+    "id": "q_1_0902",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_1_0890. Identical answer content about 재직기간 계산. Different question framing but same raw dump answer."
+  },
+  {
+    "id": "q_1_0904",
+    "verdict": "FAIL",
+    "reason": "Bad question: asks about 명예퇴직의 ②번째 항목 which references document structure rather than content. No natural user would ask for 'the 2nd item' without context. Question is too vague and unnatural."
+  },
+  {
+    "id": "q_1_0905",
+    "verdict": "FAIL",
+    "reason": "Raw dump: answer reproduces nearly the entire content of page 70 verbatim (신청자격 + 재직기간 계산 ①-④) with minimal reformulation. Despite asking for a summary, no actual summarization is performed."
+  },
+  {
+    "id": "q_1_0908",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_1_0905. Nearly identical answer content covering the full page 70 content. Same raw dump of 신청자격 + 재직기간 계산."
+  },
+  {
+    "id": "q_1_0912",
+    "verdict": "FAIL",
+    "reason": "Bad question: asks about 교원의 경력에 미치는 영향 (impact on teacher's career) which is not discussed in the source. Answer is a raw dump of the page content that does not address career impact."
+  },
+  {
+    "id": "q_1_0913",
+    "verdict": "FAIL",
+    "reason": "Bad question: asks about 행정적 절차 (administrative procedures) but the source page 70 only contains legal calculation rules, not procedures. The actual procedures (합산 신청서 제출 etc.) are on page 71. Answer is a raw dump that does not address the question."
+  },
+  {
+    "id": "q_1_0914",
+    "verdict": "PASS",
+    "reason": "Well-formatted answer listing 10 exclusion categories for 명예퇴직수당. Items 1-9 verified against page 71 (가, ①-⑧). Item 10 is from page 72 ⑨ (continuation of same section). Question is specific and natural. Answer is properly reformulated as a clear numbered list."
+  },
+  {
+    "id": "q_1_0915",
+    "verdict": "PASS",
+    "reason": "Specific question about 승진임용 제한 기간. Answer accurately provides periods (강등·정직 18개월, 감봉 12개월, 견책 6개월) and aggravating factors (+6개월) verified against page 71 ※ note. Well-reformulated with clear structure and a helpful example."
+  },
+  {
+    "id": "q_1_0916",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_1_0914. Asks the same topic (명예퇴직수당 지급 제외) with nearly identical answer content listing the same exclusion categories."
+  }
+]

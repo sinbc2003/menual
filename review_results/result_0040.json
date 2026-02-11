@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_1_0691",
+    "verdict": "FAIL",
+    "reason": "Bad question: asks about '특례' (special provisions) but the source page 50 describes general transfer rules, not special exceptions. Answer is also a raw dump of the source text with only a brief intro added."
+  },
+  {
+    "id": "q_1_0695",
+    "verdict": "FAIL",
+    "reason": "Duplicate: answer is identical to q_1_0696, q_1_0697, q_1_0698, q_1_0700, q_1_0701, q_1_0706, and q_1_0708. All dump the same 다) section (1)(2)(3) verbatim as a raw copy-paste."
+  },
+  {
+    "id": "q_1_0696",
+    "verdict": "FAIL",
+    "reason": "Duplicate: answer is word-for-word identical to q_1_0695 and five other entries. Same source text, same topic (교육전문직원의 교원으로의 전직), same raw-dump answer."
+  },
+  {
+    "id": "q_1_0697",
+    "verdict": "FAIL",
+    "reason": "Duplicate: identical answer to q_1_0695 group. While the question specifically asks about '횟수 제한' (frequency limit, addressed in (3)), the answer dumps all three provisions instead of focusing on the relevant one."
+  },
+  {
+    "id": "q_1_0698",
+    "verdict": "FAIL",
+    "reason": "Bad question: asks about '일수' (number of days) but the source page 50 contains no information about days/duration for this transfer. Answer is also a duplicate of the q_1_0695 group."
+  },
+  {
+    "id": "q_1_0700",
+    "verdict": "FAIL",
+    "reason": "Duplicate: identical answer to q_1_0695, q_1_0696, q_1_0697, q_1_0701, q_1_0706. Raw dump of source text with only the intro sentence changed."
+  },
+  {
+    "id": "q_1_0701",
+    "verdict": "FAIL",
+    "reason": "Bad question: '자주 묻는 질문이 있나요?' (Are there frequently asked questions?) is a meta-question that does not make sense as a QA entry. Answer is also a duplicate of the q_1_0695 group."
+  },
+  {
+    "id": "q_1_0703",
+    "verdict": "FAIL",
+    "reason": "Duplicate: covers same topic (교원의 교육전문직원으로의 전직) and near-identical answer as q_1_0691 and q_1_0704. Answer is a raw dump of the 나) section from page 50."
+  },
+  {
+    "id": "q_1_0704",
+    "verdict": "FAIL",
+    "reason": "Duplicate: covers same topic and near-identical answer as q_1_0691 and q_1_0703. Answer is a raw dump of the 나) section from page 50 with only formatting differences."
+  },
+  {
+    "id": "q_1_0706",
+    "verdict": "FAIL",
+    "reason": "Bad question: asks about '행정 처리 담당자' (administrative handler) but the source page 50 does not identify who handles the process. Answer is also a duplicate of the q_1_0695 group, not addressing the question asked."
+  }
+]

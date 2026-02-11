@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_1_0801",
+    "verdict": "PASS",
+    "reason": "Question is specific about 직권면직 사유. Answer correctly lists 6 cases from 국가공무원법 제70조 matching page 54, and properly states 징계위원회 의견 requirement from page 55. Well reformulated."
+  },
+  {
+    "id": "q_1_0802",
+    "verdict": "PASS",
+    "reason": "Question is specific about 교육공무원 결격사유. Answer correctly lists all 4 items from 교육공무원법 제10조의4 matching page 54. Properly reformulated as a helpful response."
+  },
+  {
+    "id": "q_1_0803",
+    "verdict": "PASS",
+    "reason": "Question is specific and natural about 휴직 후 미복귀. Answer correctly states 직권면직 대상, 면직일 규정 (page 55), and procedure. Matches source pages 54-55."
+  },
+  {
+    "id": "q_1_0805",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_1_0802: same topic (교육공무원 결격사유 from 교육공무원법 제10조의4), same 4 items listed. Only wording difference is '특유의' vs general framing."
+  },
+  {
+    "id": "q_1_0807",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_1_0802 and q_1_0805: same topic (교육공무원 결격사유), same 4 items from 교육공무원법 제10조의4. Question '별도 결격사유' is essentially identical to '특유의 결격사유'."
+  },
+  {
+    "id": "q_1_0808",
+    "verdict": "FAIL",
+    "reason": "Bad question: asks about '기간' (duration) of 제43조의2, but this article is about automatic retirement upon disqualification and has no duration concept. Raw dump of source text without addressing the question."
+  },
+  {
+    "id": "q_1_0809",
+    "verdict": "FAIL",
+    "reason": "Bad question: asks about '일수' (number of days) of 제43조의2 which is nonsensical. Raw dump of source text identical to q_1_0808. Duplicate answer."
+  },
+  {
+    "id": "q_1_0810",
+    "verdict": "FAIL",
+    "reason": "Bad question: 제43조의2 is about automatic retirement, not a prohibition that can be 'violated'. Raw dump of source text. Duplicate answer of q_1_0808/0809."
+  },
+  {
+    "id": "q_1_0811",
+    "verdict": "FAIL",
+    "reason": "Bad question: asks about '금지되는 사항' (prohibitions) but 제43조의2 describes automatic retirement conditions, not prohibitions. Raw dump of source text. Duplicate answer of q_1_0808/0809/0810."
+  },
+  {
+    "id": "q_1_0814",
+    "verdict": "FAIL",
+    "reason": "Bad question: asks about '최근 변경사항' (recent changes) but source contains no information about amendments or changes. Answer ignores the question and dumps current text verbatim. Duplicate answer of q_1_0808-0811."
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_1_0883",
+    "verdict": "PASS",
+    "reason": "Question asks about 신청자격 conditions, answer accurately reproduces the eligibility requirements from page 70 with added structure (분류, 관련 근거, 주요 수치). Content verified against source."
+  },
+  {
+    "id": "q_1_0884",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_1_0883. Same source, same answer content. Question asks about 유의사항 (precautions) but answer just repeats the eligibility conditions without addressing precautions."
+  },
+  {
+    "id": "q_1_0887",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_1_0883. Same source, identical answer content. Question asks about 기간 (duration) but answer just repeats the eligibility conditions."
+  },
+  {
+    "id": "q_1_0890",
+    "verdict": "FAIL",
+    "reason": "Bad question: asks about 횟수 제한 (frequency limits) which is not discussed anywhere in the source. Answer is a raw dump of the entire 재직기간 계산 section (①-⑤) that does not address the question."
+  },
+  {
+    "id": "q_1_0891",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_1_0890. Identical answer content. Question asks about 기간 (duration) which is vague and the answer just dumps the same 재직기간 계산 rules."
+  },
+  {
+    "id": "q_1_0893",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_1_0890. Identical answer content. Question asks about 종류 (types) but answer dumps the same 재직기간 계산 rules without distinguishing any types."
+  },
+  {
+    "id": "q_1_0895",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_1_0890. Identical answer content. Question asks about 효과 (effects) but answer dumps the same 재직기간 계산 rules without explaining effects."
+  },
+  {
+    "id": "q_1_0898",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_1_0883. Nearly identical answer content with same source text. Different question framing (신규 교사) but same verbatim answer."
+  },
+  {
+    "id": "q_1_0899",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_1_0883. Nearly identical answer content. Question asks about 가장 중요한 조건 (most important condition) but answer just lists all conditions without identifying which is most important."
+  },
+  {
+    "id": "q_1_0900",
+    "verdict": "FAIL",
+    "reason": "Bad question: asks about 참고 서식 (reference forms) but the source page contains no form information. Answer just dumps the same eligibility conditions. Also duplicate of q_1_0883."
+  }
+]
