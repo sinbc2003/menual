@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_1_0338",
+    "verdict": "FAIL",
+    "reason": "duplicate, bad_question: Answer is identical to q_1_0337. Question asks about reference forms (참고 서식) but the source has no forms mentioned. Same raw dump of 보직구분설정 content."
+  },
+  {
+    "id": "q_1_0339",
+    "verdict": "FAIL",
+    "reason": "duplicate, raw_dump: Answer is identical to q_1_0337/q_1_0338. Same source text dumped with a different intro sentence."
+  },
+  {
+    "id": "q_1_0340",
+    "verdict": "FAIL",
+    "reason": "raw_dump, bad_question: Question asks for all related regulations (모든 규정) but this is a NAIS system menu description, not regulations. Answer includes garbled table data with misaligned columns (경기도학교 / 초등학교교사 / 재직 misattributed to wrong fields)."
+  },
+  {
+    "id": "q_1_0342",
+    "verdict": "FAIL",
+    "reason": "duplicate: Answer is identical to q_1_0340 with same garbled combined content. Same source cited."
+  },
+  {
+    "id": "q_1_0345",
+    "verdict": "FAIL",
+    "reason": "duplicate, raw_dump: Answer largely repeats q_1_0337-q_1_0339 content with addition of 겸임교사 note. Still a raw source dump without meaningful synthesis."
+  },
+  {
+    "id": "q_1_0346",
+    "verdict": "FAIL",
+    "reason": "duplicate: Answer is identical to q_1_0345. Same content and source cited."
+  },
+  {
+    "id": "q_1_0347",
+    "verdict": "PASS",
+    "reason": "Accurate and well-synthesized. All facts verified against page 26 source: 4-year term, one renewal allowed, 공모교장 exemption, 정년 4년 미만 still eligible, 학기 중 임기 만료 조정 rules all match the source text exactly."
+  },
+  {
+    "id": "q_1_0348",
+    "verdict": "PASS",
+    "reason": "Accurate and well-synthesized. All facts verified: 교사 전환 조건 (정년 전 임기 만료, 교사자격증, 희망, 수업 담당 능력/건강 고려) from p26, 원로교사 우대 (수업시간 경감, 당직 면제, 명예퇴직 우선, 행사 우대) from p26, 원로교사 역할 (상담, 장학지도, 자문) from p27 all match source."
+  },
+  {
+    "id": "q_1_0350",
+    "verdict": "FAIL",
+    "reason": "duplicate, hallucination: Question is near-identical to q_1_0348. Answer includes hallucinated 인사위원회 심의 criteria ('교사로서 정신·신체상 건강상태', '수업을 담당할 수 없는 사유 유무') -- these specific criteria are NOT in the source pages 26-27. The source p27 mentions 인사위원회 심의 for 중임 (renewal) context, not for 원로교사 임용. The criteria were transplanted from the wrong context."
+  },
+  {
+    "id": "q_1_0352",
+    "verdict": "FAIL",
+    "reason": "duplicate, hallucination: Question overlaps with q_1_0348 and q_1_0350. Answer includes same hallucinated 인사위원회 심의 procedure steps and criteria ('교사로서 정신·신체상 건강상태', '수업을 담당할 수 없는 사유 유무') not found in source markdown. The 4-step procedure (신청-심의요청-심의-임용) is fabricated from combining 중임 context with 원로교사 context."
+  }
+]

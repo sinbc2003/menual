@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_1_0354",
+    "verdict": "PASS",
+    "reason": "Good question about 원로교사 definition and benefits. Answer accurately synthesizes content from pages 26-27: definition (제9조의6(1)), 우대사항 (제9조의6(2)), 임용 절차 (60일 전 교사임용희망서 제출), 역할 (신규교사 상담, 장학지도, 자문). Source text is a valid substring of page 26 line 41. Natural question with proper synthesis."
+  },
+  {
+    "id": "q_1_0356",
+    "verdict": "FAIL",
+    "reason": "duplicate: Nearly identical question and answer to q_1_0354. Question '원로교사는 무엇이고 어떤 우대를 받나요?' is essentially the same as q_1_0354's '원로교사란 무엇이고, 어떤 우대를 받나요?'. Both cover the same definition, 우대사항, 임용 조건, and 역할 from the same source page 26."
+  },
+  {
+    "id": "q_1_0357",
+    "verdict": "FAIL",
+    "reason": "raw_dump: Answer lists all 9 regulatory clauses (1)-(9) from 교육공무원법 제29조의2 verbatim without any synthesis or focus. Question asks about '조건' but answer dumps everything including appointment authority (1), term length (2), transferability (8), and delegation (9) without distinguishing which are conditions. No reformulation or organization beyond the original numbering."
+  },
+  {
+    "id": "q_1_0365",
+    "verdict": "FAIL",
+    "reason": "bad_question: Question asks about '기간과 횟수' (period and count) for 교장 등의 임용, but the source text is from the 나) 교육공무원임용령 제9조의5 section about re-appointment eligibility conditions, not about the primary 기간 (4년, from 가)(2)) or 횟수 (한 번 중임, from 가)(3)). The answer's '주요 수치: 4년' is tangential - the source only mentions '4년 미만' as a condition threshold, not as the primary term length."
+  },
+  {
+    "id": "q_1_0366",
+    "verdict": "FAIL",
+    "reason": "duplicate, bad_question: Same source text and essentially identical answer as q_1_0365 (나) section, 교육공무원임용령 제9조의5). Question asks about '대상자 선발' (candidate selection process) but the source content is about re-appointment eligibility conditions, not about a selection/screening process."
+  },
+  {
+    "id": "q_1_0376",
+    "verdict": "FAIL",
+    "reason": "duplicate: Same source text (나) section, 교육공무원임용령 제9조의5) and essentially identical answer content as q_1_0365 and q_1_0366. Only the question framing differs ('핵심 포인트를 정리해주세요') but the answer is the same raw listing of the 3 clauses."
+  },
+  {
+    "id": "q_1_0377",
+    "verdict": "FAIL",
+    "reason": "raw_dump: Answer dumps all 8 regulatory clauses (1)-(8) from 교육공무원법 제29조의2 verbatim with no synthesis. The intro repeats '교장 임기제' twice. Question asks what teachers should know, but answer provides no prioritization or explanation - just lists everything from the regulation with bullet formatting."
+  },
+  {
+    "id": "q_1_0379",
+    "verdict": "FAIL",
+    "reason": "duplicate, raw_dump: Same source text and essentially identical answer as q_1_0377 - both dump clauses (1)-(8) from 가) 교장 등의 임용(교육공무원법 제29조의2) verbatim. Only the question framing differs but both have the same formatting issue of repeating '교장 임기제' twice in the intro."
+  },
+  {
+    "id": "q_1_0380",
+    "verdict": "FAIL",
+    "reason": "bad_question, duplicate: Question '교육부장관 관련 규정의 세부 내용은 어떻게 되나요?' is misleadingly vague - 교육부장관 appears across hundreds of regulations, but the answer is specifically about 교장 임기제. Same answer content as q_1_0377/q_1_0379 (clauses (1)-(8) from 가) section verbatim)."
+  },
+  {
+    "id": "q_1_0381",
+    "verdict": "FAIL",
+    "reason": "bad_question, duplicate: Question implies FAQ-style content ('교육청에서 자주 질의하는 내용') but the answer is just a raw regulation dump with no indication these are actual frequently asked questions. Same answer content as q_1_0377/q_1_0379/q_1_0380 (clauses (1)-(6) from 가) section)."
+  }
+]

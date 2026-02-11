@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_1_0428",
+    "verdict": "PASS",
+    "reason": "Good quality. Natural question about 1년 이내 전보 가능 여부. Well-synthesized answer listing all 8 exception cases from 교육공무원법 제21조 and 교육공무원임용령 제13조의2. All items verified against page 29 source."
+  },
+  {
+    "id": "q_1_0430",
+    "verdict": "FAIL",
+    "reason": "duplicate: Same topic as q_1_0428 (1년 이내 전보 제한 및 예외). Nearly identical content covering the same provisions from the same source page 29."
+  },
+  {
+    "id": "q_1_0447",
+    "verdict": "FAIL",
+    "reason": "bad_question + raw_dump: Question asks about '전직 등의 제한이 교원의 신분에 미치는 영향' but answer just lists the legal provisions without synthesizing any actual impact on teacher status. Answer is a raw dump of 교육공무원임용령 제13조의2. Also duplicate content with q_1_0428/q_1_0430."
+  },
+  {
+    "id": "q_1_0449",
+    "verdict": "FAIL",
+    "reason": "bad_question + raw_dump: Question awkwardly quotes legal text as a question ('임용권자 또는 임용제청권자는 인사교류계획을 수립 실시함에 대해'). Answer is just the single source provision with minimal synthesis."
+  },
+  {
+    "id": "q_1_0452",
+    "verdict": "FAIL",
+    "reason": "raw_dump + duplicate: Answer dumps page 29 source text covering 인사교류계획, 전직 등의 제한 (교육공무원법 제21조), and 전직 등의 제한 (교육공무원임용령 제13조의2). Same content block as q_1_0453, q_1_0455, q_1_0456, q_1_0457."
+  },
+  {
+    "id": "q_1_0453",
+    "verdict": "FAIL",
+    "reason": "duplicate + answer_mismatch: Answer is virtually identical to q_1_0452. Question asks about 인사구역 기준 but answer does not contain the actual 인사구역 content (동규정 제19조, page 29 lines 37-39) -- just dumps generic 전직 등의 제한 provisions."
+  },
+  {
+    "id": "q_1_0455",
+    "verdict": "FAIL",
+    "reason": "duplicate + raw_dump: Same answer content as q_1_0447/q_1_0452/q_1_0453. Question about '경력에 미치는 영향' is not addressed; answer just lists legal provisions."
+  },
+  {
+    "id": "q_1_0456",
+    "verdict": "FAIL",
+    "reason": "duplicate + grammar_error: '전보계획와' is grammatically incorrect (should be '전보계획과' since 획 has batchim ㄱ). Answer is identical to q_1_0452/q_1_0453/q_1_0455."
+  },
+  {
+    "id": "q_1_0457",
+    "verdict": "FAIL",
+    "reason": "duplicate + answer_mismatch: Question asks about 인사구역 행정 처리 확인사항 but answer dumps generic 전직 등의 제한 content. Does not contain the actual 인사구역 규정 (동규정 제19조). Identical answer to q_1_0452-q_1_0456."
+  },
+  {
+    "id": "q_1_0458",
+    "verdict": "PASS",
+    "reason": "Good quality. Clear natural question about 전보 시기 차이. Well-synthesized answer explaining 교장·교감 (3월 1일, 9월 1일) vs 수석교사·교사 (3월 1일) transfer timing. Source text verified on page 30 line 25."
+  }
+]

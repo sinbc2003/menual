@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_1_0496",
+    "verdict": "FAIL",
+    "reason": "duplicate, bad_question, raw_dump: Same source text and answer pattern as q_1_0486-0495 cluster from batch_0028. Question asks for '구체적인 적용 사례' (specific examples) but answer provides no examples -- just the same raw dump. Identical source, identical answer structure."
+  },
+  {
+    "id": "q_1_0497",
+    "verdict": "FAIL",
+    "reason": "hallucination, raw_dump: Answer includes '관련 근거: 교육공무원 인사기록 및 인사사무 처리 규칙 제18조' but page 30 shows 제18조 is about 인사발령통지서 (line 27), NOT about 전직·전보의 제한. This is a misattribution/hallucination. Answer is largely a raw dump of the source text."
+  },
+  {
+    "id": "q_1_0499",
+    "verdict": "FAIL",
+    "reason": "duplicate, hallucination: Answer is nearly identical to q_1_0497 with the same false '관련 근거: 제18조' attribution. Same source text, same answer structure. No meaningful differentiation."
+  },
+  {
+    "id": "q_1_0500",
+    "verdict": "FAIL",
+    "reason": "duplicate, hallucination, grammar_error: Answer is a duplicate of q_1_0497/0499. Contains grammar error: '비정기전보과 전보의 특례' should be '비정기전보와 전보의 특례' (보 has no 받침, requires 와 not 과). Same false 관련 근거 제18조 hallucination."
+  },
+  {
+    "id": "q_1_0501",
+    "verdict": "FAIL",
+    "reason": "duplicate, hallucination, raw_dump: Nearly identical to q_1_0497/0499/0500. Same false '관련 근거: 제18조' misattribution. Answer is a raw dump of the same page 30 content with no actual analysis of 'how restrictions are applied in practice' as the question asks."
+  },
+  {
+    "id": "q_1_0502",
+    "verdict": "FAIL",
+    "reason": "bad_question, duplicate, hallucination: Question asks about '교육청에서 자주 질의하는 내용' (frequently asked questions at education offices) but the source contains no FAQ data. Fabricated question angle. Same duplicate answer with false 관련 근거 제18조."
+  },
+  {
+    "id": "q_1_0503",
+    "verdict": "FAIL",
+    "reason": "bad_question, duplicate, hallucination, raw_dump: Question asks for '구체적인 적용 기준과 범위' of 전보의 특례 but answer only mentions it briefly in one line from page 30. The source provides no detailed criteria or scope for 전보의 특례. Same false 관련 근거 제18조 hallucination. Duplicate of q_1_0497 cluster."
+  },
+  {
+    "id": "q_1_0504",
+    "verdict": "FAIL",
+    "reason": "bad_question, raw_dump: Source (page 31) is a numbered list of 관계조항 (related legal provisions). Question asks '기간은 어떻게 계산하나요' (how to calculate the period) which is nonsensical for a provision list. Answer just dumps the provision list with no period calculation information."
+  },
+  {
+    "id": "q_1_0505",
+    "verdict": "FAIL",
+    "reason": "bad_question, duplicate: Same source text as q_1_0504. Question asks '횟수 제한이 있나요' (are there frequency limits) which is nonsensical for a list of related legal provisions. Same answer dump. Duplicate of q_1_0504."
+  },
+  {
+    "id": "q_1_0509",
+    "verdict": "FAIL",
+    "reason": "bad_question, duplicate: Same source text and answer as q_1_0504/0505. Question asks '원칙은 무엇인가요' (what is the principle) of 관계조항, which is just a table-of-contents-style provision list with no stated principles. Nonsensical question. Duplicate."
+  }
+]

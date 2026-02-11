@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_1_0483",
+    "verdict": "PASS",
+    "reason": "Source text matches page 30 line 25 exactly. Answer accurately synthesizes 전보시기 with clear distinction between 교장/교감 (3/1, 9/1) and 수석교사/교사 (3/1). Includes relevant 비정기전보 context from the same page. Well-structured and informative."
+  },
+  {
+    "id": "q_1_0484",
+    "verdict": "PASS",
+    "reason": "Source text matches page 30 line 33 exactly. Answer correctly synthesizes both 인사발령통지서 (별지 제22호, from line 29) and 정부 인사발령 통지 (별지 제31호, from line 33). Natural question with well-organized answer covering 통지 주체, 시기, 대상, and 서식."
+  },
+  {
+    "id": "q_1_0485",
+    "verdict": "PASS",
+    "reason": "Source text content matches page 30 lines 7-13 (minor formatting differences with blockquote markers stripped). Answer provides well-structured synthesis with clear separation of principle, exceptions (4 categories), and caveats. Natural question with meaningful answer."
+  },
+  {
+    "id": "q_1_0486",
+    "verdict": "FAIL",
+    "reason": "bad_question, duplicate, raw_dump: Question asks about '신청 자격이 있는 사람' (application qualifications) but source content is about transfer RESTRICTIONS, not qualifications. Answer is a raw dump of source text with '※' markers. Nearly identical answer to q_1_0487, q_1_0488, q_1_0491, q_1_0493, q_1_0494, q_1_0495."
+  },
+  {
+    "id": "q_1_0487",
+    "verdict": "FAIL",
+    "reason": "duplicate, raw_dump: Nearly identical answer to q_1_0486 (same source text, same structure, same content). Question framing '자격 요건' is misleading for content about restrictions. Answer is a raw dump with no synthesis beyond the source."
+  },
+  {
+    "id": "q_1_0488",
+    "verdict": "FAIL",
+    "reason": "duplicate, raw_dump: Answer is nearly identical to q_1_0486 and q_1_0487. Same source text dumped verbatim with '※' markers. No meaningful differentiation despite slightly different question angle."
+  },
+  {
+    "id": "q_1_0491",
+    "verdict": "FAIL",
+    "reason": "duplicate, raw_dump: Answer is virtually identical to q_1_0486/0487/0488. While the question ('제외되는 경우') has a valid angle, the answer makes no effort to focus on the exceptions specifically -- it just dumps the same full text."
+  },
+  {
+    "id": "q_1_0493",
+    "verdict": "FAIL",
+    "reason": "bad_question, duplicate, raw_dump: Question '호에 해당하거나 교원수급상 부득이한 경우 또는 본인이 희망하는 경우 어떤 절차를 밟아야 하나요?' starts with a mid-sentence fragment pasted from source text. Not a natural question. Same duplicate answer as the cluster."
+  },
+  {
+    "id": "q_1_0494",
+    "verdict": "FAIL",
+    "reason": "bad_question, duplicate, raw_dump: Question asks about '학교 행정실에서 처리하는 업무' (school admin office duties) but source content says nothing about this topic. Answer does not address the question at all -- just dumps the same 전직·전보의 제한 text. Topic mismatch between question and source."
+  },
+  {
+    "id": "q_1_0495",
+    "verdict": "FAIL",
+    "reason": "duplicate, raw_dump: Answer is the same verbatim dump as q_1_0486-0494. Question frames it as advice for '신규 교사' but answer provides no tailored perspective. Identical answer structure with '주요 내용' and '세부 사항' headers."
+  }
+]
