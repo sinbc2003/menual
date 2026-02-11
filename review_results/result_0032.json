@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_1_0546",
+    "verdict": "FAIL",
+    "reason": "Question-answer mismatch. Question asks '누가 하나요' (who handles it) but answer only lists the 5 document types without explaining who is responsible. Also, answer labels the section under '경기도교육공무원인사관리세부기준 제15조(전보의 특례) 해당자' which is the preceding section (나), not section 다) 임지지정관계 서류."
+  },
+  {
+    "id": "q_1_0548",
+    "verdict": "FAIL",
+    "reason": "Unnatural question. '교육공무원 인사기록 및 인사사무 처리 규칙을 신청할 때' -- one cannot 'apply for' (신청) a regulation/rule (규칙). A 규칙 is a legal framework, not something to apply for. The answer also doesn't address any '유의사항' (precautions). Duplicate answer body with q_1_0546."
+  },
+  {
+    "id": "q_1_0549",
+    "verdict": "FAIL",
+    "reason": "Question-answer mismatch. Question asks whether 학교장 has authority (권한) regarding 전보의 특례 해당자, but answer only lists required documents for each category of 해당자. No information about 학교장's authority is provided. Also, answer labels '학교경영우수학교, 혁신학교, 자율형 공립고' as '관련 법령' but these are school types, not laws."
+  },
+  {
+    "id": "q_1_0550",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer. Answer body is virtually identical to q_1_0549 and q_1_0551 -- same source, same content, same formatting. The question ('신규 교사가 알아야 할 사항') is generic and the answer provides no information specific to new teachers."
+  },
+  {
+    "id": "q_1_0551",
+    "verdict": "FAIL",
+    "reason": "Question-answer mismatch and duplicate. Question asks how to respond to civil complaints (민원 대응) but answer simply lists document requirements without any complaint-handling guidance. Answer body is identical to q_1_0549 and q_1_0550."
+  },
+  {
+    "id": "q_1_0552",
+    "verdict": "FAIL",
+    "reason": "Question-answer mismatch. Question asks about complaint response (민원 대응) for 임지지정관계 서류 but answer only lists the 5 document types. No guidance on complaint handling. Also a near-duplicate of q_1_0546 and q_1_0554 in answer content."
+  },
+  {
+    "id": "q_1_0553",
+    "verdict": "FAIL",
+    "reason": "Question-answer mismatch. Question asks about the relationship (관계) between 임지지정관계 서류 and other regulations, but answer merely lists the 5 documents and mentions 교육공무원 인사기록 및 인사사무 처리 규칙 제18조 without explaining any substantive relationship. Duplicate answer with q_1_0546, q_1_0552, q_1_0554."
+  },
+  {
+    "id": "q_1_0554",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer. Answer content is identical to q_1_0546, q_1_0552, q_1_0553. While the question (summary request) is reasonable, having 4+ entries with the same answer from the same source is a quality issue. Answer is also a raw dump -- just re-lists the 5 items with minimal synthesis."
+  },
+  {
+    "id": "q_1_0555",
+    "verdict": "FAIL",
+    "reason": "Question-answer mismatch. Question asks '해당자가 중요한 이유' (why 해당자 is important) but answer is a raw dump of document requirements without addressing importance or rationale. The term '해당자' alone is vague (just means 'applicable person'). Also, answer truncates source content, missing items like 전임교 TO감, 신체 허약, etc. that are in the source.text."
+  },
+  {
+    "id": "q_1_0557",
+    "verdict": "FAIL",
+    "reason": "Question-answer mismatch and duplicate. Question asks how 임지지정관계 서류 is 'applied' in the 해당자 process, but these are two separate subsections on the page ((나) and 다)). The answer conflates both sections into a raw dump. Answer body is nearly identical to q_1_0555. No synthesis explaining any actual relationship between the two subsections."
+  }
+]

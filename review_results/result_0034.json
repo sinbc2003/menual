@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_1_0591",
+    "verdict": "FAIL",
+    "reason": "Fake '관계' question. Question asks '다른 규정과 어떤 관계가 있나요' (what relationship with other regulations) but the source (page 38) is a procedural table of 관내전보 업무 처리 steps, not about inter-regulation relationships. Answer is a raw dump of table rows without addressing the question."
+  },
+  {
+    "id": "q_1_0592",
+    "verdict": "FAIL",
+    "reason": "Hallucinated question topic. Question asks '잘못 처리하면 어떤 문제가 생기나요' (what problems arise from incorrect handling) but the source (page 38) contains no information about consequences of errors. Answer is a duplicate of q_1_0591, just listing procedures."
+  },
+  {
+    "id": "q_1_0593",
+    "verdict": "FAIL",
+    "reason": "Three issues: (1) Grammar error in question - '처리과 관련하여' should be '처리와 관련하여'. (2) Question asks specifically about school administration office tasks but the answer dumps the same mixed content from all rows (도교육청, 교육지원청, 학교) without isolating school-specific tasks. (3) Duplicate answer with q_1_0591 and q_1_0592."
+  },
+  {
+    "id": "q_1_0594",
+    "verdict": "PASS",
+    "reason": "Natural question about required documents for 관내전보발령. Answer accurately lists all 5 items from page 39 source: 관내전보희망자 순위명부, 인사기안문 (with sub-items), 인사발령통지서, 발령 대장, 현원 대장. source.text verified as matching 39쪽.md content. Legal reference '교육공무원 인사기록 및 인사사무 처리 규칙 제18조' correctly cited from source item (3)."
+  },
+  {
+    "id": "q_1_0595",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_1_0594. Question asks '분류하면 어떻게 되나요' (how to classify) but the answer provides the same raw document list without any classification scheme. The source material is a flat numbered list with no classification structure."
+  },
+  {
+    "id": "q_1_0597",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_1_0594. Question asks about '요건' (requirements/conditions) but the answer just lists document names again. The source (page 39) lists required documents, not requirements or eligibility conditions."
+  },
+  {
+    "id": "q_1_0599",
+    "verdict": "FAIL",
+    "reason": "Unnatural question starting with section marker '나' from the heading '나) 관내전보발령에 따른 구비서류'. This is a pasted source artifact, not a natural user question. Additionally, duplicate answer with q_1_0594."
+  },
+  {
+    "id": "q_1_0601",
+    "verdict": "FAIL",
+    "reason": "Nonsensical question. '얼마나 인정되나요' (how much is it recognized/accepted) has no connection to the source content, which is a numbered list of 7 required document types for 인사위원회 운영. The source (page 39) contains no information about recognition periods or quantities."
+  },
+  {
+    "id": "q_1_0602",
+    "verdict": "FAIL",
+    "reason": "Question-answer mismatch. Question asks '기간은 얼마나 되나요' (how long is the period) but the source (page 39) contains no time period information. Answer just lists the 7 document types without addressing any time-related aspect."
+  },
+  {
+    "id": "q_1_0603",
+    "verdict": "FAIL",
+    "reason": "Question asks '실무적으로 주의할 점' (practical cautions) but the source (page 39) is a plain document list with no guidance on practical considerations or cautions. Answer is a raw dump of the same 7 items, identical to q_1_0601 and q_1_0602."
+  }
+]

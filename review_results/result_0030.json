@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_1_0510",
+    "verdict": "FAIL",
+    "reason": "Unnatural question with section label artifact. '가 관계조항' is a heading marker (가), not a real topic. Question asks about '기간 계산' (period calculation) but source is just a list of article references (제6조~제15조) with no period or calculation information. Answer is a raw dump of the source list with no synthesis."
+  },
+  {
+    "id": "q_1_0511",
+    "verdict": "FAIL",
+    "reason": "Question-answer mismatch. Question asks '대상자는 누구인가요?' (who are the targets?) but the source text describes procedural rules for 교육장 (superintendent duties), not who qualifies as a transfer target. Answer is a raw dump of the 4 provisions without synthesizing to address the specific question."
+  },
+  {
+    "id": "q_1_0512",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer. Answer is virtually identical to q_1_0511 (same source text, same bullet points). Question asks about '신청 자격' (application eligibility) but source describes superintendent duties, not individual eligibility criteria."
+  },
+  {
+    "id": "q_1_0514",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer (identical to q_1_0511, q_1_0512). Question asks '기간은 얼마나 되나요?' (how long is the period?) but the source text contains no period/duration information whatsoever. Hallucination-inducing question-answer mismatch."
+  },
+  {
+    "id": "q_1_0515",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer (identical to q_1_0511, q_1_0512, q_1_0514). Question asks '효력은 어떻게 되나요?' (what is the legal effect?) but source text contains no information about legal effect or validity. Question-answer mismatch."
+  },
+  {
+    "id": "q_1_0519",
+    "verdict": "FAIL",
+    "reason": "Unnatural question. '처리과정 및 절차를 하려면' is grammatically awkward Korean (you don't '하다' a procedure). Question asks about '요건' (requirements) but the source describes institutional roles in the process, not requirements. Answer partially covers the table content but is not well synthesized."
+  },
+  {
+    "id": "q_1_0521",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer (identical to q_1_0519). Tautological question: '처리과정 및 절차는 어떤 과정을 거치나요?' (what process does the process go through?). Asks about the process of the process, which is redundant."
+  },
+  {
+    "id": "q_1_0524",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer (identical content to q_1_0511 family - 5th copy of the same 관내전보 4-provision dump). While the question about relationship with other regulations is slightly relevant to provision (3) mentioning 제14조/제15조, the answer does not synthesize to address this specific angle."
+  },
+  {
+    "id": "q_1_0526",
+    "verdict": "FAIL",
+    "reason": "Hallucination-inducing question. Asks '최근에 어떻게 바뀌었나요?' (how has it recently changed?) but the source contains zero information about regulatory changes or revision history. Duplicate answer (6th copy of 관내전보 provisions). The answer doesn't mention any changes because the source has none."
+  },
+  {
+    "id": "q_1_0527",
+    "verdict": "FAIL",
+    "reason": "Question asks for '가장 중요한 조건' (most important condition), which is subjective and not indicated by the source. Answer is a poorly formatted raw dump with table pipe characters ('|') leaking into the text. Similar duplicate content to q_1_0519."
+  }
+]

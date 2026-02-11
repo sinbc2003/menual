@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_1_0605",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer. Content is identical to q_1_0601, q_1_0602, q_1_0603 (batch_0034) - all list the same 7 인사위원회 운영 관계 서류 items from page 39. While this question ('핵심 포인트를 정리해주세요') is more natural than those in batch 34, the repeated identical answer across 4+ entries indicates template-generated content."
+  },
+  {
+    "id": "q_1_0610",
+    "verdict": "FAIL",
+    "reason": "Incomplete answer (omission). Answer lists 관내전보발령에 따른 구비서류 items (1)-(4) but omits '(5) 현원 대장' which is clearly present in both the source.text and 39쪽.md. This is a factual omission that could mislead users about required documents."
+  },
+  {
+    "id": "q_1_0611",
+    "verdict": "FAIL",
+    "reason": "Two issues: (1) Confusing question - asks about 관내전보발령에 따른 구비서류 '에서' (from/in) 관내전보 내신 서류, but these are separate subsections (나 and 가), not nested. (2) Duplicate answer with q_1_0610, including the same omission of (5) 현원 대장."
+  },
+  {
+    "id": "q_1_0612",
+    "verdict": "FAIL",
+    "reason": "Fake question topic. Question asks '흔히 발생하는 문제점' (common problems) but the source (page 39) is a simple document list with no discussion of problems, pitfalls, or troubleshooting. Answer does not address problems at all, just lists the same documents."
+  },
+  {
+    "id": "q_1_0613",
+    "verdict": "FAIL",
+    "reason": "Three issues: (1) Question asks '실제로 어떻게 적용되나요' (how is it actually applied) but source is a document list with no application guidance. (2) Duplicate answer with q_1_0610-q_1_0612. (3) Same omission of (5) 현원 대장 as q_1_0610."
+  },
+  {
+    "id": "q_1_0617",
+    "verdict": "PASS",
+    "reason": "Natural question asking when 시·도간 교류 is possible. Answer accurately reflects Article 17 content from page 44: 동수교류 원칙 (교장·교감 직급별, 교사 교과별), 일방/통합교류 conditions (시·도 교육감 합의), and 통합교류 교과 list. source.text verified as substring of 44쪽.md."
+  },
+  {
+    "id": "q_1_0618",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_1_0617. Question asks specifically about '대상자는 누구인가요' (who are the subjects) but the answer is identical to q_1_0617 without specifically identifying subjects (e.g., 교장, 교감, 교사 by category). No synthesis targeting the 'who' aspect."
+  },
+  {
+    "id": "q_1_0622",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_1_0617. Question asks about '예외 사항' (exceptions) but the answer is identical and does not specifically identify or explain exceptions. The '다만' clause about 통합교류 교과 could be framed as an exception but the answer does not synthesize it that way."
+  },
+  {
+    "id": "q_1_0624",
+    "verdict": "FAIL",
+    "reason": "Keyword error in question: '제조 교원의 시·도간 교류' should be '제17조 (교원의 시·도간 교류)'. The '제조' is a truncation artifact from the keyword field. Additionally, duplicate answer with q_1_0617."
+  },
+  {
+    "id": "q_1_0630",
+    "verdict": "FAIL",
+    "reason": "Truncated question start: '급 국가유공자인 배우자...' is missing '상이 1~3' prefix, making it '급' alone which is meaningless. The question fragment comes from the 1순위 cell content. Despite the answer being comprehensive (covers all 5 transfer priority levels from page 44 table), the defective question makes this entry unusable."
+  }
+]

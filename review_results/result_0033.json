@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_1_0559",
+    "verdict": "FAIL",
+    "reason": "Question-answer mismatch. Question asks about common problems (문제점) when applying 임지지정관계 서류 regulations, but the source and answer contain only document requirement lists with no information about problems or issues. source.text title says '임지지정관계 서류' but the text actually spans sections (가), (나), and 다), mixing different subsections. Also a near-duplicate answer pattern from batch_0032 entries."
+  },
+  {
+    "id": "q_1_0561",
+    "verdict": "PASS",
+    "reason": "Good quality entry. Question is natural and specific ('관내전보 발령 권한은 누가 가지고 있나요?'). Answer correctly identifies 교육장 as the authority holder with proper legal citation (경기도교육감 행정권한 위임에 관한 규칙 제6조). source.text verified against 37쪽.md lines 30-31. Answer synthesizes the information well, adds the exception (교장·원장 제외), and does not hallucinate."
+  },
+  {
+    "id": "q_1_0573",
+    "verdict": "FAIL",
+    "reason": "Unnatural question. The question contains raw text pasted from the source: '관내전보(동기준 16조)   - (3) 교육장에게 재위는 어떤 내용인가요?' -- includes extra whitespace, structural markers '(동기준 16조)' and truncated word '재위' (should be 재위임). Answer is also a raw paste of the source text with minimal formatting."
+  },
+  {
+    "id": "q_1_0574",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer and raw dump. Answer lists regulations 가)-차) verbatim from the source with no synthesis or explanation of '주요 포인트'. Near-duplicate content with q_1_0579 in the same batch (both list the same regulations from the same source page). Also the answer omits 카)-파) items from the source which contain important details like the 경기도교육공무원인사관리세부기준 subclauses."
+  },
+  {
+    "id": "q_1_0579",
+    "verdict": "FAIL",
+    "reason": "Question-answer mismatch and duplicate. Question asks about frequently asked questions (자주 질의하는 내용) from education offices, but the source contains no FAQ information -- just a regulation list. Answer lists the same regulations as q_1_0574 (only 가-아, omitting 자-파). The answer fabricates a context that doesn't exist in the source."
+  },
+  {
+    "id": "q_1_0583",
+    "verdict": "FAIL",
+    "reason": "Question-answer mismatch. Question asks '어떤 조건을 충족해야 하나요' (what conditions must be met) but the source describes the processing workflow (처리과정 및 절차), not qualification conditions. Answer lists institutional processing steps which do not answer the conditions question. Also a 5-way duplicate: same answer body as q_1_0584, q_1_0585, q_1_0586, q_1_0587."
+  },
+  {
+    "id": "q_1_0584",
+    "verdict": "FAIL",
+    "reason": "Question-answer mismatch and duplicate. Question asks about '자격 요건' (qualification requirements) but answer describes the processing workflow (who does what at each institution). The source (38쪽 table) has no information about qualifications. Answer body is identical to q_1_0583, q_1_0585, q_1_0586, q_1_0587."
+  },
+  {
+    "id": "q_1_0585",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer. While the question ('어떻게 해야 하나요' -- how to process) reasonably matches the source content about processing steps, the answer body is identical to q_1_0583, q_1_0584, q_1_0586, q_1_0587. Also a raw dump: answer just re-lists table rows without synthesizing or explaining the workflow. Omits the 유의사항 column which contains important details."
+  },
+  {
+    "id": "q_1_0586",
+    "verdict": "FAIL",
+    "reason": "Question-answer mismatch. Question specifically asks about 유의사항 (precautions/notes), and the source table actually has a dedicated 유의사항 column with detailed content (인사관리세부기준 의견수렴, 인사위원회 심의, 본인 작성 교감확인, etc.), but the answer completely ignores the 유의사항 column and only lists 처리내용/처리방법. Duplicate answer body with q_1_0583-q_1_0585, q_1_0587."
+  },
+  {
+    "id": "q_1_0587",
+    "verdict": "FAIL",
+    "reason": "Question-answer mismatch. Question asks '몇 년까지 가능한가요' (until how many years) but the source contains zero information about time limits or duration. The answer does not address the year/duration question at all, instead dumping the same processing steps. Duplicate answer body with q_1_0583-q_1_0586."
+  }
+]

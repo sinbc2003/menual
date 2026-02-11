@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_1_0663",
+    "verdict": "FAIL",
+    "reason": "Question asks '대상자는 어떻게 선발하나요?' (how are subjects selected?) but the source content is a document checklist, not about selecting anyone. Question-content mismatch. Also, the answer is a raw dump of the source text with no synthesis."
+  },
+  {
+    "id": "q_1_0664",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer: answer is identical to q_1_0663 (same source.text, same page, same verbatim content). Also a raw dump with no synthesis."
+  },
+  {
+    "id": "q_1_0665",
+    "verdict": "FAIL",
+    "reason": "Unnatural meta-question: '자주 묻는 질문이 있나요?' (are there FAQs?) is a meta-question about the existence of FAQs, not an actual question about the content. Duplicate answer identical to q_1_0663/q_1_0664. Raw dump."
+  },
+  {
+    "id": "q_1_0666",
+    "verdict": "FAIL",
+    "reason": "Question includes raw section marker '가' from source heading ('가 학교에서 구비할 서류'), making it unnatural/template-generated. Duplicate answer identical to q_1_0663/q_1_0664/q_1_0665. Raw dump."
+  },
+  {
+    "id": "q_1_0673",
+    "verdict": "PASS",
+    "reason": "Natural question about teacher-to-supervisor transfer. Answer correctly synthesizes content from page 50: 공개경쟁시험, 추천, 기본소양평가 (non-multiple-choice), 역량평가, 평가위원회 (1/2 external), 직무연수. All claims verified against source. Well-structured with clear sections."
+  },
+  {
+    "id": "q_1_0674",
+    "verdict": "PASS",
+    "reason": "Natural question about returning from education professional to teacher. Answer accurately covers: 원직위 복귀 원칙, 5-year/2-year exceptions for 교사/교감 origins, 10+10 year exemption, 1-time-per-stage limit, 과장급 exception. All verified against page 50 lines 33-37. Well-synthesized with table format."
+  },
+  {
+    "id": "q_1_0675",
+    "verdict": "PASS",
+    "reason": "Natural question about re-transfer back to education professional after returning to teaching. Core answer (2-year requirement, 과장급 exclusion) verified against page 50 line 23. The 경기도 10-year detail is from page 51 line 37 (accurate but not cited as source -- minor attribution gap, content itself is correct)."
+  },
+  {
+    "id": "q_1_0676",
+    "verdict": "FAIL",
+    "reason": "Hallucinated content: answer claims 교장 임기 중 잔여기간이 소멸됨, references 교육공무원법 제29조의2 제2항, mentions 교장·원장임기제실시업무처리지침, and a 동의서 서식 -- none of these details appear in the source page 50. Page 50 only states '본인의 동의를 얻어야 한다' (line 27). The added specifics are fabricated."
+  },
+  {
+    "id": "q_1_0678",
+    "verdict": "PASS",
+    "reason": "Natural question. Answer correctly synthesizes from pages 50 and 51: 원직위 원칙, 5-year/2-year exceptions, 10+10 exemption, 1-time limit, 과장급 exception (all from page 50), 경기도 교감경력+교장자격증+2년+22년 requirement (from page 51 line 31). Both source.text fields verified as substrings. Well-structured."
+  },
+  {
+    "id": "q_1_0679",
+    "verdict": "PASS",
+    "reason": "Natural question about the supervisor exam. Answer synthesizes from page 50: 추천 then 공개경쟁시험, 기본소양평가 (non-multiple-choice), 역량평가, 평가위원회 with 2분의 1 external members, delegation/entrustment to specialized agencies. All verified against page 50 lines 17-21. Both source.text fields confirmed as substrings."
+  }
+]

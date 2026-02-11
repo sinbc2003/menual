@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_1_0529",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer (identical content to q_1_0527/q_1_0519 from batch_0030 - same table dump). Question implies specific guidance for '신규 교사' (new teachers) but the source makes no distinction between new and experienced teachers. Poorly formatted with pipe characters leaking from table structure."
+  },
+  {
+    "id": "q_1_0534",
+    "verdict": "PASS",
+    "reason": "Excellent natural question from a teacher's perspective. Answer correctly identifies the specific provision for teachers with 2+ 영유아 (7세 이하) children or 3+ unmarried children from the longer list. Well-synthesized with required documents clearly listed. Source.text verified against 33쪽.md line 15. No hallucination."
+  },
+  {
+    "id": "q_1_0535",
+    "verdict": "FAIL",
+    "reason": "Raw dump of the entire source list without synthesis. Lists all 13+ special case categories with their documents as bullet points. No attempt to organize, summarize, or explain the conditions as the question asks. Source.text is truncated at '증빙서류(지' but content matches. Will be duplicated in q_1_0536/q_1_0539/q_1_0540/q_1_0542."
+  },
+  {
+    "id": "q_1_0536",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer (identical to q_1_0535). Unnatural question phrasing: '해당자가 가능한가요' is awkward Korean - '해당자' (eligible person) cannot be '가능하다' (possible). Should be '해당자가 되나요' or similar."
+  },
+  {
+    "id": "q_1_0539",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer (identical to q_1_0535, q_1_0536). While the question about '구분' (categorization) is somewhat reasonable, the answer makes no attempt to categorize or organize the special cases - just dumps the same raw list."
+  },
+  {
+    "id": "q_1_0540",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer (identical to q_1_0535, q_1_0536, q_1_0539 - 4th copy). The question is nearly identical to q_1_0535 in meaning. No differentiation in the answer despite the slightly different question angle."
+  },
+  {
+    "id": "q_1_0542",
+    "verdict": "FAIL",
+    "reason": "Garbled question with section label artifact. '나 경기도교육공무원인사관리세부기준 제조전보의 특례' contains the heading marker '나' and '제조전보' is corrupted text (should be '제15조(전보의 특례)'). Duplicate answer (5th copy of same content)."
+  },
+  {
+    "id": "q_1_0543",
+    "verdict": "FAIL",
+    "reason": "Question asks about '과정' (process) but source is a list of 5 document types, not a process description. Only item (1) shows a mini-process flow. Answer is a raw list dump. Duplicated in q_1_0544 and q_1_0545 with different questions but identical answers."
+  },
+  {
+    "id": "q_1_0544",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer (identical to q_1_0543). Question asks about '유의사항' (precautions/notes) when submitting documents, but the answer contains no precaution information - it just lists the 5 document types. The source itself has no 유의사항 for these documents."
+  },
+  {
+    "id": "q_1_0545",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer (identical to q_1_0543, q_1_0544). Question asks about '원칙' (principles) of 임지지정관계 서류, but the source describes document types, not principles. Complete question-answer mismatch with no synthesis."
+  }
+]
