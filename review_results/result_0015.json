@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_1_0248",
+    "verdict": "FAIL",
+    "reason": "bad_question, raw_dump - Question '중학교의 기준이 어떻게 되나요?' is too vague without specifying what criteria. Answer is a raw table dump with incomplete 비고 (missing 교감 미배치교, 43학급 이상 복수교감 미배치교)."
+  },
+  {
+    "id": "q_1_0249",
+    "verdict": "FAIL",
+    "reason": "duplicate, bad_question - Question '중학교의 원칙은 무엇인가요?' is nonsensical (principles of middle school?). Answer is identical to q_1_0248."
+  },
+  {
+    "id": "q_1_0250",
+    "verdict": "FAIL",
+    "reason": "bad_question, raw_dump - Question '고등학교에 해당하는 것들은 무엇인가요?' is vague and meaningless. Answer is raw table dump with incorrect classification label ('중학교' instead of '고등학교'). Also truncates 비고 section."
+  },
+  {
+    "id": "q_1_0251",
+    "verdict": "FAIL",
+    "reason": "duplicate, bad_question - Question '고등학교를 분류하면 어떻게 되나요?' is nonsensical. Answer is identical to q_1_0250."
+  },
+  {
+    "id": "q_1_0253",
+    "verdict": "FAIL",
+    "reason": "duplicate, bad_question - Question '고등학교의 요건은 무엇인가요?' is vague. Answer is identical to q_1_0250 and q_1_0251."
+  },
+  {
+    "id": "q_1_0254",
+    "verdict": "FAIL",
+    "reason": "duplicate, bad_question - Question '고등학교의 법적 근거는 무엇인가요?' asks for legal basis but answer provides a data table instead. Answer identical to q_1_0250/q_1_0251/q_1_0253."
+  },
+  {
+    "id": "q_1_0255",
+    "verdict": "FAIL",
+    "reason": "source_mismatch, raw_dump - For 교육정보 배치기준, answer states only '중학교 12학급 이상' but source clearly includes '고등학교 9학급 이상' as well. Answer is a raw table dump."
+  },
+  {
+    "id": "q_1_0256",
+    "verdict": "FAIL",
+    "reason": "bad_question, duplicate - Question asks '신청 자격이 있는 사람은 누구인가요?' (who can apply) but source does not address this; answer lists table data about school criteria instead. Answer identical to q_1_0255. Also missing 고등학교 9학급 이상 for 교육정보."
+  },
+  {
+    "id": "q_1_0257",
+    "verdict": "FAIL",
+    "reason": "duplicate, source_mismatch - Answer identical to q_1_0255/q_1_0256. Same omission of 고등학교 9학급 이상 for 교육정보 배치기준."
+  },
+  {
+    "id": "q_1_0260",
+    "verdict": "FAIL",
+    "reason": "duplicate, source_mismatch - Answer identical to q_1_0255/q_1_0256/q_1_0257. Same omission of 고등학교 9학급 이상 for 교육정보 배치기준."
+  }
+]

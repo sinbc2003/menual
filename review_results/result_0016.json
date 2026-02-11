@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_1_0262",
+    "verdict": "FAIL",
+    "reason": "bad_question, hallucination. Question '고등학교에서 가장 중요한 조건은 무엇인가요?' is vague and meaningless - source is about 보직교사 배치기준 table, not 'most important condition'. Answer header says '중학교' but source data is the 고등학교 table. Answer does not address the question asked."
+  },
+  {
+    "id": "q_1_0264",
+    "verdict": "FAIL",
+    "reason": "duplicate, bad_question. Nearly identical answer to q_1_0262 (same source text, same content). Question '고등학교의 세부 기준을 설명해주세요' is vague. Answer incorrectly labels content as '중학교' when source is the 고등학교 table."
+  },
+  {
+    "id": "q_1_0265",
+    "verdict": "FAIL",
+    "reason": "bad_question, raw_dump. Question asks '보직교사 임용이 중요한 이유는 무엇인가요?' (WHY is it important) but answer just lists regulations and table data without explaining why. Answer is a raw dump of source material that does not address the question."
+  },
+  {
+    "id": "q_1_0266",
+    "verdict": "FAIL",
+    "reason": "duplicate, bad_question, raw_dump. Answer is nearly identical to q_1_0265. Question is circular/nonsensical: '보직교사 임용 과정에서 보직교사가 어떻게 적용되나요?' Answer is a raw dump of source data."
+  },
+  {
+    "id": "q_1_0270",
+    "verdict": "FAIL",
+    "reason": "bad_question, raw_dump. Question asks '실무 적용 시 주의해야 할 점' (caution points in practical application) but answer just dumps regulation text without identifying actual caution points. Answer truncates the table data and provides no synthesis."
+  },
+  {
+    "id": "q_1_0275",
+    "verdict": "FAIL",
+    "reason": "hallucination. Answer fabricates an example: '교육정보화 관련 국외연수를 다녀온 교사라면 교육정보부장 등 연수 내용과 관련된 보직에 임명하는 것이 원칙입니다' - not in source. Also fabricates reasoning: '연수의 효과를 극대화하고 연수 투자의 성과를 학교 현장에 환원하기 위한 것입니다' - not in source page 20."
+  },
+  {
+    "id": "q_1_0276",
+    "verdict": "FAIL",
+    "reason": "hallucination. Answer includes 발령문구 예시 (임명: '보직교사(교무부장)에 임함', 해면: '보직교사를 면함', 보직변경: '보직교사(환경부장)에 임함') which are from page 21 (서식 Ⅰ-8), NOT from the cited source page 20. Source citation only references page 20."
+  },
+  {
+    "id": "q_1_0277",
+    "verdict": "PASS",
+    "reason": "Answer accurately lists all 5 직무요건 items and all 9 인적요건 items from page 20. Content matches source markdown. Question is clear and meaningful. Answer is well-structured with proper synthesis."
+  },
+  {
+    "id": "q_1_0278",
+    "verdict": "PASS",
+    "reason": "Answer correctly summarizes articles (3) and (4) from page 20 about 연수자 보직 and 자격증 관련 보직. No hallucination. Question is natural and meaningful. Answer is a proper synthesis."
+  },
+  {
+    "id": "q_1_0279",
+    "verdict": "FAIL",
+    "reason": "hallucination. Answer cites '경기도교육감 행정권한 위임에 관한 규칙 제7조제1호' which is from page 21-22 (서식 pages), NOT from cited source page 20. Answer includes '임명장 [별지 제20호 서식]' which is from page 22, not page 20. Multiple pieces of information not found in the cited source page."
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_1_0308",
+    "verdict": "FAIL",
+    "reason": "raw_dump: Answer dumps table field names/values from page 24 popup form without any synthesis, explanation, or context. Merely lists data items."
+  },
+  {
+    "id": "q_1_0309",
+    "verdict": "FAIL",
+    "reason": "duplicate, bad_question, raw_dump: Answer is identical to q_1_0308. Question asks about '유형' (types) of the popup which is nonsensical since there is only one popup type. Raw dump of table fields."
+  },
+  {
+    "id": "q_1_0312",
+    "verdict": "FAIL",
+    "reason": "duplicate, bad_question, raw_dump: Answer is identical to q_1_0308/q_1_0309. Question asks about '실무적으로 주의할 점' (practical cautions) but the actual cautions on page 24 (부장담임 발령 순서, 보직구분 확인) are NOT included. Instead dumps irrelevant table fields."
+  },
+  {
+    "id": "q_1_0314",
+    "verdict": "FAIL",
+    "reason": "raw_dump: Answer pastes source table data with minimal context. Truncated at 직급/중고등학교교사, missing the important procedural notes (부장담임 순서, 보직구분 확인) that follow on page 24."
+  },
+  {
+    "id": "q_1_0316",
+    "verdict": "FAIL",
+    "reason": "raw_dump: Despite including relevant procedural notes (부장담임 순서, 경력 근거 확인), the answer is still a raw paste of source text with only a generic intro. No synthesis, paraphrasing, or reorganization."
+  },
+  {
+    "id": "q_1_0317",
+    "verdict": "PASS",
+    "reason": "Good question about 부장담임 수당 처리. Answer is well-organized with clear sections (처리 순서, 확인 경로, 핵심 유의사항, 겸임교사 참고). All claims verified against pages 24-25. Proper synthesis."
+  },
+  {
+    "id": "q_1_0318",
+    "verdict": "FAIL",
+    "reason": "duplicate: Question '부장담임 수당은 어떻게 받나요?' covers the same topic as q_1_0317 '부장담임 수당 처리하려면 나이스에서 어떻게 해야 하나요?'. Answers cover the same content with nearly identical key points."
+  },
+  {
+    "id": "q_1_0319",
+    "verdict": "PASS",
+    "reason": "Well-focused question on 보직구분 설정 method when 겸직. Answer organized with clear sections, all claims verified against page 25 (menu path, 부장담임 선택, 수당 자동반영, 겸임교사 제한). Sufficiently distinct from q_1_0317."
+  },
+  {
+    "id": "q_1_0320",
+    "verdict": "FAIL",
+    "reason": "duplicate: Question about 보직구분 설정 주의사항 when 부장/담임 겸직 substantially overlaps with q_1_0319 on 보직구분 설정 방법. Both answers cover the same core content from page 25."
+  },
+  {
+    "id": "q_1_0321",
+    "verdict": "FAIL",
+    "reason": "hallucination: Answer states '겸임교사는 본인이 직접 설정할 수 없습니다' and '겸임 근무지 학교에서는 설정할 수 없습니다' but source (page 25) only says '원소속 학교에서만 할 수 있도록 되어있습니다'. Source discusses which school handles the setting, not whether the individual teacher can or cannot do it."
+  }
+]

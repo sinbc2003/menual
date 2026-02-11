@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_1_0280",
+    "verdict": "FAIL",
+    "reason": "hallucination. Answer adds '임용권자는 직위의 요건과 개인의 능력을 종합적으로 고려하여 가장 적합한 사람을 보직해야 합니다' - the concept '가장 적합한 사람' (most suitable person) is not in the source. Page 20 says to consider 직무요건 and 인적요건 but does not state 'most suitable person'."
+  },
+  {
+    "id": "q_1_0281",
+    "verdict": "FAIL",
+    "reason": "hallucination. Answer fabricates entire '보직의 목적' section (연수를 통해 습득한 전문성 활용, 교육 투자의 효율성 제고, 개인의 능력 발전 도모, 학교 교육력 향상) - none in source. Also fabricates '예시' section (정보화 연수 이수자 → 정보부장, 상담 연수 이수자 → 상담부장, 국외연수 이수자 → 국제교류) - none in page 20."
+  },
+  {
+    "id": "q_1_0282",
+    "verdict": "FAIL",
+    "reason": "hallucination. Massively fabricated content. '학급담임교사' as 보직교사 종류, '부장담임 (부장+담임 겸직)', entire '보직수당' section (나이스 보직구분 설정 시 급여에 보직수당 자동 반영), '주의사항' about 부장+담임 겸직 시 보직구분 선택 - none of this is on cited source page 20. Answer is far longer than source material warrants."
+  },
+  {
+    "id": "q_1_0283",
+    "verdict": "FAIL",
+    "reason": "bad_question, raw_dump. Question '교육공무원의 인적요건을 하려면 어떤 요건이 필요한가요?' is grammatically broken - '인적요건을 하려면' is nonsensical Korean. Answer is a raw dump of source text with no synthesis beyond adding bullet points."
+  },
+  {
+    "id": "q_1_0285",
+    "verdict": "FAIL",
+    "reason": "duplicate, raw_dump. Answer is virtually identical to q_1_0283 (same source text, same formatting, same content). Only the introductory sentence differs slightly. Raw dump of source material."
+  },
+  {
+    "id": "q_1_0286",
+    "verdict": "FAIL",
+    "reason": "duplicate, raw_dump. Answer is virtually identical to q_1_0283 and q_1_0285. Third entry with the same answer content from the same source. Raw dump of source material."
+  },
+  {
+    "id": "q_1_0287",
+    "verdict": "FAIL",
+    "reason": "duplicate, raw_dump. Answer is virtually identical to q_1_0283, q_1_0285, and q_1_0286. Fourth entry with the same answer content from the same source. Raw dump of source material."
+  },
+  {
+    "id": "q_1_0291",
+    "verdict": "FAIL",
+    "reason": "duplicate, bad_question. Answer is near-duplicate of q_1_0283/0285/0286/0287 cluster with same source. Question asks about '다른 규정과 어떤 관계가 있나요?' (relationship with other regulations) but answer does not address inter-regulation relationships at all. Also selectively omits items (① 종별, ⑦ 청렴도, ⑧ 건강) without explanation."
+  },
+  {
+    "id": "q_1_0292",
+    "verdict": "FAIL",
+    "reason": "duplicate, bad_question. Answer is near-duplicate of q_1_0291 and the q_1_0283 cluster. Question asks '가장 중요한 점은 무엇인가요?' (what is most important) but answer just dumps the same source content without identifying what is most important. Same source, same output pattern."
+  },
+  {
+    "id": "q_1_0294",
+    "verdict": "PASS",
+    "reason": "Answer accurately reflects page 23 content about 보직교사 나이스 발령처리 방법. Source text is a verified substring from the markdown. Question is natural and specific. Answer properly synthesizes the menu path and procedure steps without hallucination."
+  }
+]

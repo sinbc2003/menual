@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_1_0193",
+    "verdict": "PASS",
+    "reason": "Answer accurately reflects source from page 8 line 17 about 원로교사 근무학교 지정. Source.text is a valid substring. Question is specific and meaningful. Answer is a faithful restatement with minimal framing."
+  },
+  {
+    "id": "q_1_0194",
+    "verdict": "FAIL",
+    "reason": "raw_dump: Question asks about 임용일자 소급의 금지 only, but answer dumps 4 separate sections (아 임용일자 소급의 금지, 자 생활근거지 배치, 차 신원조사, 카 전력 조회) that are adjacent on the page but unrelated to the question topic."
+  },
+  {
+    "id": "q_1_0197",
+    "verdict": "FAIL",
+    "reason": "bad_question, duplicate, raw_dump: Question fabricates a relationship between 생활근거지 배치 and 전력 조회 that does not exist in the source (they are separate, unrelated sections on page 8). Answer is near-identical to q_1_0194. Also contains grammar error (배치과 should be 배치와)."
+  },
+  {
+    "id": "q_1_0200",
+    "verdict": "PASS",
+    "reason": "Answer accurately synthesizes content from page 9 lines 3 and 5 about 임명장/임용장 수여. Source.text is a valid substring. Question is natural. Answer is well-organized with a helpful table distinguishing 신규채용, 승진, and 전보 cases."
+  },
+  {
+    "id": "q_1_0201",
+    "verdict": "FAIL",
+    "reason": "hallucination, duplicate: Answer adds information not in the source: (1) '학교장이 교육청에 보고' interpretation, (2) '지체 없이 신속히 보고' and '인사기록 관리 목적' in 유의사항, (3) fabricated example '3월 1일 발령이면 3월 7일까지'. Also a near-duplicate of q_1_0205 in this same batch."
+  },
+  {
+    "id": "q_1_0202",
+    "verdict": "PASS",
+    "reason": "Answer accurately reflects pages 8-9 content about 임명장/임용장 수여. Correctly cites 제17조 from page 8 line 41. Source.text is a valid substring of page 9 line 3. Well-synthesized with clear structure covering 수여 대상, 수여자, 갈음 규정, and 직인 날인."
+  },
+  {
+    "id": "q_1_0203",
+    "verdict": "FAIL",
+    "reason": "hallucination: Answer mentions '임명장[별지 제20호 서식]' which does not appear in the source markdown (only 별지 제22호 서식 for 인사발령통지서 is mentioned). Also adds editorial commentary '행정 편의와 효율성을 위한 규정입니다' not found in source."
+  },
+  {
+    "id": "q_1_0204",
+    "verdict": "FAIL",
+    "reason": "hallucination: Answer adds multiple specific entities not in the source: '교육부장관이 임용권자인 경우: 교육부 직인', '교육감이 임용권자인 경우: 해당 시도교육청의 직인', '교육부 차관, 국립대학 총장 등 고위직 교육공무원'. The source only states the general rule about 임용권자 직인 and 국새 without specifying these entities."
+  },
+  {
+    "id": "q_1_0205",
+    "verdict": "FAIL",
+    "reason": "hallucination, duplicate: Answer adds specific entity interpretations not in source: '학교의 경우 학교장이, 교육지원청의 경우 교육장이 보고 의무자', '중등학교 교원의 경우 일반적으로 교육감에게 보고'. Source only says 소속기관의 장 and 임용권자 without specifying these. Also a near-duplicate of q_1_0201."
+  },
+  {
+    "id": "q_1_0209",
+    "verdict": "FAIL",
+    "reason": "hallucination: Answer adds content not in source: (1) descriptions of what each law provision covers (e.g., 국가공무원법 제33조 described as 결격사유 규정 - the source lists the law but not its content), (2) '사립특채 및 특별채용을 포함한 모든 신규채용교사에게 적용' assertion not in source, (3) '교원 채용 시 반드시 실시하여야 하는 필수 절차' characterization not in source."
+  }
+]
