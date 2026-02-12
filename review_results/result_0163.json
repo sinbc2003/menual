@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_4_0423",
+    "verdict": "PASS",
+    "reason": "Natural question about whether teachers can lecture at hagwons. Answer well-structured with legal basis (학원법 제3조), forbidden activities, and exception (검인정 교과서). Sources confirmed on pages 283 (lines 46-50) and 284 (line 15). No hallucination."
+  },
+  {
+    "id": "q_4_0425",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_4_0423. Nearly identical question ('교원이 사교육업체에서 강의할 수 있나요?' vs '교사가 학원에서 강의할 수 있나요?') covering the same topic with overlapping answer content from the same source page."
+  },
+  {
+    "id": "q_4_0426",
+    "verdict": "PASS",
+    "reason": "Natural question about who the 사교육업체 겸직 가이드라인 applies to. Source text confirmed on page 283 line 15. Answer covers 적용대상, 목적, 적용범위, 세부기준 -- all accurately from page 283 lines 13-19. No hallucination."
+  },
+  {
+    "id": "q_4_0427",
+    "verdict": "PASS",
+    "reason": "Natural question about scope of 사교육업체. Source text confirmed on page 283 line 36. Answer covers 범위, 학원 구분, 금지 업무, and inclusion of unregistered entities -- all accurately from page 283 lines 36-50. No hallucination."
+  },
+  {
+    "id": "q_4_0436",
+    "verdict": "FAIL",
+    "reason": "TEMPLATE_QUESTION: includes literal section marker '□ 국가공무원법령 규정에 따른 원칙' as a noun phrase. '어떤 경우에 □ 국가공무원법령 규정에 따른 원칙이 가능한가요?' is unnatural -- a regulatory principle cannot be 'possible'. Source text accurate but question is meaningless."
+  },
+  {
+    "id": "q_4_0444",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER: identical source text dump shared with q_4_0445, q_4_0446, q_4_0448, q_4_0451 (5 entries with same answer). Answer is a raw copy of page 283 lines 36-50. Question phrasing '사교육업체의 범위 및 업무에 해당하려면' treats a section title as a condition to fulfill."
+  },
+  {
+    "id": "q_4_0445",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_4_0444 and others. Also TEMPLATE_QUESTION: '사교육업체의 범위 및 업무를 하려면 어떤 요건이 필요한가요?' is nonsensical -- one cannot 'do' a scope-and-duties section heading."
+  },
+  {
+    "id": "q_4_0446",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_4_0444/q_4_0445/q_4_0448/q_4_0451. Identical answer text. Question itself is reasonable ('어떤 것들이 포함되나요?') but batch contains 5 copies of the same answer."
+  },
+  {
+    "id": "q_4_0448",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_4_0444/q_4_0445/q_4_0446/q_4_0451. Identical answer text. Question is reasonable but redundant within batch."
+  },
+  {
+    "id": "q_4_0451",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_4_0444 series. Also TEMPLATE_QUESTION: '어떤 경우에 학원의 설립·운영 및 과외교습에 관한 법률(이하 학원법)가 가능한가요?' is nonsensical -- a law cannot be 'possible'. Full legal citation used as noun phrase in template."
+  }
+]

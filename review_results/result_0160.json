@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_4_0370",
+    "verdict": "PASS",
+    "reason": "Good specific question about prohibited actions for apartment representative/reconstruction union officers. Source text verified on page 281. Answer accurately reflects source content without hallucination."
+  },
+  {
+    "id": "q_4_0371",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_4_0370 (identical source text and answer content). Generic template question ('실무적으로 주의할 점은 무엇인가요')."
+  },
+  {
+    "id": "q_4_0372",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_4_0370. Although the question ('어떤 절차를 밟아야 하나요') is specific, the answer dumps the entire source block instead of focusing on the procedure aspect."
+  },
+  {
+    "id": "q_4_0374",
+    "verdict": "FAIL",
+    "reason": "Question asks '몇 년까지 가능한가요' (how many years allowed) but source text contains no information about year/time limits. Misleading question not answerable from source. Answer does not address the question asked."
+  },
+  {
+    "id": "q_4_0375",
+    "verdict": "FAIL",
+    "reason": "Question asks '기간은 어떻게 계산하나요' (how is period calculated) but source contains no period calculation info. Duplicate answer with q_4_0374. Question topic not in source."
+  },
+  {
+    "id": "q_4_0378",
+    "verdict": "FAIL",
+    "reason": "Question asks '결과는 어떻게 처리되나요' (how are results processed) but source has no result-processing info. Duplicate answer with q_4_0374. Fabricated question topic."
+  },
+  {
+    "id": "q_4_0379",
+    "verdict": "FAIL",
+    "reason": "Question asks '경력평정에 어떻게 반영되나요' (career evaluation impact) but source text about childcare leave part-time work has no career evaluation content. Duplicate answer with q_4_0374. Fabricated question topic."
+  },
+  {
+    "id": "q_4_0381",
+    "verdict": "FAIL",
+    "reason": "Good question but duplicate answer with q_4_0374/q_4_0375/q_4_0378/q_4_0379 (all five entries share identical answer content about childcare leave and part-time work rules)."
+  },
+  {
+    "id": "q_4_0382",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_4_0370 (same source text and core answer content about apartment representative concurrent employment rules)."
+  },
+  {
+    "id": "q_4_0383",
+    "verdict": "FAIL",
+    "reason": "Question asks '최근에 어떻게 바뀌었나요' (recent regulatory changes) but source contains no information about recent changes. Answer does not address the question. Duplicate answer with q_4_0370."
+  }
+]

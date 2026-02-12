@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_4_0502",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer - identical to q_4_0497-q_4_0501 (sixth copy). Question asks about 기간과 횟수 (period and frequency) but answer contains no such information."
+  },
+  {
+    "id": "q_4_0515",
+    "verdict": "PASS",
+    "reason": "Answer accurately summarizes 학원과 관련 없는 기관 및 업체 rules: 범위, 업무, 겸직 가능 여부, 제한 사항. All content verified against page 285 source."
+  },
+  {
+    "id": "q_4_0517",
+    "verdict": "FAIL",
+    "reason": "Question asks about 행정 처리 담당자 (administrative processing person) but answer is duplicate of q_4_0515 about 범위/업무/겸직 가능 여부. Source has no info about 행정 처리 담당자. Answer does not address the question."
+  },
+  {
+    "id": "q_4_0524",
+    "verdict": "FAIL",
+    "reason": "Question uses raw section markers from source headings ('① 평생직업교육학원 과정에서 □ 겸직 허가 절차'). Not a natural question. Answer is a raw dump of source content."
+  },
+  {
+    "id": "q_4_0526",
+    "verdict": "FAIL",
+    "reason": "Question fabricated - asks about '교육청에서 자주 질의하는 내용' but source has no such FAQ context. Uses raw section marker ①. Answer is a content dump that does not address the fabricated question."
+  },
+  {
+    "id": "q_4_0528",
+    "verdict": "PASS",
+    "reason": "Answer correctly states 겸직허가 기간 최대 1년, 연장 신청 rules (종료일 1개월 이전), 소속기관 변경 시 재신청. Source text verified on page 286 line 7."
+  },
+  {
+    "id": "q_4_0529",
+    "verdict": "PASS",
+    "reason": "Answer accurately lists 징계 양정 기준 for 사교육업체 영리행위 by severity level (파면-해임 through 견책). All details verified against page 286 징계 양정 기준 table."
+  },
+  {
+    "id": "q_4_0530",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_4_0528 - same question topic (겸직허가 기간 최대), same source text, nearly identical answer content."
+  },
+  {
+    "id": "q_4_0531",
+    "verdict": "PASS",
+    "reason": "Answer covers 위반 시 조치 (겸직허가 취소, 재심사, 징계 의결 요구) and 징계 양정 기준. Source text verified on page 286. Distinct from q_4_0529 in focusing on 조치 process rather than just 징계 양정."
+  },
+  {
+    "id": "q_4_0543",
+    "verdict": "FAIL",
+    "reason": "Question uses raw section marker '라.' and has grammar error ('비위의 비위의 정도' - '비위의' repeated). Not a natural user question. Source text verified but question quality is unacceptable."
+  }
+]

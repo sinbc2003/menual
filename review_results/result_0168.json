@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_4_0544",
+    "verdict": "PASS",
+    "reason": "Source text verified on page 286 table. Answer correctly lists all four punishment levels (파면, 파면-해임, 강등-정직, 정직-감봉) matching the source."
+  },
+  {
+    "id": "q_4_0545",
+    "verdict": "PASS",
+    "reason": "Source text verified on page 286 table. Answer correctly lists punishment levels (파면-해임, 강등-정직, 감봉, 견책) matching the source."
+  },
+  {
+    "id": "q_4_0546",
+    "verdict": "PASS",
+    "reason": "Source text verified on page 286 table. Answer correctly lists punishment levels (파면-해임, 강등-정직, 감봉, 견책) matching the source."
+  },
+  {
+    "id": "q_4_0551",
+    "verdict": "FAIL",
+    "reason": "Answer hallucination. Source page 287 only has 준수사항 가(비밀누설금지) and 나(품위유지) but answer fabricates items 3-6 (정치적 중립, 직무능률저해금지, 초상권보호, 평가공정성유지) not present on the cited page."
+  },
+  {
+    "id": "q_4_0552",
+    "verdict": "FAIL",
+    "reason": "Answer hallucination. Page 287 only contains 준수사항 가 and 나, but answer adds items 다(정치적 중립), 라(직무능률저해), 마(초상권보호), 바(평가공정성) which are not on the cited source page."
+  },
+  {
+    "id": "q_4_0553",
+    "verdict": "PASS",
+    "reason": "Source text verified on page 287. Answer accurately reflects 가.목적, 나.적용대상, 다.적용범위, 라.적용세부기준 from the source."
+  },
+  {
+    "id": "q_4_0554",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer. Answer is identical to q_4_0553 (same source text, same answer content). Question merely rephrases q_4_0553."
+  },
+  {
+    "id": "q_4_0555",
+    "verdict": "FAIL",
+    "reason": "Question-source mismatch. Question asks about 경력평정(career evaluation) reflection, but source content is about internet personal media activity guidelines (지침의 목적 및 적용). 경력평정 is nowhere on page 287. Answer ignores the question and dumps source text."
+  },
+  {
+    "id": "q_4_0558",
+    "verdict": "FAIL",
+    "reason": "Question-source mismatch. Question asks about 양정 기준(disciplinary standards) but source content is 지침의 목적 및 적용 on page 287, which contains no 양정 기준. Answer ignores the question and dumps unrelated source text."
+  },
+  {
+    "id": "q_4_0561",
+    "verdict": "PASS",
+    "reason": "Source text verified on page 287 section 2. Answer correctly states the definition with all three elements and platform examples matching the source."
+  }
+]
