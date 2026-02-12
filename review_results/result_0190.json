@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_4_1042",
+    "verdict": "PASS",
+    "reason": "Question is meaningful. Source text matches page 310 definitions of 지각/조퇴/외출 exactly. Answer accurately reflects source. Mention of 승인권자 승인 is from page 311 (5) which is correct handbook content."
+  },
+  {
+    "id": "q_4_1045",
+    "verdict": "FAIL",
+    "reason": "Duplicate question of q_4_1042 in same batch. Both ask about 지각/조퇴/외출 차이 with near-identical wording ('차이가 무엇인가요' vs '차이가 뭔가요'). Source text is valid but redundant entry."
+  },
+  {
+    "id": "q_4_1046",
+    "verdict": "PASS",
+    "reason": "Question is meaningful and specific. Source text matches page 310 재직기간별 연가일수 table exactly. Answer accurately lists all 6 tiers (11/15/16/17/20/21일). Additional details about 연가가산 and 이월불가 are verified on page 310 (2)(3)."
+  },
+  {
+    "id": "q_4_1047",
+    "verdict": "FAIL",
+    "reason": "Duplicate question of q_4_1046 in same batch. Both ask about 재직기간별 연가일수 with near-identical intent. Same source, same core answer content."
+  },
+  {
+    "id": "q_4_1048",
+    "verdict": "FAIL",
+    "reason": "Duplicate question of q_4_1046 and q_4_1047 in same batch. Third entry asking 재직기간별 연가일수. Same page 310 source, same answer content."
+  },
+  {
+    "id": "q_4_1049",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_4_1042 (지각/조퇴/외출 정의). Also contains hallucinated commentary ('지각·조퇴·외출은 근무기강과 관련되므로 최소화해야 합니다' not in source) and typo in table ('이름' should be '이른' for 조퇴 퇴근시간)."
+  },
+  {
+    "id": "q_4_1050",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_4_1042/q_4_1049 (지각/조퇴/외출 정의). Source citation incomplete (only cites 지각 definition, omits 조퇴/외출). Answer contains extensive content about 근무상황부 관리 and 결근 처리 not found on page 310 - likely hallucinated or from uncited pages."
+  },
+  {
+    "id": "q_4_1054",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_4_1046/q_4_1047/q_4_1048. Fourth entry asking about 재직기간별 연가일수 in same batch. Same source page 310."
+  },
+  {
+    "id": "q_4_1055",
+    "verdict": "PASS",
+    "reason": "Distinct question about 연가가산 specifically. Source text matches page 310 (2) exactly. Answer accurately states conditions (결근/휴직/정직/강등/직위해제 없음, 병가 1일 미만, 연가 3일 미만) and result (각 1일, 합계 2일). No hallucination."
+  },
+  {
+    "id": "q_4_1056",
+    "verdict": "PASS",
+    "reason": "Distinct question about 육아휴직 재직기간 산입. Source text matches page 310 나)(1) exactly. Answer correctly identifies 육아휴직, 법령의무수행, 공무상질병/부상 휴직 are included. No hallucination."
+  }
+]

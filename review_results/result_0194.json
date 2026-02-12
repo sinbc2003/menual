@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_4_1102",
+    "verdict": "PASS",
+    "reason": "Source text verified on page 311. Answer accurately lists 9 수업일 연가 승인 사유 matching the markdown. Question is meaningful and focused."
+  },
+  {
+    "id": "q_4_1103",
+    "verdict": "PASS",
+    "reason": "Source text verified on page 311 (다음 재직기간 연가 사용 section). Answer accurately covers eligibility, table of max days by 재직기간, procedure, and caveats. Core content is correct."
+  },
+  {
+    "id": "q_4_1104",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_4_1102. Both ask about 수업일 연가 사용 가능 경우 and list the same 9 reasons from page 311. Nearly identical answer content."
+  },
+  {
+    "id": "q_4_1106",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_4_1102 and q_4_1104. Same topic (수업일 중 연가 승인 사유) with the same 9 reasons. More verbose but redundant."
+  },
+  {
+    "id": "q_4_1107",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_4_1103. Both ask about 다음 재직기간 연가 미리 사용. Answer is more verbose but covers the same content. Also includes uncited page 312 content (사례 about 교육공무원 A)."
+  },
+  {
+    "id": "q_4_1115",
+    "verdict": "FAIL",
+    "reason": "Question asks specifically about procedure for illness/injury family care (case 3), but answer dumps all 9 cases plus procedural info without focusing on the asked case. Raw source text dump, not a targeted answer."
+  },
+  {
+    "id": "q_4_1116",
+    "verdict": "FAIL",
+    "reason": "Question asks about 자격 요건 (eligibility requirements) but answer only shows the max days table. Omits actual eligibility conditions from source text (연가 일수 없는 경우, 잔여 연가 초과, 휴직/퇴직예정자 제외)."
+  },
+  {
+    "id": "q_4_1117",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_4_1116. Identical answer content (same table only). Both ask about conditions/requirements for 다음 재직기간 연가 사용 and give the same incomplete answer."
+  },
+  {
+    "id": "q_4_1118",
+    "verdict": "FAIL",
+    "reason": "Question asks about 처리 기한 (processing deadline/timeframe) which does not exist in the source material. Answer shows the 재직기간별 최대 연가 일수 table which is unrelated to processing deadlines."
+  },
+  {
+    "id": "q_4_1127",
+    "verdict": "FAIL",
+    "reason": "Answer is a raw dump of source text with no synthesis or summarization. Also duplicate content with q_4_1103 and q_4_1107 (same 다음 재직기간 연가 사용 topic from page 311)."
+  }
+]

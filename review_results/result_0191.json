@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_4_1057",
+    "verdict": "PASS",
+    "reason": "Question is meaningful. Source text matches page 310 재직기간별 연가일수 table exactly. Answer accurately lists all 6 tiers. No duplicates within this batch."
+  },
+  {
+    "id": "q_4_1058",
+    "verdict": "PASS",
+    "reason": "Distinct and practical question about 전보 시 휴가기록 인계. Source text matches page 310 마) exactly. Answer accurately describes: 전년도/당해연도 휴가기록 포함 복무관리상황 즉시 통보, 교육정보시스템 전자 대체 가능. No hallucination."
+  },
+  {
+    "id": "q_4_1059",
+    "verdict": "PASS",
+    "reason": "Question asks about 휴가실시 유의할 점 which is the actual section title on page 310. Source text matches page 310 라)/마) exactly. Answer faithfully reproduces the key points without hallucination."
+  },
+  {
+    "id": "q_4_1061",
+    "verdict": "FAIL",
+    "reason": "Question asks about '기간과 횟수' (period and frequency) but source/answer contain only 지각/조퇴/외출 definitions and 전보시 통보 - no 기간/횟수 information. Also duplicate answer identical to q_4_1059. Question-answer mismatch."
+  },
+  {
+    "id": "q_4_1062",
+    "verdict": "FAIL",
+    "reason": "Nonsensical question: asks '대상자는 어떻게 선발하나요' (how are candidates selected) for 휴가실시 유의할 점 which has no selection process. Answer is identical to q_4_1059 - duplicate. Question-content mismatch."
+  },
+  {
+    "id": "q_4_1064",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer of q_4_1059. Answer text is character-for-character identical to q_4_1059, q_4_1061, q_4_1062. Four entries in same batch with identical answers."
+  },
+  {
+    "id": "q_4_1066",
+    "verdict": "FAIL",
+    "reason": "Garbled answer. Mixes 연가일수 table data with 근무상황부 기재 예시 table structure, producing nonsensical output like '종별: 연가 일수: 기간 또는 일시, 재직기간: 사유 또는 용무, 연가 일수: 연락처'. Table columns are confused and answer is unreadable."
+  },
+  {
+    "id": "q_4_1067",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_4_1066 with identical garbled answer. Same corrupted table-mixing output. Question asks about '자격' but answer is nonsensical."
+  },
+  {
+    "id": "q_4_1068",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_4_1066/q_4_1067 with identical garbled answer. Question asks about '횟수 제한' (frequency limits) which is not addressed at all. Triple duplicate with corrupted content."
+  },
+  {
+    "id": "q_4_1073",
+    "verdict": "PASS",
+    "reason": "Distinct question about 재직기간 calculation rules. Source text matches page 310 나)(1)(2) exactly. Answer accurately covers: 공무원연금법 기준, 휴직/정직/직위해제 미산입, 육아휴직/의무수행/공무상질병 산입 예외, 연가사용 직전일 기준 계산. No hallucination."
+  }
+]

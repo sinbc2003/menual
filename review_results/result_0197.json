@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_4_1159",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_4_1158 (batch 0196). Identical answer dumping full page 312 content with only a different intro sentence."
+  },
+  {
+    "id": "q_4_1160",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_4_1158/q_4_1159. Same full page 312 dump. Question about 연가일수의 공제 application in 다음 재직기간 연가 could be distinct but answer is identical."
+  },
+  {
+    "id": "q_4_1163",
+    "verdict": "FAIL",
+    "reason": "FABRICATED_CONTEXT. Question implies education offices frequently inquire about this topic, but no FAQ context exists in the source. Also DUPLICATE_ANSWER with q_4_1152 series."
+  },
+  {
+    "id": "q_4_1164",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_4_1158 series. Same full page 312 dump. Source title says 연가일수의 공제 but source.text covers 다음 재직기간 연가 사용 section instead."
+  },
+  {
+    "id": "q_4_1165",
+    "verdict": "PASS",
+    "reason": "Source verified on page 317. Answer content (180일, 요양승인 절차, 6일 이내 경미 질병, 소급 처리, 재차 승인 불가) all confirmed on page 317. Question is meaningful."
+  },
+  {
+    "id": "q_4_1166",
+    "verdict": "FAIL",
+    "reason": "HALLUCINATION. Answer includes '일반 병가: 연 60일 이내', '진단서 없이 연간 6일 이내 사용', '연가 가산 대상' which are NOT on cited page 317. Content sourced from other uncited pages."
+  },
+  {
+    "id": "q_4_1167",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE of q_4_1166 + HALLUCINATION. Same comparison question, same hallucinated details (60일, 연가 가산) not found on page 317."
+  },
+  {
+    "id": "q_4_1168",
+    "verdict": "FAIL",
+    "reason": "HALLUCINATION. Answer includes '일반 병가: 연 60일 이내' not found on cited page 317. Source.text only mentions 180일 만료 rule."
+  },
+  {
+    "id": "q_4_1169",
+    "verdict": "FAIL",
+    "reason": "QUESTION_ANSWER_MISMATCH. Question asks about '처리 기한' (processing deadline) but answer discusses approval criteria and conditions; no deadline information is provided."
+  },
+  {
+    "id": "q_4_1170",
+    "verdict": "PASS",
+    "reason": "Source text verified on page 317 (병가의 승인 section). Answer accurately covers approval process, 2년 휴직기간 rule, and 기관장 authority. Question is meaningful."
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_4_1144",
+    "verdict": "PASS",
+    "reason": "Source text verified on page 312 (연가일수의 공제 section). Answer accurately reflects (1) and (2) of the deduction rules. Question is meaningful."
+  },
+  {
+    "id": "q_4_1145",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_4_1144. Identical source text and nearly identical answer content; only the intro sentence differs."
+  },
+  {
+    "id": "q_4_1146",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_4_1144. Also question asks about '기간' (period/duration) but 연가일수의 공제 has no specific period; answer does not address duration."
+  },
+  {
+    "id": "q_4_1148",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_4_1144. Same source text and answer body; question asks about '유형' (types) but answer just restates the same two rules."
+  },
+  {
+    "id": "q_4_1151",
+    "verdict": "FAIL",
+    "reason": "BAD_QUESTION. Question starts with '호에 의한' which is a clipped fragment from source text ('제5호에 의한'). Not a meaningful standalone question. Also DUPLICATE_ANSWER with q_4_1144."
+  },
+  {
+    "id": "q_4_1152",
+    "verdict": "PASS",
+    "reason": "Source text verified on page 312 (다음 재직기간 연가 사용 section). Answer includes 사례 and 연가당겨쓰기 note also found on page 312. Question is meaningful."
+  },
+  {
+    "id": "q_4_1153",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_4_1152. Identical answer content and source; only the intro sentence and question wording differ."
+  },
+  {
+    "id": "q_4_1154",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_4_1152. Same answer body. Question asks about 학교장 authority but answer generically discusses 승인권자 without differentiating."
+  },
+  {
+    "id": "q_4_1155",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_4_1144. Same 연가일수의 공제 content with a slightly different intro."
+  },
+  {
+    "id": "q_4_1158",
+    "verdict": "PASS",
+    "reason": "Source text verified on page 312. Answer covers both 다음 재직기간 연가 사용 and 연가일수의 공제 sections from the page. Content is accurate."
+  }
+]

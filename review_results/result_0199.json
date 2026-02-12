@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_4_1191",
+    "verdict": "FAIL",
+    "reason": "Question is malformed - truncated mid-word: '직무수행' became '직무수는', making the question grammatically broken and incomprehensible."
+  },
+  {
+    "id": "q_4_1192",
+    "verdict": "PASS",
+    "reason": "Focused question about 공무상 질병·부상사실 여부 determination. Answer accurately addresses point (1) of the 공무상 병가 section. Source text verified against page 317 markdown."
+  },
+  {
+    "id": "q_4_1193",
+    "verdict": "FAIL",
+    "reason": "Question asks about the full structure (전체 구조) of 휴가종류별 실시방법, but answer only covers the 병가 portion from page 317. Misleading scope - presents one subsection as if it were the complete structure."
+  },
+  {
+    "id": "q_4_1195",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_4_1193. Same page 317 content dump covering 병가의 승인 and 공무상 병가제도 sections."
+  },
+  {
+    "id": "q_4_1198",
+    "verdict": "FAIL",
+    "reason": "Question asks about effect on teacher's career (교원의 경력에 미치는 영향), but source text contains nothing about career effects. Duplicate answer with q_4_1193/q_4_1195."
+  },
+  {
+    "id": "q_4_1199",
+    "verdict": "FAIL",
+    "reason": "Question asks about effect on teacher's career (교원의 경력에 미치는 영향), same unanswered topic as q_4_1198. Duplicate answer with q_4_1198."
+  },
+  {
+    "id": "q_4_1200",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_4_1193/q_4_1195/q_4_1198. Question about practical application (실제로 어떻게 적용) not specifically addressed - just dumps the rules text."
+  },
+  {
+    "id": "q_4_1201",
+    "verdict": "FAIL",
+    "reason": "Source text mismatch: source.text shows 3 examples totaling 29일, but actual page 318 has 4 examples totaling 41일 (missing ④ 12일). Answer also contains unverified claims (국가공무원 복무규정 제18조 not in source, 180일 figure from different page)."
+  },
+  {
+    "id": "q_4_1202",
+    "verdict": "PASS",
+    "reason": "Well-formed specific question about 30-day weekend inclusion rule. Answer accurately explains the rule with correct examples (4 items, total 41일) matching page 318. Source text verified."
+  },
+  {
+    "id": "q_4_1203",
+    "verdict": "PASS",
+    "reason": "Question asks for detailed explanation of sick leave cases. Answer comprehensively covers all 5 cases from page 318, all verified against source markdown. Accurate and well-structured."
+  }
+]
