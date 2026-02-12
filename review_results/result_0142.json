@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_4_0069",
+    "verdict": "FAIL",
+    "reason": "Answer core is correct per source (금품 요구만으로 징계 가능), but adds extensive hallucinated content: 적용 범위 (금품 제안받고 거절한 경우 보고 의무), 올바른 대응, 관련 근거 (부정청탁법 등) sections are all fabricated and not in source text."
+  },
+  {
+    "id": "q_4_0071",
+    "verdict": "FAIL",
+    "reason": "Answer core is correct per source (반환해도 청렴의무위반 성립), but adds extensive hallucinated content: 정상참작 (징계 양정 시 참작 가능), 올바른 대응, 관련 근거 sections are fabricated and not in source text."
+  },
+  {
+    "id": "q_4_0072",
+    "verdict": "FAIL",
+    "reason": "Meaningless template question: '복무일반을 하려면 어떻게 해야 하나요?' - 복무일반 is a regulatory category, not an action one performs. Answer is raw dump of entire page content."
+  },
+  {
+    "id": "q_4_0073",
+    "verdict": "FAIL",
+    "reason": "Meaningless template question: '복무일반 신청 방법' - cannot 'apply for' 복무일반. Duplicate answer with q_4_0072 (identical source text and nearly identical answer body)."
+  },
+  {
+    "id": "q_4_0074",
+    "verdict": "FAIL",
+    "reason": "Meaningless template question: '복무일반은 얼마나 인정되나요' - 복무일반 has no duration/amount concept. Duplicate answer with q_4_0072."
+  },
+  {
+    "id": "q_4_0075",
+    "verdict": "FAIL",
+    "reason": "Meaningless template question: '복무일반의 일수' - 복무일반 has no 'number of days' concept. Duplicate answer with q_4_0072."
+  },
+  {
+    "id": "q_4_0076",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_4_0072-q_4_0075 (same source.text, nearly identical answer dump). While question is marginally more meaningful, answer does not specifically address violation consequences."
+  },
+  {
+    "id": "q_4_0079",
+    "verdict": "FAIL",
+    "reason": "Question pastes source text as question ('공무원이 사직원을 제출하였더라도 사직원이 수리되어 면직되기 전에 무단결근한 경우' is directly from 사례2). Grammatically broken prefix '교사가 공무원이'. Duplicate answer with q_4_0072 group."
+  },
+  {
+    "id": "q_4_0081",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_4_0072 group (same source.text from page 260 직장이탈 금지). Answer is shortened but same content pattern as 5 other entries in this batch."
+  },
+  {
+    "id": "q_4_0085",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer - same page 260 content dump as q_4_0072 group. Answer does not specifically address 신분상 의무 criteria despite question asking about it; just repeats 직장이탈 금지 사례."
+  }
+]

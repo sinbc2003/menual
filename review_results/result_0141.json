@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_4_0056",
+    "verdict": "FAIL",
+    "reason": "Near-duplicate of q_4_0060 in same batch (both ask identical question about 비밀 엄수 의무 퇴직 후 적용). Also heavy padding: answer fabricates 위반 시 형사처벌, 민사상 손해배상, 중요성 sections not in source text."
+  },
+  {
+    "id": "q_4_0058",
+    "verdict": "PASS",
+    "reason": "Source text verified against 260쪽.md (직장이탈 금지 사례 1-3). Answer accurately covers all cases. No within-batch duplicate. Question is meaningful."
+  },
+  {
+    "id": "q_4_0059",
+    "verdict": "PASS",
+    "reason": "Source text verified against 260쪽.md (청렴의 의무 전문 + 사례 1, 사례 2). Answer correctly explains 금품 반환해도 의무위반, 금품 요구만으로도 징계, 직무무관 금품수수도 징계. No hallucination."
+  },
+  {
+    "id": "q_4_0060",
+    "verdict": "PASS",
+    "reason": "Source text verified against 260쪽.md (바) 비밀 엄수의 의무). Core answer is correct: 퇴직 후에도 적용. Some padding on 위반 시 처벌 but core content is accurate and sourced."
+  },
+  {
+    "id": "q_4_0061",
+    "verdict": "PASS",
+    "reason": "Source text verified against 260쪽.md (마) 종교 중립의 의무). Answer correctly covers 차별 금지 and 위배 명령 거부권. Both clauses match source exactly."
+  },
+  {
+    "id": "q_4_0062",
+    "verdict": "PASS",
+    "reason": "Source text verified against 260쪽.md (라) 친절/공정의 의무). Core answer correctly states the obligation. Padding on 적용 범위 and 위반 시 not from source but core is accurate."
+  },
+  {
+    "id": "q_4_0064",
+    "verdict": "PASS",
+    "reason": "Source text verified against 260쪽.md (제58조 제2항). Answer correctly explains 수사기관 구속 시 소속 기관장 사전 통보 의무 and 현행범 예외. No hallucination in core content."
+  },
+  {
+    "id": "q_4_0066",
+    "verdict": "PASS",
+    "reason": "Source text verified against 260쪽.md (사례 2). Answer correctly explains 사직원 수리 전 출근의무. No within-batch duplicate on this specific topic."
+  },
+  {
+    "id": "q_4_0067",
+    "verdict": "PASS",
+    "reason": "Source text verified against 260쪽.md (사례 4). Answer accurately explains 직위해제 시 출근의무 유지, 자택대기 가능성. Unique topic within this batch."
+  },
+  {
+    "id": "q_4_0068",
+    "verdict": "PASS",
+    "reason": "Source text verified against 260쪽.md (청렴의 의무 사례 2). Answer correctly explains 직무무관 금품수수도 징계사유. Different angle from q_4_0059 (반환 vs 직무무관)."
+  }
+]

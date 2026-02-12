@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_4_0144",
+    "verdict": "FAIL",
+    "reason": "Question asks about 횟수 제한 (frequency limits) which is not in the source at all. Answer is the same raw dump as q_4_0140-0143, does not address frequency limits."
+  },
+  {
+    "id": "q_4_0148",
+    "verdict": "FAIL",
+    "reason": "Question asks about 일수 (number of days) for vacation work, which the source does not cover. Answer dumps the 방학 중의 근무 section without addressing the specific question about days."
+  },
+  {
+    "id": "q_4_0149",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_4_0148. Question asks about 기간 (duration) not covered in source. Answer is nearly identical to q_4_0148, same raw dump of 방학 중의 근무 section."
+  },
+  {
+    "id": "q_4_0151",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_4_0148 and q_4_0149. All three share identical answer content from the same source section on 방학 중의 근무."
+  },
+  {
+    "id": "q_4_0153",
+    "verdict": "FAIL",
+    "reason": "Nonsensical question: '교육공무원법은 몇 년까지 가능한가요?' makes no meaningful sense. Answer about 방학 중의 근무 does not address the question at all. Complete question-answer mismatch."
+  },
+  {
+    "id": "q_4_0155",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer - same verbatim raw dump of entire 대학원 수강 section as q_4_0140-0144. While the question about consequences is somewhat valid, the identical generic dump does not specifically address it."
+  },
+  {
+    "id": "q_4_0156",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer - identical to q_4_0140-0144 and q_4_0155. Same raw dump of page 263 대학원 수강 section. No differentiation from other entries despite different question phrasing."
+  },
+  {
+    "id": "q_4_0157",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer - identical to q_4_0140-0144, q_4_0155-0156. Question about relationship with other regulations gets the same generic dump as all other 대학원 entries."
+  },
+  {
+    "id": "q_4_0161",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer content. Source.text includes raw markdown headers (## 복무일반, ### 마.) copied from the MD file. Answer combines 대학원 and 방학 sections but is still a generic dump."
+  },
+  {
+    "id": "q_4_0162",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_4_0161 - nearly identical answer combining both sections. Source.text includes markdown headers. No meaningful differentiation from q_4_0161."
+  }
+]

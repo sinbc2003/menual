@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_4_0177",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_4_0178 in same batch: both produce identical answers presenting the same 기관별 복무 보고(관리) table from page 264. Only opening sentence differs."
+  },
+  {
+    "id": "q_4_0178",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_4_0177 in same batch: identical answer content (same 4-row table from page 264)."
+  },
+  {
+    "id": "q_4_0179",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_4_0180 in same batch: both produce identical 가/나/다 source dumps from page 264 about 41조 연수. Question asks about '서류 제출 기한' but answer does not specifically address document submission deadlines beyond the general 3일 전 NEIS 공람 신청."
+  },
+  {
+    "id": "q_4_0180",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_4_0179; also QUESTION_TOPIC_MISMATCH: question asks about '학교 행정실에서 처리하는 업무' (administrative office duties) but source text is about 학교장 (principal) 연수 procedures. The answer does not address administrative office-specific tasks."
+  },
+  {
+    "id": "q_4_0182",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_4_0184/0185/0186 in same batch: all four entries produce nearly identical answers dumping the full page 264 content (41조 연수 + 비상시 복무관리 + 기관별 복무 보고)."
+  },
+  {
+    "id": "q_4_0184",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_4_0182/0185/0186: identical answer content. Question '복무일반의 구체적인 적용 기준과 범위' is overly broad and the answer is a generic page dump rather than a targeted response."
+  },
+  {
+    "id": "q_4_0185",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_4_0182/0184/0186: identical answer content. Same page 264 full dump despite differently worded question."
+  },
+  {
+    "id": "q_4_0186",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_4_0182/0184/0185: identical answer content. Question asks about '기관별 복무 보고(관리)' but answer is primarily about 41조 연수 with 기관별 복무 보고 only mentioned briefly at the end."
+  },
+  {
+    "id": "q_4_0187",
+    "verdict": "PASS",
+    "reason": "Answer accurately reflects page 265 content on 학교장 근무상황 나이스 처리 (공람자 지정방법, 직근 상급기관 승인신청, 공람 대상 항목, 담당 공람자 지정 by school type). Source texts verified against 265쪽.md. Minor unsourced claim about 공람자 미지정 시 기재 누락 is a reasonable inference from the source emphasis on not omitting 공람자."
+  },
+  {
+    "id": "q_4_0188",
+    "verdict": "PASS",
+    "reason": "Answer correctly states 공무국외출장 deadlines from page 265 table: 30일 이전 for individual/small group, 40일 이전 for 10+ person groups. Procedure steps (허가 신청 -> NEIS 처리 -> 보고서 제출 -> 시스템 탑재) match source. Question is specific and meaningful."
+  }
+]

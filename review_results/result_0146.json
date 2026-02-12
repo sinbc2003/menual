@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_4_0133",
+    "verdict": "PASS",
+    "reason": "Good question about vacation attendance obligation. Answer correctly synthesizes sources from pages 262 (휴업일 복무) and 263 (방학 중 근무). Source texts verified against markdown files."
+  },
+  {
+    "id": "q_4_0134",
+    "verdict": "PASS",
+    "reason": "Meaningful question about grad school during work hours. Answer covers conditions, night/seasonal programs, overtime pay, and leave limits all supported by page 263 source."
+  },
+  {
+    "id": "q_4_0136",
+    "verdict": "PASS",
+    "reason": "Distinct question specifically about daytime grad school. Concise, well-structured answer. Source text verified on page 263."
+  },
+  {
+    "id": "q_4_0137",
+    "verdict": "PASS",
+    "reason": "Specific focused question about overtime pay eligibility during grad school. Answer correctly cites the 사례 ruling (교원07000-426). Source text verified on page 263."
+  },
+  {
+    "id": "q_4_0138",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_4_0133. Both ask essentially the same question (방학 중 출근 의무) with near-identical meaning; q_4_0138 just adds 교원 to the phrasing."
+  },
+  {
+    "id": "q_4_0139",
+    "verdict": "FAIL",
+    "reason": "Answer contains hallucinated details not on cited page 263: 공람자 지정 recipients (초등교육지원과, 중등교육지원과) are not found on page 263 or adjacent page 264. Source text is too brief to support the full answer."
+  },
+  {
+    "id": "q_4_0140",
+    "verdict": "FAIL",
+    "reason": "Answer is a raw dump of the entire page 263 대학원 수강 section. Question asks about 자격 요건 but source has no specific qualification requirements. Duplicate answer with q_4_0141, q_4_0142, q_4_0143."
+  },
+  {
+    "id": "q_4_0141",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer - identical content to q_4_0140, q_4_0142, q_4_0143. All four entries share the same verbatim raw dump of the page 263 대학원 수강 section regardless of question."
+  },
+  {
+    "id": "q_4_0142",
+    "verdict": "FAIL",
+    "reason": "Question asks about 신청 방법 (application method) which is not covered in the source. Answer is identical raw dump as q_4_0140/0141/0143, does not address the specific question."
+  },
+  {
+    "id": "q_4_0143",
+    "verdict": "FAIL",
+    "reason": "Question asks about 필요한 서류 (required documents) which is not covered anywhere on page 263. Answer is identical raw dump as q_4_0140/0141/0142, does not address documents at all."
+  }
+]

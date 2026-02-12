@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_4_0086",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with batch_0142 entries (q_4_0072-q_4_0085). Same page 260 직장이탈 금지 content dump. Does not specifically address how 신분상 의무 applies in 교원 인사 업무."
+  },
+  {
+    "id": "q_4_0087",
+    "verdict": "PASS",
+    "reason": "Good specific question about 교원 근무시간. Source text from page 261 verified (09:00~17:00, 점심시간 포함). Answer accurately reflects source content including 탄력적 근무시간제."
+  },
+  {
+    "id": "q_4_0088",
+    "verdict": "PASS",
+    "reason": "Good specific question about 품위손상 행위 types. Source text from page 261 verified (품위 definition, 유형 list). Answer accurately matches source: 도박, 강절도, 사기, 폭행, 성폭행, 성희롱, 음주운전, 마약류 등."
+  },
+  {
+    "id": "q_4_0089",
+    "verdict": "FAIL",
+    "reason": "Near-duplicate of q_4_0087 within same batch. Question '교원의 근무시간은 어떻게 되나요?' is essentially identical to q_4_0087 '교원 근무시간이 어떻게 되나요?'. Same topic, same source page, overlapping answer content."
+  },
+  {
+    "id": "q_4_0090",
+    "verdict": "FAIL",
+    "reason": "Answer lists 5 신분상 의무 (선서, 품위유지, 정치운동금지, 집단행위금지, 겸직금지) but source.text only cites 품위유지의 의무(제63조) from page 261. 선서(제55조) is from page 260 not cited. Answer significantly exceeds cited source."
+  },
+  {
+    "id": "q_4_0091",
+    "verdict": "FAIL",
+    "reason": "Meaningless template question: '복무일반을 분류하면 어떻게 되나요?' - awkward/unnatural phrasing for asking about regulatory categories. Answer is raw dump of source text."
+  },
+  {
+    "id": "q_4_0092",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_4_0091: question '복무일반의 구분' is semantically identical to '복무일반을 분류하면'. Same source.text and nearly identical answer."
+  },
+  {
+    "id": "q_4_0093",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_4_0091/q_4_0092: same source.text and identical answer body. Question about '예외 사항' is not specifically answered despite source containing one exception (사실상 노무에 종사하는 공무원)."
+  },
+  {
+    "id": "q_4_0097",
+    "verdict": "PASS",
+    "reason": "Good question about 일반적 관리. Source text from page 261 verified (공휴일 근무, 출장, 탄력적 근무시간제). Answer accurately reflects page content including 적용대상, 근무시간 총량, 개인별 조정 불가 등."
+  },
+  {
+    "id": "q_4_0098",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_4_0097: same source.text, nearly identical answer. Question asks for '정의' (definition) but source does not provide a definition of 일반적 관리, just lists its components."
+  }
+]
