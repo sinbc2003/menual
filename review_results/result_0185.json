@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_4_0965",
+    "verdict": "PASS",
+    "reason": "Meaningful question about 교원 휴가 종류. Answer correctly identifies 4 types (연가, 병가, 공가, 특별휴가) from page 308. Additional context about 실시원칙 and 적용대상 is verified on page 308. No hallucination."
+  },
+  {
+    "id": "q_4_0966",
+    "verdict": "PASS",
+    "reason": "Practical question about 방학 중 해외여행. Answer accurately covers 공무외 국외여행 requirements from page 308 including 휴가일수 범위, 교육공무원법 제41조 연수 exception. Source text verified."
+  },
+  {
+    "id": "q_4_0967",
+    "verdict": "FAIL",
+    "reason": "Duplicate question with q_4_0965 - '교원의 휴가 종류는 어떤 것들이 있나요?' vs '교원의 휴가 종류에는 어떤 것들이 있나요?' are semantically identical. Same source page 308, same core content."
+  },
+  {
+    "id": "q_4_0968",
+    "verdict": "FAIL",
+    "reason": "Duplicate question with q_4_0966 - '교원이 휴업일(방학)에 해외여행을 가려면' vs '교원이 방학 중에 해외여행을 가려면' are semantically identical. Despite additional NEIS detail from page 266, core Q&A is a duplicate."
+  },
+  {
+    "id": "q_4_0969",
+    "verdict": "PASS",
+    "reason": "Distinct topic (교육공무원법 제41조 연수). Answer accurately covers definition, approval process, types from pages 308 and 265. Source texts verified against markdown. NEIS example from page 266 is accurate though uncited."
+  },
+  {
+    "id": "q_4_0972",
+    "verdict": "FAIL",
+    "reason": "Duplicate question (3rd instance of 교원 휴가 종류). Answer contains unsupported details - specific day counts (연가 11~21일, 병가 60일, 공무상병가 180일) are NOT on cited source page 308. Hallucination beyond source."
+  },
+  {
+    "id": "q_4_0973",
+    "verdict": "FAIL",
+    "reason": "Duplicate question (4th instance of 교원 휴가 구분). Extensive hallucination - answer includes detailed day counts, 공휴일/토요일 산입 rules, 승인권자 info etc. that are NOT on cited source page 308. Source only says '연가·병가·공가·특별휴가로 구분함'."
+  },
+  {
+    "id": "q_4_0975",
+    "verdict": "FAIL",
+    "reason": "Question uses source formatting marker '◦' and asks about '기간과 횟수' (period and frequency) but answer does not address specific period/frequency limits. Answer is raw source text dump from page 308."
+  },
+  {
+    "id": "q_4_0976",
+    "verdict": "FAIL",
+    "reason": "Duplicate with q_4_0975 - same source page 308, nearly identical answer about 공무외 국외여행. Question uses source formatting marker '◦'. Answer is raw source dump."
+  },
+  {
+    "id": "q_4_0979",
+    "verdict": "FAIL",
+    "reason": "Question asks about '보수' (salary/pay) during overseas travel but answer contains zero information about 보수. Answer is raw dump of 공무외 국외여행 general rules from page 308 which do not address compensation. Question-answer mismatch."
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_4_1011",
+    "verdict": "PASS",
+    "reason": "Question is reasonable (asks how leave day calculation works). Answer accurately reflects source.text from page 309 section 3 (휴가일수의 계산). Source text verified against 309쪽.md lines 19-29. No hallucination."
+  },
+  {
+    "id": "q_4_1015",
+    "verdict": "FAIL",
+    "reason": "Question asks about court cases/examples (판례나 사례) which do not exist in the source text. Answer ignores the question and just dumps the same regulation content. Duplicate answer of q_4_1011."
+  },
+  {
+    "id": "q_4_1017",
+    "verdict": "FAIL",
+    "reason": "Nonsensical question: asks about '신청 방법' (application method) for precautions (유의할 점), but precautions are not something you apply for. Answer ignores the question framing and just dumps the precaution content."
+  },
+  {
+    "id": "q_4_1018",
+    "verdict": "FAIL",
+    "reason": "Question asks about required documents (필요한 서류) but the source text about leave precautions mentions no documents. Answer ignores the question and dumps same content as q_4_1017. Duplicate answer within batch."
+  },
+  {
+    "id": "q_4_1021",
+    "verdict": "FAIL",
+    "reason": "Question asks about salary increase (승급) during leave which is completely unrelated to the source text about leave precautions. Answer ignores the question entirely. Duplicate answer of q_4_1017 and q_4_1018."
+  },
+  {
+    "id": "q_4_1024",
+    "verdict": "FAIL",
+    "reason": "Question asks about relationship with other regulations (다른 규정과 어떤 관계) but neither the source text nor the answer addresses this. Answer just dumps the approval procedure content without addressing the relational aspect."
+  },
+  {
+    "id": "q_4_1025",
+    "verdict": "FAIL",
+    "reason": "Question asks about impact on teacher status (교원의 신분에 미치는 영향) which is not covered in the source text. Answer ignores the question and gives the same approval procedure content. Duplicate answer of q_4_1024."
+  },
+  {
+    "id": "q_4_1027",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer within batch. Answer content is nearly identical to q_4_1011 (same source.text, same core answer about 휴가일수의 계산). Only the intro sentence differs."
+  },
+  {
+    "id": "q_4_1028",
+    "verdict": "FAIL",
+    "reason": "Question asks what new teachers (신규 교사) should know, but the answer provides no new-teacher-specific information. Duplicate answer of q_4_1011 and q_4_1027."
+  },
+  {
+    "id": "q_4_1029",
+    "verdict": "FAIL",
+    "reason": "Question asks about recent regulation changes (최근에 어떻게 바뀌었나요) but the source text contains no change history. Answer ignores the question and dumps current rules. Duplicate answer of q_4_1011."
+  }
+]

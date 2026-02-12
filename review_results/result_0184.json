@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_4_0877",
+    "verdict": "FAIL",
+    "reason": "Grammar error in question: '외부강의과' should be '외부강의와' (외부강의 ends without batchim, requires 와 not 과). Question is also overly broad ('모든 규정을 정리해주세요') but only covers one subsection."
+  },
+  {
+    "id": "q_4_0880",
+    "verdict": "FAIL",
+    "reason": "Grammar error in answer: '신고과 외부강의등의' should be '신고와' (신고 ends without batchim, requires 와 not 과). Duplicate answer with q_4_0877 - nearly identical content from same source page 294."
+  },
+  {
+    "id": "q_4_0881",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_4_0877 and q_4_0880 - same source page 294 content about 외부강의등의 초과사례금 수수 제한, slightly trimmed but substantively identical."
+  },
+  {
+    "id": "q_4_0882",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer (4th entry from same page 294 with near-identical content). Question asks about '자주 질의하는 내용' (FAQ) but source contains no FAQ content - answer just dumps regulation text."
+  },
+  {
+    "id": "q_4_0957",
+    "verdict": "FAIL",
+    "reason": "Question is raw source text dump from a checklist table cell. Source is a single checklist row with 예/아니오 options (form content). Answer just restates the checklist item - not a meaningful Q&A pair."
+  },
+  {
+    "id": "q_4_0958",
+    "verdict": "FAIL",
+    "reason": "Form/checklist content - answer dumps 예/아니오 checklist items from page 307. Question asks 'why is it important' but answer never addresses importance, just lists checklist items."
+  },
+  {
+    "id": "q_4_0960",
+    "verdict": "FAIL",
+    "reason": "Grammar error in answer: '준수사항 검토과 겸직허가' should be '검토와' (검토 ends without batchim, requires 와 not 과). Duplicate answer with q_4_0958. Form/checklist content."
+  },
+  {
+    "id": "q_4_0961",
+    "verdict": "FAIL",
+    "reason": "Grammar error in answer: '검토과 ○ 타인의' should be '검토와'. Question incorrectly conflates section 2 (준수사항 검토/초상권) with section 3 (겸직허가 요건 검토) as if they are related. Duplicate answer."
+  },
+  {
+    "id": "q_4_0962",
+    "verdict": "FAIL",
+    "reason": "Form/checklist content - answer contains raw table formatting artifacts ('| 예 | 아니오 |') mixed into text. Page 307 is entirely a checklist; answer dumps checklist items rather than providing substantive guidance."
+  },
+  {
+    "id": "q_4_0964",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_4_0962 - identical content from page 307 checklist. Form/checklist content with 예/아니오 table artifacts in answer text."
+  }
+]

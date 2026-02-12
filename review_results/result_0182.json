@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_4_0834",
+    "verdict": "PASS",
+    "reason": "Good question about 사례금 상한액. Answer accurately covers 100만원 (교원), 40만원/60만원 (교육청 공무원), included/excluded items, and 소속변경 rule. All details verified against page 294 markdown."
+  },
+  {
+    "id": "q_4_0835",
+    "verdict": "PASS",
+    "reason": "Good question about handling excess honorarium. Answer correctly states 2일 이내 신고, 반환 의무, 증명자료 첨부. Well-structured answer distinct from template entries. Source text matches page 294 line 11."
+  },
+  {
+    "id": "q_4_0836",
+    "verdict": "PASS",
+    "reason": "Good question about monthly frequency limit. Answer correctly states 월 3회/6시간, 승인 requirement, and exclusions for 국가/지자체 requests and 겸직허가. Source text verified on page 294."
+  },
+  {
+    "id": "q_4_0837",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER: Answer is identical to q_4_0838, q_4_0839, q_4_0841, q_4_0843 in this batch. All five entries share the same template-style source text dump. Question is also poorly phrased (제한을 하려면 implies user action on a regulatory provision)."
+  },
+  {
+    "id": "q_4_0838",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER: Answer is identical to q_4_0837, q_4_0839, q_4_0841, q_4_0843. Question asks about 과정 (process) but this is a prohibition rule, not a process. Template answer does not differentiate."
+  },
+  {
+    "id": "q_4_0839",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER: Answer is identical to q_4_0837, q_4_0838, q_4_0841, q_4_0843. Despite the question asking specifically about 금지되는 행위, the template answer is not tailored to this angle."
+  },
+  {
+    "id": "q_4_0841",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER: Answer is identical to q_4_0837, q_4_0838, q_4_0839, q_4_0843. Also substantially overlaps with q_4_0835 which covers the same topic with a better answer."
+  },
+  {
+    "id": "q_4_0843",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER: Answer is identical to q_4_0837, q_4_0838, q_4_0839, q_4_0841. Question specifically asks about the meaning of the 2일 criterion but the answer does not focus on or explain it; just dumps full source text."
+  },
+  {
+    "id": "q_4_0852",
+    "verdict": "PASS",
+    "reason": "Source text matches page 294 lines 24-28. Answer accurately presents 외부강의등의 제한 content including 직무수행 저해 판단 시 제한, 월 3회/6시간 승인, and exclusions. No duplicates within this batch for this source segment."
+  },
+  {
+    "id": "q_4_0853",
+    "verdict": "FAIL",
+    "reason": "QUESTION_ANSWER_MISMATCH: Question asks about 필요한 서류 (required documents) for 외부강의등의 제한, but the source text and answer contain zero information about documents. Answer just dumps the restriction rules without addressing the actual question."
+  }
+]

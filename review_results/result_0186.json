@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_4_0980",
+    "verdict": "PASS",
+    "reason": "Question is clear and specific. Answer accurately reflects source text from page 308 (공무외의 국외여행 section). Source text verified against markdown. No hallucination."
+  },
+  {
+    "id": "q_4_0983",
+    "verdict": "FAIL",
+    "reason": "Question asks how regulations recently changed (최근에 어떻게 바뀌었나요) but source contains no information about changes; answer just dumps same content as q_4_0980. Near-duplicate answer with q_4_0980."
+  },
+  {
+    "id": "q_4_0986",
+    "verdict": "FAIL",
+    "reason": "Question asks why 휴가제도의 운영 is important (중요한 이유) but source only contains regulatory provisions, not rationale. Answer dumps content without addressing the 'why' question. Template mismatch."
+  },
+  {
+    "id": "q_4_0987",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_4_0986. Both answers contain identical content (근거 list + 휴가제도의 운영 + 특례 적용 대상 + 관련 근거). Different questions but same verbatim answer."
+  },
+  {
+    "id": "q_4_0988",
+    "verdict": "FAIL",
+    "reason": "Question asks how 공무외의 국외여행 applies in the 특례 적용 대상 process, but the answer contains zero information about 공무외의 국외여행. Answer is duplicate of q_4_0986/q_4_0987 content. Source text also doesn't match the question topic."
+  },
+  {
+    "id": "q_4_0989",
+    "verdict": "FAIL",
+    "reason": "Question fabricates context (교육청에서 자주 질의하는 내용) not present in source. Source has no FAQ information. Answer is near-duplicate of q_4_0990."
+  },
+  {
+    "id": "q_4_0990",
+    "verdict": "FAIL",
+    "reason": "Near-duplicate answer with q_4_0989. Answer truncates 특례 적용 대상 details (omits the actual ①② provisions). Vague question with same dump-style answer."
+  },
+  {
+    "id": "q_4_0991",
+    "verdict": "FAIL",
+    "reason": "Question asks for administrative procedures for 공무외의 국외여행, but answer contains no 공무외의 국외여행 content at all. Source text used is the generic page 308 header (휴가 근거 + 휴가제도의 운영), not the 공무외의 국외여행 section. Wrong source grabbed."
+  },
+  {
+    "id": "q_4_0993",
+    "verdict": "PASS",
+    "reason": "Question is clear and practical. Answer correctly explains the 30-day rule for 토요일/공휴일 산입 from page 309. Source text verified against markdown line 24. No hallucination."
+  },
+  {
+    "id": "q_4_0994",
+    "verdict": "PASS",
+    "reason": "Question is clear. Answer correctly identifies 교육장 as the approval authority for 학교장 leave. Source text from page 309 line 16-17 verified. Minor contextual expansion (교육지원청) is reasonable."
+  }
+]

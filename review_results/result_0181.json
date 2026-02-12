@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_4_0794",
+    "verdict": "PASS",
+    "reason": "Source text matches page 293 section '나) 신고대상: 사례금을 받는 외부강의등' items (1)-(2). Answer faithfully explains reporting requirements and 10-day deadline. No hallucination."
+  },
+  {
+    "id": "q_4_0795",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_4_0794 with identical source and answer. Question asks about '신청 자격이 있는 사람' (eligibility) but answer only covers reporting requirements, not eligibility criteria. Question-answer mismatch."
+  },
+  {
+    "id": "q_4_0799",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_4_0794. Same source text and identical answer content. Third entry covering the same 신고대상 content."
+  },
+  {
+    "id": "q_4_0801",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_4_0794. Same source and identical answer. While the question about the 10-day deadline is more specific, the answer is verbatim the same as q_4_0794 with no additional focus on the deadline meaning."
+  },
+  {
+    "id": "q_4_0817",
+    "verdict": "FAIL",
+    "reason": "Question embeds raw section header symbol '■' from source markdown. Duplicate of q_4_0785 (batch 0180) with identical source text and answer content."
+  },
+  {
+    "id": "q_4_0827",
+    "verdict": "FAIL",
+    "reason": "Question contains raw markdown formatting ('#### 차'). Source text is a garbled concatenation of markdown headings, not actual content. Both question and answer are incoherent raw dumps of source structure."
+  },
+  {
+    "id": "q_4_0829",
+    "verdict": "FAIL",
+    "reason": "Question pastes two raw section titles verbatim including the document reference number '[경기도교육청 감사관-2971(2025. 2.18.)]'. Not a natural or meaningful question formulation."
+  },
+  {
+    "id": "q_4_0831",
+    "verdict": "PASS",
+    "reason": "Source text matches page 293 content. Question about 외부강의등의 범위 application is natural and meaningful. Answer faithfully covers the definition, exemptions, and reporting framework. No hallucination."
+  },
+  {
+    "id": "q_4_0832",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer of q_4_0831 with nearly identical content and same source text. Question misleadingly asks about '자주 질의하는 내용' (FAQ) but answer is just regulatory text, not FAQ content."
+  },
+  {
+    "id": "q_4_0833",
+    "verdict": "PASS",
+    "reason": "Source text from page 294 verified. Answer accurately presents 사례금 상한액 (100만원 for 교직원, 40만원/60만원 for 공무원), inclusion/exclusion rules, and caveats - all confirmed against 294쪽.md. Specific, well-formed question."
+  }
+]
