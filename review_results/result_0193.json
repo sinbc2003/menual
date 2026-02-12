@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_4_1092",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_4_1093, q_4_1094, q_4_1095 within batch (identical body content covering 휴가실시 유의점 and 연가일수 from page 310). Also duplicate with q_4_1090/q_4_1091 in batch 0192."
+  },
+  {
+    "id": "q_4_1093",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_4_1092, q_4_1094, q_4_1095 within batch (same page 310 content, only opening sentence differs)."
+  },
+  {
+    "id": "q_4_1094",
+    "verdict": "FAIL",
+    "reason": "Question fabricates '교육청에서 자주 질의하는 내용' angle which is not supported by source. Source only contains regulations, not FAQ data. Duplicate answer with q_4_1092, q_4_1093, q_4_1095."
+  },
+  {
+    "id": "q_4_1095",
+    "verdict": "FAIL",
+    "reason": "Question fabricates '흔히 발생하는 문제점' (common problems) angle which the source does not discuss. Answer just restates regulations without addressing problems. Duplicate answer with q_4_1092, q_4_1093, q_4_1094."
+  },
+  {
+    "id": "q_4_1096",
+    "verdict": "PASS",
+    "reason": "Good practical question about 수업일 중 연가. Answer accurately lists the 9 permitted reasons from 교원휴가에 관한 예규 제5조제1항 as found on page 311. Source text verified against 311쪽.md. No duplicate (first occurrence of this topic in batch)."
+  },
+  {
+    "id": "q_4_1097",
+    "verdict": "PASS",
+    "reason": "Good practical question about 반일연가. Answer accurately states 반일단위 승인 가능, 2회=1일, 근무상황부 기재 방법 matching page 311 line 25-26. Source text verified. No duplicate."
+  },
+  {
+    "id": "q_4_1098",
+    "verdict": "PASS",
+    "reason": "Good question about 다음 재직기간 연가 미리사용. Answer accurately covers conditions, 재직기간별 최대 일수 table, 제외 대상, 절차 from pages 311-312. Source text verified against 311쪽.md. First occurrence of this topic in batch."
+  },
+  {
+    "id": "q_4_1099",
+    "verdict": "FAIL",
+    "reason": "Duplicate question with q_4_1096: '수업일에 연가를 쓸 수 있나요?' is essentially identical to '수업일에도 연가를 쓸 수 있나요?' (only particle 도 difference). Answers cover same content from page 311."
+  },
+  {
+    "id": "q_4_1100",
+    "verdict": "PASS",
+    "reason": "Different question angle from q_4_1098 (need-based: '연가를 다 썼는데 더 필요하면'). Answer includes additional detail on 결근 처리 consequences and 사전 내부결재 requirements from page 312. Sources verified against 311쪽.md and 312쪽.md."
+  },
+  {
+    "id": "q_4_1101",
+    "verdict": "FAIL",
+    "reason": "Duplicate question with q_4_1098: '연가를 미리 당겨 쓸 수 있나요?' is essentially the same as '다음 해 연가를 미리 당겨 쓸 수 있나요?'. Answers have near-identical structure and content."
+  }
+]

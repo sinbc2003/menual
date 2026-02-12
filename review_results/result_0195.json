@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_4_1128",
+    "verdict": "FAIL",
+    "reason": "Question asks specifically about school admin office (행정실) duties, but answer is a generic dump of 다음 재직기간 연가 사용 source text from page 311 without addressing admin-specific roles."
+  },
+  {
+    "id": "q_4_1130",
+    "verdict": "PASS",
+    "reason": "Source text verified on page 311. Question asks for overview of 휴가종류별 실시방법 and answer accurately covers the 연가의 승인 section including 9 승인 사유. Content matches markdown."
+  },
+  {
+    "id": "q_4_1132",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_4_1130. Nearly identical answer about 휴가종류별 실시방법 and 연가의 승인 from the same page 311 source. Question is a minor rephrasing."
+  },
+  {
+    "id": "q_4_1133",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_4_1130 and q_4_1132. Same page 311 source, same answer listing the 9 교원휴가 예규 제5조제1항 cases. Redundant entry."
+  },
+  {
+    "id": "q_4_1134",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_4_1130/q_4_1132/q_4_1133. Same answer content about 휴가종류별 실시방법 from page 311. Fourth entry covering the same material."
+  },
+  {
+    "id": "q_4_1135",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_4_1130/q_4_1132/q_4_1133/q_4_1134. Same answer content from page 311. Fifth entry with identical material."
+  },
+  {
+    "id": "q_4_1137",
+    "verdict": "PASS",
+    "reason": "Source text verified on page 312 (마) 연가일수의 공제 section). Unique question about 휴직 시 연가일수 감소. Answer accurately explains calculation formula, 15일 기준, 반올림, and exceptions (법정의무수행 휴직, 공무상 질병/부상)."
+  },
+  {
+    "id": "q_4_1139",
+    "verdict": "FAIL",
+    "reason": "Question asks who is eligible (신청 자격이 있는 사람) but answer dumps the approval process details from page 312 section (2) without directly answering eligibility. Actual eligibility criteria are on page 311, not cited."
+  },
+  {
+    "id": "q_4_1140",
+    "verdict": "FAIL",
+    "reason": "Question asks about required documents (필요한 서류) which are not mentioned in the source material. Answer dumps page 312 approval process content without listing any specific documents."
+  },
+  {
+    "id": "q_4_1141",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_4_1139/q_4_1140 (same answer content from page 312). Question about period/frequency not directly answered. Also a question-answer mismatch."
+  }
+]

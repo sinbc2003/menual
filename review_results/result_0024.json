@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_1_0401",
+    "verdict": "FAIL",
+    "reason": "raw_dump: Answer begins with irrelevant 원로교사 content then dumps source text verbatim. No proper synthesis of what the 교장·원장임기제실시업무처리지침 means in practice."
+  },
+  {
+    "id": "q_1_0402",
+    "verdict": "FAIL",
+    "reason": "duplicate + raw_dump: Answer is virtually identical to q_1_0401 (same source text, same answer content). Also a raw dump with irrelevant 원로교사 content."
+  },
+  {
+    "id": "q_1_0403",
+    "verdict": "FAIL",
+    "reason": "source_mismatch + hallucination: Question asks about 1차 임기만료 교장에 대한 중임 절차 (page 27 lines 22-41: 인사위원회 심의, 결격사유 심의 etc.) but the source text grabbed the wrong section (원로교사 + 임기 표시방법, lines 3-20). Answer does not cover the actual 중임 절차 content at all. Also duplicate answer content with q_1_0401/q_1_0402."
+  },
+  {
+    "id": "q_1_0404",
+    "verdict": "PASS",
+    "reason": "Good quality. Natural question about 도서·벽지 3년 근무 후 전보. Well-synthesized answer drawing from two sources (pages 28-29). Accurately explains the 3-year rule, 본인 희망 원칙, and 장기근무 provision."
+  },
+  {
+    "id": "q_1_0406",
+    "verdict": "FAIL",
+    "reason": "duplicate: Same topic as q_1_0404 (도서벽지 근무 교원의 전보 기준). Answer also includes '우 이상' info from page 30 that is not cited in sources (source only cites page 28)."
+  },
+  {
+    "id": "q_1_0407",
+    "verdict": "FAIL",
+    "reason": "raw_dump: Answer includes meta-label '분류: 전보·전직 > 시·군간 전보 > 관련 규정' and then dumps source provisions (1)(2) verbatim. Does not synthesize what 인사교류 means in a user-friendly way."
+  },
+  {
+    "id": "q_1_0408",
+    "verdict": "FAIL",
+    "reason": "bad_question + duplicate: '인사교류의 일수' is nonsensical (인사교류 is not measured in days/일수). Answer is identical to q_1_0407 and does not address any '일수' concept."
+  },
+  {
+    "id": "q_1_0411",
+    "verdict": "FAIL",
+    "reason": "duplicate + answer_mismatch: Question asks about 인사교류 특례 (special provisions), but answer gives the same generic 인사교류 content as q_1_0407/q_1_0408. Actual 특례 content is on page 30 (전보의 특례, 동규정 제23조) but not referenced."
+  },
+  {
+    "id": "q_1_0422",
+    "verdict": "FAIL",
+    "reason": "raw_dump: Answer starts with long irrelevant section about 인사위원회 심의 for 원로교사 임용 before reaching the relevant 교장임기 중의 전보 content. Not properly synthesized; includes too much unrelated preceding context from the same page."
+  },
+  {
+    "id": "q_1_0427",
+    "verdict": "FAIL",
+    "reason": "duplicate: Answer content is nearly identical to q_1_0422. Same source text, same raw dump structure with irrelevant preceding content."
+  }
+]

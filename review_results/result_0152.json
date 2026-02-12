@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_4_0229",
+    "verdict": "FAIL",
+    "reason": "Question asks about legal basis (법적 근거) of 수업일 but source/answer only covers NAIS processing procedure steps; question-answer topic mismatch"
+  },
+  {
+    "id": "q_4_0231",
+    "verdict": "PASS",
+    "reason": "Reasonable question about 휴업일 processing; answer matches source text; source verified against page 266"
+  },
+  {
+    "id": "q_4_0232",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_4_0231 - same source text, nearly identical answer content about 휴업일 NAIS processing"
+  },
+  {
+    "id": "q_4_0233",
+    "verdict": "FAIL",
+    "reason": "Question asks about document submission deadline (서류 제출 기한) which does not exist in source; source only covers NAIS procedure steps; hallucinated question topic"
+  },
+  {
+    "id": "q_4_0234",
+    "verdict": "FAIL",
+    "reason": "Question asks about detailed criteria (세부 기준) of 수업일 but source/answer only covers NAIS processing steps; question-answer topic mismatch"
+  },
+  {
+    "id": "q_4_0237",
+    "verdict": "FAIL",
+    "reason": "Question asks why NAIS processing is important but answer just lists procedure without explaining importance; duplicate answer content with 휴업일 entries"
+  },
+  {
+    "id": "q_4_0239",
+    "verdict": "FAIL",
+    "reason": "Tautological question - asks how NAIS processing method is applied in NAIS processing method process; duplicate answer with q_4_0237"
+  },
+  {
+    "id": "q_4_0240",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_4_0237 and q_4_0231 group; same 휴업일 NAIS processing content repeated"
+  },
+  {
+    "id": "q_4_0243",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with multiple entries in batch; question about cautions (주의할 점) not specifically addressed in answer"
+  },
+  {
+    "id": "q_4_0245",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with multiple entries in batch (q_4_0231, q_4_0237, q_4_0243 etc.); same 휴업일 content repeated"
+  }
+]

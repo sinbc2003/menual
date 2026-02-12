@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_3_1005",
+    "verdict": "FAIL",
+    "reason": "Question asks about duration (몇 년까지 가능한가요) but answer describes leave reason qualifications, not duration. Q-A mismatch."
+  },
+  {
+    "id": "q_3_1006",
+    "verdict": "FAIL",
+    "reason": "Question asks when leave reasons do NOT apply, but answer just lists the leave reasons. Also duplicate answer with q_3_1005 (identical source.text and answer body)."
+  },
+  {
+    "id": "q_3_1010",
+    "verdict": "PASS",
+    "reason": "Question about leave requirement qualifications is properly answered with target/scope details. Source text verified on page 224 under 다. 휴직의 요건."
+  },
+  {
+    "id": "q_3_1011",
+    "verdict": "FAIL",
+    "reason": "Question asks when requirements do NOT apply, but answer just lists the requirements. Duplicate answer with q_3_1010."
+  },
+  {
+    "id": "q_3_1012",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_3_1010 and q_3_1011 (identical source.text and near-identical answer content). Question phrasing 휴직의 요건의 사유 is also awkward."
+  },
+  {
+    "id": "q_3_1013",
+    "verdict": "FAIL",
+    "reason": "Question asks about status/신분 during leave period, but answer lists eligibility requirements instead. Q-A mismatch. Also duplicate answer with q_3_1010-1012."
+  },
+  {
+    "id": "q_3_1015",
+    "verdict": "PASS",
+    "reason": "Question about leave period and frequency is answered with relevant 1년/3년 limits and procedures. Source text verified on page 224 under 라. 휴직기간 및 횟수."
+  },
+  {
+    "id": "q_3_1016",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_3_1015. Despite the more specific question about 학기단위 휴직 불가 case, the answer is a near-identical full dump of the same section."
+  },
+  {
+    "id": "q_3_1017",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_3_1005 and q_3_1006. Same source.text (휴직사유 from page 224) and effectively identical answer content."
+  },
+  {
+    "id": "q_3_1019",
+    "verdict": "FAIL",
+    "reason": "Question asks about relationship with other regulations, but answer just lists leave requirements without addressing inter-regulation relationships. Q-A mismatch. Also duplicate answer with q_3_1010."
+  }
+]

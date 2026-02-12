@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_1_0295",
+    "verdict": "FAIL",
+    "reason": "raw_dump: Answer copies source text nearly verbatim with only a thin intro line. No synthesis or reorganization of the NEIS procedure content from page 23."
+  },
+  {
+    "id": "q_1_0297",
+    "verdict": "FAIL",
+    "reason": "duplicate, raw_dump: Answer is effectively identical to q_1_0295 (same source page 23, same content). Question is a trivial rephrase. Also a raw dump without synthesis."
+  },
+  {
+    "id": "q_1_0298",
+    "verdict": "FAIL",
+    "reason": "duplicate, raw_dump: Answer is effectively identical to q_1_0295 and q_1_0297 (third duplicate from same page 23 source). Also a raw dump without synthesis."
+  },
+  {
+    "id": "q_1_0301",
+    "verdict": "FAIL",
+    "reason": "bad_question: Question asks about '흔히 발생하는 문제점' (common problems) but the source (page 23) only describes procedures. The source does not discuss problems. Answer dumps procedures without addressing the question."
+  },
+  {
+    "id": "q_1_0302",
+    "verdict": "FAIL",
+    "reason": "bad_question: Question asks about '임용권자의 역할' (role of appointing authority) but the source (page 23) does not mention 임용권자 at all. The source describes NEIS processing steps. Answer ignores the question and dumps unrelated procedure text."
+  },
+  {
+    "id": "q_1_0303",
+    "verdict": "PASS",
+    "reason": "Good question about handling combined 담임/부장 in NEIS. Answer synthesizes pages 24-25 accurately: 부장담임 발령 순서, 보직구분 확인, 수당 자동반영. All claims verified against source markdown."
+  },
+  {
+    "id": "q_1_0304",
+    "verdict": "PASS",
+    "reason": "Well-structured answer covering the full 부장담임 발령 process with clear sections. Content from pages 23-25 accurately represented and well-organized. Good synthesis."
+  },
+  {
+    "id": "q_1_0305",
+    "verdict": "FAIL",
+    "reason": "duplicate: Question '부장담임 교사 발령은 나이스에서 어떻게 처리하나요?' is essentially the same as q_1_0304 '부장담임은 어떻게 발령하나요?'. Answers are substantially identical in content and structure."
+  },
+  {
+    "id": "q_1_0306",
+    "verdict": "FAIL",
+    "reason": "raw_dump, bad_question: Question asks about '처리 절차' (processing procedure) but answer only lists table field names/values from the popup form without explaining any procedure. The actual procedure steps on page 24 are not addressed."
+  },
+  {
+    "id": "q_1_0307",
+    "verdict": "FAIL",
+    "reason": "duplicate, raw_dump: Answer is identical to q_1_0306 - same table field dump from page 24. Question is a trivial rephrase of q_1_0306."
+  }
+]

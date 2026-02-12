@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_1_0460",
+    "verdict": "PASS",
+    "reason": "Source texts verified as substrings of pages 30 and 33. Answer accurately synthesizes the 10-day record transfer rule and NEIS electronic transfer. Question is natural and meaningful."
+  },
+  {
+    "id": "q_1_0461",
+    "verdict": "FAIL",
+    "reason": "hallucination: Answer incorrectly states '비정기전보는 다음과 같은 경우에 해당해야 합니다' then lists 제17조 items. But 제17조 defines exceptions to transfer restrictions (제22조 전직·전보의 제한), NOT conditions for 비정기전보. The only condition for 비정기전보 is '교육상 전보가 불가피하다고 인정할 때'. The answer conflates two separate legal provisions."
+  },
+  {
+    "id": "q_1_0462",
+    "verdict": "PASS",
+    "reason": "Source text verified as substring of page 30 line 25. Answer accurately describes transfer timing for different positions. Question is natural and concise."
+  },
+  {
+    "id": "q_1_0463",
+    "verdict": "FAIL",
+    "reason": "hallucination: Answer labels 제17조 items as '전보가 제한되는 경우' but these are actually exceptions to the non-competitive district transfer restriction (제22조). The restriction itself is '생활근거지가 아닌 비경합지구에 전보할 수 없다'. Also splits source item 3 ('직무수행능력이 부족하거나 근무성적이 극히 불량한 자 또는 근무태도가 심히 불성실한 자') into two separate items, making 5 items from the source's 4."
+  },
+  {
+    "id": "q_1_0464",
+    "verdict": "PASS",
+    "reason": "Source texts verified on pages 30 and 33. Answer accurately covers the 전보 특례 provision and required documents for 부부교원. Good synthesis of two sources."
+  },
+  {
+    "id": "q_1_0465",
+    "verdict": "PASS",
+    "reason": "Source text verified as substring of page 30 line 29. Answer accurately lists all cases requiring 인사발령통지서 교부. Proper synthesis, not raw dump."
+  },
+  {
+    "id": "q_1_0466",
+    "verdict": "FAIL",
+    "reason": "duplicate, hallucination: Duplicate of q_1_0460 (same topic: 인사기록 이관 10일 이내). Also adds unsupported content about 재임용 시 procedure ('퇴직한 교육공무원을 재임용할 경우...') which is not on page 30 and not in the cited source."
+  },
+  {
+    "id": "q_1_0467",
+    "verdict": "FAIL",
+    "reason": "duplicate: Substantively identical to q_1_0462. Both ask about 교사 전보 시기 and give the same answer based on the same source text (3월 1일, 9월 1일 transfer timing)."
+  },
+  {
+    "id": "q_1_0468",
+    "verdict": "FAIL",
+    "reason": "duplicate, hallucination: Duplicate of q_1_0464 (both about 부부교원 전보 특례). Also adds unsupported content about '전보의 우대 (제14조)' including 국가유공자 증명서, 독립유공자 증명서, 5.18민주유공자 which are not in the cited page 30 source."
+  },
+  {
+    "id": "q_1_0471",
+    "verdict": "FAIL",
+    "reason": "duplicate: Duplicate of q_1_0460 and q_1_0466. All three entries cover the same topic (인사기록 이관 10일 이내) with the same source text from page 30."
+  }
+]

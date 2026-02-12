@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_1_1218",
+    "verdict": "FAIL",
+    "reason": "Question asks how to respond to public complaints (민원) about this form - topic not addressed in source at all. Answer dumps source content without addressing complaint handling. Also incomplete: only lists exclusion items 1-5, omitting 6-8."
+  },
+  {
+    "id": "q_1_1219",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer - identical to q_1_1218. Also incomplete: exclusion list truncated at item 5, omitting items 6-8 that exist in the source."
+  },
+  {
+    "id": "q_1_1221",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_1_1210 series from batch_0060 (same source section 7, same answer structure). Vague question about 특이사항/예외 규정 not specifically addressed by the answer."
+  },
+  {
+    "id": "q_1_1223",
+    "verdict": "FAIL",
+    "reason": "Question asks about recent regulatory changes (최근에 어떻게 바뀌었나요) but answer contains no information about changes or revisions. Just dumps current content. Question-answer mismatch."
+  },
+  {
+    "id": "q_1_1224",
+    "verdict": "FAIL",
+    "reason": "Raw dump pulling from multiple sections (4(3), 5, 6 on page 94). Exclusion list truncated at item 2, omitting items 3-8. Incomplete answer for a question requesting 모든 규정 (all regulations)."
+  },
+  {
+    "id": "q_1_1225",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer - identical to q_1_1224. Question asks how 심사서 applies within the 공적 요약서 process but answer does not explain their relationship. Question-answer mismatch."
+  },
+  {
+    "id": "q_1_1228",
+    "verdict": "PASS",
+    "reason": "Clear specific question about pre-period application. Answer accurately identifies 중병자 exception, 진단서(원본) requirement, verification by 교감/장학사 without separate signature. All verified against page 95 section 8."
+  },
+  {
+    "id": "q_1_1230",
+    "verdict": "PASS",
+    "reason": "Clear question about special procedure for seriously ill applicants. Answer accurately covers 진단서 원본 submission, verification by 교감 and 장학사 (별도 서명/날인 안 함), and difference from general applicants. All verified against page 95."
+  },
+  {
+    "id": "q_1_1231",
+    "verdict": "FAIL",
+    "reason": "Extreme hallucination and padding. Source only states 3 brief points about 중병자, but answer fabricates: specific 정기 신청 timelines (2월/8월), 진단서 내용 requirements (중증도, 치료기간), 발급기관 (종합병원), 중병의 범위 commentary, 악용 방지, 위조 방지 - none present in source page 95."
+  },
+  {
+    "id": "q_1_1232",
+    "verdict": "FAIL",
+    "reason": "Extreme padding with hallucinated details beyond source. Core 3 conditions for 사립학교 교장 are accurate, but fabricates: 재직 20년 이상 requirement (not on page 95), 형식적 조항만으로는 불충분, 관할청 인가, specific 진단서 content requirements. Source page 95 section 9 is much simpler than the bloated answer."
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_4_0854",
+    "verdict": "FAIL",
+    "reason": "QUESTION_ANSWER_MISMATCH + DUPLICATE_ANSWER: Question asks about 일수 (number of days), but source content discusses 월 3회/6시간 (monthly frequency/hours), not days. Answer does not address 일수. Answer is identical to q_4_0856, q_4_0859, q_4_0871 in this batch."
+  },
+  {
+    "id": "q_4_0856",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER: Answer is identical to q_4_0854, q_4_0859, q_4_0871 in this batch. Template dump of 외부강의등의 제한 source text without differentiation for the specific question."
+  },
+  {
+    "id": "q_4_0859",
+    "verdict": "FAIL",
+    "reason": "SOURCE_TEXT_AS_QUESTION + DUPLICATE_ANSWER: Question is a near-verbatim copy of source text with 어떻게 되나요 appended (만약 소속 기관의 장은 신고된 외부강의등이 공정한 직무수행을 저해할 수 있다고 판단하는 경우...). Not a natural user question. Answer identical to q_4_0854, q_4_0856, q_4_0871."
+  },
+  {
+    "id": "q_4_0860",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER: Answer is identical to q_4_0861, q_4_0863, q_4_0867, q_4_0874, q_4_0875 in this batch. Six entries with the same 기타 유의사항 template answer."
+  },
+  {
+    "id": "q_4_0861",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER + DUPLICATE_QUESTION: Answer is identical to q_4_0860, q_4_0863, q_4_0867, q_4_0874, q_4_0875. Question (기타 유의사항의 절차) is nearly identical to q_4_0860 (기타 유의사항의 처리 절차)."
+  },
+  {
+    "id": "q_4_0863",
+    "verdict": "FAIL",
+    "reason": "QUESTION_ANSWER_MISMATCH + DUPLICATE_ANSWER: Question asks about 횟수 제한 (frequency limits), but the 기타 유의사항 source covers 일괄신고 and 사례금 지연 issues, not frequency limits (those are in 외부강의등의 제한). Answer does not address the question. Identical to 5 other entries."
+  },
+  {
+    "id": "q_4_0867",
+    "verdict": "FAIL",
+    "reason": "QUESTION_ANSWER_MISMATCH + DUPLICATE_ANSWER: Question asks about 필요한 서류 (required documents) for 동일 교육과정 multiple lectures. Source and answer mention only that 일괄신고 is possible within 10일, with no information about specific documents. Identical to 5 other entries."
+  },
+  {
+    "id": "q_4_0871",
+    "verdict": "FAIL",
+    "reason": "QUESTION_ANSWER_MISMATCH + DUPLICATE_ANSWER: Question asks 규정이 최근에 어떻게 바뀌었나요 (how regulations recently changed), but source text and answer contain no information about regulatory changes. Answer just states current rules. Potentially misleading. Identical to q_4_0854, q_4_0856, q_4_0859."
+  },
+  {
+    "id": "q_4_0874",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER: Answer is identical to q_4_0860, q_4_0861, q_4_0863, q_4_0867, q_4_0875. Generic question with template source text dump. No unique value added."
+  },
+  {
+    "id": "q_4_0875",
+    "verdict": "FAIL",
+    "reason": "QUESTION_ANSWER_MISMATCH + DUPLICATE_ANSWER: Question asks about 민원 (civil complaint) handling, but source text and answer contain zero information about 민원 or complaint procedures. Answer just dumps 기타 유의사항 content about 일괄신고 and 공문 지연. Identical to 5 other entries."
+  }
+]

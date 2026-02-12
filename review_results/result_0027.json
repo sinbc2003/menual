@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_1_0473",
+    "verdict": "FAIL",
+    "reason": "hallucination: Core rule about 비경합지구 전보 제한 is correct, but answer is massively padded with fabricated content not on page 30: detailed definitions of 경합지구/비경합지구 (도시 지역, 농어촌 등), 생활근거지 definitions (확인 방법, 주민등록등본), 전보 순위 rules, 보호 취지 explanations. None of this supplementary content is in the cited source."
+  },
+  {
+    "id": "q_1_0474",
+    "verdict": "FAIL",
+    "reason": "hallucination: Core list of 인사발령통지서 교부 대상 is correct, but answer is massively padded with unsupported content: 처분사유설명서 details (별지 제23호 서식), 징계처분사유설명서 (별지 5호 서식), 불복 안내 (소청심사 절차), 교부 시기, 보관 instructions. None of this is on page 30."
+  },
+  {
+    "id": "q_1_0475",
+    "verdict": "FAIL",
+    "reason": "hallucination: Core 인사기록 이관 rule is correct, but answer is massively padded with fabricated content: detailed 이관 방법 (공문 발송, 등기우편, 인수증), 같은 임용권자 내 전보 rules (이관 불필요, 교육지원청 보관), 임용권자 변경 예시 (교사→교감, 경기→서울), extensive 주의사항. None of this is in the cited source on page 30."
+  },
+  {
+    "id": "q_1_0476",
+    "verdict": "FAIL",
+    "reason": "hallucination: Core 비정기전보 provision is correct, but answer is massively padded with fabricated content: detailed 사유 categories (징계 후 조치, 기타), 절차 steps (사유 발생, 대상자 선정, 전보 발령, 통보), 주의사항 (남용 금지, 본인 의견 청취, 형평성). None of this is on page 30."
+  },
+  {
+    "id": "q_1_0477",
+    "verdict": "FAIL",
+    "reason": "hallucination: Core 전보 특례 provision is correct, but answer is massively padded with fabricated content: detailed 경기도 사례 (70세 이상 노부모, 통근 거리 최소화), 가능한 특례 categories (근거리 배치, 동반 전보, 우선 배려), 신청 방법, 주의사항 (무조건 보장 아님, 전체 균형, 우선순위). These details are not in the cited source."
+  },
+  {
+    "id": "q_1_0478",
+    "verdict": "FAIL",
+    "reason": "duplicate: Substantively identical to q_1_0476 in the same batch. Both ask '비정기전보는 언제 할/실시할 수 있나요?' and cover the same 비정기전보 provision from the same source text on page 30."
+  },
+  {
+    "id": "q_1_0479",
+    "verdict": "PASS",
+    "reason": "Source text verified as substring of page 30 line 3. Answer accurately describes the 근무성적 '우' 이상 requirement for 장기근무. Question is natural and meaningful. Proper concise synthesis."
+  },
+  {
+    "id": "q_1_0480",
+    "verdict": "FAIL",
+    "reason": "duplicate: Substantively identical to q_1_0474 in the same batch. Both ask about 인사발령통지서 교부 and provide the same list of cases from the same source text on page 30."
+  },
+  {
+    "id": "q_1_0481",
+    "verdict": "FAIL",
+    "reason": "duplicate: Substantively identical to q_1_0475 in the same batch. Both ask about 인사기록 이관 timing and provide the same answer about the 10-day rule from the same source text on page 30."
+  },
+  {
+    "id": "q_1_0482",
+    "verdict": "FAIL",
+    "reason": "duplicate: Substantively identical to q_1_0477 in the same batch. Both ask about 전보 특례 대상 and cover the same 부부교원, 노부모, 특수교육대상자 content from the same source text on page 30."
+  }
+]

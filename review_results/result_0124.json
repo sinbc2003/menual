@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_3_0841",
+    "verdict": "FAIL",
+    "reason": "Hallucinated question premise: asks about '제외되는 경우' (cases excluded from leave period/extension rules) but source page 212 contains no discussion of exclusions. Answer is a raw dump of general rules that does not address exclusion cases."
+  },
+  {
+    "id": "q_3_0844",
+    "verdict": "FAIL",
+    "reason": "Hallucinated question premise: asks '최근에 어떻게 바뀌었나요' (how did regulations recently change) but source page 212 contains no information about recent changes. Answer dumps current rules without addressing any changes."
+  },
+  {
+    "id": "q_3_0846",
+    "verdict": "FAIL",
+    "reason": "Vague question ('가장 중요한 점') with raw dump answer. Answer does not identify any 'most important point' - just restates the same content as q_3_0841 and q_3_0844. Duplicate answer pattern."
+  },
+  {
+    "id": "q_3_0847",
+    "verdict": "FAIL",
+    "reason": "Vague question ('교원이 꼭 알아야 할 내용') spanning entire chapter section. Answer is a raw dump of page 212 content including section headers (근거, 휴직사유, 요건, 기간) without filtering or synthesizing for the question."
+  },
+  {
+    "id": "q_3_0849",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer: answer body is nearly identical to q_3_0847, covering the same page 212 content. Both questions target the same source with trivially different phrasing."
+  },
+  {
+    "id": "q_3_0851",
+    "verdict": "FAIL",
+    "reason": "Source mismatch: question asks about impact on teacher's career (경력) but answer contains no career-related info. Actual career impact data (경력평정, 호봉승급) is on page 214 section 자, not referenced. Answer dumps generic 질병휴직 basics from page 212."
+  },
+  {
+    "id": "q_3_0853",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer pattern: answer is near-identical raw dump of page 212 content seen in q_3_0847/q_3_0849/q_3_0851. While the question about 휴직사유 기준/범위 is somewhat valid, the answer does not focus on the specific criteria asked."
+  },
+  {
+    "id": "q_3_0854",
+    "verdict": "FAIL",
+    "reason": "Bad question: asks '어떤 과정을 거치나요' (what process does it go through) for 휴직신청서류, but the source content is a list of required documents, not a process. Question-answer mismatch."
+  },
+  {
+    "id": "q_3_0856",
+    "verdict": "FAIL",
+    "reason": "Nonsensical question: '의료법은 어떤 과정을 거치나요' asks what process the Medical Law goes through. 의료법 is a statute, not a procedure. Answer dumps 휴직신청서류 content that merely references 의료법. Keyword-to-question generation failure."
+  },
+  {
+    "id": "q_3_0857",
+    "verdict": "PASS",
+    "reason": "Specific question about 복직절차 처리 기한 with accurate answer. Content matches 213쪽 복직절차 section: 30일 이내 복귀신고, 휴직사유 소멸 시 신고, 질병 완쾌 시 증빙서류 제출. Key figure (30일) correctly highlighted."
+  }
+]

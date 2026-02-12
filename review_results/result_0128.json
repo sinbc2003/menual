@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_3_0916",
+    "verdict": "FAIL",
+    "reason": "Source mismatch: question asks about 휴직신청서류 (application documents) but answer/source content covers 휴직 횟수 and 육아 휴·복직 허가 from a different section of page 217. The actual 휴직신청서류 section (마.) is not referenced."
+  },
+  {
+    "id": "q_3_0918",
+    "verdict": "FAIL",
+    "reason": "Hallucination: answer fabricates that 육아휴직수당 is paid from 고용보험 (employment insurance) — public servant allowance comes from 공무원수당규정, not 고용보험. Also invents detailed salary examples, wrong calculation (claims 240만원 but then 160만원 상한), and unsourced claims about 매월 신청 and 복직 후 추가 지급."
+  },
+  {
+    "id": "q_3_0919",
+    "verdict": "FAIL",
+    "reason": "Hallucination: fabricates detailed date-based examples (2024.3.1 etc.), invents 출산휴가 기간 (90일/120일) not present in page 218 source, and adds unsourced procedural flow diagram. Core principle from source is correct but buried under fabricated details."
+  },
+  {
+    "id": "q_3_0920",
+    "verdict": "PASS",
+    "reason": "Answer accurately reflects 복직절차 content from page 218. All four numbered points (사유소멸 신고, 2년 이상 직무연수, 30일 이내 복귀, 연장 15일 전 신청) match the source markdown."
+  },
+  {
+    "id": "q_3_0921",
+    "verdict": "FAIL",
+    "reason": "Duplicate: answer is virtually identical to q_3_0920 — same four numbered points, same source text, only question wording differs slightly."
+  },
+  {
+    "id": "q_3_0922",
+    "verdict": "FAIL",
+    "reason": "Duplicate: answer is virtually identical to q_3_0920 and q_3_0921 — same four numbered points, same source text, same content."
+  },
+  {
+    "id": "q_3_0926",
+    "verdict": "PASS",
+    "reason": "Answer accurately covers 육아휴직수당 from page 218: general rate (6개월까지 월봉급액, 7개월 이후 80%), caps (250/200/160만원, 하한 70만원), and special case for both parents taking leave with escalating caps (250~450만원). All matches source."
+  },
+  {
+    "id": "q_3_0927",
+    "verdict": "FAIL",
+    "reason": "Duplicate: answer is virtually identical to q_3_0926 — same source, same content about 육아휴직수당 conditions and amounts."
+  },
+  {
+    "id": "q_3_0928",
+    "verdict": "FAIL",
+    "reason": "Duplicate: answer is virtually identical to q_3_0926 — same source, same 육아휴직수당 content despite different question framing about 기간과 횟수."
+  },
+  {
+    "id": "q_3_0929",
+    "verdict": "FAIL",
+    "reason": "Duplicate: answer is virtually identical to q_3_0926 — same source, same 육아휴직수당 content despite question framing about calculation method."
+  }
+]

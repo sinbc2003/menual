@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_3_0251",
+    "verdict": "FAIL",
+    "reason": "Nonsensical question: '직권면직과의 구별은 몇 년까지 가능한가요?' treats conceptual distinction as having a year limit. Duplicate answer identical to q_3_0248-0250."
+  },
+  {
+    "id": "q_3_0252",
+    "verdict": "FAIL",
+    "reason": "Question-answer mismatch: asks how 직권면직과의 구별 is reflected in 경력평정, but source page 128 does not discuss 경력평정 under 직권면직과의 구별 section. Answer dumps 직권면직 content without addressing 경력평정."
+  },
+  {
+    "id": "q_3_0256",
+    "verdict": "FAIL",
+    "reason": "Bad question: asks about 민원 handling for 정직과의 구별 but source page 128 contains no information about 민원 대응. Answer is raw dump of source text ignoring the question."
+  },
+  {
+    "id": "q_3_0258",
+    "verdict": "FAIL",
+    "reason": "Bad question: asks about '자주 혼동되는 부분' but source page 128 does not identify commonly confused areas. Answer is raw dump of source text without addressing the question."
+  },
+  {
+    "id": "q_3_0259",
+    "verdict": "PASS",
+    "reason": "Reasonable question requesting summary of key points about 직권면직과의 구별. Answer accurately presents 가) 신분 차이 and 나) 직권면직 definition with 6 grounds from page 128."
+  },
+  {
+    "id": "q_3_0261",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_3_0259 with identical answer. Question about '자주 혼동되는 부분' not addressed by source content."
+  },
+  {
+    "id": "q_3_0262",
+    "verdict": "FAIL",
+    "reason": "Bad question: mangled source fragment as question ('병역판정검사... 정당한 사유는 어떤 내용'). Source does not enumerate what constitutes 정당한 사유. Answer is a raw fragment dump."
+  },
+  {
+    "id": "q_3_0263",
+    "verdict": "PASS",
+    "reason": "Reasonable summary request about 정직과의 구별. Answer covers both 정직과의 구별 and 직권면직과의 구별 sections from page 128 accurately and comprehensively."
+  },
+  {
+    "id": "q_3_0266",
+    "verdict": "FAIL",
+    "reason": "Bad question: asks about 교육청 frequently asked questions, which is not content found on page 128. Answer is raw dump of source text without addressing the question."
+  },
+  {
+    "id": "q_3_0267",
+    "verdict": "FAIL",
+    "reason": "Bad question: asks about practical application (실제로 어떻게 적용) but source page 128 only provides legal/theoretical distinctions, not application examples. Answer is raw dump."
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_4_0189",
+    "verdict": "PASS",
+    "reason": "Question is meaningful and specific. Source text from pages 265/266 verified against markdown. Answer accurately covers NEIS processing for 학교장 근무상황 with table, examples, and notes that all trace back to source pages."
+  },
+  {
+    "id": "q_4_0190",
+    "verdict": "PASS",
+    "reason": "Question focuses on 휴가/연수 specifically. Source text from pages 265/267 verified. Answer is well-structured with accurate table and notes about 공람자 지정. Sufficiently distinct from q_4_0189 in focus and detail."
+  },
+  {
+    "id": "q_4_0191",
+    "verdict": "PASS",
+    "reason": "Specific question about 공무국외출장 deadline. Source text verified on page 265 line 26. Answer correctly states 30일/40일 deadlines and processing steps without hallucination."
+  },
+  {
+    "id": "q_4_0200",
+    "verdict": "FAIL",
+    "reason": "Broken question grammar: '신청 방법을 신청할 때' is nonsensical (you don't 'apply for an application method'). Answer dumps entire table without addressing the specific question about 유의사항 (precautions). Also beginning of a series of near-identical answers."
+  },
+  {
+    "id": "q_4_0201",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_4_0200. Identical source.text, virtually identical answer content. Generic question adds no differentiation."
+  },
+  {
+    "id": "q_4_0203",
+    "verdict": "FAIL",
+    "reason": "Question asks about 금지되는 사항 (prohibited matters) but answer is generic table dump with no mention of prohibitions. Source text contains no prohibition info. DUPLICATE_ANSWER with q_4_0200/0201."
+  },
+  {
+    "id": "q_4_0204",
+    "verdict": "FAIL",
+    "reason": "Question asks about 보수 (remuneration) which is not covered on page 265 at all. Answer ignores the question and dumps the same generic table. QUESTION_TOPIC_NOT_ON_PAGE + DUPLICATE_ANSWER."
+  },
+  {
+    "id": "q_4_0206",
+    "verdict": "FAIL",
+    "reason": "Question asks about 최근 변경사항 (recent changes) which cannot be answered from the source. Answer is same generic table dump with no discussion of changes. QUESTION_TOPIC_NOT_ON_PAGE + DUPLICATE_ANSWER."
+  },
+  {
+    "id": "q_4_0207",
+    "verdict": "FAIL",
+    "reason": "Nonsensical question: '교육공무원법을 신청할 때' - a law (법) cannot be 'applied for'. Answer is same generic table dump. GRAMMAR_ERROR + DUPLICATE_ANSWER."
+  },
+  {
+    "id": "q_4_0211",
+    "verdict": "FAIL",
+    "reason": "Question asks about '가장 중요한 점' but answer is garbled raw dump of table fragments with broken formatting (e.g. '- (연가, 반일연가...) | - 공람자...'). Does not address the specific question. DUPLICATE_ANSWER pattern."
+  }
+]

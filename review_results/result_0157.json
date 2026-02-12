@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_4_0327",
+    "verdict": "PASS",
+    "reason": "Source text matches page 275 (제4조 ①②③). Answer accurately covers 제4조 ①②③④. Question is reasonable. First 제4조 entry in this batch."
+  },
+  {
+    "id": "q_4_0328",
+    "verdict": "FAIL",
+    "reason": "Question asks about '참고 서식' (reference forms) which is not in the source. Answer ignores the question and dumps 제4조 content. Duplicate answer with q_4_0327."
+  },
+  {
+    "id": "q_4_0329",
+    "verdict": "FAIL",
+    "reason": "Question asks about '민원 대응' (civil complaint response) which is not in the source. Answer ignores the question and dumps 제4조 content. Duplicate answer with q_4_0327."
+  },
+  {
+    "id": "q_4_0330",
+    "verdict": "PASS",
+    "reason": "Source text matches page 275 (제5조 ①). Answer accurately reproduces the content. Question is reasonable. First 제5조 entry in this batch."
+  },
+  {
+    "id": "q_4_0332",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_4_0330 (identical 제5조 ① content). Question asks about '법적 근거' (legal basis) but answer just dumps the article text without addressing legal basis specifically."
+  },
+  {
+    "id": "q_4_0333",
+    "verdict": "FAIL",
+    "reason": "Question has typo: '사고가 발생한 경은' should be '사고가 발생한 경우는' (missing 우). Grammar error makes the question defective for QA dataset use."
+  },
+  {
+    "id": "q_4_0334",
+    "verdict": "PASS",
+    "reason": "Source text matches page 275 (full regulation header). Answer accurately covers 제1조~제4조①. Question is reasonable. First comprehensive overview in this batch."
+  },
+  {
+    "id": "q_4_0335",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_4_0334 (nearly identical 제1조~제4조① overview). Both questions produce the same comprehensive regulation dump."
+  },
+  {
+    "id": "q_4_0338",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer pattern with q_4_0334/q_4_0335 (제1조~제3조 overview). Question asks about 제4조 related laws but answer provides general regulation context without 제4조 substance."
+  },
+  {
+    "id": "q_4_0339",
+    "verdict": "FAIL",
+    "reason": "Question asks about '흔히 발생하는 문제점' (commonly occurring problems) which is not in the source at all. Answer ignores the question and dumps 제1조~제3조 regulation text. Duplicate answer pattern."
+  }
+]

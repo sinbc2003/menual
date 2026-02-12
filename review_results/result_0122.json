@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_3_0811",
+    "verdict": "FAIL",
+    "reason": "Vague question (generic '처리절차 흐름도'); answer is raw dump of p209 source with minimal reformatting"
+  },
+  {
+    "id": "q_3_0812",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer of q_3_0811; question asks '필수 확인 사항' but answer just dumps same flowchart content without identifying specific required items"
+  },
+  {
+    "id": "q_3_0813",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer of q_3_0811/q_3_0812; third entry from same page with nearly identical answer"
+  },
+  {
+    "id": "q_3_0816",
+    "verdict": "FAIL",
+    "reason": "Bad question: asks about 민원 대응 (complaint handling) not covered in source; answer is raw table dump with pipe formatting artifacts ('진단서 | 복직원')"
+  },
+  {
+    "id": "q_3_0817",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer of q_3_0816; question asks about 특이사항/예외 규정 but answer lists only standard document requirements without identifying any exceptions"
+  },
+  {
+    "id": "q_3_0819",
+    "verdict": "PASS",
+    "reason": "Specific question about 타교복직 conditions; answer accurately reflects p211 source including 1-year threshold and required documents; well-formatted"
+  },
+  {
+    "id": "q_3_0821",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer of q_3_0819; identical 타교복직 content with only question wording changed"
+  },
+  {
+    "id": "q_3_0822",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer of q_3_0819; identical content repeated"
+  },
+  {
+    "id": "q_3_0823",
+    "verdict": "FAIL",
+    "reason": "Bad question: asks about '일수' (number of days) which source does not address for this process; duplicate answer of q_3_0819"
+  },
+  {
+    "id": "q_3_0826",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer of q_3_0819; fifth entry with same 타교복직 answer content"
+  }
+]

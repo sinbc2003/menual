@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_3_0758",
+    "verdict": "PASS",
+    "reason": "Accurate 동반휴직 배우자 관련 서류 (인사명령서, 가족관계증명서, 출입국확인서 등). All items verified against page 165."
+  },
+  {
+    "id": "q_3_0760",
+    "verdict": "PASS",
+    "reason": "Complete and accurate 동반휴직 전체 제출서류 with correct 서식 numbers (Ⅲ-45~48). All items verified against page 165."
+  },
+  {
+    "id": "q_3_0761",
+    "verdict": "PASS",
+    "reason": "Accurate 자율연수휴직 제출서류 (서식 Ⅲ-49~54). 휴직/복직/연장 서류 all verified against page 165."
+  },
+  {
+    "id": "q_3_0762",
+    "verdict": "PASS",
+    "reason": "Accurate list of 8 연장 가능 휴직 유형 and 관련근거 (교육공무원 인사관리규정 제25조). Verified against page 165."
+  },
+  {
+    "id": "q_3_0803",
+    "verdict": "PASS",
+    "reason": "Flow chart content accurately reproduced from page 209. Process steps (신청->제출->검토->승인->통지/보고->등록) and 7일 이내 보고 요약 all correct."
+  },
+  {
+    "id": "q_3_0804",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_3_0803. Identical answer, near-identical question ('흐름도의 처리 절차가 궁금합니다' vs '흐름도는 어떤 과정을 거치나요')."
+  },
+  {
+    "id": "q_3_0806",
+    "verdict": "FAIL",
+    "reason": "Bad question: '흐름도의 요건' (requirements of flow chart) is nonsensical - a flow chart depicts a process, it does not have requirements. Duplicate answer with q_3_0803/0804."
+  },
+  {
+    "id": "q_3_0807",
+    "verdict": "FAIL",
+    "reason": "Answer is raw dump of entire flow chart instead of specifically answering who the 행정 처리 담당자 is. Duplicate answer pattern with q_3_0803/0804/0806."
+  },
+  {
+    "id": "q_3_0808",
+    "verdict": "FAIL",
+    "reason": "Question asks why Ⅰ 처리절차 is important but answer just dumps the procedure content. Source (page 209) does not discuss importance. Question-answer mismatch."
+  },
+  {
+    "id": "q_3_0810",
+    "verdict": "FAIL",
+    "reason": "Circular/tautological question: 'Ⅰ 처리절차 과정에서 처리절차가 어떻게 적용되나요' is redundant. Answer is identical to q_3_0808. Duplicate answer + bad question."
+  }
+]

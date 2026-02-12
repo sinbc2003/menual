@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_3_0440",
+    "verdict": "PASS",
+    "reason": "Question is specific about 복직절차. Answer accurately reproduces page 136 source content (가: 사유소멸 시 복직원 제출, 나: 30일 이내 복귀신고). All details verified against 136쪽.md lines 19-20."
+  },
+  {
+    "id": "q_3_0442",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer: identical answer text to q_3_0440 (same source, same page 136 복직절차 content). Question is just a slightly rephrased version of q_3_0440."
+  },
+  {
+    "id": "q_3_0450",
+    "verdict": "FAIL",
+    "reason": "Badly formed question containing raw source text fragments: '봉급: 50% 지급 - (2) 수당(「공무원수당 등은 어떤 내용인가요?' is not a natural question. This is a raw dump pasted into a question template."
+  },
+  {
+    "id": "q_3_0456",
+    "verdict": "PASS",
+    "reason": "Specific question about 유학휴직 연속 가능 여부. Answer correctly states 불가 and cites the condition (복직 후 휴직기간과 같은 기간 근무 후 신청가능). Verified against 137쪽.md line 24. Illustrative example is reasonable elaboration."
+  },
+  {
+    "id": "q_3_0457",
+    "verdict": "PASS",
+    "reason": "Question asks about 선정기준 conditions. Answer lists all 8 criteria (가-아) matching 137쪽.md lines 17-24 exactly. Factually accurate and complete."
+  },
+  {
+    "id": "q_3_0458",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer: identical content to q_3_0457 (same 선정기준 가-아 list). Also, '선정기준을 받을 수 있는 자격' is unnatural Korean phrasing - you do not 'receive' selection criteria."
+  },
+  {
+    "id": "q_3_0460",
+    "verdict": "FAIL",
+    "reason": "Question-answer mismatch: question asks about '처리 절차' (processing procedure) but answer lists selection criteria (가-아). The actual procedure is in '대상자 결정' section (137쪽.md line 28) which is not referenced in the answer."
+  },
+  {
+    "id": "q_3_0461",
+    "verdict": "FAIL",
+    "reason": "Question-answer mismatch: question asks about '일수' (number of days) related to 선정기준, but the source contains no day-count information. Answer ignores the question and dumps 선정기준 criteria instead."
+  },
+  {
+    "id": "q_3_0468",
+    "verdict": "PASS",
+    "reason": "Question asks for overall summary of 경기도 교원 국외 자비유학 선정 기준. Answer accurately covers document history, purpose, and selection criteria from 137쪽.md. Content verified against source."
+  },
+  {
+    "id": "q_3_0470",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer: nearly identical content to q_3_0468 (same page 137 overview dump). Also, '선정기준의 기준은 무엇인가요' is redundant phrasing (criteria of criteria)."
+  }
+]

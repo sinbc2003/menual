@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_4_1074",
+    "verdict": "FAIL",
+    "reason": "Question misleading: 재직기간 is not something you '신청' (apply for), it is automatically calculated. Duplicate answer with q_4_1075, q_4_1078, q_4_1080, q_4_1089 (identical body content)."
+  },
+  {
+    "id": "q_4_1075",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_4_1074 (identical body). Question also misleading: 재직기간 is not applied for, so '신청할 때 유의사항' is nonsensical."
+  },
+  {
+    "id": "q_4_1078",
+    "verdict": "FAIL",
+    "reason": "Nonsensical question: 재직기간 has no '횟수 제한' (frequency limit). Answer does not address the question. Duplicate answer with q_4_1074."
+  },
+  {
+    "id": "q_4_1080",
+    "verdict": "FAIL",
+    "reason": "Question is a raw source text fragment starting with '및', not a well-formed question. Answer does not address '절차' as asked. Duplicate answer with q_4_1074."
+  },
+  {
+    "id": "q_4_1081",
+    "verdict": "FAIL",
+    "reason": "Question asks about '학교 행정실에서 처리하는 업무' but source discusses 학교의 장 duties and 지각/조퇴/외출 definitions, not 행정실 업무. Duplicate answer with q_4_1082."
+  },
+  {
+    "id": "q_4_1082",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_4_1081 (identical body content). Question asks for '구체적인 적용 사례' but answer provides no examples, just definitions and rules."
+  },
+  {
+    "id": "q_4_1085",
+    "verdict": "PASS",
+    "reason": "Legitimate question about 연가일수. Answer accurately reflects source from page 310 (재직기간별 연가일수 table, 연가가산 conditions, calculation rules). Source text verified against 310쪽.md. No duplicate."
+  },
+  {
+    "id": "q_4_1089",
+    "verdict": "FAIL",
+    "reason": "Question asks '최근에 어떻게 바뀌었나요' (recent changes) but source text on page 310 does not discuss any regulatory changes or amendments. Answer just restates current rules without addressing the question. Duplicate answer with q_4_1074."
+  },
+  {
+    "id": "q_4_1090",
+    "verdict": "PASS",
+    "reason": "Legitimate overview question about 휴가제도의 운영. Answer accurately covers page 310 content: 지각/조퇴/외출 definitions, transfer notification duty, and 연가일수 introduction. Source text verified against 310쪽.md. No duplicate within batch (first occurrence)."
+  },
+  {
+    "id": "q_4_1091",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_4_1090 (same body content with only the opening sentence changed). Both use same source text from page 310."
+  }
+]

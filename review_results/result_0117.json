@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_3_0648",
+    "verdict": "FAIL",
+    "reason": "Misleading question: implies 동반휴직 is applied 'within' 가족돌봄휴직 but they are separate independent leave types (자. vs 차. on page 144). Duplicate answer content with q_3_0646."
+  },
+  {
+    "id": "q_3_0649",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer (identical content to q_3_0648). Same source text, same page, nearly identical answer covering 가족돌봄휴직 + 동반휴직 together."
+  },
+  {
+    "id": "q_3_0651",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer (same content as q_3_0648/0649). Question asks about '필수 확인 사항' (essential check items) for admin processing but answer is generic overview, not an admin checklist."
+  },
+  {
+    "id": "q_3_0655",
+    "verdict": "PASS",
+    "reason": "Specific question about 직무연수 requirement on 동반휴직 복직. Answer accurately reflects p145 source: 2년이상 휴직시 직무연수 필요, 30일내 복귀신고시 당연복직, 경력평정/호봉승급/보수 정보 all verified."
+  },
+  {
+    "id": "q_3_0656",
+    "verdict": "PASS",
+    "reason": "Specific question about 노조전임자휴직 인정 cases. Answer accurately covers 근거(제44조제1항제11호), 휴직사유, 대상, 기간(전임기간), 신청절차 all matching p145 source."
+  },
+  {
+    "id": "q_3_0657",
+    "verdict": "PASS",
+    "reason": "Specific question about early return from 노조전임자휴직. Answer accurately states: 원칙적 불가, exceptions (허가취소/임용권자 허가), 복직원 제출 절차 all matching p145 lines 48-49."
+  },
+  {
+    "id": "q_3_0658",
+    "verdict": "FAIL",
+    "reason": "Hallucination: source only says '6월 이상 휴직 시 별도정원에 의한 결원보충' but answer fabricates details not in source: 기간제교원 임용, 교육공무원임용령 reference, 임용기간 결정 방법 등."
+  },
+  {
+    "id": "q_3_0662",
+    "verdict": "FAIL",
+    "reason": "Bad question: tautological - '휴직기간 및 횟수에 관한 기간과 횟수를 알려주세요' asks about 'period and frequency of period and frequency.' Redundant/nonsensical phrasing."
+  },
+  {
+    "id": "q_3_0665",
+    "verdict": "FAIL",
+    "reason": "Grammar error: '횟수과' should be '횟수와' (batchim particle mismatch). Question topic '학교 행정실에서 처리하는 업무' not in source - source makes no mention of school admin office duties."
+  },
+  {
+    "id": "q_3_0667",
+    "verdict": "FAIL",
+    "reason": "Source mismatch: question asks about 노조전임자휴직 but answer's first half is 동반휴직 content (경력평정, 호봉승급, 보수, 결원보충). Source text starts with 동반휴직 section 6)-8) and only reaches 노조전임자휴직 at the very end."
+  }
+]

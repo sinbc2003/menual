@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_4_0310",
+    "verdict": "PASS",
+    "reason": "Source text matches page 275 (제4조 ①②③). Answer adds ④ which is also on page 275. Question is reasonable. No in-batch duplicate."
+  },
+  {
+    "id": "q_4_0311",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_4_0310 (identical 제4조 ①②③④ content). Question asks about '유형' (types) which is misleading - the article describes procedures, not types."
+  },
+  {
+    "id": "q_4_0313",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_4_0310 (identical 제4조 ①②③④ content). Question asks about '효력' (effect/validity) which the source does not address - answer just dumps regulation text."
+  },
+  {
+    "id": "q_4_0316",
+    "verdict": "PASS",
+    "reason": "Source text matches page 275 (제5조 ①). Answer accurately reproduces the content. Question is reasonable."
+  },
+  {
+    "id": "q_4_0317",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_4_0316 (identical 제5조 ① content). Question '분류하면 어떻게 되나요' is vague and not meaningfully distinct from q_4_0316."
+  },
+  {
+    "id": "q_4_0319",
+    "verdict": "FAIL",
+    "reason": "Question asks about '특례' (special exceptions) which is not in the source at all. Answer ignores the question and just dumps 제5조 ① text. Duplicate answer with q_4_0316."
+  },
+  {
+    "id": "q_4_0321",
+    "verdict": "FAIL",
+    "reason": "Question asks about '필요한 서류' (required documents) which is not in the source. Answer ignores the question and just dumps 제5조 ① text. Duplicate answer with q_4_0316."
+  },
+  {
+    "id": "q_4_0323",
+    "verdict": "FAIL",
+    "reason": "Question contains typo '제조기관장' (manufacturing director?) - should be '제5조(기관장과 부기관장 외의 직무대리)'. Also duplicate answer with q_4_0316."
+  },
+  {
+    "id": "q_4_0324",
+    "verdict": "PASS",
+    "reason": "Source text matches page 275 (제1조, 제2조). Answer accurately covers the regulation overview. Question is reasonable."
+  },
+  {
+    "id": "q_4_0326",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_4_0324 (identical 제1조/제2조 overview content). Question '전체적인 내용을 요약해주세요' produces the same answer as q_4_0324's '세부 기준을 설명해주세요'."
+  }
+]

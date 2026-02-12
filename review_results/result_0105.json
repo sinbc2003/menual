@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_3_0419",
+    "verdict": "FAIL",
+    "reason": "Question asks about 민원 대응 (handling civil complaints) regarding 휴직기간 및 횟수. Source does not cover complaint handling at all. Answer just dumps period/frequency rules without addressing the question."
+  },
+  {
+    "id": "q_3_0420",
+    "verdict": "PASS",
+    "reason": "Question asks for main points of 유학휴직 regulations. Answer provides accurate overview including 근거, 휴직사유, 휴직의 요건 from page 135 source. Content matches."
+  },
+  {
+    "id": "q_3_0422",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer identical to q_3_0420. Same source text, same answer content with only intro sentence changed."
+  },
+  {
+    "id": "q_3_0423",
+    "verdict": "FAIL",
+    "reason": "Question asks about 휴직기간 및 횟수 criteria but answer covers 휴직의 요건 section instead. Does not actually address the period/frequency criteria from section 4) of page 135. Also duplicate of q_3_0420."
+  },
+  {
+    "id": "q_3_0425",
+    "verdict": "FAIL",
+    "reason": "Vague question about practical application of 휴직의 요건 in 교원 인사 업무. Answer is a truncated version of q_3_0420 content, stopping after just the first point of 나). Near-duplicate with less content."
+  },
+  {
+    "id": "q_3_0426",
+    "verdict": "FAIL",
+    "reason": "Question asks about 휴직기간 및 횟수 실무 적용 주의사항 but answer covers 휴직의 요건 content (requirements section). Wrong section used for the question topic. Also truncated near-duplicate of q_3_0420."
+  },
+  {
+    "id": "q_3_0432",
+    "verdict": "PASS",
+    "reason": "Question asks about 휴직신청서류 procedure. Answer accurately covers 휴직신청서 내용 and 입증서류 requirements from page 136 section 5). Content matches source."
+  },
+  {
+    "id": "q_3_0435",
+    "verdict": "PASS",
+    "reason": "Question asks about 복직절차. Answer accurately covers 사유 소멸 시 복직 and 30일 이내 복귀신고 규정 from page 136 section 6). Content matches source."
+  },
+  {
+    "id": "q_3_0437",
+    "verdict": "FAIL",
+    "reason": "Bad question: asks '몇 년까지 가능한가요' (how many years) but 복직절차 is a procedure with a 30-day reporting window, not a year-based duration. Question framing is misleading and does not match the content nature."
+  },
+  {
+    "id": "q_3_0438",
+    "verdict": "FAIL",
+    "reason": "Vague/nonsensical question: '복직절차는 얼마나 인정되나요' - a procedure cannot be 'recognized' in a quantitative sense. Also duplicate answer of q_3_0435."
+  }
+]

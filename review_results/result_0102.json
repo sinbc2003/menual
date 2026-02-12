@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_3_0347",
+    "verdict": "PASS",
+    "reason": "Accurate, well-structured answer about 생사불명 휴직. All claims (휴직사유, 요건, 3개월 기간, 직권 휴직, 복직절차, 법 근거) verified against page 133 lines 19-38."
+  },
+  {
+    "id": "q_3_0349",
+    "verdict": "PASS",
+    "reason": "Accurate answer about 병역휴직 봉급. All details (봉급 미지급, 2년 근속 예외, 일할계산, 수당, 경력평정 산입, 호봉승급 포함) match page 133 lines 10-15."
+  },
+  {
+    "id": "q_3_0350",
+    "verdict": "PASS",
+    "reason": "Core answer (군무이탈 시 직권면직, 국가공무원법 제70조제1항제7호) matches page 133 line 5. Block quote expands the law text beyond what is on the page but is correctly attributed as a legal citation."
+  },
+  {
+    "id": "q_3_0362",
+    "verdict": "FAIL",
+    "reason": "Bad question: raw source text pasted as question ('봉급: 지급안함. 단, ...'). Also topic mismatch: answer labeled 생사불명 but content is 병역휴직 보수 from page 133 line 14. Raw dump."
+  },
+  {
+    "id": "q_3_0363",
+    "verdict": "FAIL",
+    "reason": "Wrong section grabbed. Question asks about 생사불명 but answer dumps 병역휴직 content (page 133 lines 3-15: 복직절차, 군무이탈, 기타-경력/보수). Actual 생사불명 section starts at line 17 and is barely reached."
+  },
+  {
+    "id": "q_3_0370",
+    "verdict": "FAIL",
+    "reason": "Wrong section + duplicate. Source text is 병역휴직 기타 (page 133 lines 3-15), not 생사불명 '휴직의 요건' (lines 23-25). Answer nearly identical to q_3_0363. Question fabricates '교육청에서 자주 질의하는' framing not in source."
+  },
+  {
+    "id": "q_3_0371",
+    "verdict": "FAIL",
+    "reason": "Wrong section + duplicate. Asks about 생사불명 '휴직기간 및 횟수' (page 133 lines 27-30) but answer dumps 병역휴직 기타 content (lines 3-15). Nearly identical to q_3_0363 and q_3_0370."
+  },
+  {
+    "id": "q_3_0383",
+    "verdict": "FAIL",
+    "reason": "Wrong section + bad question. '1번째 항목' is vague/meaningless. Content is 생사불명 기타 (page 134 lines 6-11: 경력평정 미산입, 결원보충 불가), NOT 법정의무수행 which has opposite values (산입, 결원보충 가능 at lines 40-43). Raw dump."
+  },
+  {
+    "id": "q_3_0384",
+    "verdict": "FAIL",
+    "reason": "Wrong section: presents 생사불명 기타 content (page 134 lines 3-16: 경력평정 미산입, 결원보충 불가) as 법정의무수행 규정. Actual 법정의무수행 기타 (lines 39-43) has opposite values (산입, 결원보충 가능). Effectively hallucinated."
+  },
+  {
+    "id": "q_3_0389",
+    "verdict": "FAIL",
+    "reason": "Wrong section + duplicate of q_3_0384. Answer attributes 생사불명 기타 content (page 134 lines 3-16) to 법정의무수행. Wrong values for the topic. Nearly identical to q_3_0384."
+  }
+]

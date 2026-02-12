@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_2_0048",
+    "verdict": "FAIL",
+    "reason": "Question asks '신청 자격이 있는 사람은 누구' (who qualifies to apply) but source defines school conditions (5학급 이하), not individual qualifications. Answer dumps legal text without addressing 'who'."
+  },
+  {
+    "id": "q_2_0049",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer of q_2_0048 - identical answer body with only intro line changed. Also '자격 요건' framing is misleading for content about school conditions."
+  },
+  {
+    "id": "q_2_0053",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer of q_2_0048/0049. Question about '제외되는 경우' (exclusion cases) is not specifically addressed - answer just dumps the same two legal clauses."
+  },
+  {
+    "id": "q_2_0054",
+    "verdict": "FAIL",
+    "reason": "Bad/vague meta-question ('자주 묻는 질문이 있나요?') - not a valid content question. Duplicate answer of other 교감 미배치 entries."
+  },
+  {
+    "id": "q_2_0056",
+    "verdict": "FAIL",
+    "reason": "Vague subjective question ('가장 중요한 점'). Source does not rank importance. Answer is raw dump of clauses (1)-(4) without identifying what is most important."
+  },
+  {
+    "id": "q_2_0059",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer of other 교감 미배치 entries (q_2_0048, 0049, 0053). Vague question ('핵심 내용') adds no differentiation."
+  },
+  {
+    "id": "q_2_0060",
+    "verdict": "FAIL",
+    "reason": "Hallucinated question topic - '서류 제출 기한' (document submission deadline) has zero basis in source page 103. Source contains no information about deadlines. Answer does not address it either."
+  },
+  {
+    "id": "q_2_0061",
+    "verdict": "FAIL",
+    "reason": "Vague subjective question ('가장 중요한 조건'). Source does not rank conditions by importance. Duplicate answer of other 교감 미배치 entries."
+  },
+  {
+    "id": "q_2_0062",
+    "verdict": "FAIL",
+    "reason": "Bad question - '1번째 항목은 무엇인가요' is a structural/navigation query, not a meaningful content question about personnel regulations."
+  },
+  {
+    "id": "q_2_0063",
+    "verdict": "FAIL",
+    "reason": "Vague subjective question ('관련 규정이 중요한 이유'). Source lists regulations but never explains why they are important. Answer is raw dump of most of page 103 content."
+  }
+]

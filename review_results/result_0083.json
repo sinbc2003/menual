@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_2_0276",
+    "verdict": "FAIL",
+    "reason": "Fabricated FAQ framing - question asks about 교육청 자주 질의 content which does not exist in source; answer is duplicate of q_2_0272 (same 순회교사 발령해지 procedure dump)"
+  },
+  {
+    "id": "q_2_0277",
+    "verdict": "FAIL",
+    "reason": "Question asks about 기안문 작성 impact on 교원 경력 but answer is raw procedure dump that does not address career impact; Tip about 경력탭 확인 not included in answer"
+  },
+  {
+    "id": "q_3_0003",
+    "verdict": "PASS",
+    "reason": "Accurate answer about 휴직 제도 목적 matching page 121 source; correctly states 면직 대신 신분유지, 질병치료/법률상 의무이행/연수기회 부여; 효력 details match page 125"
+  },
+  {
+    "id": "q_3_0004",
+    "verdict": "PASS",
+    "reason": "Accurate answer about 육아휴직 대상 연령; correctly states 만 8세 이하 or 초등학교 2학년 이하, 3년 이내; additional 입양/불임 details verified from page 121"
+  },
+  {
+    "id": "q_3_0008",
+    "verdict": "FAIL",
+    "reason": "Factual error - states '경력평정에서 제외' but page 124 source clearly states '경력평정: 산입' for 육아휴직; this is a critical factual inversion"
+  },
+  {
+    "id": "q_3_0010",
+    "verdict": "PASS",
+    "reason": "Comprehensive accurate answer about 유학휴직; core facts (3년+3년 연장, 봉급 50%, 경력평정 50%, 사설학원 불가, 국비유학은 특별연수) all verified from pages 121, 124, 135"
+  },
+  {
+    "id": "q_3_0011",
+    "verdict": "FAIL",
+    "reason": "Duplicate question of q_3_0008 - '육아휴직은 얼마나 사용할 수 있나요' is essentially identical to '육아휴직은 얼마나 할 수 있나요'; same topic, same sources, overlapping answer content"
+  },
+  {
+    "id": "q_3_0012",
+    "verdict": "PASS",
+    "reason": "Accurate answer about 입양휴직; correctly states 만 19세 미만 대상, 6개월 이내, 만 8세 이하 제외 (일반 육아휴직 적용); comparison table and 예시 are logical interpretations verified from pages 121, 124"
+  },
+  {
+    "id": "q_3_0014",
+    "verdict": "PASS",
+    "reason": "Core regulatory information accurate; 3년 이내, 경력평정 50% 산입, 승급제한(학위 취득 시 호봉 재획정), 보수 지급안함 all verified from pages 121, 125; 경기도교육청 규칙 reference confirmed"
+  },
+  {
+    "id": "q_3_0015",
+    "verdict": "PASS",
+    "reason": "Comprehensive accurate answer about 노조전임자휴직; 직권휴직 classification, 전임기간, 복직 원칙(만료 전 복직 불가), 허가 취소 시 복직 절차 all verified from pages 121, 145"
+  }
+]

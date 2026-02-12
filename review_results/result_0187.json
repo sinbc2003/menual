@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_4_0996",
+    "verdict": "PASS",
+    "reason": "Question is clear and specific. Answer correctly states 13:00 기준 for 반일연가, matches source text from page 309 line 22. Additional context about 공휴일/토요일 is from same page. No hallucination."
+  },
+  {
+    "id": "q_4_0998",
+    "verdict": "FAIL",
+    "reason": "Hallucination. Answer contains fabricated example calculations (사례: 병가 3일, 5일, 15일, 10일 = 41일) not found in source text or page 309 markdown. Source only states the 30-day rule; the specific numerical examples are invented."
+  },
+  {
+    "id": "q_4_0999",
+    "verdict": "FAIL",
+    "reason": "Massive hallucination. Source text is one sentence about 교육장 approval. Answer fabricates extensive NAIS system procedures (기본메뉴, 복무, 개인근무상황관리, 결재자 지정, 공람함, 메시지함 etc.) none of which appear in page 309 source."
+  },
+  {
+    "id": "q_4_1000",
+    "verdict": "FAIL",
+    "reason": "Hallucination of fabricated examples (사례1, 사례2 with specific day-by-day calculations). Also contains unsourced claim '반일연가 2회 = 연가 1일'. Near-duplicate topic with q_4_0993 from batch 0186."
+  },
+  {
+    "id": "q_4_1001",
+    "verdict": "PASS",
+    "reason": "Question is meaningful. Answer accurately reproduces 승인권자 및 절차 content from page 309 lines 7-17. Source text verified against markdown. No hallucination."
+  },
+  {
+    "id": "q_4_1002",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_4_1001. Question (개념이 궁금합니다) is essentially the same as q_4_1001 (무엇을 뜻하는 건가요). Verbatim identical answer text."
+  },
+  {
+    "id": "q_4_1003",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_4_1001/q_4_1002. Question asks about required documents (필요한 서류) but answer just dumps same 승인권자 및 절차 content without specifically addressing document requirements."
+  },
+  {
+    "id": "q_4_1005",
+    "verdict": "FAIL",
+    "reason": "Nonsensical question: '얼마나 인정되나요' (how much is it recognized) makes no sense for 승인권자 및 절차 (approval authority and procedures). Template mismatch. Also duplicate answer with q_4_1001/q_4_1002/q_4_1003."
+  },
+  {
+    "id": "q_4_1009",
+    "verdict": "FAIL",
+    "reason": "Template mismatch question: '해당하려면 어떤 조건을 충족해야 하나요' (what conditions to qualify) does not fit 휴가일수의 계산 (calculation rules). You don't 'qualify for' a calculation method. Answer content is accurate but question is nonsensical."
+  },
+  {
+    "id": "q_4_1010",
+    "verdict": "FAIL",
+    "reason": "Nonsensical question: '신청 자격이 있는 사람은 누구인가요' (who can apply for) does not apply to 휴가일수의 계산 which is a calculation rule, not an application. Template mismatch. Also duplicate answer with q_4_1009."
+  }
+]

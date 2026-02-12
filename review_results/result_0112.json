@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_3_0558",
+    "verdict": "PASS",
+    "reason": "Question is specific about 고용휴직 심사기준. Answer accurately reflects page 140 경기도교육청 고용휴직 발췌 content including 재외교육기관 원칙, 5년 연속 해석 등. Source verified."
+  },
+  {
+    "id": "q_3_0560",
+    "verdict": "FAIL",
+    "reason": "Bad question: raw source text pasted as question with truncation ('경력평정: 상근 100%, 비상근 50% 산입(「교육공'). Question is not a natural question but a snippet dump."
+  },
+  {
+    "id": "q_3_0561",
+    "verdict": "FAIL",
+    "reason": "Bad question: raw source text pasted as question ('수당: 지급안함. 단, 휴직한 날이 속하는 달의 수당은'). Truncated mid-sentence, not a proper question formulation."
+  },
+  {
+    "id": "q_3_0562",
+    "verdict": "PASS",
+    "reason": "Specific question about 상근/비상근 구별 기준 importance. Answer accurately covers criteria (상근 15시간/40시간, 비상근 6-14시간, 5시간 이하 불인정) and consequences (경력평정, 호봉승급 비율). Verified against page 140."
+  },
+  {
+    "id": "q_3_0564",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer: nearly identical content to q_3_0562. Question mentions 고용휴직 부분 발췌 but answer only covers 상근/비상근 구별 기준 without addressing the 고용휴직 심사기준 content."
+  },
+  {
+    "id": "q_3_0566",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer: substantively identical content to q_3_0562 and q_3_0564 (same 상근/비상근 구별 기준 dump from page 140). No differentiation despite different question angle."
+  },
+  {
+    "id": "q_3_0567",
+    "verdict": "PASS",
+    "reason": "Good specific question about 연수휴직 conditions. Answer synthesizes pages 142 (요건, 기간) and 143 (연수기관 지정 규칙 제4조/제5조) accurately: 학위취득 목적, 지정 연수기관 4종, 원격대학원 제외, 3년 이내 등 all verified."
+  },
+  {
+    "id": "q_3_0571",
+    "verdict": "PASS",
+    "reason": "Question about 휴직의 요건 meaning is specific enough. Answer accurately reflects page 142 section 3) content (가~마): 대상, 범위, 학위논문 불가, 박사후연수 가능, 연구원활동 불가. Source verified."
+  },
+  {
+    "id": "q_3_0572",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer: identical content to q_3_0571. Question '어떤 경우에 휴직의 요건이 가능한가요' is grammatically awkward ('요건이 가능' doesn't make sense) and answer is verbatim repeat."
+  },
+  {
+    "id": "q_3_0573",
+    "verdict": "FAIL",
+    "reason": "Source mismatch: question asks about required 서류 (documents) for 휴직, but answer provides 휴직의 요건 content (가~마). The actual 휴직신청서류 section exists on page 142 section 5) but is not referenced."
+  }
+]

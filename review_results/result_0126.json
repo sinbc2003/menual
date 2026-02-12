@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_3_0874",
+    "verdict": "FAIL",
+    "reason": "Bad question: asks about '산정 기준' (calculation criteria) which does not apply to 유의 사항; answer is a raw dump of the 3 points without addressing the question. Also duplicate answer with q_3_0875, q_3_0883, q_3_0885."
+  },
+  {
+    "id": "q_3_0875",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer: nearly identical answer content to q_3_0874 (same 3 points from page 214). Question wording also poor ('어떻게 결정되나요' does not fit 유의 사항)."
+  },
+  {
+    "id": "q_3_0883",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer: identical answer content to q_3_0874 and q_3_0875 from same source page 214, same 3 bullet points."
+  },
+  {
+    "id": "q_3_0885",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer: identical answer content to q_3_0874/0875/0883 from same source page 214."
+  },
+  {
+    "id": "q_3_0886",
+    "verdict": "FAIL",
+    "reason": "Bad question: asks '왜 중요한가' but answer does not address importance. Answer is a raw dump of multiple sections (process flow + 유의 사항 + 기타) from page 214. Overlaps heavily with q_3_0874-0885."
+  },
+  {
+    "id": "q_3_0889",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer: substantially overlapping content with q_3_0886 (same page 214 process flow + 유의 사항 + partial 기타 section)."
+  },
+  {
+    "id": "q_3_0890",
+    "verdict": "PASS",
+    "reason": "Accurate and comprehensive. Question about procedure is specific. Answer correctly covers the 인사처리 지침 from page 215 including the 1996 reform, two 질의/회신 pairs, and the 2023 amendment. All verified against 215쪽.md."
+  },
+  {
+    "id": "q_3_0891",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer: nearly identical to q_3_0890 (same page 215 content, same structure, same 질의/회신 sections)."
+  },
+  {
+    "id": "q_3_0892",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_3_0890/0891. Also bad question: asks about '일수' (number of days) but answer does not specifically address day counts, just dumps full guideline."
+  },
+  {
+    "id": "q_3_0893",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer: identical content to q_3_0890/0891/0892. Question asks about '기간 계산' but answer does not focus on period calculation."
+  }
+]

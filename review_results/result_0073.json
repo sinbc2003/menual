@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_2_0116",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_2_0113. Both ask '표시과목불일치 교사란/가 뭔가요?' referencing page 108 and provide the same definition and relationship to 순회교사제."
+  },
+  {
+    "id": "q_2_0117",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_2_0112. Both ask about 순회교사제 목적/필요성 from page 108 with nearly identical 4-point answers. Also, source.text cites the 순회교사 definition rather than the 목적 section content."
+  },
+  {
+    "id": "q_2_0118",
+    "verdict": "FAIL",
+    "reason": "Source text mismatch. Source.text cites the 순회·겸임교사 definition but the answer discusses 수업시수 격차 완화 from the 목적 section. Also, '수업시수가 많은 교사를 순회교사로 활용' is fabricated -- source says 불균형 해소, not reassignment of high-workload teachers."
+  },
+  {
+    "id": "q_2_0119",
+    "verdict": "PASS",
+    "reason": "Answer accurately reflects page 108 나. 목적 2) content: 표시과목불일치 교사를 최우선 순회교사 활용, 상치교사 해소, 전공교사 학습기회 제공. Source.text correctly cites this section. A/B school example is illustrative, not false factual claims."
+  },
+  {
+    "id": "q_2_0121",
+    "verdict": "FAIL",
+    "reason": "Source mismatch. Source.text cites '특정학교에 소속을 두는 순회교사' (page 108) but the question and answer are about 교육행정기관 소속 순회교사, whose content is on page 109. Wrong source text cited for the wrong type of 순회교사."
+  },
+  {
+    "id": "q_2_0122",
+    "verdict": "FAIL",
+    "reason": "Source page mismatch. Answer content ('단순히 수업시수를 조정하기 위한 순회교사는 임용하지 않도록 함', 소속학교 및 순회학교 학습지도) comes from page 109, not page 108. Source.text cites the 순회·겸임학교 definition which does not support the answer."
+  },
+  {
+    "id": "q_2_0123",
+    "verdict": "FAIL",
+    "reason": "Source page mismatch. Answer details about 순회학교장이 명하는 교과의 학습지도, 평가, 학습지도안 작성, 수업준비 come from page 109 마. 복무 2), not page 108. Source.text cites only the general 순회교사 definition."
+  },
+  {
+    "id": "q_2_0124",
+    "verdict": "FAIL",
+    "reason": "Source page mismatch. Answer content '소속학교장이 순회학교장과 협의하여 근무일 및 근무시간 지정' comes from page 109 마. 복무 3), not page 108. Source.text cites the 순회교사 definition which doesn't cover 근무시간."
+  },
+  {
+    "id": "q_2_0125",
+    "verdict": "FAIL",
+    "reason": "Source page mismatch. Answer content about 연가·출장·병가·특별휴가 처리 (소속학교장 협의) and 지각·외출·조퇴 (순회학교장 허가 후 통보) comes from page 109 마. 복무 4), not page 108."
+  },
+  {
+    "id": "q_2_0126",
+    "verdict": "FAIL",
+    "reason": "Source page mismatch. Answer content about 연 5일 학습휴가, 교육공무원법 제22조의2, 교원휴가에 관한 예규 제2조 및 제8조제3항 comes from page 109 마. 복무 5), not page 108."
+  }
+]

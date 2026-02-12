@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_3_0631",
+    "verdict": "FAIL",
+    "reason": "Bad question: '휴직기간 및 횟수는 어떤 과정을 거치나요' - 기간/횟수 is a rule, not a process. Answer is raw dump of source text without reformulation."
+  },
+  {
+    "id": "q_3_0632",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer (identical content to q_3_0631). Bad question: you don't '신청' (apply for) 기간 및 횟수 - those are regulatory constraints, not something applied for."
+  },
+  {
+    "id": "q_3_0633",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer (identical content to q_3_0631 and q_3_0632). All three share the same source text and nearly identical answer text."
+  },
+  {
+    "id": "q_3_0634",
+    "verdict": "FAIL",
+    "reason": "Question asks about consequences of violation ('위반하면 어떻게 되나요') but source has no violation/penalty info. Answer just restates the rules without addressing the question."
+  },
+  {
+    "id": "q_3_0636",
+    "verdict": "FAIL",
+    "reason": "Bad question: '휴직신청서류에 관한 기간과 횟수' - documents don't have periods/frequencies. Question is nonsensical. Answer lists documents, not periods/frequencies."
+  },
+  {
+    "id": "q_3_0638",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer (same content as q_3_0636). Question asks about '신청 절차' (application procedure) but answer only lists required documents, not a procedure."
+  },
+  {
+    "id": "q_3_0640",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer (identical to q_3_0631/0632/0633). Question implies new-teacher-specific guidance ('신규 교사') but source has no such distinction. Answer is generic."
+  },
+  {
+    "id": "q_3_0642",
+    "verdict": "FAIL",
+    "reason": "Question asks about recent regulatory changes ('최근에 어떻게 바뀌었나요') but source contains no change history. Answer lists current documents without addressing changes - hallucination in question premise."
+  },
+  {
+    "id": "q_3_0645",
+    "verdict": "FAIL",
+    "reason": "Wrong category: title says '가족돌봄휴직' but content is from 동반휴직 신청서류 section. Answer is raw dump with poor formatting (triple-space separators). Does not provide 'detailed explanation' as asked."
+  },
+  {
+    "id": "q_3_0646",
+    "verdict": "FAIL",
+    "reason": "Source mismatch: question asks about 가족돌봄휴직 but page 144 only says '[붙임] 참조' for that topic. Answer is mostly 동반휴직 content presented as if it were 가족돌봄휴직."
+  }
+]

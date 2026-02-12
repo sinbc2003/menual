@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_1_1233",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer: identical answer content to q_1_1234/1236/1237/1239/1240. Question omits 명예퇴직 context making it vague. Answer is raw dump of section 9."
+  },
+  {
+    "id": "q_1_1234",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer: identical to q_1_1233. Question asks '신청 방법' (application method) but source is about 정관 verification for 명예퇴직, not applying for 정관. Question-source mismatch."
+  },
+  {
+    "id": "q_1_1236",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer: identical to q_1_1233. Question asks about '횟수 제한' (frequency limits) which is not addressed anywhere in the source. Answer does not address the question."
+  },
+  {
+    "id": "q_1_1237",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer: identical to q_1_1233. Question asks about '예외 사항' vaguely. Answer is raw dump that does not specifically address exceptions."
+  },
+  {
+    "id": "q_1_1239",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer: identical to q_1_1233. Question asks about 판례/사례 (precedents/cases) which do not exist in the source. Answer contains no precedents or cases."
+  },
+  {
+    "id": "q_1_1240",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer: identical to q_1_1233. While the question is specific (타법인 교원 임기제 교장), the answer dumps the entire section instead of specifically explaining the 제외 (exclusion) treatment. Does not actually answer '어떻게 처리하나요'."
+  },
+  {
+    "id": "q_1_1241",
+    "verdict": "FAIL",
+    "reason": "Misleading question: asks '조건을 충족해야 하나요' (conditions to meet) implying qualification criteria, but source is about how to prepare the 호봉획정표 for 명예퇴직자. Duplicate answer pattern. Missing 명예퇴직 context."
+  },
+  {
+    "id": "q_1_1242",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer: identical to q_1_1241. Question asks about '신청 자격' (eligibility) which is not addressed in the source. The 호봉획정표 section describes preparation instructions, not eligibility."
+  },
+  {
+    "id": "q_1_1243",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer: identical to q_1_1241. Question asks about '처리 기한' (processing deadline) which is not discussed in the source. The 2025.2.28 date is a reference date for 최종 호봉, not a processing deadline."
+  },
+  {
+    "id": "q_1_1247",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer: identical to q_1_1241. Question asks about 판례/사례 (precedents/cases) which do not exist in the source. Answer contains no precedents or cases."
+  }
+]

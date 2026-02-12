@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_4_0260",
+    "verdict": "FAIL",
+    "reason": "Grammar error in question: '확인의 신청 절차' is unnatural Korean. Should be '확인 절차' or '확인 시 처리 절차'. The source describes message sending, not an application procedure (신청 절차)."
+  },
+  {
+    "id": "q_4_0261",
+    "verdict": "PASS",
+    "reason": "Answer accurately covers both 공람함 확인 and 메시지 전송 from page 268. Source text verified against markdown. Question is generic but meaningful."
+  },
+  {
+    "id": "q_4_0263",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_4_0261. Nearly identical answer text covering 공람함 확인 + 메시지 전송 from page 268."
+  },
+  {
+    "id": "q_4_0264",
+    "verdict": "FAIL",
+    "reason": "Three issues: (1) Question fabricates topic - asks about 임용권자의 역할 but page 268 contains no mention of 임용권자. (2) Grammar error: '방법와' should be '방법과' (방법 has 받침 ㅂ). (3) Duplicate answer with q_4_0261."
+  },
+  {
+    "id": "q_4_0265",
+    "verdict": "FAIL",
+    "reason": "Question fabricates topic - asks about '흔히 발생하는 문제점' (common problems) but source text only describes procedures, not problems. Answer does not address the question. Also duplicate answer with q_4_0261."
+  },
+  {
+    "id": "q_4_0266",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_4_0261. Question asks about '적용 기준과 범위' (criteria and scope) but source only describes a procedure, not criteria or scope."
+  },
+  {
+    "id": "q_4_0269",
+    "verdict": "PASS",
+    "reason": "Good specific question about 겸임 발령 requirements. Answer is comprehensive and all content verified on page 269 (겸임 기간, 절차, 필요 사유, 대상 all present in markdown). Source text verified."
+  },
+  {
+    "id": "q_4_0290",
+    "verdict": "PASS",
+    "reason": "Answer accurately reproduces the 교육공무원법 제18조(1) provision from page 269. Source text verified. Question is somewhat awkward but understandable."
+  },
+  {
+    "id": "q_4_0291",
+    "verdict": "FAIL",
+    "reason": "Question uses meaningless positional reference '2번째 항목' (2nd item) which requires document context to understand. Not a standalone meaningful question for QA purposes."
+  },
+  {
+    "id": "q_4_0292",
+    "verdict": "FAIL",
+    "reason": "Question asks '중요한 이유' (reason for importance) but answer simply lists regulations without explaining importance. Question-answer mismatch. Also source.text is truncated mid-sentence at '필요한 경'."
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_3_1020",
+    "verdict": "PASS",
+    "reason": "Comprehensive overview question about 가족돌봄휴직. Answer provides broad coverage of legal basis, leave reasons, and requirements. Source text verified on page 224."
+  },
+  {
+    "id": "q_3_1021",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_3_1020. Nearly identical answer content and identical source.text covering the same 가족돌봄휴직 section from page 224."
+  },
+  {
+    "id": "q_3_1024",
+    "verdict": "FAIL",
+    "reason": "Question asks for administrative procedures (행정적으로 필요한 절차) but answer provides leave reason definitions instead. Q-A mismatch. The actual procedures are on page 225 (신청서류) and 226 (복직절차)."
+  },
+  {
+    "id": "q_3_1026",
+    "verdict": "PASS",
+    "reason": "Specific question about how to document 휴직 필요성 in the application. Answer accurately addresses this with details from page 225 휴직신청서 section. Source text verified."
+  },
+  {
+    "id": "q_3_1027",
+    "verdict": "PASS",
+    "reason": "Specific question about what to verify when approving family care leave. Answer correctly covers the 3 verification points (병행 곤란, 실제 돌봄 가능, 목적 외 사용 방지). Source text verified on page 225."
+  },
+  {
+    "id": "q_3_1028",
+    "verdict": "PASS",
+    "reason": "Specific question about required supporting documents. Answer accurately lists 가족관계증명서, 주민등록등본, and proof materials. Source text verified on page 225."
+  },
+  {
+    "id": "q_3_1029",
+    "verdict": "FAIL",
+    "reason": "Question is poorly formed: 휴직신청서류에 해당하려면 어떤 조건을 충족해야 하나요 (documents do not have qualification conditions). Answer is an excessive raw dump of the entire 휴직신청서류 + 승인 시 고려사항 sections."
+  },
+  {
+    "id": "q_3_1032",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_3_1029. Question asks what to do when care and work are hard to balance, but answer dumps the full 휴직신청서류 section rather than targeting the specific concern."
+  },
+  {
+    "id": "q_3_1033",
+    "verdict": "PASS",
+    "reason": "Summary question about 휴직신청서류 is reasonably answered. Covers 횟수 limits, application form requirements, and supporting documents. Source text verified on page 225."
+  },
+  {
+    "id": "q_3_1034",
+    "verdict": "PASS",
+    "reason": "Question about reinstatement procedure. Answer accurately lists the 3 procedure steps (사유 소멸 시 신고, 1년 초과 시 재휴직 처리, 30일 내 복귀신고). Source text exactly verified on page 226."
+  }
+]

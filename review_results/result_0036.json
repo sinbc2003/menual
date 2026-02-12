@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_1_0633",
+    "verdict": "FAIL",
+    "reason": "Question asks about school admin office duties (학교 행정실에서 처리하는 업무) but answer only dumps regulation text about cross-province teacher transfer principles without addressing admin tasks. Answer is a raw paste of source text with a header prepended."
+  },
+  {
+    "id": "q_1_0634",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_1_0633. Same source.text, identical answer body (only intro sentence differs). Also a raw source dump with no synthesis."
+  },
+  {
+    "id": "q_1_0635",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_1_0633 and q_1_0634 (triplicate). Question specifically asks about exceptions/special provisions (특이사항이나 예외 규정) but the answer provides the same generic regulation text without identifying any exceptions."
+  },
+  {
+    "id": "q_1_0637",
+    "verdict": "PASS",
+    "reason": "Natural question about exchange posting period. Answer accurately states 2 years (non-extendable), conditions, selection priority (4 categories), return assignment rules, and 벽지 가산점 exclusion. All verified against page 45 source. Well-synthesized with table and structured sections."
+  },
+  {
+    "id": "q_1_0638",
+    "verdict": "PASS",
+    "reason": "Natural question about tie-breaking for transfer rankings. Answer accurately lists all 8 priority items from page 45 in correct order. source.text verified as substring of page 45. Answer is concise and well-formatted."
+  },
+  {
+    "id": "q_1_0639",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_QUESTION and DUPLICATE_ANSWER with q_1_0637. Question is nearly identical (얼마나 되나요 vs 얼마인가요) and answer covers the same core content (2년, 연장불가, conditions, 복귀 후 임지, 벽지 가산점)."
+  },
+  {
+    "id": "q_1_0642",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_QUESTION and DUPLICATE_ANSWER with q_1_0637 and q_1_0639 (triplicate). Same topic (교환근무 기간), same source text, same answer content covering period, conditions, selection priority, and return assignment."
+  },
+  {
+    "id": "q_1_0643",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_1_0638. Both questions ask about tie-breaking when transfer rankings are equal (전출 순위가 같을 때 vs 동일한 경우) and both answers list the same 8 priority items."
+  },
+  {
+    "id": "q_1_0644",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_1_0637/q_1_0639/q_1_0642 (quadruplicate). Same topic of exchange posting period (2년, 연장불가), same source text, substantially overlapping answer content."
+  },
+  {
+    "id": "q_1_0645",
+    "verdict": "PASS",
+    "reason": "Distinct question focused specifically on selection criteria for exchange posting candidates (대상자 선정 순위). Answer accurately lists all 4 categories with detailed requirements from page 45 (라) section. source.text verified. Well-synthesized with bold headers and sub-details."
+  }
+]

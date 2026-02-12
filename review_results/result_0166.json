@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_4_0492",
+    "verdict": "PASS",
+    "reason": "Answer accurately describes non-학원 institution lecturing rules (공공기관, EBS, 대학 etc.) based on page 285 source. Source text verified on page."
+  },
+  {
+    "id": "q_4_0493",
+    "verdict": "PASS",
+    "reason": "Answer correctly confirms 겸직심사위원회 필수 for 사교육업체 activities. Source text matches page 285 line 51 (겸직심사위 의무화). No hallucination."
+  },
+  {
+    "id": "q_4_0494",
+    "verdict": "PASS",
+    "reason": "Comprehensive answer about 겸직 허가 절차 supported by both page 285 (허가권자, 신청, 심사) and page 290 (신청 시기, 겸직심사위원회 구성). All details verified against source."
+  },
+  {
+    "id": "q_4_0495",
+    "verdict": "FAIL",
+    "reason": "Answer contains hallucinated procedure details not in source: '대학으로부터 출강의뢰 공문 받음' and '겸직기간: 보통 학기 단위' appear nowhere on page 285. Also near-duplicate topic with q_4_0492."
+  },
+  {
+    "id": "q_4_0496",
+    "verdict": "PASS",
+    "reason": "Answer accurately covers 평생교육학원 겸직 rules including 사교육 유발 요인 심사 and 입시/편입학원 금지. Both source texts verified on page 285."
+  },
+  {
+    "id": "q_4_0497",
+    "verdict": "FAIL",
+    "reason": "Question is nonsensical ('평생직업교육학원을 받을 수 있는 자격' - cannot 'receive' a 학원). Answer is a broken template dump with malformed ▸ formatting, repeating same bullet label for every item. Does not answer the question."
+  },
+  {
+    "id": "q_4_0498",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer - identical content to q_4_0497. Same broken template dump format. Question is vague ('평생직업교육학원이 가능' - what is possible?)."
+  },
+  {
+    "id": "q_4_0499",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer - identical to q_4_0497/q_4_0498. Question asks about 절차 (procedure) but answer discusses 겸직 가능 여부 examples, not procedures."
+  },
+  {
+    "id": "q_4_0500",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer - identical to q_4_0497/q_4_0498/q_4_0499. Fourth copy of the same broken template dump."
+  },
+  {
+    "id": "q_4_0501",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer - identical to q_4_0497-q_4_0500. Question asks about 기간 계산 (period calculation) but answer says nothing about periods or calculation. Source has no 기간 info for 평생직업교육학원."
+  }
+]

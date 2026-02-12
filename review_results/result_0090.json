@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_3_0143",
+    "verdict": "FAIL",
+    "reason": "Raw dump of table fragments at top of answer (e.g. '(재직기간 중 총 3년) | 3년 이내'). Question asks about 경력 impact but answer mainly discusses 신분 보유/직무 종사 금지. Poorly formatted table data mixed with narrative content."
+  },
+  {
+    "id": "q_3_0144",
+    "verdict": "PASS",
+    "reason": "Specific question about which leave types allow vacancy replacement. Answer accurately lists all 11 types from page 126, correctly states 6-month minimum, and includes consecutive-use special provisions. All content verified against source."
+  },
+  {
+    "id": "q_3_0146",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_3_0144. Same page 126 결원보충 content with nearly identical answer covering the same 11 leave types and 6-month condition. Question is only trivially different ('언제부터' vs '어떤 것들')."
+  },
+  {
+    "id": "q_3_0147",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_3_0144/q_3_0146. Additionally contains unverified claim '생사불명 휴직은 결원보충 불가' which does not appear on source page 126."
+  },
+  {
+    "id": "q_3_0148",
+    "verdict": "PASS",
+    "reason": "Specific question about consequences of not returning after leave expires. Answer accurately covers 직권면직 provisions from page 126 라), 30-day return requirement from page 125, and reinstatement procedure. All key claims verified in source."
+  },
+  {
+    "id": "q_3_0149",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_3_0144/q_3_0146/q_3_0147. Fourth entry with essentially identical 결원보충 content from page 126."
+  },
+  {
+    "id": "q_3_0150",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_3_0146 (near-identical question '언제 가능한가요' vs '언제부터 가능한가요'). Also contains unverified claim '생사불명 휴직(3개월 이내)은 결원보충 불가' not found on page 126."
+  },
+  {
+    "id": "q_3_0151",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_3_0144 and five other entries. Sixth near-identical 결원보충 Q&A from page 126 in this batch."
+  },
+  {
+    "id": "q_3_0153",
+    "verdict": "FAIL",
+    "reason": "Massive hallucination. Source page 126 only mentions '출산휴가와 육아휴직은 연속하여 6개월 이상 사용하는 경우 결원보충 가능' but answer fabricates extensive details: specific date examples, 90/120-day periods, 다태아 provisions, 배우자 출산휴가 10일, 쌍둥이 scenarios, 육아휴직수당 details -- none found on cited source page."
+  },
+  {
+    "id": "q_3_0154",
+    "verdict": "PASS",
+    "reason": "Accurate reproduction of page 126 휴직사유 소멸자의 복직절차 section (가~라). All four items match source verbatim. Legal references correctly cited. Question is specific enough."
+  }
+]

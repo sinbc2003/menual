@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_1_0158",
+    "verdict": "FAIL",
+    "reason": "hallucination - The '실무 유의사항' section adds interpretive claims not found in source: '규정 위반에 해당합니다', '인사담당관 외의 사람이 대조 확인을 할 수 없으므로', '가능한 한 원본을 확보하여 첨부하여야 합니다'. These are not in the page 8 markdown. Core content is accurate but the added guidance is fabricated."
+  },
+  {
+    "id": "q_1_0159",
+    "verdict": "FAIL",
+    "reason": "hallucination, source_mismatch - Answer contains '임용 시점의 원칙' section claiming '임용장 또는 임용통지서에 기재된 일자에 임용된 것으로 봅니다' and '사망으로 인한 면직은 사망한 다음 날에 면직된 것으로 봅니다' which are NOT on page 8. Also adds '법적 안정성과 공정성을 확보하기 위한 핵심 원칙' and '국가적 예우 차원의 규정' not in source. Source.text is not an exact substring (omits (1)/(2) markers and law references)."
+  },
+  {
+    "id": "q_1_0160",
+    "verdict": "FAIL",
+    "reason": "hallucination, source_mismatch - Answer adds interpretive content not in source: '절대적 금지가 아닌 노력 의무에 해당합니다', '신규교사의 근무 안정성과 교직 적응을 위해' which are not in page 8. Source.text is not exact substring (omits (1)/(2) markers, uses 도서벽지 instead of 도서·벽지)."
+  },
+  {
+    "id": "q_1_0161",
+    "verdict": "FAIL",
+    "reason": "hallucination, source_mismatch - Answer adds 선서 content (선서문 2부, 인사기록 보관) from separate page 8 sections (타/파) not cited in source.text. Source.text combines 신원조사 and 전력 조회 sections into one block and is not an exact substring of the markdown (omits '교육공무원 전력 조회서에 따라 그 교육공무원의' phrasing)."
+  },
+  {
+    "id": "q_1_0162",
+    "verdict": "FAIL",
+    "reason": "raw_dump, duplicate, bad_question - Question '임용일자 소급의 금지에 해당하려면 어떤 조건을 충족해야 하나요?' is confusingly phrased (the prohibition applies by default; conditions are for exceptions, not for 'meeting' the prohibition). Answer is a verbatim raw dump of source text with no synthesis. Duplicate content with q_1_0159, q_1_0163, q_1_0164, q_1_0165, q_1_0166."
+  },
+  {
+    "id": "q_1_0163",
+    "verdict": "FAIL",
+    "reason": "raw_dump, duplicate, bad_question - Question '어떤 경우에 임용일자 소급의 금지가 가능한가요?' is nonsensical (소급의 금지 is always in effect; the question confuses the prohibition with its exceptions). Answer is identical raw dump as q_1_0162. Duplicate of q_1_0162."
+  },
+  {
+    "id": "q_1_0164",
+    "verdict": "FAIL",
+    "reason": "raw_dump, duplicate, bad_question - Question asks about '기간' (duration/period) but the source contains no information about any time period for this prohibition. Answer is identical raw dump that does not address the question. Duplicate of q_1_0162, q_1_0163."
+  },
+  {
+    "id": "q_1_0165",
+    "verdict": "FAIL",
+    "reason": "raw_dump, duplicate, bad_question - Question asks about '기간과 횟수' (period and frequency) neither of which exists in the source. Answer is identical raw dump that does not address the question. Duplicate of q_1_0162, q_1_0163, q_1_0164."
+  },
+  {
+    "id": "q_1_0166",
+    "verdict": "FAIL",
+    "reason": "raw_dump, duplicate, bad_question - Question asks about consequences of violation ('위반하면 어떻게 되나요?') but the source contains no information about penalties or consequences. Answer is identical raw dump that does not address the question. Duplicate of q_1_0162-q_1_0165."
+  },
+  {
+    "id": "q_1_0170",
+    "verdict": "FAIL",
+    "reason": "raw_dump, bad_question - Question has grammar error '배치과' (should be '배치와'). Question asks about '금지되는 사항' (prohibited items) but the source uses '가급적' (preferably), indicating guidelines not prohibitions. Answer is a raw dump of source text with no synthesis."
+  }
+]

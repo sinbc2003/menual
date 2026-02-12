@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_4_0384",
+    "verdict": "FAIL",
+    "reason": "Question asks about reference forms (참고 서식) but source text contains no forms. Answer does not address the question at all, just dumps source content about concurrent employment rules."
+  },
+  {
+    "id": "q_4_0385",
+    "verdict": "FAIL",
+    "reason": "Question asks '민원이 들어오면 어떻게 대응해야 하나요' (how to handle civil complaints) but source contains no complaint-handling procedures. Answer just restates the childcare leave/part-time work rules without addressing civil complaint response."
+  },
+  {
+    "id": "q_4_0388",
+    "verdict": "FAIL",
+    "reason": "Question is a raw source text dump with truncation ('주택·상가를 임...'). Source title says '사례 2' but content is actually from '사례 3 부동산 임대'. Source text contains raw markdown artifacts ('---  ####'). Not a meaningful question."
+  },
+  {
+    "id": "q_4_0389",
+    "verdict": "FAIL",
+    "reason": "Answer cites '공무원임용령 제57조' but page 281 source says '제57조의5' - hallucinated legal article number. Generic full-page-dump question format."
+  },
+  {
+    "id": "q_4_0390",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_4_0389 (both dump full page content for 사례 2+3+4). Same hallucinated legal reference (제57조 instead of 제57조의5)."
+  },
+  {
+    "id": "q_4_0391",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_4_0389/q_4_0390. Same hallucinated legal reference (공무원임용령 제57조 vs correct 제57조의5). Generic question template."
+  },
+  {
+    "id": "q_4_0392",
+    "verdict": "FAIL",
+    "reason": "Question asks '교원의 경력에 어떤 영향을 미치나요' (career impact) but source about real estate rental concurrent employment contains no career impact information. Fabricated question topic not answerable from source."
+  },
+  {
+    "id": "q_4_0394",
+    "verdict": "FAIL",
+    "reason": "Answer includes hallucinated content: '사교육업체(학원) 교재 제작을 위한 문항 출제, 출판 활동은 원칙적으로 금지됩니다' is not in the source text on page 282. Source only states 학습지/문제지 저술 for profit is 영리업무, not that 사교육업체 work is outright prohibited."
+  },
+  {
+    "id": "q_4_0395",
+    "verdict": "PASS",
+    "reason": "Good natural question about teachers doing surrogate driving. Answer accurately reflects page 282 source: night surrogate driving is prohibited due to work efficiency concerns. Three criteria for work efficiency degradation correctly cited from source. Source text verified."
+  },
+  {
+    "id": "q_4_0396",
+    "verdict": "FAIL",
+    "reason": "Answer includes hallucinated concurrent employment review criteria (공무에 부당한 영향, 국익에 상반되는 이익 취득, 정부에 불명예) that are NOT on page 282. These appear to be from a different page's general rules. Core blog content is correct but significant fabricated additions."
+  }
+]

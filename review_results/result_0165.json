@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_4_0472",
+    "verdict": "PASS",
+    "reason": "Answer correctly explains that 검인정 교과서 publishers can produce workbooks due to public interest. Source text from page 284 예시4 verified. Distinct enough from q_4_0469 with focused scope."
+  },
+  {
+    "id": "q_4_0473",
+    "verdict": "PASS",
+    "reason": "Answer correctly addresses EdTech consulting activities with conditions. Source text from page 284 예시5 verified against markdown. Well-formed practical question with accurate answer."
+  },
+  {
+    "id": "q_4_0474",
+    "verdict": "FAIL",
+    "reason": "SOURCE_TEXT_AS_QUESTION - question is raw dump of source section title with '어떤 경우에' prepended. Answer is massive unstructured dump of all 5 examples with broken formatting (all sub-bullets incorrectly labeled as '학교교과교습학원과 계약하여 문항 판매 및 교재를 제작하는 경우'). Not a meaningful QA pair."
+  },
+  {
+    "id": "q_4_0475",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_4_0474. SOURCE_TEXT_AS_QUESTION - question is raw source title with '신청 자격이 있는 사람은 누구인가요?' appended. Answer does not address eligibility (신청 자격) at all - just dumps the same examples as q_4_0474."
+  },
+  {
+    "id": "q_4_0478",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_4_0474 and q_4_0475. SOURCE_TEXT_AS_QUESTION - same raw source title pattern. Identical answer content provides no additional value."
+  },
+  {
+    "id": "q_4_0479",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_4_0474, q_4_0475, q_4_0478. SOURCE_TEXT_AS_QUESTION - same raw source title pattern with minor wording variation. Identical answer."
+  },
+  {
+    "id": "q_4_0480",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_4_0474, q_4_0475, q_4_0478, q_4_0479. SOURCE_TEXT_AS_QUESTION. Question asks about '판례나 사례' (precedents/cases) but answer just dumps guideline examples without framing them as legal precedents."
+  },
+  {
+    "id": "q_4_0489",
+    "verdict": "FAIL",
+    "reason": "SOURCE_TEXT_MISMATCH - source.text contains the 겸직 허가 예시 table from top of page 284, not the 평생직업교육학원 section at bottom of page 284. Answer dumps irrelevant 사교육업체 겸직 원칙 content before reaching the relevant 평생직업교육학원 definition."
+  },
+  {
+    "id": "q_4_0490",
+    "verdict": "PASS",
+    "reason": "Answer correctly addresses that teachers can lecture at EBS, universities, and public institutions with permission. Source text from page 285 verified. Answer includes additional procedural details from page 285. Well-formed practical question."
+  },
+  {
+    "id": "q_4_0491",
+    "verdict": "PASS",
+    "reason": "Answer correctly covers both allowed and prohibited cases for 평생직업교육학원. Source text from page 285 예시2 verified. Answer includes general definition from page 285. Well-formed question with balanced answer."
+  }
+]

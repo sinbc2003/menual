@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_3_0614",
+    "verdict": "FAIL",
+    "reason": "Fabricated question premise - asks about FAQ (자주 묻는 질문) but source has no FAQ section. Answer is identical raw dump of regulation text as q_3_0608/0609/0611/0612/0613."
+  },
+  {
+    "id": "q_3_0619",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer - same regulation raw dump as q_3_0608 series. Question asks for 세부 기준 but answer just copies regulation text without highlighting specific criteria."
+  },
+  {
+    "id": "q_3_0620",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer - same regulation raw dump. Question asks for 가장 중요한 조건 (most important condition) but answer does not identify or prioritize any specific condition."
+  },
+  {
+    "id": "q_3_0621",
+    "verdict": "FAIL",
+    "reason": "Fabricated question - asks about commonly confused parts (자주 혼동되는 부분) but source contains no such information. Same duplicate regulation dump answer."
+  },
+  {
+    "id": "q_3_0622",
+    "verdict": "FAIL",
+    "reason": "Bad question - raw source text pasted as question (\"봉급: 지급안함. 단, 휴직한 날이 속하는 달의 봉급은\"). Answer is also a raw dump of source text without proper formatting or synthesis."
+  },
+  {
+    "id": "q_3_0623",
+    "verdict": "FAIL",
+    "reason": "Question asks why the regulation is important (중요한 이유) but answer never explains importance - just dumps 기타 section content and 규칙 제1조 from page 143. Question-answer mismatch."
+  },
+  {
+    "id": "q_3_0627",
+    "verdict": "PASS",
+    "reason": "Specific practical question about 동반휴직. Answer correctly identifies 동반휴직, cites 교육공무원법 제44조제1항제10호, lists 휴직사유/기간(3년+연장3년)/신청서류. All verified against page 144."
+  },
+  {
+    "id": "q_3_0628",
+    "verdict": "FAIL",
+    "reason": "Hallucinated details. Core 복직 절차(복직원 제출) matches page 144, but answer fabricates 복직 서류 list (배우자 귀국 증빙) and 복직 후 근무지 details (교육지원청 처리, 임지 지정) not found on page 144."
+  },
+  {
+    "id": "q_3_0629",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_3_0627 (same topic: 배우자 해외 동반). Also includes unverified claims (경력평정 산입 안 됨, 보수 지급 안 함) not present on cited page 144 source."
+  },
+  {
+    "id": "q_3_0630",
+    "verdict": "PASS",
+    "reason": "Specific question about 동반휴직 최대 기간. Answer correctly states 최대 6년 (기본 3년 + 연장 3년), with accurate conditions about 총 휴직기간 제한. Verified against page 144 lines 23-25."
+  }
+]

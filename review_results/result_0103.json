@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_3_0392",
+    "verdict": "FAIL",
+    "reason": "Source mismatch: answer includes '복직 후 휴직기간과 같은 기간을 본도의 교육기관에서 반드시 근무해야 함' and '경력평정: 50% 산입' which are from page 136, not cited page 135"
+  },
+  {
+    "id": "q_3_0393",
+    "verdict": "FAIL",
+    "reason": "Duplicate: asks same topic (유학휴직 duration) as q_3_0392 and q_3_0394 with heavily overlapping answers from same source page"
+  },
+  {
+    "id": "q_3_0394",
+    "verdict": "PASS",
+    "reason": "Accurately covers 법정휴직기간 3년 이내 and 연장 3년 규정; all content verified against page 135 lines 29-36"
+  },
+  {
+    "id": "q_3_0395",
+    "verdict": "PASS",
+    "reason": "Correctly distinguishes 국비유학(장기파견) vs 자비유학(휴직); all claims verified against page 135 lines 18-20"
+  },
+  {
+    "id": "q_3_0396",
+    "verdict": "PASS",
+    "reason": "교육기관/연구기관/연수기관 definitions and 사설학원 불가 all verified against page 135 lines 22-25"
+  },
+  {
+    "id": "q_3_0397",
+    "verdict": "FAIL",
+    "reason": "Hallucination: claims '수당: 병역휴직과 동일' for 유학휴직, but that text belongs to 법정의무수행 section (top of p.135). Actual 유학휴직 수당 rules on p.136 are different (정근수당 전액, 가산금/가족수당 50% 감액 등)"
+  },
+  {
+    "id": "q_3_0398",
+    "verdict": "PASS",
+    "reason": "Correctly states 유학휴직 허가 사유: 학위취득 목적 해외유학 or 1년 이상 연구/연수; verified against page 135 lines 11, 17-18"
+  },
+  {
+    "id": "q_3_0399",
+    "verdict": "PASS",
+    "reason": "Concise and accurate: 국비유학은 휴직이 아닌 장기파견으로 처리; verified against page 135 line 20"
+  },
+  {
+    "id": "q_3_0400",
+    "verdict": "PASS",
+    "reason": "Correctly states 사설학원 어학공부 휴직 불가 and 공인 연수기관 요건; verified against page 135 line 24"
+  },
+  {
+    "id": "q_3_0401",
+    "verdict": "FAIL",
+    "reason": "Raw dump: vague question leads to copy-paste of source text with formatting errors (repeated ※ ※ prefixes); cited 관련 근거 제40조 is for 국비유학/장기파견, not 유학휴직 본 근거(제44조제1항제5호)"
+  }
+]

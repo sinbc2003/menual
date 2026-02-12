@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_1_0723",
+    "verdict": "FAIL",
+    "reason": "Bad question: asks about '신청 자격' (application qualification) but the source discusses restriction cases, not application qualifications. Answer is also a raw dump of source text with only bullet formatting added."
+  },
+  {
+    "id": "q_1_0724",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_1_0723: same topic (전직등의 제한), identical answer content. Question is also overly vague ('관련 제한사항이 있나요?')."
+  },
+  {
+    "id": "q_1_0726",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_1_0723 and q_1_0724: same topic (전직등의 제한), identical answer content. Question is vague ('고려사항은 무엇인가요?')."
+  },
+  {
+    "id": "q_1_0738",
+    "verdict": "FAIL",
+    "reason": "Raw dump: answer is a near-verbatim copy-paste of the source text with only bullet formatting and a brief intro added, not reformulated as a proper answer."
+  },
+  {
+    "id": "q_1_0739",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_1_0738: nearly identical question ('어떤 조건을 충족해야 하나요' vs '어떤 요건이 필요한가요') and identical answer about 교육전문직원의 전직."
+  },
+  {
+    "id": "q_1_0741",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_1_0738 with identical answer. Bad question: '얼마나 인정되나요' (how much is recognized) does not make sense for transfer regulations; the answer does not address recognition/duration."
+  },
+  {
+    "id": "q_1_0743",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_1_0738: same topic (교육전문직원의 전직), identical answer content."
+  },
+  {
+    "id": "q_1_0746",
+    "verdict": "FAIL",
+    "reason": "Bad question: asks about '행정 처리 담당자' (administrative handler) but neither the source page nor the answer discusses any handler or responsible person. Answer does not address the question."
+  },
+  {
+    "id": "q_1_0747",
+    "verdict": "FAIL",
+    "reason": "Bad question: asks about '참고 서식' (reference forms) but neither the source page nor the answer mentions any forms. Answer does not address the question."
+  },
+  {
+    "id": "q_1_0751",
+    "verdict": "FAIL",
+    "reason": "Bad question: asks for '구체적인 적용 사례' (specific application examples) but the answer only lists regulations without providing any actual examples. Also a duplicate of q_1_0738 in answer content."
+  }
+]

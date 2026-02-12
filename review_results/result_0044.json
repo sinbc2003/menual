@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_1_0781",
+    "verdict": "PASS",
+    "reason": "Question is specific about 성폭력범죄 벌금형 결격사유. Answer correctly states 100만원 이상 벌금형, 3년 제한, and lists the three crime categories from 제33조 6의3. Matches page 53 source."
+  },
+  {
+    "id": "q_1_0782",
+    "verdict": "PASS",
+    "reason": "Question is specific about 미성년자 성범죄 임용제한 기간. Answer correctly states 20년 and lists all 5 categories (가~마) from 제33조 6의4. Properly reformulated. Matches page 53 source."
+  },
+  {
+    "id": "q_1_0783",
+    "verdict": "FAIL",
+    "reason": "Bad question: 제69조 is about 당연퇴직 (automatic dismissal), not something you '신청' (apply for). Also raw dump: answer copies the entire source text of 제69조 and 제33조 verbatim without reformulation."
+  },
+  {
+    "id": "q_1_0784",
+    "verdict": "FAIL",
+    "reason": "Bad question: asks about '과정' (process) but 당연퇴직 under 제69조 occurs automatically with no process. Also raw dump of source text and duplicate of q_1_0783 with nearly identical answer."
+  },
+  {
+    "id": "q_1_0785",
+    "verdict": "FAIL",
+    "reason": "Bad question: asks about '일수' (number of days) of 제69조 which is nonsensical - 당연퇴직 has no day-count concept. Raw dump of source text. Duplicate answer of q_1_0783 and q_1_0784."
+  },
+  {
+    "id": "q_1_0786",
+    "verdict": "FAIL",
+    "reason": "Bad question: asks about '기간과 횟수' (period and frequency) - 당연퇴직 has no 'frequency' concept. Raw dump of source text. Duplicate answer of q_1_0783/0784/0785."
+  },
+  {
+    "id": "q_1_0787",
+    "verdict": "FAIL",
+    "reason": "Bad question: '제한사항' is too vague for 제69조. Raw dump of entire source text without reformulation. Duplicate answer of q_1_0783/0784/0785/0786."
+  },
+  {
+    "id": "q_1_0796",
+    "verdict": "FAIL",
+    "reason": "Raw dump: answer copies section headings and source text verbatim including structural markers. Also a duplicate - same topic and largely same answer as q_1_0783-0787 series about 국가공무원법 제69조."
+  },
+  {
+    "id": "q_1_0799",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_1_0796 (same topic: 당연퇴직 법령 규정). Raw dump of source text with structural headings copied verbatim. Answer is truncated (only lists 제33조 items 1-2)."
+  },
+  {
+    "id": "q_1_0800",
+    "verdict": "FAIL",
+    "reason": "Bad question: asks about 임용권자's role in 제69조, but 당연퇴직 is automatic and page 53 doesn't discuss 임용권자's role. Answer doesn't address the question at all - just another raw dump of 제69조/제33조 text. Duplicate answer."
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_3_0471",
+    "verdict": "FAIL",
+    "reason": "Question-answer mismatch: question asks specifically about 대상자 결정 process, but answer dumps the general overview (목적, 선정기준) without including the 대상자 결정 content from 137쪽.md line 28 ('교육지원청 교육장이 결정, 휴직을 허가한다')."
+  },
+  {
+    "id": "q_3_0472",
+    "verdict": "FAIL",
+    "reason": "Vague question with generic dump answer: question asks about '행정 처리 시 필수 확인 사항' but answer just dumps the general document overview (목적 and 선정기준 가항) without addressing specific administrative checks."
+  },
+  {
+    "id": "q_3_0474",
+    "verdict": "FAIL",
+    "reason": "Fabricated question: asks about '교육청에서 자주 질의하는 내용' (frequently asked questions from 교육청) which does not exist in the source material. Answer is a generic page 137 overview dump that does not address the question."
+  },
+  {
+    "id": "q_3_0477",
+    "verdict": "PASS",
+    "reason": "Question about 휴직사유 concept is specific. Answer accurately reflects 138쪽.md line 12 content about 고용휴직 휴직사유 (국제기구, 외국기관 etc. and 재외교육기관 condition). Verified against source."
+  },
+  {
+    "id": "q_3_0478",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer: identical content to q_3_0477. Also, '휴직사유를 하려면' is unnatural Korean - you do not 'do' a leave reason (휴직사유). Badly formed question."
+  },
+  {
+    "id": "q_3_0480",
+    "verdict": "FAIL",
+    "reason": "Question-answer mismatch: question asks '얼마나 사용할 수 있나요' (duration) but answer only describes what 휴직사유 is, without any duration information. The source text provided also lacks duration data for 고용휴직."
+  },
+  {
+    "id": "q_3_0481",
+    "verdict": "FAIL",
+    "reason": "Question-answer mismatch: question asks about 보수 (compensation) during 휴직 but answer only describes 휴직사유 conditions. Page 138 has no 보수 information in the source text cited, and the answer does not address compensation at all."
+  },
+  {
+    "id": "q_3_0483",
+    "verdict": "FAIL",
+    "reason": "Badly formed question: '에서 전임으로 고용계약을 한 경우 어떤 절차를 밟아야 하나요?' is a sentence fragment starting with '에서' (at/from) with missing subject. Incomplete and unintelligible as a standalone question."
+  },
+  {
+    "id": "q_3_0484",
+    "verdict": "PASS",
+    "reason": "Question about 휴직의 요건 concept is clear. Answer accurately lists 가) 휴직 대상 and 나) 휴직의 범위 (1)-(6) matching 138쪽.md lines 16-25. All content verified against source."
+  },
+  {
+    "id": "q_3_0485",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer: identical content to q_3_0484. Also, '휴직의 요건을 하려면 어떤 요건이 필요한가요' is unnatural Korean (you do not 'do' requirements) and is tautological (asking 'what requirements for the requirements')."
+  }
+]

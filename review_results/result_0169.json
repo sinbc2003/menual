@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_4_0562",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer. Answer is identical to q_4_0561 (same source, same content). Question is a trivial rephrase of q_4_0561."
+  },
+  {
+    "id": "q_4_0563",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_4_0561. Also, question is awkwardly phrased: '정의를 하려면 어떤 요건이 필요한가요' (what requirements to perform a definition?) is nonsensical - one does not 'perform' a definition."
+  },
+  {
+    "id": "q_4_0565",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_4_0561. Question asks about 구분(classification) of the definition, but there is only one definition. Answer is identical to q_4_0561/0562/0563."
+  },
+  {
+    "id": "q_4_0566",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_4_0561. Question asks 어떤 종류가 있나요(what types exist) about a definition, which is nonsensical - the definition does not have 'types'. Same answer as q_4_0561/0562/0563/0565."
+  },
+  {
+    "id": "q_4_0570",
+    "verdict": "PASS",
+    "reason": "Source text verified on page 287 section 3. Answer correctly covers 가(비밀누설금지) and 나(품위유지) which are the 준수사항 items present on the cited page."
+  },
+  {
+    "id": "q_4_0574",
+    "verdict": "FAIL",
+    "reason": "Question-source mismatch. Question asks about 판례(court precedents) or 사례(cases) which do not exist on page 287. Answer ignores the question and dumps 준수사항 source text without any 판례 or 사례."
+  },
+  {
+    "id": "q_4_0575",
+    "verdict": "FAIL",
+    "reason": "Grammatically broken question. '비공개 직무정보가 공개되지 않도록이 제한되는 경우' has incorrect particle usage (이 after 않도록). Question is poorly formed and does not make clear grammatical sense."
+  },
+  {
+    "id": "q_4_0577",
+    "verdict": "FAIL",
+    "reason": "Question-source mismatch. Question asks about 학교 행정실(school admin office) duties, which is not mentioned anywhere on page 287. Answer ignores the question and dumps 지침의 목적 및 적용 text. Also duplicate answer with q_4_0553."
+  },
+  {
+    "id": "q_4_0578",
+    "verdict": "FAIL",
+    "reason": "Question-source mismatch. Question asks about 자주 혼동되는 부분(commonly confused parts), a subjective meta-question not addressed by the source. Answer ignores the question and dumps same 지침의 목적 및 적용 text. Duplicate answer with q_4_0553/0577."
+  },
+  {
+    "id": "q_4_0579",
+    "verdict": "FAIL",
+    "reason": "Question-source mismatch. Question asks about practical 업무 처리 방법(how to process related work) at school, which is not in the source. Answer ignores the question and dumps same 지침의 목적 및 적용 text. Duplicate answer with q_4_0553/0577/0578."
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_1_0322",
+    "verdict": "FAIL",
+    "reason": "bad_question, raw_dump: Question asks about required documents (서류) but the source content describes a NAIS menu setting, not any paperwork. Answer is a raw dump of the source text that does not address the question."
+  },
+  {
+    "id": "q_1_0323",
+    "verdict": "FAIL",
+    "reason": "duplicate, raw_dump: Answer is identical to q_1_0322. Question asks about processing procedure (처리 절차) but answer just dumps the same source text without describing any procedure."
+  },
+  {
+    "id": "q_1_0325",
+    "verdict": "FAIL",
+    "reason": "duplicate, raw_dump: Answer is identical to q_1_0322 and q_1_0323. Same source text dumped verbatim with only a different intro sentence."
+  },
+  {
+    "id": "q_1_0327",
+    "verdict": "FAIL",
+    "reason": "duplicate, raw_dump: Answer is identical to q_1_0322/q_1_0323/q_1_0325. Same source text dumped with a different intro sentence."
+  },
+  {
+    "id": "q_1_0329",
+    "verdict": "FAIL",
+    "reason": "bad_question, raw_dump: Question asks '몇 년까지 가능한가요?' (how many years) which is nonsensical for a UI screen. Answer garbles the table data by misaligning columns (e.g., 성명: 경기도, 생년월일: 학교 -- 경기도 is 소속기관 not 성명). Raw dump of table data with incorrect field mapping."
+  },
+  {
+    "id": "q_1_0330",
+    "verdict": "FAIL",
+    "reason": "duplicate, bad_question: Duplicate answer of q_1_0329 with same garbled table data. Question asks about '일수' (number of days) which is nonsensical for this screen content."
+  },
+  {
+    "id": "q_1_0331",
+    "verdict": "FAIL",
+    "reason": "duplicate: Duplicate answer of q_1_0329/q_1_0330 with identical garbled table data dump."
+  },
+  {
+    "id": "q_1_0333",
+    "verdict": "FAIL",
+    "reason": "duplicate: Duplicate answer of q_1_0329/q_1_0330/q_1_0331 with identical garbled table data dump."
+  },
+  {
+    "id": "q_1_0334",
+    "verdict": "FAIL",
+    "reason": "duplicate, bad_question: Duplicate answer of q_1_0329-q_1_0333. Question asks '누가 하나요' (who does it) but the answer just dumps the same garbled table without addressing who performs the action."
+  },
+  {
+    "id": "q_1_0337",
+    "verdict": "FAIL",
+    "reason": "duplicate, bad_question: Answer is effectively identical to q_1_0322 (same source dump, different formatting). Question asks about 학교장 authority but the source text never mentions 학교장 or authority levels."
+  }
+]

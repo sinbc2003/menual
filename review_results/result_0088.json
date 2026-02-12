@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_3_0104",
+    "verdict": "FAIL",
+    "reason": "Question asks about '예외 사항' (exceptions) to 청원휴직 but answer is a raw dump of the entire 청원휴직 table without addressing exceptions. Also factual error: 기타 column attributes '경기도교원육아휴직처리기준' to 고용휴직 but source p124 puts it under 육아휴직/입양휴직."
+  },
+  {
+    "id": "q_3_0106",
+    "verdict": "FAIL",
+    "reason": "Garbled question: '만약 년 이상' is missing '1' (should be '1년 이상'). Also duplicate answer nearly identical to q_3_0104 — same raw table dump from page 124."
+  },
+  {
+    "id": "q_3_0110",
+    "verdict": "PASS",
+    "reason": "Specific question about 연수휴직 기간/조건. Answer accurately matches source p125: 3년 이내, 요건 correct, 경력평정 50% 산입, 승급제한, 보수 지급안함, 결원보충 6월 이상, 관련 규칙 correct."
+  },
+  {
+    "id": "q_3_0114",
+    "verdict": "PASS",
+    "reason": "Specific question about 휴직 중 신분상 의무. Answer accurately reflects source p125: 신분 보유/직무 종사 불가, 5개 의무 항목, 위반 시 징계 대상. 정년퇴직/명예퇴직 참고 사항도 source 다) 항목과 일치."
+  },
+  {
+    "id": "q_3_0116",
+    "verdict": "PASS",
+    "reason": "Specific question about 동반휴직 요건. Answer matches source p125: 배우자 국외근무/제5호 해당 경우, 3년 이내(3년 연장), 경력평정 제외, 승급제한, 보수 지급안함. 총 기간 초과 불가 조건은 p122에서도 확인됨."
+  },
+  {
+    "id": "q_3_0122",
+    "verdict": "PASS",
+    "reason": "Specific question about 가족돌봄휴직 사용 요건. Answer matches source p125: 대상 가족, 조부모/손자녀 특별 요건, 1년 이내/총 3년, 경력 제외, 승급제한, 보수 지급안함, 결원보충 6월 이상 모두 정확."
+  },
+  {
+    "id": "q_3_0123",
+    "verdict": "PASS",
+    "reason": "Specific question about 동반휴직 기간. Core content matches source p125: 3년 이내, 3년 연장 가능, 경력평정 제외, 승급제한, 보수/수당 지급안함, 결원보충 6월 이상. 복직 시 연수 언급은 source에 없으나 핵심 내용은 정확."
+  },
+  {
+    "id": "q_3_0124",
+    "verdict": "PASS",
+    "reason": "Specific question about 자율연수휴직 조건. Answer matches source p125: 재직기간 10년 이상 교원, 자기개발 목적, 1년 이내/총 1회, 경력 제외, 승급제한, 보수/수당 지급안함, 결원보충 6월 이상 모두 정확."
+  },
+  {
+    "id": "q_3_0127",
+    "verdict": "PASS",
+    "reason": "Specific question about 휴직 중 공무원 신분 유지 여부. Core content matches source p125 가)/나)/다) 항목: 신분 보유, 직무 불가, 신분상 의무 5개, 위반 시 징계, 정년퇴직/명예퇴직/직권면직 가능. 직위해제와의 비교 등 일부 부가 설명이 있으나 핵심은 정확."
+  },
+  {
+    "id": "q_3_0128",
+    "verdict": "FAIL",
+    "reason": "Massive hallucination. Source p125 다)는 3줄짜리 내용이나 답변은 구체적 생년월일/정년일 예시(1963.8.15 등), 명예퇴직 요건(재직 20년), 직권면직 사유 6가지, 퇴직금 계산 방법, 경력 산입/제외 기준, SNS 주의사항 등을 대량 날조. 출처에 없는 내용이 답변의 90% 이상."
+  }
+]

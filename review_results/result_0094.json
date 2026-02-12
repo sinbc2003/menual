@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_3_0202",
+    "verdict": "PASS",
+    "reason": "Clear question about 휴직 vs 직위해제 difference. Answer accurately reflects page 127 source (가~라 sections): 신분유지 공통점, 직위유지/해제 차이, 복직보장 여부, 제재적 의미, 직위해제 사유 4가지, 봉급 8할/5할/3할 모두 source와 일치."
+  },
+  {
+    "id": "q_3_0203",
+    "verdict": "PASS",
+    "reason": "Specific question about 복직연수 요건. Answer correctly identifies 육아휴직/동반휴직 2년 이상 시 연수 의무 (교육공무원법 제45조제3항). 추가된 유의사항(학기단위 권장, 15일전 연장신청, 반기별 보고 등)도 모두 page 127 source에 있는 내용."
+  },
+  {
+    "id": "q_3_0205",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_3_0202. 동일한 질문(휴직과 직위해제 차이)을 단어 순서만 바꿔 재생성. 동일 source, 동일 내용의 답변."
+  },
+  {
+    "id": "q_3_0207",
+    "verdict": "PASS",
+    "reason": "Specific question about 휴직 중 현황보고 의무. Answer accurately covers 반기별(6/30, 12/31) 보고, 1개월 이내 생략, 소속기관장 실태파악 의무 등 page 127 item 6) 내용과 정확히 일치."
+  },
+  {
+    "id": "q_3_0208",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_3_0203. 거의 동일한 질문('2년 이상 휴직하면 복직할 때 연수를 받아야 하나요' vs '2년 이상 휴직 후 복직할 때 연수를 받아야 하나요'). 동일 source, 동일 핵심 답변."
+  },
+  {
+    "id": "q_3_0209",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_3_0202 and q_3_0205. 세 번째로 반복되는 직위해제/휴직 차이 질문. 동일 source page 127, 동일 내용."
+  },
+  {
+    "id": "q_3_0210",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_3_0202, q_3_0205, q_3_0209. 네 번째로 반복되는 동일 질문(휴직과 직위해제 차이). 동일 source, 동일 내용의 답변."
+  },
+  {
+    "id": "q_3_0211",
+    "verdict": "FAIL",
+    "reason": "Massive hallucination. Source(page 127 item 5)는 '만료 전 15일까지 신청' 한 문장뿐인데, 답변이 휴직 종류별 기간표, 제출서류 목록, 처리절차, 구체적 날짜 예시, 연장횟수, 발령기준일 등을 대량으로 날조. Source에 없는 내용이 답변의 90% 이상."
+  },
+  {
+    "id": "q_3_0214",
+    "verdict": "FAIL",
+    "reason": "Massive hallucination. Source(page 127 item 4)는 '복직신고와 동시에 다른 사유 휴직신청' 한 문장뿐인데, 답변이 보수변경 비교, 경력산입 비교, 육아휴직수당 중단, '최선의 선택' 조언, 구체적 날짜 시나리오 등을 대량 날조. Source에 없는 내용이 답변의 95% 이상."
+  },
+  {
+    "id": "q_3_0217",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_3_0203/q_3_0208 AND massive hallucination. 복직연수 질문이 세 번째 중복이며, 연수시기/내용/기간/방법/면제조건/비용/날짜 예시 등 source에 없는 내용을 대량 날조. Source는 '대통령령이 정하는 바에 따라 연수' 한 문장뿐."
+  }
+]

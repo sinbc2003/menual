@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_1_0646",
+    "verdict": "PASS",
+    "reason": "Natural and specific question about excluded careers in tenure calculation. Answer accurately lists 4 exclusions (계약제 교원, 휴직기간, 군경력, 교환 근무경력) with the 육아휴직 exception, plus 2월 말일 calculation basis and 3년 미만 restriction. All verified against page 45 lines 39-41. Well-synthesized."
+  },
+  {
+    "id": "q_1_0647",
+    "verdict": "FAIL",
+    "reason": "Unnatural question that treats a clause title as a noun and asks about its 자격 요건 (qualification requirements), which is semantically nonsensical. Answer is a raw dump of the entire page 45 content from (나) through (5), including unrelated sections (다)(라)(마)(3)(4)(5) that go far beyond the topic."
+  },
+  {
+    "id": "q_1_0648",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_1_0647. Identical question pattern (조건 vs 자격 요건), identical raw dump answer. Same unnatural question construction treating a clause as a title."
+  },
+  {
+    "id": "q_1_0649",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_1_0647/q_1_0648 (triplicate). Question '얼마나 인정되나요' (how much is recognized) is nonsensical for a tie-breaking priority list. Same raw dump answer."
+  },
+  {
+    "id": "q_1_0650",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_1_0647/q_1_0648/q_1_0649 (quadruplicate). Question '횟수 제한이 있나요' (is there a frequency limit) is completely nonsensical for this topic - the source material says nothing about frequency limits. Same raw dump answer."
+  },
+  {
+    "id": "q_1_0655",
+    "verdict": "FAIL",
+    "reason": "Answer is a raw dump including (다) and (라) sections that extend beyond the specific topic of tie-breaking priority. Content overlaps substantially with q_1_0638 (same 8 priority items) and q_1_0637 (exchange posting info). No synthesis or practical guidance despite question asking what teachers must know."
+  },
+  {
+    "id": "q_1_0658",
+    "verdict": "FAIL",
+    "reason": "Question asks about practical application notes (실무 적용 시 주의해야 할 점) but answer merely lists the 8 priority items without any practical guidance or caveats. DUPLICATE_ANSWER content with q_1_0638/q_1_0643. Answer does not address the specific question asked."
+  },
+  {
+    "id": "q_1_0660",
+    "verdict": "FAIL",
+    "reason": "Question asks about '요건' (requirements) but answer provides processing steps, creating a question-answer mismatch. Answer is also truncated, cutting off at 도교육청 전보서류 접수 while source page 46 shows additional steps (전보내신자 명부 작성, 전출·전입 동의 요구, 발령, 결과처리)."
+  },
+  {
+    "id": "q_1_0661",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_1_0660 - identical answer content. Answer is truncated, missing the final stages of the process (전출·전입 동의 요구 및 회신, 전출 발령, 결과처리) that are present in the source on page 46."
+  },
+  {
+    "id": "q_1_0662",
+    "verdict": "FAIL",
+    "reason": "Question asks about legal basis (법적 근거) but answer provides processing steps with no legal references. TRIPLICATE with q_1_0660/q_1_0661. The source text for this page section does not contain specific legal citations, so the question is unanswerable from this source."
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_1_0999",
+    "verdict": "FAIL",
+    "reason": "Bad question: asks about consequences of incorrect processing ('잘못 처리하면 어떤 문제가 생기나요') but source page 73 has no information about consequences. Answer is identical raw dump as batch_0054 duplicates (q_1_0990 etc.). Duplicate answer."
+  },
+  {
+    "id": "q_1_1000",
+    "verdict": "FAIL",
+    "reason": "Duplicate: same topic and identical answer as q_1_0990/q_1_0999. Raw dump of source text. Also has grammar error in question: '취소을' should be '취소를' (wrong particle)."
+  },
+  {
+    "id": "q_1_1001",
+    "verdict": "FAIL",
+    "reason": "Bad question: asks about commonly confused aspects ('자주 혼동되는 부분') but answer identifies no specific confusion points. Answer is identical raw dump as previous duplicates. Duplicate answer."
+  },
+  {
+    "id": "q_1_1002",
+    "verdict": "FAIL",
+    "reason": "Raw dump: answer copies most of page 73 (cancellation section + computation table + tax note) verbatim with no meaningful reformulation. Core cancellation content is duplicate of q_1_0990 and many others."
+  },
+  {
+    "id": "q_1_1007",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_1_1002: same raw dump of page 73 content (cancellation + computation table + tax + death case header). Mentions '공무원 본인 사망(뇌사) 시' section header at end without providing its content."
+  },
+  {
+    "id": "q_1_1008",
+    "verdict": "FAIL",
+    "reason": "Source mismatch: source title says '공무원 본인 사망(뇌사) 시 명예퇴직 심사 대상 구분' (section 8) but source.text contains section 6 (결정 취소) content. Answer dumps section 6-7 content instead of the actual section 8 인정/제외 criteria for deceased officials."
+  },
+  {
+    "id": "q_1_1009",
+    "verdict": "PASS",
+    "reason": "Lists the required submission documents (가-타) for honorary retirement application from page 74. Content is accurate and complete. For a document checklist question, listing the items is the appropriate answer format."
+  },
+  {
+    "id": "q_1_1010",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_1_1009: identical question topic (제출서류 conditions) and character-for-character identical answer listing the same documents from page 74."
+  },
+  {
+    "id": "q_1_1013",
+    "verdict": "FAIL",
+    "reason": "Bad question: asks about '승급 인정' (grade advancement recognition) which has nothing to do with submission documents on page 74. Answer ignores the question and dumps the same document list. Duplicate of q_1_1009."
+  },
+  {
+    "id": "q_1_1015",
+    "verdict": "FAIL",
+    "reason": "Bad question: asks about '법적 근거가 되는 규정' (legal basis/regulations) for the documents but the answer lists the documents themselves without citing any legal provisions. Page 74 does not contain legal citations for the document requirements."
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_3_0188",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer: nearly identical 복직절차+결원보충 content to q_3_0187. Same source dump with only intro line changed."
+  },
+  {
+    "id": "q_3_0189",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer: nearly identical to q_3_0187/0188. Same 복직절차+결원보충 dump repeated again."
+  },
+  {
+    "id": "q_3_0192",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer: same 복직절차+결원보충 content repeated from q_3_0187/0188/0189 with minor intro variation."
+  },
+  {
+    "id": "q_3_0193",
+    "verdict": "FAIL",
+    "reason": "Bad question: '교육청에서 자주 질의하는 내용' (frequently asked by education offices) is fabricated framing not present in source. Also duplicate answer content."
+  },
+  {
+    "id": "q_3_0194",
+    "verdict": "FAIL",
+    "reason": "Source mismatch: question asks about 인정구분 practical application but source.text contains 복직절차 content, not 인정구분. Also duplicate answer with q_3_0187-0193 cluster."
+  },
+  {
+    "id": "q_3_0197",
+    "verdict": "PASS",
+    "reason": "Good specific question about 휴직 vs 직위해제 differences. Answer well-structured with table format. Content verified against page 127: 공통점 (신분유지), 차이점 (보호적 vs 제재적), 직위해제 사유, 보수 비율 all match source."
+  },
+  {
+    "id": "q_3_0198",
+    "verdict": "PASS",
+    "reason": "Specific factual question about which leave types require 복직연수 for 2+ years. Answer correctly identifies 육아휴직(7호) and 동반휴직(10호). Verified against page 127 item 8."
+  },
+  {
+    "id": "q_3_0199",
+    "verdict": "PASS",
+    "reason": "Good question about 휴직자 reporting obligations. Answer accurately covers 반기별 보고 (6/30, 12/31), 보고내용, 1개월 이내 예외, 소속기관장 관리의무. Verified against page 127 item 6."
+  },
+  {
+    "id": "q_3_0200",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_3_0198: same topic (육아휴직 2년 이상 복직연수) with nearly identical answer content and same source citation."
+  },
+  {
+    "id": "q_3_0201",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_3_0197: same question topic (휴직 vs 직위해제 차이) with nearly identical table-structured answer and same source."
+  }
+]

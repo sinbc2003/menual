@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_1_1302",
+    "verdict": "FAIL",
+    "reason": "Question asks about '필수 확인 사항' (required checks) for 회의소집 administrative processing - source only states '위원장이 이를 소집한다'. Answer is a raw dump of the entire 인사위원회 운영 section, duplicating q_1_1296/1301."
+  },
+  {
+    "id": "q_1_1303",
+    "verdict": "FAIL",
+    "reason": "Question asks about '자주 질의하는 내용' (frequently asked questions) from 교육청 - fabricated premise not found in source material. Answer is another raw dump of the full section ignoring the question."
+  },
+  {
+    "id": "q_1_1304",
+    "verdict": "FAIL",
+    "reason": "Bad question - asks about '기간 계산' (period calculation) for 위원회 구성, but source page 98 contains no such time period info. Answer discusses 위원장/부위원장 composition without addressing the question."
+  },
+  {
+    "id": "q_1_1305",
+    "verdict": "FAIL",
+    "reason": "Bad question - asks about '횟수 제한' (frequency limits) for 위원회 구성 which is not in source. Answer is identical to q_1_1304, dumping the same (가)(나)(다) content without addressing frequency."
+  },
+  {
+    "id": "q_1_1307",
+    "verdict": "FAIL",
+    "reason": "Vague question about '유형' (types) of 위원회 구성. Answer is identical raw dump as q_1_1304/1305. Duplicate answer with no meaningful differentiation."
+  },
+  {
+    "id": "q_1_1308",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer - identical content to q_1_1304, q_1_1305, q_1_1307. While the question about legal basis is somewhat reasonable, the answer is repeated verbatim across 4 entries making it a duplicate."
+  },
+  {
+    "id": "q_1_1310",
+    "verdict": "FAIL",
+    "reason": "Bad question - asks '몇 년까지 가능한가요' (how many years possible) for 위원회 운영 which has no time limit in source. Answer discusses 준용 규정 but does not address any time limit. Question-answer mismatch."
+  },
+  {
+    "id": "q_1_1311",
+    "verdict": "FAIL",
+    "reason": "Bad question - asks about '횟수 제한' (frequency limits) for 위원회 운영 not addressed in source. Answer is identical to q_1_1310/1313/1314 - duplicate raw dump."
+  },
+  {
+    "id": "q_1_1313",
+    "verdict": "FAIL",
+    "reason": "Vague question - '해당하는 것들' is overly broad and non-specific. Answer is identical raw dump as q_1_1310/1311/1314. Duplicate content."
+  },
+  {
+    "id": "q_1_1314",
+    "verdict": "FAIL",
+    "reason": "Question asks about '최근 변경사항' (recent changes) which is not available in the source material. Answer dumps current regulations without mentioning any changes. Unanswerable from source."
+  }
+]

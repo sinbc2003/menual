@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_1_0383",
+    "verdict": "PASS",
+    "reason": "Good specific question about 교장 중임 심의 절차 and disqualification cases. Answer accurately reflects page 27 content: 인사위원회 심의 절차 (교육공무원인사관리규정 제31조), 심의 사항 (건강상태, 관리능력, 부적격사유, 4대 비위, 음주운전), and 4대 비위 배제 규정. Source text is a valid substring of page 27 lines 26-34. Well-synthesized with clear structure."
+  },
+  {
+    "id": "q_1_0386",
+    "verdict": "FAIL",
+    "reason": "bad_question: Question uses '신청할 때 유의사항' which implies an application process, but 교장·원장임기의 표시방법 is about how administrators should notate the term period on appointment documents (임명장, 인사기록카드). It is not something that is '신청' (applied for). The answer content from page 27 lines 11-20 is accurate but the question framing is misleading."
+  },
+  {
+    "id": "q_1_0388",
+    "verdict": "FAIL",
+    "reason": "bad_question, duplicate: Question asks about '횟수 제한' (frequency limits) which is irrelevant to 표시방법 (notation format). The source content about how to write term periods on documents has nothing to do with frequency limits. Answer is identical to q_1_0386."
+  },
+  {
+    "id": "q_1_0389",
+    "verdict": "FAIL",
+    "reason": "bad_question, duplicate: Question asks '기간은 어떻게 계산하나요?' (how to calculate the period) but the source content is about the notation/display format (표시방법) of terms on documents, not about period calculation methods. Answer is identical to q_1_0386/q_1_0388."
+  },
+  {
+    "id": "q_1_0390",
+    "verdict": "FAIL",
+    "reason": "bad_question, duplicate: Question asks '대상자는 어떻게 선발하나요?' (how to select candidates) which is completely unrelated to 표시방법 (how to write term periods on documents). The source has no information about candidate selection. Answer is identical to q_1_0386/q_1_0388/q_1_0389."
+  },
+  {
+    "id": "q_1_0394",
+    "verdict": "FAIL",
+    "reason": "duplicate: While this question ('구체적인 적용 사례') is the most fitting question for the source content (which contains 예1, 예2, 예3 examples), the answer is identical to q_1_0386/q_1_0388/q_1_0389/q_1_0390 in this same batch, constituting a duplicate."
+  },
+  {
+    "id": "q_1_0396",
+    "verdict": "FAIL",
+    "reason": "bad_question, duplicate: Question asks about '교원의 신분에 미치는 영향' (impact on teacher status) which is not addressed at all in the source content. The 표시방법 section is purely procedural (how to write dates on documents) with no discussion of personnel status impact. Answer is identical to q_1_0386 and others."
+  },
+  {
+    "id": "q_1_0397",
+    "verdict": "FAIL",
+    "reason": "raw_dump: Answer starts with 원로교사 content from a previous regulation section (교육공무원 임용령 제9조의6(3)) then abruptly jumps to 교장·원장임기제실시업무처리지침 표시방법 section with no logical transition. The content is a verbatim dump of the source text spanning two disconnected topics with minimal synthesis or organization."
+  },
+  {
+    "id": "q_1_0398",
+    "verdict": "FAIL",
+    "reason": "duplicate, raw_dump: Same source text and essentially identical answer as q_1_0397. Both dump the same 원로교사 + 표시방법 content verbatim from page 27 with no synthesis."
+  },
+  {
+    "id": "q_1_0399",
+    "verdict": "FAIL",
+    "reason": "bad_question, duplicate: Question asks about both 표시방법 AND '1차 임기만료 교장에 대한 중임 절차' but the answer only covers 원로교사 + 표시방법, completely omitting the 중임 절차 content (which exists on the same page 27 starting at line 22). Same answer content as q_1_0397/q_1_0398."
+  }
+]

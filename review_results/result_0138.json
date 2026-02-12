@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_4_0004",
+    "verdict": "PASS",
+    "reason": "Question is clear and meaningful. Answer accurately covers 교장/교감/수석교사/교사/행정직원 duties, all verified on page 259. Source text matches line 19 of the markdown."
+  },
+  {
+    "id": "q_4_0005",
+    "verdict": "FAIL",
+    "reason": "Answer lists 7 직무상 의무 (성실, 복종, 직장이탈금지, 친절공정, 종교중립, 비밀엄수, 청렴) but page 259 only contains 성실의무 and 복종의 의무. Items 3-7 are hallucinated relative to the referenced source page."
+  },
+  {
+    "id": "q_4_0006",
+    "verdict": "FAIL",
+    "reason": "Heavy hallucination. The source only states one sentence about 성실의무, but the answer fabricates extensive elaboration (법령 숙지, 최선을 다하는 자세, 직무 전념, 위반 시 제재, 관련 의무 등) none of which appear on page 259."
+  },
+  {
+    "id": "q_4_0007",
+    "verdict": "FAIL",
+    "reason": "Core 소속상관 definition matches page 259, but answer hallucinates specific examples not in source (교육장, 교육감, 부장교사, 보직교사) and adds fabricated 유의사항 (법령 위반 명령 거부 가능 등) not on page 259."
+  },
+  {
+    "id": "q_4_0008",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_4_0004 (nearly identical question about 교장/교감/교사 임무). Also hallucinates 신설 배경 content (교육활동 보호 강화, 학교장의 책임 명확화) not on page 259."
+  },
+  {
+    "id": "q_4_0016",
+    "verdict": "FAIL",
+    "reason": "Nonsensical template question: '교직원의 임무를 위해 필요한 서류' makes no sense -- 임무 (duties) do not require 서류 (documents). Answer ignores the question and dumps source text about duties."
+  },
+  {
+    "id": "q_4_0017",
+    "verdict": "FAIL",
+    "reason": "Nonsensical template question: '교직원의 임무를 신청할 때' is meaningless -- duties are not something you apply for. Answer is identical to q_4_0016, ignoring the question."
+  },
+  {
+    "id": "q_4_0018",
+    "verdict": "FAIL",
+    "reason": "Question asks about 특례 (special provisions) for 교직원 임무, but page 259 contains no 특례 information. Answer just dumps basic duties without addressing 특례. Duplicate answer with q_4_0016/0017/0019."
+  },
+  {
+    "id": "q_4_0019",
+    "verdict": "FAIL",
+    "reason": "Nonsensical question: '임무가 적용되지 않는 경우' is meaningless for basic job duties. Answer dumps the same duties list without addressing any exceptions. Duplicate answer with q_4_0016/0017/0018."
+  },
+  {
+    "id": "q_4_0024",
+    "verdict": "PASS",
+    "reason": "Reasonable question about 직무상 의무 concept. Answer accurately covers 성실의무 and 복종의 의무 with the 소속상관 case example, all verified on page 259. Source text matches lines 33-39 of the markdown."
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_3_0050",
+    "verdict": "PASS",
+    "reason": "Answer accurately reproduces 공무원보수규정 제28조 content from page 122; all details (봉급 70%, 50%, 전액지급, 징수, 미지급) verified against source."
+  },
+  {
+    "id": "q_3_0055",
+    "verdict": "FAIL",
+    "reason": "Question asks about 판례나 사례 (precedents/cases) but answer contains no precedents or cases at all; also DUPLICATE_ANSWER of q_3_0050 with identical content."
+  },
+  {
+    "id": "q_3_0057",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER of q_3_0050; answer is nearly identical with only minor formatting differences. Question adds no distinct value."
+  },
+  {
+    "id": "q_3_0060",
+    "verdict": "FAIL",
+    "reason": "Vague question (중요한 이유) not answered; answer dumps 마)-사) leave types and 효력 content without explaining WHY 효력 is important. Raw content dump."
+  },
+  {
+    "id": "q_3_0062",
+    "verdict": "FAIL",
+    "reason": "Question asks about 휴직절차 but answer omits actual 절차 content from page 122 (라. 휴직절차: 직권휴직/청원휴직 flow). DUPLICATE_ANSWER of q_3_0060."
+  },
+  {
+    "id": "q_3_0065",
+    "verdict": "FAIL",
+    "reason": "Question asks for 행정적 절차 but answer provides 휴직의 효력 content instead of actual procedures from 라. 휴직절차 on page 122. DUPLICATE_ANSWER of q_3_0060."
+  },
+  {
+    "id": "q_3_0066",
+    "verdict": "FAIL",
+    "reason": "Question asks about 교육청 자주 질의 내용 (FAQs) but answer provides no FAQ content; just dumps same 효력 content. DUPLICATE_ANSWER of q_3_0060. Fabricated question premise."
+  },
+  {
+    "id": "q_3_0067",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER of q_3_0060; identical content. Question about 필수 확인 사항 not specifically addressed."
+  },
+  {
+    "id": "q_3_0070",
+    "verdict": "FAIL",
+    "reason": "Hallucinated content: 공무원 재해보상법, 공무상 재해심의위원회 심의 details are not present on source page 123. Core comparison data is correct but answer fabricates legal references beyond source."
+  },
+  {
+    "id": "q_3_0080",
+    "verdict": "FAIL",
+    "reason": "Misattributes 기타 data: 경기도교육청 노조전임자휴직 허가공문 is for 노조전임자 (page 123) but answer attributes it to 병역휴직. Also incomplete table coverage (only 질병휴직 details for most rows)."
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_1_0230",
+    "verdict": "FAIL",
+    "reason": "hallucination - Answer cites '교육공무원 인사기록 및 인사사무 처리 규칙 제11조' but page 10 source only references 제12조, 제20조, 제10조, 제16조, 제17조, 10조의2, 제19조. The 제11조 reference is fabricated."
+  },
+  {
+    "id": "q_1_0233",
+    "verdict": "FAIL",
+    "reason": "hallucination - Answer adds '유의사항: 원본 제출 원칙, 사본 제출 시 인사담당관이 원본 대조 확인 필요' which does not appear anywhere in page 10 source markdown."
+  },
+  {
+    "id": "q_1_0235",
+    "verdict": "FAIL",
+    "reason": "hallucination - Massive fabrication. Source is a single line: '신규채용, 승진의 임명장[별지 제20호 서식], 전보 임용장[별지 제22호 서식으로 갈음]'. Answer fabricates an entire comparison between 임용장 and 임용통지서, including 강임/면직/징계/직위해제/휴직/복직 usage, 처분사유설명서, 발령 효력, 처리 절차 etc. The term 임용통지서 never appears in the source."
+  },
+  {
+    "id": "q_1_0236",
+    "verdict": "FAIL",
+    "reason": "bad_question - Question asks '구비서류가 교원의 경력에 어떤 영향을 미치나요?' (impact on career) but the source content is about procedural documentation requirements for new teacher appointment. The question misleads about the content; the answer does not address career impact at all."
+  },
+  {
+    "id": "q_1_0242",
+    "verdict": "PASS",
+    "reason": "Answer correctly identifies 15학급 as 12~17학급 range = 8명. All table data, 특수학급 inclusion, and +1 conditions match page 18 source exactly."
+  },
+  {
+    "id": "q_1_0243",
+    "verdict": "PASS",
+    "reason": "Core answer (명칭=교육감, 종류/업무분장=학교장) accurately reflects source line 38. Minor contextual inference about school-level flexibility is reasonable paraphrase."
+  },
+  {
+    "id": "q_1_0244",
+    "verdict": "PASS",
+    "reason": "Answer correctly identifies 기숙사 설치교 can get additional 기숙사부장 via pre-approval. School list matches page 18 source table."
+  },
+  {
+    "id": "q_1_0245",
+    "verdict": "PASS",
+    "reason": "Answer correctly states 중학교 12학급이상, 고등학교 9학급이상 criteria and 1998.3.13 approval date. All information matches page 18 source."
+  },
+  {
+    "id": "q_1_0246",
+    "verdict": "PASS",
+    "reason": "Complete and accurate tables for both 중학교 and 고등학교 보직교사 배치기준. All data including +1 conditions and 특수학급 note matches page 18 source."
+  },
+  {
+    "id": "q_1_0247",
+    "verdict": "FAIL",
+    "reason": "hallucination - Answer adds 과학부장, 영농부장, 도제부장, 방송교무·학생부장 which are on page 19, not on cited page 18. Also fabricates '발령권자: 학교장 (경기도교육감 행정권한 위임에 관한 규칙 제7조 제1호)' which appears on neither page 18 nor 19."
+  }
+]

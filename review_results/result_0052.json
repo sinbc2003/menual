@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_1_0953",
+    "verdict": "PASS",
+    "reason": "Well-structured answer covering 명예퇴직수당 신청절차, 지급시기(2월말/8월말, 퇴직일), 우선고려대상, 특별승진 제외사유. All information verified against page 72. Answer is properly reformulated with organized sections."
+  },
+  {
+    "id": "q_1_0955",
+    "verdict": "PASS",
+    "reason": "Focused answer on priority criteria (상위직, 장기근속, 원로교사) with supporting procedure details. All content verified against page 72. Properly reformulated."
+  },
+  {
+    "id": "q_1_0957",
+    "verdict": "FAIL",
+    "reason": "Raw dump - answer is nearly verbatim copy of source text with minimal reformulation. Double colons '::' are formatting artifacts from copy-paste. Only adds intro sentence and '관련 근거' footer."
+  },
+  {
+    "id": "q_1_0958",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_1_0957 - identical answer content. Also raw dump. Question asks about '유의사항' but answer provides no specific precautions, just repeats the same regulation text."
+  },
+  {
+    "id": "q_1_0959",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_1_0957/0958 - identical answer. Bad question: asks about '일수' (number of days) but answer is generic dump of the entire section, not focused on day-related information."
+  },
+  {
+    "id": "q_1_0961",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_1_0957/0958/0959 - identical raw dump answer. Question is also essentially the same as q_1_0962."
+  },
+  {
+    "id": "q_1_0962",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_1_0957/0958/0959/0961 - identical raw dump answer. Question ('어떤 것들이 포함되나요') is essentially the same as q_1_0961 ('해당하는 것들은 무엇인가요')."
+  },
+  {
+    "id": "q_1_0965",
+    "verdict": "FAIL",
+    "reason": "Bad question - asks about '신청 자격' (application qualification) for 특별승진 제외사유, but 제외사유 is not something one applies for. Answer is a raw dump of the exclusion list with no reformulation."
+  },
+  {
+    "id": "q_1_0966",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_1_0965 - identical answer. Raw dump of 특별승진 제외사유 list. Question is essentially the same topic."
+  },
+  {
+    "id": "q_1_0968",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_1_0965/0966 - identical answer. Raw dump. Question asks when exclusions are 'restricted' which doesn't make sense for exclusion criteria."
+  }
+]

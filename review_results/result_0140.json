@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_4_0042",
+    "verdict": "PASS",
+    "reason": "Source text verified against 259쪽.md. Answer accurately lists 관련 법규 and 교직원의 임무 (교장, 교감). No hallucination. Question is meaningful."
+  },
+  {
+    "id": "q_4_0045",
+    "verdict": "FAIL",
+    "reason": "Near-duplicate of q_4_0042 (same page 259, same source text, same topic). Answer is incomplete: claims to explain 교직원의 임무 but the section is empty with only a header and no actual 임무 content listed."
+  },
+  {
+    "id": "q_4_0046",
+    "verdict": "PASS",
+    "reason": "Source text verified against 260쪽.md (사례 1, 사례 2). Answer accurately explains 사직원 제출 후 무단결근이 직장이탈 금지 위반임. Good practical question. No hallucination."
+  },
+  {
+    "id": "q_4_0047",
+    "verdict": "PASS",
+    "reason": "Source texts verified against 260쪽.md. Answer correctly covers 직장이탈 금지 의무, 위반 시 징계 및 직무유기죄, 사직원/연가/직위해제 사례. All content traceable to page 260."
+  },
+  {
+    "id": "q_4_0048",
+    "verdict": "FAIL",
+    "reason": "Near-duplicate of q_4_0046 in same batch. Same scenario (사직원 제출 후 무단결근), same source page 260, same answer content. Question is merely a colloquial rephrasing."
+  },
+  {
+    "id": "q_4_0049",
+    "verdict": "PASS",
+    "reason": "Source text verified against 260쪽.md (사례 4). Answer accurately explains 직위해제 시 출근의무 유지 and 자택대기 가능성. Unique topic within batch."
+  },
+  {
+    "id": "q_4_0050",
+    "verdict": "PASS",
+    "reason": "Source text verified against 260쪽.md (청렴의 의무 사례 1). Answer correctly covers 금품 반환 후에도 청렴의무 위반, 금품 요구만으로도 징계, 직무무관 금품수수도 징계. All from page 260."
+  },
+  {
+    "id": "q_4_0051",
+    "verdict": "FAIL",
+    "reason": "Near-duplicate of q_4_0047 in same batch. Both broadly cover 직장이탈 금지 의무 위반 consequences from page 260 with overlapping answer content (징계, 직무유기죄, 사례 목록)."
+  },
+  {
+    "id": "q_4_0053",
+    "verdict": "FAIL",
+    "reason": "Near-duplicate of q_4_0046 in same batch. Third entry about 사직원 제출 후 무단결근 = 직장이탈 위반. Same source (page 260 사례 2), same core answer."
+  },
+  {
+    "id": "q_4_0054",
+    "verdict": "FAIL",
+    "reason": "Near-duplicate of q_4_0047 and q_4_0051 in same batch. All three cover 직장이탈 금지 의무 broadly from page 260 with substantially overlapping answer content."
+  }
+]

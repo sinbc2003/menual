@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_4_0099",
+    "verdict": "FAIL",
+    "reason": "Template question mismatch: asks about '요건' (requirements) for '일반적 관리' but the section covers work rules (공휴일 근무, 출장, 탄력적 근무시간제), not requirements. The question treats a section heading as a procedure."
+  },
+  {
+    "id": "q_4_0101",
+    "verdict": "FAIL",
+    "reason": "Template question about '처리 기한' (processing deadlines) but source has no deadline information. Also duplicate answer with q_4_0099 (identical content dump from page 261 일반적 관리 section)."
+  },
+  {
+    "id": "q_4_0102",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_4_0099: nearly identical content. Vague template question '어떻게 해야 하나요' applied to section heading '일반적 관리'."
+  },
+  {
+    "id": "q_4_0105",
+    "verdict": "FAIL",
+    "reason": "Subjective template question: asks '가장 중요한 조건' (most important condition) but source does not rank obligations by importance. Answer just lists 품위유지, 정치운동 금지, etc. without addressing the ranking."
+  },
+  {
+    "id": "q_4_0107",
+    "verdict": "FAIL",
+    "reason": "Question-answer mismatch: asks about '교원의 신분에 미치는 영향' (impact on teacher status) but source text about 일반적 관리 discusses work management rules, not impact on status. Also duplicate answer with q_4_0099."
+  },
+  {
+    "id": "q_4_0108",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_4_0099/q_4_0107. Question asks for '구체적인 적용 사례' (specific application examples) but answer provides rules, not examples."
+  },
+  {
+    "id": "q_4_0110",
+    "verdict": "PASS",
+    "reason": "Question asks to summarize all 복무일반 regulations, which the answer does by covering obligations (품위유지, 정치운동 금지, etc.) and 근무형태 rules from page 261. Source text verified on page 261."
+  },
+  {
+    "id": "q_4_0113",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_4_0110 (identical content). Question framing '근무형태 과정에서' is nonsensical - 근무형태 is a section heading, not a process."
+  },
+  {
+    "id": "q_4_0116",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_4_0110/q_4_0113. Question asks for '주의해야 할 점' (precautions) but answer just dumps the same general content without addressing practical cautions."
+  },
+  {
+    "id": "q_4_0118",
+    "verdict": "PASS",
+    "reason": "Specific meaningful question about whether teachers must attend on school closure days. Answer correctly states yes, citing source from page 262: '휴업일은 교육공무원인 교원의 공휴일이 아니므로... 당연히 출근해야'. Source text verified."
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_3_1157",
+    "verdict": "FAIL",
+    "reason": "Question asks about school admin office tasks (학교 행정실에서 처리하는 업무) but answer just dumps the full 청원휴직 심사기준 from page 253 without addressing admin office-specific tasks. Question-answer mismatch."
+  },
+  {
+    "id": "q_3_1158",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_3_1157. Same source page 253, same source.text, and nearly identical answer content. Question is a trivial rephrasing."
+  },
+  {
+    "id": "q_3_1160",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_3_1157 and q_3_1158. Same page 253 content regurgitated with a slightly different intro. All three entries cover the same material identically."
+  },
+  {
+    "id": "q_3_1162",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_3_1157/1158/1160. Same page 253 source, same answer content. Four entries now with effectively identical answers."
+  },
+  {
+    "id": "q_3_1163",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_3_1157/1158/1160/1162. Question asks about mandatory verification items (필수 확인 사항) for admin processing but answer just dumps the same 심사기준 content."
+  },
+  {
+    "id": "q_3_1164",
+    "verdict": "FAIL",
+    "reason": "Question asks about common problems (흔히 발생하는 문제점) when applying the criteria, but answer just restates the criteria themselves without discussing any problems. Also duplicate answer content with q_3_1157-1163."
+  },
+  {
+    "id": "q_3_1165",
+    "verdict": "FAIL",
+    "reason": "Question asks about qualification requirements (자격 요건) but answer dumps procedural rules from page 254 (items 4-8) about delegation of authority and process steps, not individual qualifications. Question-answer mismatch."
+  },
+  {
+    "id": "q_3_1166",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_3_1165. Same page 254 source, virtually identical answer content covering items 4-8."
+  },
+  {
+    "id": "q_3_1167",
+    "verdict": "FAIL",
+    "reason": "Question asks about required documents (필요한 서류) but answer lists procedural criteria from page 254 without mentioning any specific documents. Source material contains no document requirements. Question-answer mismatch, plus duplicate answer with q_3_1165/1166."
+  },
+  {
+    "id": "q_3_1168",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_3_1165/1166/1167. Same page 254 source, same answer content. Question is a trivial rephrasing of q_3_1166."
+  }
+]

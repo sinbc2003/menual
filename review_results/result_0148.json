@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_4_0163",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_4_0164: both entries share the same source (page 263) and produce nearly identical answers about 교원의 대학원 수강. Also, the question '복무일반에 관해 교육청에서 자주 질의하는 내용은 무엇인가요?' is a generic template question that does not target specific content."
+  },
+  {
+    "id": "q_4_0164",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_4_0163: answer is nearly identical (same source page 263, same content about 교원의 대학원 수강, 방학 중의 근무). Only the opening sentence differs."
+  },
+  {
+    "id": "q_4_0166",
+    "verdict": "FAIL",
+    "reason": "HALLUCINATION: Answer contains a fabricated example '예) 41조연수: 2학기 업무 계획 수립(휴업기간: 2022.7.25.~7.29, 부재중관리자: 교감 000)' with specific dates that do not appear in the source text or page 264 markdown."
+  },
+  {
+    "id": "q_4_0167",
+    "verdict": "PASS",
+    "reason": "Answer accurately reflects page 264 content on 41조 연수 신청 방법 (휴업일 중 학기당 1/2이내, 3일 전 NEIS 공람 신청, 신청 내용, 교감 근무 요건). Source text verified against 264쪽.md. Question is specific and meaningful."
+  },
+  {
+    "id": "q_4_0168",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_4_0169/0170/0171/0172: all five entries produce identical answers (가/나/다 dump from page 264). Additionally, question asks about '필요한 서류' (required documents) but the answer only describes the general procedure, not specific documents."
+  },
+  {
+    "id": "q_4_0169",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_4_0168/0170/0171/0172: identical answer text. Different question wording ('절차') but same verbatim source dump."
+  },
+  {
+    "id": "q_4_0170",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_4_0168/0169/0171/0172: identical answer text. Question asks '기간은 얼마나 되나요' but answer does not specifically focus on the period calculation; it dumps the entire 가/나/다 source text."
+  },
+  {
+    "id": "q_4_0171",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_4_0168/0169/0170/0172: identical answer text. Question asks '어떻게 계산하나요' (how to calculate the period) but the source has no calculation method and the answer does not address this."
+  },
+  {
+    "id": "q_4_0172",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_4_0168/0169/0170/0171: identical answer text. Question asks about '제한되는 경우' (restricted cases) but the answer is the same generic procedure dump, not focused on restrictions."
+  },
+  {
+    "id": "q_4_0176",
+    "verdict": "PASS",
+    "reason": "Answer correctly presents the 기관별 복무 보고(관리) table from page 264 (교육장/직속기관장 -> 본청 운영지원과; 공립 유치원 원장/초중고 교장/특수학교 교장 -> 해당 교육지원청 교육장). Source text verified against 264쪽.md table. Question is specific."
+  }
+]

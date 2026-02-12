@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_3_1143",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_3_1144, q_3_1154, q_3_1155, q_3_1156 in this batch and q_3_1138/1139/1140 in batch_0134 (identical content except intro). Question about '단서 조항' (proviso clauses) is only tangentially addressed."
+  },
+  {
+    "id": "q_3_1144",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_3_1143 and others. Question asks about '최근 변경사항' (recent changes) but answer lists leave types with no mention of any changes whatsoever - complete question-answer mismatch."
+  },
+  {
+    "id": "q_3_1146",
+    "verdict": "PASS",
+    "reason": "Source text verified against 253쪽.md section 4. Answer faithfully reproduces the full 심사기준 content including paragraphs 1-3 and the interpretive notes. Answer extends beyond cited source.text (which was truncated at paragraph 2) but all content is verified on page 253. Question about conditions for 심사기준 is well matched."
+  },
+  {
+    "id": "q_3_1148",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_3_1146 (identical content except intro). Question about '유의사항' is reasonable but redundant with q_3_1146."
+  },
+  {
+    "id": "q_3_1149",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_3_1146 (identical content except intro). Question about '과정' (process) is reasonable but answer is identical to q_3_1146."
+  },
+  {
+    "id": "q_3_1151",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_3_1146 (identical content except intro). Question about period and frequency is also redundant."
+  },
+  {
+    "id": "q_3_1153",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_3_1146 (identical content except intro). Question is a partial raw dump of source text used as question stem ('유학휴직은 경기도 교원 국외 자비유학, 연수·연구 대상자 선정 기준을 적용하며...')."
+  },
+  {
+    "id": "q_3_1154",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_3_1143, q_3_1155, q_3_1156 in this batch. Question about '특이사항이나 예외 규정' (exceptions) is not addressed - answer just lists two leave types."
+  },
+  {
+    "id": "q_3_1155",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_3_1154 and q_3_1156. Question asks '잘못 처리하면 어떤 문제' (what problems arise from mishandling) but answer lists leave types with zero discussion of consequences - complete question-answer mismatch."
+  },
+  {
+    "id": "q_3_1156",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_3_1154 and q_3_1155. Question asks for key points summary which is reasonable, but answer is identical to other entries covering only types 6-7."
+  }
+]

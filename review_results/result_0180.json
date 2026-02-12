@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_4_0767",
+    "verdict": "PASS",
+    "reason": "Source text matches page 292 section '다) 외부강의는 소속 부서장의 사전 결재를 받아 출강해야 함'. Answer faithfully reflects source content about pre-approval requirements. No hallucination."
+  },
+  {
+    "id": "q_4_0769",
+    "verdict": "PASS",
+    "reason": "Source text matches page 292 section '자) 외부강의 출강시 복무관리 철저' items (1)-(3). Answer is faithful to source. Question is meaningful."
+  },
+  {
+    "id": "q_4_0770",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_4_0769. Same source text, same answer content. Question is trivially rephrased ('가장 중요한 점' vs '가장 중요한 조건')."
+  },
+  {
+    "id": "q_4_0771",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_4_0769 and q_4_0770. Same source text and nearly identical answer. Third entry with same content from same source section."
+  },
+  {
+    "id": "q_4_0772",
+    "verdict": "PASS",
+    "reason": "Source text matches page 292 full '라. 외부강의' section including regulations and 겸직허가 requirements. Answer is faithful and comprehensive. No hallucination."
+  },
+  {
+    "id": "q_4_0774",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer of q_4_0772 (same source, nearly identical answer). Also contains grammar error: '외부강의과 관련규정에' should be '외부강의와 관련규정에' (외부강의 ends without batchim, requires 와 not 과)."
+  },
+  {
+    "id": "q_4_0777",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer of q_4_0772. Same page 292 source, same answer content about 외부강의 regulations and 겸직허가. Only question wording differs slightly."
+  },
+  {
+    "id": "q_4_0779",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer of q_4_0772 and q_4_0777. Same page 292 source and nearly identical answer. Fourth entry covering identical content."
+  },
+  {
+    "id": "q_4_0781",
+    "verdict": "PASS",
+    "reason": "Source text matches page 293 line about 외부강의등 definition. Answer faithfully reflects the definition. Question is specific and meaningful."
+  },
+  {
+    "id": "q_4_0785",
+    "verdict": "PASS",
+    "reason": "Source text matches page 293 '외부강의등에 해당하지 않는 경우' list. Answer correctly identifies broadcast interview as one of the exempt cases. Specific, well-formed question."
+  }
+]

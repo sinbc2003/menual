@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_2_0102",
+    "verdict": "PASS",
+    "reason": "Answer accurately reflects page 105 table content for 학교 row: 처리내용 (교과별 소요 정원 산출, 순회교사 겸임 발령) and 처리방법 steps all match source."
+  },
+  {
+    "id": "q_2_0103",
+    "verdict": "PASS",
+    "reason": "Answer accurately reflects page 105 table content for 교육지원청 row: 처리내용, 처리방법, and 유의사항 all match source."
+  },
+  {
+    "id": "q_2_0104",
+    "verdict": "PASS",
+    "reason": "Answer correctly lists all 5 구비서류 items from page 105 다. 구비 서류 section verbatim."
+  },
+  {
+    "id": "q_2_0105",
+    "verdict": "FAIL",
+    "reason": "Hallucination. Page 105 contains no timing information whatsoever. The answer fabricates specific submission periods (10~12월경), 수시 상황 timing, and the submission chain (학교→교육지원청→도교육청) none of which appear on the cited source page."
+  },
+  {
+    "id": "q_2_0106",
+    "verdict": "FAIL",
+    "reason": "Hallucination. Page 105 only mentions '학급 편성 및 교과별 교원 조직예정표(횡양식)' as a line item in the document list. The answer fabricates 포함 내용 (학급 편성 현황, 교과별 교원 배치 계획, 교과별 시수, 필요 교원 수) and 특징 details not found in the source."
+  },
+  {
+    "id": "q_2_0108",
+    "verdict": "PASS",
+    "reason": "Answer accurately lists all 5 구비서류 from page 105 and the processing procedure reflects the 학교 row in the table. Source text matches correctly."
+  },
+  {
+    "id": "q_2_0111",
+    "verdict": "PASS",
+    "reason": "Answer accurately provides definitions from page 108 가. 용어의 정의: 순회·겸임교사, 소속학교(기관), 순회·겸임학교, 표시과목불일치 교사 all match source verbatim."
+  },
+  {
+    "id": "q_2_0112",
+    "verdict": "PASS",
+    "reason": "Answer accurately covers all 4 purposes from page 108 나. 목적 section: 수업시수 격차 완화, 표시과목불일치 해소, 소외 지역 교육복지, 개정 교육과정 지원. Content matches source."
+  },
+  {
+    "id": "q_2_0113",
+    "verdict": "PASS",
+    "reason": "Answer accurately defines 표시과목불일치 교사 from page 108: '교원자격증의 표시과목(전공과목)과 다른 교과를 담당하는 교원'. Examples are illustrative, not hallucinated facts. Relationship to 순회교사제 is from source."
+  },
+  {
+    "id": "q_2_0114",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_2_0111. Both ask for the definition of 순회교사/겸임교사 from page 108 and the answer is a subset of q_2_0111's answer, covering the same 순회·겸임교사 definition."
+  }
+]

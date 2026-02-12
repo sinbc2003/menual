@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_1_0917",
+    "verdict": "PASS",
+    "reason": "Answer accurately summarizes the 8 exclusion criteria from page 71's 지급제외대상 section. Well-formatted and reformulated as a helpful answer rather than raw dump. Question is specific and natural."
+  },
+  {
+    "id": "q_1_0918",
+    "verdict": "FAIL",
+    "reason": "Raw dump. Answer copies source text items 1-5 verbatim with only minor bullet formatting. No reformulation into a helpful explanation of how to apply for service period merging."
+  },
+  {
+    "id": "q_1_0919",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_1_0918. Identical answer content despite asking about required documents. Also raw dump - just copies all 5 regulation items instead of simply answering that a 재직기간 합산신청서 is needed."
+  },
+  {
+    "id": "q_1_0920",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_1_0918. Identical answer content. Question asks about period and frequency but the source has no such information, and the answer does not address it either."
+  },
+  {
+    "id": "q_1_0923",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_1_0918. Identical answer content. Question asks about types of 재직기간 합산 but the source does not discuss types, and the answer is just the same raw regulation text dump."
+  },
+  {
+    "id": "q_1_0924",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_1_0918. Identical answer content. Question asks about practical considerations but the answer just dumps the regulation text with no practical guidance."
+  },
+  {
+    "id": "q_1_0925",
+    "verdict": "FAIL",
+    "reason": "Raw dump. Answer copies the source text for 지급제외대상 items 1-8 nearly verbatim with bullet formatting. Also, question asks about '자격 요건' which is misleading - these are exclusion criteria, not qualification requirements."
+  },
+  {
+    "id": "q_1_0929",
+    "verdict": "FAIL",
+    "reason": "Bad question and duplicate. Question asks about '횟수 제한' (frequency limit) for 지급제외대상, which is nonsensical - exclusion criteria do not have frequency limits. Answer is identical to q_1_0925, a raw dump of exclusion criteria."
+  },
+  {
+    "id": "q_1_0933",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_1_0918 group. Same answer content about 재직기간의 합산 items 1-5. Question asks about the most important condition but the answer just dumps all regulation text without identifying any priority."
+  },
+  {
+    "id": "q_1_0934",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_1_0918 group and bad question. Question asks if the school principal has authority over 재직기간 합산, but the source mentions only 공단 (pension corporation). The answer dumps the same regulation text without addressing the question about school principals."
+  }
+]

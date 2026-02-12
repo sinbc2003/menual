@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_4_0246",
+    "verdict": "FAIL",
+    "reason": "Answer contains hallucinated content - mentions 갑작스런 발병 등으로 휴가신청을 대행 which is not in source text or page 267; source.text is only one sentence but answer fabricates detailed steps"
+  },
+  {
+    "id": "q_4_0247",
+    "verdict": "PASS",
+    "reason": "Good specific question about 결재자/공람자 지정 process; answer accurately reproduces source text; source verified against page 267 lines 5-13"
+  },
+  {
+    "id": "q_4_0249",
+    "verdict": "FAIL",
+    "reason": "Meaningless meta-question (자주 묻는 질문이 있나요?); duplicate answer with q_4_0247"
+  },
+  {
+    "id": "q_4_0250",
+    "verdict": "FAIL",
+    "reason": "Formatting error in question (결재자공람자 missing parentheses); duplicate answer with q_4_0247"
+  },
+  {
+    "id": "q_4_0251",
+    "verdict": "FAIL",
+    "reason": "Question about complaint handling (민원 대응) is not addressed in source content; source only covers processing procedure; duplicate answer with q_4_0247"
+  },
+  {
+    "id": "q_4_0254",
+    "verdict": "PASS",
+    "reason": "Reasonable question about 기안문상신 화면 설명; answer covers both 결재자 section and 기안문상신 화면 설명 from page 267; source verified"
+  },
+  {
+    "id": "q_4_0255",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_4_0254 - same page 267 content about 결재자 지정 and 기안문상신 화면 설명"
+  },
+  {
+    "id": "q_4_0256",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_4_0254; same page 267 content repeated"
+  },
+  {
+    "id": "q_4_0257",
+    "verdict": "FAIL",
+    "reason": "Question about 승급 (promotion) is completely unrelated to source content about NAIS message sending procedures; nonsensical question-source mismatch"
+  },
+  {
+    "id": "q_4_0259",
+    "verdict": "PASS",
+    "reason": "Reasonable question about practical considerations for message sending; answer matches source text; source verified against page 268 lines 13-19"
+  }
+]

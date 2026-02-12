@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_1_0172",
+    "verdict": "FAIL",
+    "reason": "raw_dump, duplicate, bad_question - Question asks about '특례' (special exception) but the source does not use this term. Answer is identical raw dump as q_1_0170 (batch_0010). No synthesis addressing the specific question about special exceptions."
+  },
+  {
+    "id": "q_1_0173",
+    "verdict": "FAIL",
+    "reason": "raw_dump, duplicate - Question is reasonable (asks when 생활근거지 배치 doesn't apply), but answer is identical raw dump that doesn't highlight the specific exception clause ('학기 중에 신규로 임용할 경우 또는 교원수급상 불가피한 경우'). Duplicate of q_1_0170, q_1_0172."
+  },
+  {
+    "id": "q_1_0174",
+    "verdict": "FAIL",
+    "reason": "raw_dump, duplicate, bad_question - Question asks '어떻게 진행되나요?' (how does the process work?) but the source describes rules/guidelines, not a process or procedure. Answer is identical raw dump with no process description. Duplicate of q_1_0170, q_1_0172, q_1_0173."
+  },
+  {
+    "id": "q_1_0176",
+    "verdict": "FAIL",
+    "reason": "raw_dump, duplicate, bad_question - Question asks for '실무적으로 주의할 점' (practical considerations) but the answer provides no practical guidance, just the same raw source dump. Duplicate of q_1_0170, q_1_0172-q_1_0174."
+  },
+  {
+    "id": "q_1_0177",
+    "verdict": "FAIL",
+    "reason": "raw_dump, duplicate, bad_question - Question asks about '필요한 서류' (required documents) for 학기 중 신규임용 or 교원수급상 불가피한 경우, but the source contains NO information about required documents for this. The question takes a clause from the source and asks about completely unrelated content. Answer is same raw dump. Duplicate."
+  },
+  {
+    "id": "q_1_0179",
+    "verdict": "FAIL",
+    "reason": "hallucination, raw_dump - Answer contains incorrect '분류: 임용일자 소급의 금지 > 생활근거지 배치 > 신원조사' categorization. In the source markdown, 전력 조회 (카) is its own independent section, NOT a subtopic of 임용일자 소급의 금지 or 생활근거지 배치 or 신원조사. Answer is essentially a raw dump with this fabricated hierarchy added."
+  },
+  {
+    "id": "q_1_0186",
+    "verdict": "FAIL",
+    "reason": "raw_dump, duplicate - While the question is reasonable (asks for a summary), the answer is a verbatim copy of the source text with no actual summarization or synthesis. Duplicate content identical to q_1_0162, q_1_0163, q_1_0164, q_1_0165, q_1_0166 from batch_0010."
+  },
+  {
+    "id": "q_1_0187",
+    "verdict": "FAIL",
+    "reason": "raw_dump, duplicate, bad_question - Question asks about '학교장' (school principal) authority regarding 임용일자 소급 금지, but the source contains NO mention of school principals. Answer is same raw dump that does not address the question. Duplicate of q_1_0162-q_1_0166, q_1_0186."
+  },
+  {
+    "id": "q_1_0189",
+    "verdict": "FAIL",
+    "reason": "hallucination, raw_dump, duplicate, bad_question - Question asks about '민원 대응' (handling complaints) which is not in the source at all. Answer contains incorrect '관련 분야: 임용일자 소급의 금지' label (생활근거지 배치 is a separate section, not related to 임용일자 소급의 금지). Same raw dump. Duplicate of q_1_0170-q_1_0177."
+  },
+  {
+    "id": "q_1_0190",
+    "verdict": "FAIL",
+    "reason": "hallucination, raw_dump, duplicate, bad_question - Question asks for '구체적인 적용 사례' (specific application examples) but the source contains no examples. Answer contains incorrect '관련 분야: 임용일자 소급의 금지' label. Same raw dump with no actual examples provided. Duplicate of q_1_0170-q_1_0177, q_1_0189."
+  }
+]

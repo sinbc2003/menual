@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_3_0898",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer: same 인사처리 지침 content from page 215 as q_3_0890-0893 in batch_0126. Question asks about '최근 변경' but main content referenced is from 1996."
+  },
+  {
+    "id": "q_3_0900",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer: nearly identical to q_3_0898 and q_3_0890 (same page 215 인사처리 지침 full dump)."
+  },
+  {
+    "id": "q_3_0901",
+    "verdict": "FAIL",
+    "reason": "Source mismatch / mixed topics: answer starts with 수당 information (정액급식비, 교통보조비 etc.) from a different section before the 인사처리 지침 content. Also duplicate answer content with q_3_0890/0898/0900."
+  },
+  {
+    "id": "q_3_0903",
+    "verdict": "PASS",
+    "reason": "Accurate content from page 216. Covers 육아휴직 요건 (대상, 만8세 이하 기준, 자녀범위 etc.) correctly verified against 216쪽.md. Question is reasonable despite minor awkwardness."
+  },
+  {
+    "id": "q_3_0904",
+    "verdict": "FAIL",
+    "reason": "Question-answer mismatch: question specifically asks about '기간과 횟수' (period and frequency) but answer only covers 대상 and 자녀범위. Page 216 line 33-35 and page 217 have 기간/횟수 info that is not included. Also duplicate content with q_3_0903."
+  },
+  {
+    "id": "q_3_0907",
+    "verdict": "FAIL",
+    "reason": "Bad question: asks about '교원의 신분에 미치는 영향' (impact on teacher status) but answer only lists 육아휴직 requirements without addressing status impact. Duplicate answer content with q_3_0903."
+  },
+  {
+    "id": "q_3_0908",
+    "verdict": "PASS",
+    "reason": "Good question asking what teachers should know about 육아휴직. Answer is well-structured, covering 근거, 휴직사유, 휴직의 요건 from page 216. All content verified against 216쪽.md."
+  },
+  {
+    "id": "q_3_0910",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer: nearly identical content to q_3_0908 (same 근거/휴직사유/요건 from page 216)."
+  },
+  {
+    "id": "q_3_0913",
+    "verdict": "FAIL",
+    "reason": "Bad question: asks about '승급 인정' (promotion/raise recognition) but answer is about 휴직신청서류 (application documents). Complete topic mismatch between question and expected answer domain."
+  },
+  {
+    "id": "q_3_0914",
+    "verdict": "PASS",
+    "reason": "Accurate content from page 217. Covers 휴직신청서류 requirements (신청서 항목, 입증서류 목록) correctly verified against 217쪽.md. Question is reasonable."
+  }
+]

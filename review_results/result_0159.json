@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_4_0353",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_4_0348 (batch_0158). Identical answer dumping full Article 6-8 text. Question asks about '분류' (classification) but answer does not classify anything. Template-generated question."
+  },
+  {
+    "id": "q_4_0359",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER content with q_4_0348 group. Question asks '가장 중요한 점' (most important point) but answer dumps all clauses without highlighting any priority. Template-generated question not addressed by answer."
+  },
+  {
+    "id": "q_4_0361",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER content with q_4_0348/q_4_0359 group. Question asks about school-specific application ('학교에서') but answer provides generic regulation text with no school-specific guidance. Question-answer mismatch."
+  },
+  {
+    "id": "q_4_0363",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER content combining 직무대리규정 and 제6조 text, same as q_4_0364 and q_4_0365. source.text verified on page 276. Question asks about '기준' (criteria) but answer is unstructured text dump without identifying specific criteria."
+  },
+  {
+    "id": "q_4_0364",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_4_0363. Near-identical answer content. Question asks about legal provisions but answer is same regulation text dump without legal analysis."
+  },
+  {
+    "id": "q_4_0365",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_4_0363/q_4_0364. Question asks about teacher-specific application ('교원 인사 업무에서') but answer provides generic regulation text with no teacher/education-specific guidance. Question-answer mismatch."
+  },
+  {
+    "id": "q_4_0366",
+    "verdict": "PASS",
+    "reason": "Good practical question about part-time work during parental leave. Answer correctly explains prohibition based on 공무원임용령 제57조의5 and 영리업무 금지. source.text verified against page 281 lines 27-29. No hallucination."
+  },
+  {
+    "id": "q_4_0367",
+    "verdict": "PASS",
+    "reason": "Good practical question about teacher real estate rental business. Answer accurately distinguishes cases requiring/not requiring 겸직허가. source.text verified against page 281 lines 18-21 (사례 3). Content matches source."
+  },
+  {
+    "id": "q_4_0368",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE of q_4_0366 in same batch. Nearly identical question ('아르바이트를 해도 되나요' vs '아르바이트해도 되나요'), same topic, same source page 281, near-identical answer content."
+  },
+  {
+    "id": "q_4_0369",
+    "verdict": "PASS",
+    "reason": "Specific question about prohibited matters for apartment representative roles. Answer accurately reflects source content from page 281 사례 2. source.text exactly matches page 281 lines 7-12. Minor issue: question includes document formatting marker '사례 2' but content is accurate."
+  }
+]

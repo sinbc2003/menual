@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_1_0969",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_1_0965/0966/0968 from batch_0052 - identical answer. Raw dump of 특별승진 제외사유 list. Question asks about '예외 사항' but answer lists exclusion criteria without distinguishing exceptions."
+  },
+  {
+    "id": "q_1_0972",
+    "verdict": "FAIL",
+    "reason": "Bad question - '호에 따라 특별승진임용하는 경우' is a sentence fragment, not a proper question. Asks about '필요한 서류' (required documents) but answer lists 특별승진 제외사유 instead. Answer does not address the question."
+  },
+  {
+    "id": "q_1_0973",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_1_0957/0958/0959/0961/0962 from batch_0052 - identical raw dump of 명예퇴직수당 지급대상자 신청 및 지급결정 source text."
+  },
+  {
+    "id": "q_1_0974",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_1_0957 etc. Question asks for '구체적인 적용 사례' (specific application examples) but answer provides no examples - just the same raw dump of regulation text."
+  },
+  {
+    "id": "q_1_0975",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_1_0957 etc. - same raw dump answer. While the legal citations in the answer are relevant to the question about legal basis, the answer is identical to all other entries on this topic."
+  },
+  {
+    "id": "q_1_0976",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_1_0965/0966/0968/0969 - identical raw dump of 특별승진 제외사유 list with only minor formatting differences."
+  },
+  {
+    "id": "q_1_0978",
+    "verdict": "FAIL",
+    "reason": "Bad question - asks about '행정 처리 담당자' (administrative handler) but the answer lists 특별승진 제외사유 without identifying any specific responsible party. Duplicate raw dump."
+  },
+  {
+    "id": "q_1_0979",
+    "verdict": "FAIL",
+    "reason": "Bad question - raw source text ('다음 각 호의 사람을 우선 고려한다. - 상위직 공무원') is pasted into the question. Answer just repeats the priority list without adding any explanation."
+  },
+  {
+    "id": "q_1_0980",
+    "verdict": "FAIL",
+    "reason": "Source mismatch - title says '특별승진 제외사유' but source.text and answer include items ⑨⑩ which are from the 명예퇴직수당 부적격 section, plus section 4) 명예퇴직수당 지급대상자 신청 which is a different section. Answer mixes unrelated sections."
+  },
+  {
+    "id": "q_1_0983",
+    "verdict": "FAIL",
+    "reason": "Bad question - asks how 특별승진 제외사유 affects '교원의 경력' (teacher's career) but answer provides no analysis of career impact. Same source mismatch as q_1_0980 mixing ⑨⑩ and section 4) content under 특별승진 제외사유. Raw dump."
+  }
+]

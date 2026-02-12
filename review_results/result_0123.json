@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_3_0827",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer: same 타교복직 content as q_3_0819/0821/0822/0826 repeated again"
+  },
+  {
+    "id": "q_3_0828",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer: identical 타교복직 content; only question phrasing differs"
+  },
+  {
+    "id": "q_3_0830",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with minor variation: prepends 5단계 발령사항 등록 content to same 타교복직 dump"
+  },
+  {
+    "id": "q_3_0832",
+    "verdict": "FAIL",
+    "reason": "Source mismatch: question asks about 휴·복직발령 유의사항 but answer omits actual 유의사항 from section 4 (소급발령 불가, 규정준수, 휴직/휴가 혼동 방지); wrong section grabbed"
+  },
+  {
+    "id": "q_3_0834",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer of q_3_0830; same 5단계 + 타교복직 content"
+  },
+  {
+    "id": "q_3_0835",
+    "verdict": "FAIL",
+    "reason": "Source mismatch: question asks about 유의사항 procedure but answer gives 5단계 + 타교복직 content instead of actual 유의사항 (가/나/다 items from p211 section 4)"
+  },
+  {
+    "id": "q_3_0836",
+    "verdict": "PASS",
+    "reason": "Specific question about 질병휴직 기간/연장/재휴직; answer accurately covers 1-year base period, 공무상 3-year exception, 재휴직 rules, and 직권면직 per 국가공무원법 제70조; matches p212"
+  },
+  {
+    "id": "q_3_0837",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer of q_3_0836; question asks about '처리 기한' specifically but answer is identical general content"
+  },
+  {
+    "id": "q_3_0839",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer of q_3_0836; question about '횟수 제한' not specifically addressed despite answer containing partial info"
+  },
+  {
+    "id": "q_3_0840",
+    "verdict": "FAIL",
+    "reason": "Bad question: asks about cases where rules don't apply ('적용되지 않는 경우') which source does not cover; duplicate answer of q_3_0836"
+  }
+]

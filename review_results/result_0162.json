@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_4_0397",
+    "verdict": "PASS",
+    "reason": "Natural question about blog/YouTube revenue and 겸직허가. Source text confirmed on page 282 line 20. Answer content (blog, mobile app, working hours) all grounded in page 282. Minor note: answer intro mentions 유튜브 but source only covers blogs; however substantive rules cited are accurate."
+  },
+  {
+    "id": "q_4_0398",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_4_0397. Both cover blog 겸직허가 from page 282 with nearly identical content. Question is just a rephrasing of q_4_0397."
+  },
+  {
+    "id": "q_4_0406",
+    "verdict": "PASS",
+    "reason": "Question about 직무 능률 저하 case is meaningful. Source text confirmed on page 282 (사례 5 section). Answer is verbose (dumps entire section) but all content is factually accurate and grounded in the source."
+  },
+  {
+    "id": "q_4_0407",
+    "verdict": "FAIL",
+    "reason": "TEMPLATE_QUESTION: Entire section title 【사례 7】...금지되나요? pasted as noun phrase + nonsensical suffix '의 자격 요건이 어떻게 되나요?'. The concept of '자격 요건' does not apply to a Q&A example about clinical trials. Answer does not address qualification requirements."
+  },
+  {
+    "id": "q_4_0409",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_4_0407. Identical answer content. Also TEMPLATE_QUESTION: section title pasted as noun phrase + generic suffix '과 관련하여 금지되는 사항을 알려주세요'."
+  },
+  {
+    "id": "q_4_0410",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_4_0407/q_4_0409. Identical answer content. TEMPLATE_QUESTION with section title as noun phrase + '관련 제한사항이 있나요?'."
+  },
+  {
+    "id": "q_4_0411",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_4_0407/q_4_0409/q_4_0410. Identical answer content. TEMPLATE_QUESTION with section title as noun phrase + '실무적으로 주의할 점은 무엇인가요?'."
+  },
+  {
+    "id": "q_4_0416",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_4_0407 series. Also ANSWER_MISMATCH: question asks '행정 처리 담당자는 누구인가요?' (who handles the administration?) but answer does not identify any specific handler. TEMPLATE_QUESTION with section title as noun phrase."
+  },
+  {
+    "id": "q_4_0417",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_4_0407 series. Identical answer content. TEMPLATE_QUESTION with section title as noun phrase + '가장 중요한 조건은 무엇인가요?'."
+  },
+  {
+    "id": "q_4_0418",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_4_0407 series. Identical answer content. TEMPLATE_QUESTION with section title as noun phrase + '특이사항이나 예외 규정이 있나요?'."
+  }
+]

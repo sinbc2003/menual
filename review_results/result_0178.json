@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_4_0732",
+    "verdict": "FAIL",
+    "reason": "Question asks '몇 년까지 가능한가요' (how many years) but source text has no duration/year information; answer does not address the question asked"
+  },
+  {
+    "id": "q_4_0736",
+    "verdict": "PASS",
+    "reason": "Question about reporting conditions is meaningful; answer accurately reflects source text; source verified on page 292"
+  },
+  {
+    "id": "q_4_0737",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_4_0736 in same batch; identical source text and nearly identical answer content"
+  },
+  {
+    "id": "q_4_0738",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_4_0736 in same batch; identical source text and nearly identical answer content"
+  },
+  {
+    "id": "q_4_0739",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_4_0736; question asks about 처리 기한 (processing deadline) but source only has 10-day reporting window, not a processing timeline"
+  },
+  {
+    "id": "q_4_0742",
+    "verdict": "FAIL",
+    "reason": "Question asks about 판례나 사례 (court precedents/examples) which are not in the source; answer just dumps regulatory text without any case law; duplicate answer with q_4_0736"
+  },
+  {
+    "id": "q_4_0744",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_4_0747 in same batch; question asks about 금지되는 사항 (prohibited matters) but answer only describes approval requirements, not explicit prohibitions"
+  },
+  {
+    "id": "q_4_0745",
+    "verdict": "FAIL",
+    "reason": "Question asks about consequences of violation (위반하면 어떻게) which is not in the source text; duplicate answer with q_4_0744/q_4_0747"
+  },
+  {
+    "id": "q_4_0747",
+    "verdict": "PASS",
+    "reason": "Question about exceptions (적용되지 않는 경우) is well-answered by source which states 겸직허가를 받은 경우는 제외; source verified on page 292"
+  },
+  {
+    "id": "q_4_0752",
+    "verdict": "PASS",
+    "reason": "Question about application method is addressed by source item (3) mentioning 〈붙임 1〉 서식; answer faithfully reflects source; source verified on page 292"
+  }
+]

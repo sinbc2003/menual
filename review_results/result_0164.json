@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_4_0458",
+    "verdict": "PASS",
+    "reason": "Answer faithfully reflects source text from page 283 about 사교육업체 범위 및 업무. Source text verified against markdown. Question is reasonable."
+  },
+  {
+    "id": "q_4_0459",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_4_0458 - identical answer content from same source. Question has grammar error ('범위 및 업무 업무를' duplicates 업무). Question is also vague and generic."
+  },
+  {
+    "id": "q_4_0460",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_4_0458 and q_4_0459 - identical answer and same source. Three entries from same source text with nearly identical answers provide no distinct value."
+  },
+  {
+    "id": "q_4_0461",
+    "verdict": "PASS",
+    "reason": "Answer covers the guideline's purpose, scope, and principles from page 283. Source text verified. Answer extends beyond truncated source.text but all content is on the referenced page. Question is meaningful."
+  },
+  {
+    "id": "q_4_0465",
+    "verdict": "FAIL",
+    "reason": "QUESTION_TOPIC_NOT_ON_PAGE - question asks broadly about 기간제교원 regulations but page 283 only mentions 기간제교원 once in passing ('기간제교원 포함'). DUPLICATE_ANSWER with q_4_0461 - same source text, nearly identical answer. Misleading source title."
+  },
+  {
+    "id": "q_4_0466",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER - substantially duplicated from q_4_0461 with same source text. Question asks how the principle is 'actually applied' but answer just lists legal principles without practical application examples. Does not answer the asked question."
+  },
+  {
+    "id": "q_4_0468",
+    "verdict": "FAIL",
+    "reason": "HALLUCINATION - answer includes '허가기간: 최대 1년' and '연장 시: 겸직허가 종료일 1개월 이전까지 신청' which are not found on page 284 or in the source text. Source text from page 284 예시4 is verified, but answer fabricates procedural details."
+  },
+  {
+    "id": "q_4_0469",
+    "verdict": "PASS",
+    "reason": "Answer correctly addresses whether teachers can receive royalties for writing workbooks at publishers. Source text from page 284 예시4 verified. Content about prohibited cases also from page 284. No hallucination detected."
+  },
+  {
+    "id": "q_4_0470",
+    "verdict": "PASS",
+    "reason": "Answer correctly states one-time lectures at 학교교과교습학원 are prohibited. Source text from page 284 예시2 verified against markdown. Additional reference to 학원법 제3조 is from page 283. Well-formed practical question."
+  },
+  {
+    "id": "q_4_0471",
+    "verdict": "PASS",
+    "reason": "Answer correctly distinguishes free vs paid video production at publishers. Source text from page 284 예시3 verified against markdown. Clear, well-formed question with accurate and concise answer."
+  }
+]

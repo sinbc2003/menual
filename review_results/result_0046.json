@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_1_0817",
+    "verdict": "FAIL",
+    "reason": "Bad question: 직권면직 is initiated by 임용권자, not 'applied for' (신청) by employees. Answer is a raw dump of source text with minimal reformulation."
+  },
+  {
+    "id": "q_1_0824",
+    "verdict": "FAIL",
+    "reason": "Bad question: asks whether 학교장 has authority related to 제43조의2, but answer never addresses 학교장's role. Answer is a raw dump of the law text without answering the actual question."
+  },
+  {
+    "id": "q_1_0825",
+    "verdict": "FAIL",
+    "reason": "Duplicate: same source, same answer content as q_1_0824 and q_1_0826. All three dump identical 제43조의2 content."
+  },
+  {
+    "id": "q_1_0826",
+    "verdict": "FAIL",
+    "reason": "Duplicate: same answer as q_1_0824/q_1_0825. Question asks about exceptions but answer does not specifically identify or explain the '다만' exception clause."
+  },
+  {
+    "id": "q_1_0828",
+    "verdict": "FAIL",
+    "reason": "Bad question: asks whether 학교장 has authority over 직권면직, but answer never addresses this. 학교장 is generally not the 임용권자. Answer is a raw dump of 직권면직 conditions."
+  },
+  {
+    "id": "q_1_0830",
+    "verdict": "FAIL",
+    "reason": "Duplicate: same answer content as q_1_0824/q_1_0825/q_1_0826. Raw dump that does not explain 'why' 제43조의2 is important as the question asks."
+  },
+  {
+    "id": "q_1_0834",
+    "verdict": "FAIL",
+    "reason": "Duplicate: same answer content as q_1_0824/q_1_0825/q_1_0826/q_1_0830. Does not address 'career impact' as the question asks. Raw dump."
+  },
+  {
+    "id": "q_1_0836",
+    "verdict": "PASS",
+    "reason": "Accurate and well-formulated. Correctly identifies that 징계위원회 동의 is needed for case (다) per page 55, and properly distinguishes 동의 from 의견 청취."
+  },
+  {
+    "id": "q_1_0837",
+    "verdict": "PASS",
+    "reason": "Accurate per page 55. Correctly identifies 처분사유설명서 for 직위해제/면직/강임/휴직 and 징계처분사유설명서 for 징계처분. Well-formulated answer."
+  },
+  {
+    "id": "q_1_0839",
+    "verdict": "PASS",
+    "reason": "Accurate per page 55 table. Correctly describes 비위사실 여부 확인 procedure, lists 비위확인 기관, and includes relevant 구비서류 information. Well-formulated."
+  }
+]

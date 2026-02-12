@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_4_0754",
+    "verdict": "FAIL",
+    "reason": "Question asks about 승급 인정 (promotion recognition) which is not in the source text at all; answer ignores the question and dumps unrelated source content"
+  },
+  {
+    "id": "q_4_0755",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_4_0754 in same batch; question about 결과 처리 is vague and answer does not specifically address it"
+  },
+  {
+    "id": "q_4_0756",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_4_0754 in same batch; source text describes different processing methods but does not specify when the rules do not apply"
+  },
+  {
+    "id": "q_4_0758",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_4_0754 in same batch; question asks about 법적 근거 (legal basis) but answer provides operational details instead of citing the legal basis (국가공무원 복무규정 제26조 etc. from section 1 of page 292)"
+  },
+  {
+    "id": "q_4_0760",
+    "verdict": "FAIL",
+    "reason": "Question asks about impact on teacher status (교원의 신분에 미치는 영향) which is not in the source; answer just dumps the permit requirements without addressing the question"
+  },
+  {
+    "id": "q_4_0761",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_4_0760 in same batch; question asks about problems from improper processing (잘못 처리하면) which is not addressed in the source"
+  },
+  {
+    "id": "q_4_0763",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_4_0764/q_4_0765 in same batch; question about 가장 중요한 조건 (most important condition) is subjective and answer does not prioritize any condition"
+  },
+  {
+    "id": "q_4_0764",
+    "verdict": "FAIL",
+    "reason": "Grammar error: '신고과' should be '신고와' (batchim particle mismatch); question about 학교 행정실 tasks is not in source; duplicate answer with q_4_0763/q_4_0765"
+  },
+  {
+    "id": "q_4_0765",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_4_0763/q_4_0764 in same batch; generic template question pattern (신규 교사가 ... 알아야 할 사항)"
+  },
+  {
+    "id": "q_4_0766",
+    "verdict": "PASS",
+    "reason": "Question is meaningful for new teachers; answer accurately reflects source text about prior approval requirements; source verified on page 292; unique answer within this batch"
+  }
+]

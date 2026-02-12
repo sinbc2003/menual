@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_3_0221",
+    "verdict": "FAIL",
+    "reason": "Bad question + raw dump. '직위해제와의 구별 기간은 어떻게 계산하나요'는 의미 불명확한 질문(구별에 기간 계산이란 개념 없음). 답변은 page 127 가~라 전체를 그대로 복사한 raw dump."
+  },
+  {
+    "id": "q_3_0222",
+    "verdict": "FAIL",
+    "reason": "Bad question + raw dump + duplicate. '기간과 횟수'를 묻지만 source에 횟수 관련 내용 없음. 답변은 q_3_0221과 동일한 가~라 section raw dump."
+  },
+  {
+    "id": "q_3_0223",
+    "verdict": "FAIL",
+    "reason": "Vague question + raw dump + duplicate. '해당하는 것들은 무엇인가요'는 모호한 질문. 답변은 q_3_0221, q_3_0222와 동일한 가~라 raw dump."
+  },
+  {
+    "id": "q_3_0228",
+    "verdict": "FAIL",
+    "reason": "Broken question + raw dump. '교사가 개월이 지나도'에서 숫자 누락(3개월이어야 함). 답변은 질문의 3개월 봉급감액 상황에 집중하지 않고 가~라 전체를 raw dump."
+  },
+  {
+    "id": "q_3_0229",
+    "verdict": "FAIL",
+    "reason": "Confusing question + raw dump + duplicate. '직위해제와의 구별이 교원의 신분에 미치는 영향'은 논리적으로 부정확한 프레이밍(구별은 설명이지 영향을 미치는 것이 아님). 답변은 동일 가~라 raw dump."
+  },
+  {
+    "id": "q_3_0231",
+    "verdict": "FAIL",
+    "reason": "Fabricated premise + raw dump + duplicate. '잘못 처리하면 어떤 문제가 생기나요'라는 질문의 전제(잘못 처리 시 문제)가 source에 없음. 답변도 해당 질문에 답하지 않고 가~라 raw dump."
+  },
+  {
+    "id": "q_3_0232",
+    "verdict": "FAIL",
+    "reason": "Raw dump. 답변이 page 127의 item 3~8 유의사항 전체와 직위해제 구별 가~라 전체를 나열한 massive raw dump. 질문(중요한 이유)에 대한 직접적 답변 없이 source 전문 복사."
+  },
+  {
+    "id": "q_3_0234",
+    "verdict": "FAIL",
+    "reason": "Redundant question + raw dump + duplicate. '직위해제 등과의 구별에서 직위해제와의 구별'은 동어반복적 질문. 답변은 q_3_0232와 동일한 page 127 전체 raw dump."
+  },
+  {
+    "id": "q_3_0235",
+    "verdict": "FAIL",
+    "reason": "Raw dump + duplicate. 답변이 page 127 items 3~8 및 가~나 전체를 raw dump. q_3_0232, q_3_0234와 실질적 동일 답변."
+  },
+  {
+    "id": "q_3_0236",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_3_0235 + raw dump. 질문이 q_3_0235와 거의 동일('직위해제 등과의 구별' vs '직위해제와의 구별'). 답변도 동일한 page 127 전체 raw dump."
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_4_1030",
+    "verdict": "PASS",
+    "reason": "Question is clear and appropriate (asks for a summary of leave precautions). Answer accurately summarizes source.text from page 309 section 4 (휴가실시 등에 있어 유의할 점). Source text verified against 309쪽.md lines 31-42. No hallucination."
+  },
+  {
+    "id": "q_4_1031",
+    "verdict": "FAIL",
+    "reason": "Question asks about legal basis (법적 근거) but the source text contains no legal citations or law references. Answer ignores the question and dumps the same precaution content. Duplicate answer of q_4_1030."
+  },
+  {
+    "id": "q_4_1032",
+    "verdict": "FAIL",
+    "reason": "Question asks what new teachers should know specifically, but answer provides no new-teacher-specific information. Duplicate answer of q_4_1030 and q_4_1031."
+  },
+  {
+    "id": "q_4_1033",
+    "verdict": "FAIL",
+    "reason": "Question asks why the leave system is important (중요한 이유) but the source text and answer describe procedures only, never explaining importance or rationale. Answer does not address the actual question."
+  },
+  {
+    "id": "q_4_1035",
+    "verdict": "FAIL",
+    "reason": "Question asks about leave day calculation criteria (휴가일수의 계산의 기준) but the answer mostly contains approval procedure content (승인권자 및 절차) from section 2, ending with only the heading '휴가일수의 계산' without the actual calculation rules. Source.text title/content mismatch."
+  },
+  {
+    "id": "q_4_1036",
+    "verdict": "FAIL",
+    "reason": "Source.text title claims '휴가일수의 계산/휴가실시 등에 있어 유의할 점' but actual source.text content is section 2 (승인권자 및 절차). Answer does not contain the precaution content (section 4) the question asks about. Title-content mismatch and duplicate of q_4_1033/q_4_1035."
+  },
+  {
+    "id": "q_4_1038",
+    "verdict": "FAIL",
+    "reason": "Question asks about common problems (흔히 발생하는 문제점) when applying the regulation, but the source text contains no information about problems or issues. Answer just dumps the regulation text. Duplicate answer of q_4_1033."
+  },
+  {
+    "id": "q_4_1039",
+    "verdict": "FAIL",
+    "reason": "Source.text title says '휴가일수의 계산' but actual text is about 승인권자 및 절차 (approval procedures). Answer does not address how leave day calculation is applied in practice. Title-content mismatch and duplicate answer."
+  },
+  {
+    "id": "q_4_1040",
+    "verdict": "FAIL",
+    "reason": "Source.text title claims '휴가실시 등에 있어 유의할 점' but actual text is section 2 (승인권자 및 절차), not section 4 (유의할 점). Question asks about common problems not in source. Title-content mismatch and duplicate of q_4_1038."
+  },
+  {
+    "id": "q_4_1041",
+    "verdict": "PASS",
+    "reason": "Clear, natural question (how many days of annual leave). Answer accurately provides the leave day table from page 310 verified against 310쪽.md lines 23-29. Additional info about 연가 가산 and 이월 불가 also verified from same page (lines 31, 40). No hallucination."
+  }
+]

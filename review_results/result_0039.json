@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_1_0680",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_1_0674 (batch_0038): question '교육전문직에서 교원으로 다시 전직할 수 있나요?' is nearly identical to q_1_0674's '교육전문직원에서 다시 교원으로 돌아갈 수 있나요?'. Same source page, same core answer content covering 원직위 복귀, 5-year/2-year exceptions, 횟수 제한."
+  },
+  {
+    "id": "q_1_0682",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_1_0673 (batch_0038): question '교사가 장학사로 전직하려면 어떤 절차를 거쳐야 하나요?' is nearly identical to q_1_0673's '교사가 장학사로 전직하려면 어떻게 해야 하나요?'. Same source page 50, same answer content covering 공개경쟁시험, 추천, 기본소양평가, 역량평가, 평가위원회, 직무연수."
+  },
+  {
+    "id": "q_1_0683",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer content: covers same 교육전문직원→교원 전직 topic as q_1_0674, q_1_0678, q_1_0680 with identical source material (page 50 lines 33-37). Same substantive content: 원직위 원칙, 5-year/2-year exceptions, 10+10 exemption, 횟수 제한."
+  },
+  {
+    "id": "q_1_0684",
+    "verdict": "PASS",
+    "reason": "Natural question about cross-school-level transfers. Answer correctly synthesizes page 50 line 9: 교원수급상 필요, 교원 희망, 교원자격증 요건. The examples (중등→초등 etc.) are reasonable inferences. source.text verified as substring. Well-structured with clear three-requirement framework."
+  },
+  {
+    "id": "q_1_0685",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_1_0684: question '교원의 학교급별 전직은 가능한가요?' is equivalent to q_1_0684's '교원을 다른 학교급으로 전직시킬 수 있나요?'. Additionally, the answer is massively padded with hallucinated details: 호봉 경력 인정, 부전공·복수전공 자격증 인정, specific 절차 steps (희망 조사 → 수급 판단 → 전직 임용) -- none of these appear in the source page 50. Source contains only one sentence on this topic."
+  },
+  {
+    "id": "q_1_0686",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_1_0674 (batch_0038) and q_1_0680 (this batch): same question topic (교육전문직원→교원 전직). Answer is excessively padded and includes hallucinated content: 교장공모 특례 referencing 법 제29조의3, detailed 절차 (희망 조사 → 자격 확인 → 발령), 주의사항 sections -- not in page 50. Raw structural padding with no synthesis."
+  },
+  {
+    "id": "q_1_0687",
+    "verdict": "FAIL",
+    "reason": "Raw dump: answer reproduces the entire page 50 section (가) through (바) plus (2) and (3) almost verbatim with only minimal formatting changes (bullet markers). No synthesis, no value-add over reading the source directly. source.text only covers (가)-(다) but answer dumps the full section."
+  },
+  {
+    "id": "q_1_0688",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_1_0687: question '절차는 어떻게 되나요?' is equivalent to q_1_0687's '어떤 과정을 거치나요?'. Answer is identical verbatim raw dump of the same page 50 content. Same source, same source.text."
+  },
+  {
+    "id": "q_1_0689",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_1_0687/q_1_0688: question '분류하면 어떻게 되나요?' is unnatural (asking to classify a regulation section) and is just another variant question on the same topic. Answer is identical verbatim raw dump. Same source, same source.text."
+  },
+  {
+    "id": "q_1_0690",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_1_0687/q_1_0688/q_1_0689: question '어떤 것들이 포함되나요?' is yet another template variant on the same topic. Answer is identical verbatim raw dump. Same source, same source.text. Fourth instance of the same Q&A."
+  }
+]

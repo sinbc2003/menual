@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_1_1274",
+    "verdict": "PASS",
+    "reason": "Specific question about 인사위원회 구성. Answer accurately covers 위원 수(7~9인), 위원장(부교육감), 외부인사 1/2 이상, 학부모 1인 이상, 임기 2년 연임 1회 - all verified against page 97 lines 11-15."
+  },
+  {
+    "id": "q_1_1275",
+    "verdict": "PASS",
+    "reason": "Specific question about 의결정족수. Answer correctly states 재적위원 3분의 2 이상 출석으로 개의, 출석위원 과반수 찬성으로 의결. Verified against page 97 line 25. Example calculation is helpful and accurate."
+  },
+  {
+    "id": "q_1_1276",
+    "verdict": "PASS",
+    "reason": "Specific question about 심의사항. Answer lists all 9 items accurately: items 1-5 from page 97, items 6-9 from page 98. Well-structured and factually correct."
+  },
+  {
+    "id": "q_1_1286",
+    "verdict": "FAIL",
+    "reason": "Bad question - asks about '제한사항' (restrictions) regarding 심의사항, but source has no such restrictions. Answer is a raw dump of the 심의사항 list that does not address restrictions at all."
+  },
+  {
+    "id": "q_1_1288",
+    "verdict": "FAIL",
+    "reason": "Nonsensical question - '산정 기준' (calculation criteria) is inapplicable to 심의사항 which is a deliberation item list. Answer is duplicate of q_1_1286, just dumping the same 심의사항 list."
+  },
+  {
+    "id": "q_1_1289",
+    "verdict": "FAIL",
+    "reason": "Question asks for 판례/사례 (court precedents/cases) which do not exist in the source material. Answer ignores the question and dumps the same 심의사항 list without any cases."
+  },
+  {
+    "id": "q_1_1294",
+    "verdict": "FAIL",
+    "reason": "Vague question asking about '세부 기준' (detailed criteria) which is meaningless for a deliberation item list. Answer is a duplicate raw dump of the same 심의사항 content as q_1_1286/1288/1289."
+  },
+  {
+    "id": "q_1_1296",
+    "verdict": "PASS",
+    "reason": "Comprehensive question requesting all 인사위원회 운영 regulations. Answer is well-organized covering 설치, 조직, 회의소집, 의결정족수 with correct law citations (제27-30조). All content verified against page 97."
+  },
+  {
+    "id": "q_1_1299",
+    "verdict": "FAIL",
+    "reason": "Confusing question combining '회의소집' and '심의사항' incoherently. Answer is a raw dump of the entire 인사위원회 운영 section, duplicating q_1_1296 without specifically addressing the question."
+  },
+  {
+    "id": "q_1_1301",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_1_1296 - nearly identical answer content (entire 인사위원회 운영 section dump). Question is also very similar to q_1_1296."
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_2_0212",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer: identical text to q_2_0207-0211. Same raw dump with truncated ending."
+  },
+  {
+    "id": "q_2_0215",
+    "verdict": "FAIL",
+    "reason": "Question-answer mismatch: question asks about 학교장's authority over 여비 지급, but answer is the same generic source dump that doesn't address the principal's specific role."
+  },
+  {
+    "id": "q_2_0216",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer: identical to q_2_0207-0212/0215. Even though the question asks for a summary, the answer is the same verbatim dump as all others."
+  },
+  {
+    "id": "q_2_0218",
+    "verdict": "FAIL",
+    "reason": "Raw dump: answer pastes the entire page 111 content (수당 지급액, 지급일자, 여비 지급, 인사기록, 겸임발령 절차) without synthesis. Includes content beyond the question scope."
+  },
+  {
+    "id": "q_2_0219",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_2_0218 and question-answer mismatch: asks about 인사기록 규정 but answer is mostly 수당/여비 content with only a brief truncated mention of 인사기록."
+  },
+  {
+    "id": "q_2_0220",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_2_0218/0219 and question-answer mismatch: asks about 겸임발령 절차 기준 but answer is mostly 수당/여비 dump with only a fragment about 겸임발령."
+  },
+  {
+    "id": "q_2_0221",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer: same raw dump as q_2_0218-0220. Question asks for administrative 절차 but answer doesn't organize or focus on procedural steps."
+  },
+  {
+    "id": "q_2_0222",
+    "verdict": "FAIL",
+    "reason": "Hallucination: question asks about common problems (문제점) in applying the regulation, but source page 111 contains no information about problems or issues. Answer is the same irrelevant dump."
+  },
+  {
+    "id": "q_2_0223",
+    "verdict": "FAIL",
+    "reason": "Question-answer mismatch: asks about 임용권자's role in 겸임발령 절차 but answer is the same source dump that does not address임용권자's specific role or authority."
+  },
+  {
+    "id": "q_2_0233",
+    "verdict": "PASS",
+    "reason": "Accurate: NEIS menu path ([교원인사]-[임용발령]-[임용기안문작성(겸임)]-[겸임-학교]) and procedure steps (행추가, 제목 입력, 저장, 세부내용 작성) confirmed against page 116."
+  }
+]

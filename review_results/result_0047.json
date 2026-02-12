@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_1_0844",
+    "verdict": "PASS",
+    "reason": "Accurate per pages 55-56. Correctly combines common documents (면직내신 공문, 서약서, etc.) with 정년퇴직-specific document (가족관계등록부). Processing info matches source."
+  },
+  {
+    "id": "q_1_0873",
+    "verdict": "PASS",
+    "reason": "Accurate per page 70. Correctly states 20년 이상 근속 and 정년퇴직일부터 최소 1년 전 requirements. Well-formulated with proper legal references."
+  },
+  {
+    "id": "q_1_0874",
+    "verdict": "PASS",
+    "reason": "Accurate per page 70 paragraphs 3-4. Correctly describes 현역병/부사관 복무기간 산입, notes 퇴직수당 계산 시 미합산, and mentions 복무기간 산입신청서 (page 71). Distinct and well-formulated."
+  },
+  {
+    "id": "q_1_0876",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_1_0873: same core topic (명예퇴직 신청 자격), same primary answer (20년 근속, 정년 1년 전). Additional 지급제외 content does not differentiate it enough."
+  },
+  {
+    "id": "q_1_0877",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_1_0873: nearly identical question wording ('명예퇴직 신청 자격이 어떻게 되나요' vs '명예퇴직 신청 자격은 어떻게 되나요') and same answer content."
+  },
+  {
+    "id": "q_1_0878",
+    "verdict": "PASS",
+    "reason": "Distinct topic about 휴직기간 and 재직기간. Accurate per pages 70-71: correctly lists 전액 산입 휴직 types and 1/2 제외 categories. Well-formulated."
+  },
+  {
+    "id": "q_1_0879",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_1_0873: same topic (명예퇴직 신청 자격), same core answer (20년 재직, 정년 1년 전)."
+  },
+  {
+    "id": "q_1_0880",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_1_0873: asks about 명예퇴직수당 conditions which is the same as 명예퇴직 신청 자격. Same core answer (20년, 정년 1년 전, 재직기간 계산)."
+  },
+  {
+    "id": "q_1_0881",
+    "verdict": "FAIL",
+    "reason": "Hallucination: contains fabricated content not in source page 70 - invented calculation example (교원 18년 + 군복무 2년), fabricated '확인 서류: 공무원연금내역서', and unsourced claim '2016년부터 수시명예퇴직 폐지'."
+  },
+  {
+    "id": "q_1_0882",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_1_0873 and raw dump: answer is nearly verbatim copy of source text from page 70 신청자격(지급대상) section with minimal reformulation."
+  }
+]

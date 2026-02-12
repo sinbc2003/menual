@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_2_0066",
+    "verdict": "FAIL",
+    "reason": "Answer is raw dump of entire page 103 instead of focused response. The legal basis for 산학겸임교사 is simply 초·중등교육법 제19조, 제22조 and clause (4), but answer buries it in excessive unrelated content."
+  },
+  {
+    "id": "q_2_0067",
+    "verdict": "FAIL",
+    "reason": "Hallucinated question topic - '교원의 경력에 어떤 영향' (career impact) has no basis in source. Page 103 contains only quota regulations with no mention of career effects. Answer dumps quota info without addressing careers."
+  },
+  {
+    "id": "q_2_0070",
+    "verdict": "PASS",
+    "reason": "Accurate and focused. Source states '43학급 이상의 중·고등학교에 복수교감 배치 가능(특수학급 포함)' and answer correctly presents this with proper detail."
+  },
+  {
+    "id": "q_2_0075",
+    "verdict": "FAIL",
+    "reason": "Core info (9학급 이상, 36학급 추가배치) is correct, but answer includes hallucinated content: '보건교사 역할' section (보건실 운영, 건강관리, 응급처치, 보건교육) is fabricated - not present in source page 104."
+  },
+  {
+    "id": "q_2_0081",
+    "verdict": "FAIL",
+    "reason": "Hallucinated question topic - '승진에 미치는 영향' (impact on promotion) has zero basis in source. Page 104 contains only quota calculation formulas, no mention of promotion."
+  },
+  {
+    "id": "q_2_0082",
+    "verdict": "FAIL",
+    "reason": "Question about '제외되는 경우' (exclusion cases) has no basis in source - page 104 is a quota formula table with no exclusion criteria. Answer dumps formulas without addressing the question."
+  },
+  {
+    "id": "q_2_0083",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer of q_2_0082. Question about '예외 사항' (exceptions) has no basis in source quota formula table. Answer does not identify any exceptions."
+  },
+  {
+    "id": "q_2_0086",
+    "verdict": "FAIL",
+    "reason": "Hallucinated question topic - source has '1.75명' (per-class multiplier), NOT '75명' as a standalone standard. Answer fabricates '주요 수치: 75명' which misrepresents the source data."
+  },
+  {
+    "id": "q_2_0095",
+    "verdict": "PASS",
+    "reason": "Specific question about detailed criteria. Answer accurately presents quota formulas: 9학급 x1.75+2=18, 10학급 x1.75+1=19, 11학급+ x1.75, plus 고등학교 per-class rates. All verified against source page 104."
+  },
+  {
+    "id": "q_2_0096",
+    "verdict": "FAIL",
+    "reason": "Vague subjective meta-question ('자주 혼동되는 부분'). Source does not identify commonly confused areas. Answer just dumps quota data without addressing confusion points."
+  }
+]

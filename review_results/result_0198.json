@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_4_1172",
+    "verdict": "FAIL",
+    "reason": "Question asks about frequency limits (횟수 제한) for sick leave approval, but source text discusses approval conditions and period determination, not frequency limits. Answer does not address the question."
+  },
+  {
+    "id": "q_4_1173",
+    "verdict": "FAIL",
+    "reason": "Question asks about pay grade advancement (승급) during sick leave, but source text contains nothing about 승급. Answer is identical content to q_4_1172 and does not address the question."
+  },
+  {
+    "id": "q_4_1178",
+    "verdict": "FAIL",
+    "reason": "Question asks specifically about required documents (필요한 서류), but answer is a raw dump of the entire 공무상 병가제도 section without focusing on documents. Answer also extends far beyond source.text with content from items (5) and footnotes not in cited source."
+  },
+  {
+    "id": "q_4_1179",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_4_1178 (nearly identical content). Question asks about period calculation (기간 계산) which the source does not specifically explain."
+  },
+  {
+    "id": "q_4_1181",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_4_1178 and q_4_1179. Same 공무상 병가제도 content dumped for a different question about exceptions (예외 사항)."
+  },
+  {
+    "id": "q_4_1185",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_4_1172 (same 병가의 승인 source text). Question asks about the most important condition (가장 중요한 조건) but answer just dumps the source text without identifying any specific condition."
+  },
+  {
+    "id": "q_4_1186",
+    "verdict": "FAIL",
+    "reason": "Question asks about effect on teacher status (교원의 신분에 미치는 영향), but source text contains nothing about status effects. Duplicate answer with q_4_1172/q_4_1185."
+  },
+  {
+    "id": "q_4_1187",
+    "verdict": "FAIL",
+    "reason": "Question asks about handling civil complaints (민원 대응), which is not covered in the source text at all. Duplicate answer with q_4_1172/q_4_1185/q_4_1186."
+  },
+  {
+    "id": "q_4_1188",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_4_1178/q_4_1179/q_4_1181. Same 공무상 병가제도 content with only minor formatting differences."
+  },
+  {
+    "id": "q_4_1190",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_4_1188. Question (전체적인 내용 요약) is essentially the same as q_4_1188 (핵심 포인트 정리), and answers are nearly identical."
+  }
+]

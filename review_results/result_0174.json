@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_4_0658",
+    "verdict": "PASS",
+    "reason": "Source text verified against 290쪽.md (겸직 허가 절차, 겸직심사위원회 Q10/A10). Answer accurately covers procedure, documents, timelines, and committee requirement. Meaningful question, no hallucination."
+  },
+  {
+    "id": "q_4_0659",
+    "verdict": "PASS",
+    "reason": "Source text verified against 290쪽.md. Question angle differs from q_4_0658 (asks whether permission is needed vs. full procedure). Answer correctly addresses yes/no and lists required documents and deadlines."
+  },
+  {
+    "id": "q_4_0660",
+    "verdict": "PASS",
+    "reason": "Source text verified against 290쪽.md Q10/A10 and 겸직심사위원회 구성·운영 section. Answer accurately covers mandatory operation cases, committee composition (3인 이상), and voting rules (과반수). No hallucination."
+  },
+  {
+    "id": "q_4_0661",
+    "verdict": "PASS",
+    "reason": "Source text verified against 290쪽.md. Different emphasis from q_4_0660 (YouTube-specific angle vs. general obligation). Answer adds more detail on 심사 검토 사항 and 병설유치원 통합 운영, all verifiable on page 290."
+  },
+  {
+    "id": "q_4_0662",
+    "verdict": "PASS",
+    "reason": "Source text verified against 290쪽.md (임용 전 활동 1개월 이내) and 291쪽.md (겸직허가 기간 최대 1년, 연장 종료일 1개월 이전). Specific timeline question with accurate answer. No duplicates."
+  },
+  {
+    "id": "q_4_0665",
+    "verdict": "FAIL",
+    "reason": "Near-duplicate of q_4_0658 in same batch. Question '교원이 유튜브 활동을 하려면 어떻게 해야 하나요' is essentially identical to q_4_0658 '교사가 유튜브 활동을 하려면 어떤 절차가 필요한가요' (교원=교사, same intent). Same sources, overlapping answer content."
+  },
+  {
+    "id": "q_4_0666",
+    "verdict": "PASS",
+    "reason": "Source text verified against 290쪽.md lines 9-13 (겸직 허가기준 section). Answer faithfully reproduces the two criteria and consequences. Meaningful question as first occurrence of this topic."
+  },
+  {
+    "id": "q_4_0667",
+    "verdict": "FAIL",
+    "reason": "Question-answer mismatch: question asks '신청 자격이 있는 사람은 누구인가요' (who is eligible to apply) but answer only describes 허가기준 standards, never identifying eligible persons. Also duplicate answer of q_4_0666."
+  },
+  {
+    "id": "q_4_0668",
+    "verdict": "FAIL",
+    "reason": "Question-answer mismatch: question asks '몇 년까지 가능한가요' (how many years) but answer never mentions any duration. The actual period (1년 이내, from page 290 line 26) is absent from the answer. Also duplicate answer of q_4_0666."
+  },
+  {
+    "id": "q_4_0672",
+    "verdict": "FAIL",
+    "reason": "Question-answer mismatch: question asks '최근 변경사항이 있나요' (recent changes) but answer never addresses what changed. Just dumps the same 허가기준 content. Also duplicate answer of q_4_0666/0667/0668."
+  }
+]

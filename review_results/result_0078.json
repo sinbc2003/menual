@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_2_0201",
+    "verdict": "PASS",
+    "reason": "Accurate: amounts (50,000/30,000원), legal basis (훈령 제237호), eligibility criteria, exclusions, and payment date all verified against pages 109 and 111."
+  },
+  {
+    "id": "q_2_0202",
+    "verdict": "PASS",
+    "reason": "Accurate: 1일 최대 2만원, 학기당 17주 기준, 17주 초과 시 학교 자체 예산, NEIS 근거, 왕복 2km 이내 미지급 all confirmed on page 111."
+  },
+  {
+    "id": "q_2_0203",
+    "verdict": "FAIL",
+    "reason": "Hallucination: the reason for differential payment ('중복 지급 방지', '형평성 고려', '취지가 유사') is fabricated. Source page 111 only states the amounts, not the rationale."
+  },
+  {
+    "id": "q_2_0204",
+    "verdict": "FAIL",
+    "reason": "Hallucination: the three exclusion conditions are correct, but the explanations ('실질적으로 같은 학교로 간주', '근거리로 별도 여비 불필요') are fabricated rationale not in source page 111."
+  },
+  {
+    "id": "q_2_0205",
+    "verdict": "PASS",
+    "reason": "Correctly applies the 17주 rule to an 18주 scenario: 17주 is standard support, excess via school budget. Faithful to source page 111."
+  },
+  {
+    "id": "q_2_0206",
+    "verdict": "PASS",
+    "reason": "Correctly applies 왕복 2km rule: 1.5km one-way = 3km round trip exceeds 2km threshold, so eligible. Logical application of source page 111."
+  },
+  {
+    "id": "q_2_0207",
+    "verdict": "FAIL",
+    "reason": "Raw dump: answer is a near-verbatim copy of all 4 points from page 111 with minimal reformatting. Truncated ending ('주요 수치: 1일') is incomplete/meaningless."
+  },
+  {
+    "id": "q_2_0208",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer: identical answer text as q_2_0207. Same raw dump of source with truncated ending."
+  },
+  {
+    "id": "q_2_0209",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer and question-answer mismatch: question asks about 기간 (duration) but answer dumps all 4 points identically to q_2_0207/0208 without focusing on duration."
+  },
+  {
+    "id": "q_2_0211",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer: identical to q_2_0207/0208/0209. Question asks about 지급 방법 but answer is the same generic dump."
+  }
+]

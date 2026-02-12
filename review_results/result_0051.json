@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_1_0935",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_1_0918/0919/0920/0923/0924/0933/0934. Identical answer about 재직기간의 합산 items 1-5. Raw dump with no reformulation despite question asking for an easy-to-understand overview."
+  },
+  {
+    "id": "q_1_0937",
+    "verdict": "FAIL",
+    "reason": "Bad question. Question asks how the 지급제외대상 regulation has changed recently, but the source page 71 contains no information about recent changes. Answer just dumps the current criteria without addressing any changes."
+  },
+  {
+    "id": "q_1_0939",
+    "verdict": "FAIL",
+    "reason": "Bad question. Question is malformed ('산입신' is truncated from '산입신청') and confuses topics - 복무기간 산입 is under 재직기간의 합산 section, not 지급제외대상. Source text incorrectly mixes content across section boundaries. Answer is also a raw dump."
+  },
+  {
+    "id": "q_1_0940",
+    "verdict": "FAIL",
+    "reason": "Raw dump. Answer simply copies items 7 and 8 from the exclusion criteria without any actual explanation. Question asks for detailed explanation but the answer provides no additional context beyond pasting the regulation text."
+  },
+  {
+    "id": "q_1_0941",
+    "verdict": "FAIL",
+    "reason": "Raw dump with confused content. Answer titled as 지급제외대상 summary but starts with 휴직 types and 재직기간의 합산 content (items 1-5) before briefly touching on 지급제외대상. Mixes different sections incoherently."
+  },
+  {
+    "id": "q_1_0947",
+    "verdict": "FAIL",
+    "reason": "Bad question and raw dump. Question asks about common problems when applying the regulation, but the source has no information about practical problems. Answer just dumps the regulation text from mixed sections without addressing any problems."
+  },
+  {
+    "id": "q_1_0948",
+    "verdict": "PASS",
+    "reason": "Answer accurately reflects page 72 content about application timing (2월말/8월말), public notice requirements (20일 전 공고), application method, and review process. Well-structured and reformulated as a helpful response."
+  },
+  {
+    "id": "q_1_0949",
+    "verdict": "PASS",
+    "reason": "Answer accurately lists the special promotion exclusion reasons from page 72's section 5. Well-formatted and the 8 exclusion cases match the source content. Question is specific and natural."
+  },
+  {
+    "id": "q_1_0950",
+    "verdict": "PASS",
+    "reason": "Answer correctly identifies the three priority groups (상위직 공무원, 장기 근속 공무원, 원로교사) from page 72 and cites the correct legal references. Well-structured response."
+  },
+  {
+    "id": "q_1_0951",
+    "verdict": "PASS",
+    "reason": "Answer accurately covers payment timing from page 72: paid on retirement day, paid day before if retirement falls on weekend/holiday, and notification requirement for delays. Properly reformulated with clear structure."
+  }
+]

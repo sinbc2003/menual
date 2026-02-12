@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_1_0708",
+    "verdict": "FAIL",
+    "reason": "Duplicate: answer is identical to q_1_0695, q_1_0696, q_1_0697, q_1_0698, q_1_0700, q_1_0701, q_1_0706 from batch_0040. Same raw dump of 다) section (1)(2)(3) from page 50."
+  },
+  {
+    "id": "q_1_0709",
+    "verdict": "FAIL",
+    "reason": "Bad question: '1번째 항목은 무엇인가요?' is extremely vague. The 교육공무원 인사관리규정 contains many articles and subsections; '1번째 항목' does not clearly identify any specific provision."
+  },
+  {
+    "id": "q_1_0710",
+    "verdict": "FAIL",
+    "reason": "Bad question: '3번째 항목은 무엇인가요?' is vague for the same reason as q_1_0709. The regulation has many sections, and '3번째 항목' is ambiguous and does not map to a clearly identifiable provision."
+  },
+  {
+    "id": "q_1_0711",
+    "verdict": "FAIL",
+    "reason": "Bad question: '교원이 꼭 알아야 할 내용은 무엇인가요?' is too broad/generic. The 교육공무원 인사관리규정 covers many topics across hundreds of pages, but the answer only covers the 전직 section from page 50. Answer is also a raw dump."
+  },
+  {
+    "id": "q_1_0713",
+    "verdict": "FAIL",
+    "reason": "Duplicate: same topic and near-identical answer as q_1_0714, q_1_0718. All three dump the full page 50 content (가 through 라 sections) with only minor formatting differences. Answer is a raw dump of source text."
+  },
+  {
+    "id": "q_1_0714",
+    "verdict": "FAIL",
+    "reason": "Duplicate: same topic and near-identical answer as q_1_0713 and q_1_0718. Raw dump of page 50 content covering 가) 교원의 학교급별 전직 through 나) 교원의 교육전문직원으로의 전직."
+  },
+  {
+    "id": "q_1_0717",
+    "verdict": "FAIL",
+    "reason": "Bad question: asks about '흔히 발생하는 문제점' (common problems) when applying the regulation, but the answer simply restates the regulation text without discussing any actual problems or issues. The source page 50 does not cover common problems."
+  },
+  {
+    "id": "q_1_0718",
+    "verdict": "FAIL",
+    "reason": "Duplicate: same topic and near-identical answer as q_1_0713 and q_1_0714. Raw dump of page 50 content with only intro sentence changed."
+  },
+  {
+    "id": "q_1_0719",
+    "verdict": "FAIL",
+    "reason": "Duplicate: same content as q_1_0691, q_1_0703, q_1_0704 from batch_0040 (교원의 교육전문직원으로의 전직). Raw dump of page 50 나) section with only minor formatting differences."
+  },
+  {
+    "id": "q_1_0722",
+    "verdict": "PASS",
+    "reason": "Question is specific (asks about 전직등의 제한 대상자). Answer accurately lists the 4 categories from page 51 마) section. Source text verified against 51쪽.md. Properly formatted with clear structure."
+  }
+]

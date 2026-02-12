@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_3_0237",
+    "verdict": "PASS",
+    "reason": "Specific question about 정직 vs 휴직 difference. Answer accurately reflects source content from page 128: similarities (신분보유, 직무수행불가, 복귀전제), differences (성격, 기간, 발생, 보수, 경력평정). Core facts match source."
+  },
+  {
+    "id": "q_3_0238",
+    "verdict": "PASS",
+    "reason": "Specific question about 직권면직 사유. Answer accurately lists all 6 grounds from 국가공무원법 제70조 as found on page 128. Definition and distinction from 휴직 also match source."
+  },
+  {
+    "id": "q_3_0239",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_3_0237 (same topic: 휴직 vs 정직). Massive hallucination: salary percentages (공무상 질병 100%, 일반 질병 70%->50%, 유학 50%, 육아 0%), 승진 제한 18개월, 징계 말소 7년, 법령 제73조/제79조 - none of these appear on page 128."
+  },
+  {
+    "id": "q_3_0240",
+    "verdict": "FAIL",
+    "reason": "Nonsensical question: '정직과의 구별 기간은 어떻게 계산하나요?' treats section heading as a calculable period. Answer is raw dump of source text with no synthesis."
+  },
+  {
+    "id": "q_3_0241",
+    "verdict": "FAIL",
+    "reason": "Nonsensical question: '정직과의 구별은 몇 년까지 가능한가요?' treats section heading as having a year limit. Duplicate answer identical to q_3_0240."
+  },
+  {
+    "id": "q_3_0242",
+    "verdict": "FAIL",
+    "reason": "Nonsensical question: '정직과의 구별의 유형' asks for types of a distinction that has no types. Duplicate answer identical to q_3_0240/q_3_0241, raw dump."
+  },
+  {
+    "id": "q_3_0245",
+    "verdict": "FAIL",
+    "reason": "Nonsensical question: '정직과의 구별 관련 제한사항' asks about restrictions on a conceptual distinction. Duplicate answer identical to previous entries, raw dump."
+  },
+  {
+    "id": "q_3_0248",
+    "verdict": "PASS",
+    "reason": "Reasonable question asking what 직권면직과의 구별 means. Answer accurately presents 가) 휴직 vs 면직 신분 difference and 나) 직권면직 definition with all 6 grounds from page 128 source."
+  },
+  {
+    "id": "q_3_0249",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_3_0248: same topic (직권면직과의 구별 개념), identical answer content."
+  },
+  {
+    "id": "q_3_0250",
+    "verdict": "FAIL",
+    "reason": "Nonsensical question: '직권면직과의 구별에 관한 기간과 횟수' asks about period and frequency of a conceptual distinction. Duplicate answer identical to q_3_0248/q_3_0249."
+  }
+]

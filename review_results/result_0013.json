@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_1_0213",
+    "verdict": "FAIL",
+    "reason": "bad_question: Question '처리과정 및 절차의 절차는 어떻게 되나요?' is tautological and unnatural - it redundantly asks '절차의 절차' (procedure's procedure). Also, the answer only lists partial information from the source table, omitting most processing details for each 시행기관."
+  },
+  {
+    "id": "q_1_0214",
+    "verdict": "FAIL",
+    "reason": "bad_question, duplicate: Question '처리과정 및 절차를 하려면 어떻게 해야 하나요?' is nonsensical - you do not 'do' a process/procedure in this context. It is a template-generated question that does not match the content. Answer is essentially identical to q_1_0213."
+  },
+  {
+    "id": "q_1_0215",
+    "verdict": "FAIL",
+    "reason": "bad_question, duplicate: Question '처리과정 및 절차는 얼마나 인정되나요?' is nonsensical - a procedure does not have a 'recognition amount'. Template-generated question completely mismatched to content. Answer is identical to q_1_0213 and q_1_0214."
+  },
+  {
+    "id": "q_1_0217",
+    "verdict": "FAIL",
+    "reason": "bad_question, duplicate: Question '처리과정 및 절차를 받을 수 있는 조건은 무엇인가요?' is nonsensical - a procedure is not something one 'receives' with conditions. Template-generated question. Answer is identical to previous 처리과정 entries."
+  },
+  {
+    "id": "q_1_0220",
+    "verdict": "FAIL",
+    "reason": "bad_question: Question '구비서류의 처리 기한이 어떻게 되나요?' asks about a processing deadline that does not exist in the source. The source (page 9 line 22) only lists the legal references for 구비서류 without mentioning any deadline. Answer does not address the question and merely regurgitates the legal references."
+  },
+  {
+    "id": "q_1_0222",
+    "verdict": "FAIL",
+    "reason": "bad_question, duplicate: Question '구비서류는 몇 년까지 가능한가요?' asks about a validity period that does not exist in the source. Template-generated question mismatched to content. Answer is identical to q_1_0220."
+  },
+  {
+    "id": "q_1_0224",
+    "verdict": "FAIL",
+    "reason": "bad_question, duplicate: Question '구비서류는 어떻게 진행되나요?' is nonsensical - documents do not 'proceed'. Template-generated question. Answer is identical to q_1_0220 and q_1_0222."
+  },
+  {
+    "id": "q_1_0225",
+    "verdict": "FAIL",
+    "reason": "bad_question, duplicate: Question asks about 요건 (requirements) but the source text is merely a heading listing legal references with no actual requirement details (the actual document list would be in 별표 4 which is not on this page). Answer is identical to previous 구비서류 entries."
+  },
+  {
+    "id": "q_1_0228",
+    "verdict": "FAIL",
+    "reason": "duplicate, raw_dump: Answer is identical to q_1_0220, q_1_0222, q_1_0224, q_1_0225. No meaningful synthesis - just regurgitates the same legal reference heading from the source with no actual substantive content about 구비서류."
+  },
+  {
+    "id": "q_1_0229",
+    "verdict": "FAIL",
+    "reason": "duplicate: Answer is identical to all other 구비서류 entries (q_1_0220 through q_1_0228). Despite a more natural question, the answer provides no substantive information beyond the legal reference heading because the source text is too thin to generate meaningful QA content."
+  }
+]

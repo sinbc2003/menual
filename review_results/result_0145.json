@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_4_0119",
+    "verdict": "PASS",
+    "reason": "Meaningful question about 휴업과 휴교 procedures. Comprehensive answer covers both 휴업 (근거, 효력, 절차, 교원복무) and 휴교 (근거, 명령, 사유, 효력, 복무) from page 262. Source text verified against 262쪽.md."
+  },
+  {
+    "id": "q_4_0120",
+    "verdict": "FAIL",
+    "reason": "Template question about '처리 기한' (processing deadlines) but source has no specific deadline info (only '지체 없이'). Duplicate answer with q_4_0119 (identical comprehensive content dump)."
+  },
+  {
+    "id": "q_4_0122",
+    "verdict": "FAIL",
+    "reason": "Template question about '횟수 제한' (frequency limits) which is not discussed anywhere in the source. Answer dumps entire 휴업과 휴교 content without addressing frequency limits. Duplicate answer with q_4_0119."
+  },
+  {
+    "id": "q_4_0124",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_4_0119 (nearly identical comprehensive content). While the question '어떤 것들이 포함되나요' is reasonable, the answer is an exact duplicate."
+  },
+  {
+    "id": "q_4_0125",
+    "verdict": "FAIL",
+    "reason": "Template question about '최근 변경사항' (recent changes) which is not in the source material at all. Answer dumps same content without addressing any changes. Duplicate answer with q_4_0119."
+  },
+  {
+    "id": "q_4_0127",
+    "verdict": "PASS",
+    "reason": "Meaningful question about key content teachers should know regarding 휴업과 휴교. Answer provides correct but abbreviated content from page 262. Source text verified. Note: answer omits 교원의 복무 section which would be most relevant for teachers."
+  },
+  {
+    "id": "q_4_0128",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_4_0127 (nearly identical truncated content). Question about 학교장 authority is valid but answer is not differentiated - provides same generic listing instead of focusing on principal's specific authority."
+  },
+  {
+    "id": "q_4_0129",
+    "verdict": "FAIL",
+    "reason": "Template question about '민원 대응' (complaint handling) which is not discussed in the source material at all. Answer dumps same truncated content. Duplicate answer with q_4_0127/q_4_0128."
+  },
+  {
+    "id": "q_4_0130",
+    "verdict": "PASS",
+    "reason": "Reasonable question about standards/criteria for 휴업과 휴교 under 복무일반. Answer provides structured content covering 근거, 효력, 절차 from page 262. Source text verified."
+  },
+  {
+    "id": "q_4_0132",
+    "verdict": "FAIL",
+    "reason": "Question-answer mismatch: asks about '임용권자의 역할' (appointment authority's role) but source discusses 관할청, 학교장, 휴교명령권자 - not 임용권자. Answer doesn't address the specific question."
+  }
+]
