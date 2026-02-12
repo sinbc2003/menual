@@ -1,0 +1,18 @@
+{"id": "q_5_0160", "action": "DELETE", "reason": "포괄적 페이지 덤프형 답변"}
+{"id": "q_5_0161", "action": "PASS"}
+{"id": "q_5_0162", "action": "PASS"}
+{"id": "q_5_0164", "action": "DELETE", "reason": "q_5_0162와 중복 (채용공고 생략)"}
+{"id": "q_5_0165", "action": "PASS"}
+{"id": "q_5_0166", "action": "PASS"}
+{"id": "q_5_0167", "action": "DELETE", "reason": "q_5_0162와 중복 (채용공고 생략)"}
+{"id": "q_5_0168", "action": "PASS"}
+{"id": "q_5_0169", "action": "PASS"}
+{"id": "q_5_0171", "action": "PASS"}
+{"id": "q_5_0172", "action": "DELETE", "reason": "q_5_0165와 중복 (인사자문위원회 심의 생략)"}
+{"id": "q_5_0173", "action": "PASS"}
+{"id": "q_5_0174", "action": "PASS"}
+{"id": "q_5_0175", "action": "PASS"}
+{"id": "q_5_0176", "action": "PASS"}
+{"id": "q_5_0177", "action": "PASS"}
+{"id": "q_5_0178", "action": "DELETE", "reason": "'1월(曆算 기준) 이상 결원 발생' 섹션 제목을 개념으로 오인, 페이지 덤프"}
+{"id": "q_5_0182", "action": "DELETE", "reason": "q_5_0178과 동일 답변 중복, 섹션 제목 질문"}
