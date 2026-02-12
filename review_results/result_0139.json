@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_4_0025",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_4_0024. Question ('직무상 의무의 정의') is semantically identical to q_4_0024 ('직무상 의무의 개념'). Answer is word-for-word identical."
+  },
+  {
+    "id": "q_4_0027",
+    "verdict": "FAIL",
+    "reason": "Question asks about 양정 기준 (sentencing/measurement criteria) for 직무상 의무, but the answer contains no 양정 기준 information. Answer is a generic dump identical to q_4_0024/0025, ignoring the specific question."
+  },
+  {
+    "id": "q_4_0029",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer identical to q_4_0024/0025/0027. Question asks specifically about 복종의 의무 in detail, but answer generically covers both 성실의무 and 복종의 의무 without additional depth."
+  },
+  {
+    "id": "q_4_0033",
+    "verdict": "FAIL",
+    "reason": "Question asks about consequences of mishandling duties ('잘못 처리하면 어떤 문제가 생기나요'), but the answer just lists the basic duties without mentioning any consequences. Question-answer mismatch."
+  },
+  {
+    "id": "q_4_0034",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer identical to q_4_0016/0017/0018/0019/0033 (교직원 임무 dump). While the question is more reasonable than some others, the answer is reused verbatim across 6+ entries."
+  },
+  {
+    "id": "q_4_0036",
+    "verdict": "FAIL",
+    "reason": "Grammar error in question: '의무과' should be '의무와' (의무 has no batchim, requires 와 not 과). Question asks about 참고 서식 (reference forms) but answer contains no form information. Duplicate answer with q_4_0024 group."
+  },
+  {
+    "id": "q_4_0037",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer identical to q_4_0024/0025/0027/0029/0036/0038. Question asks about 세부 기준 (detailed criteria) but answer provides only the same general overview."
+  },
+  {
+    "id": "q_4_0038",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer identical to q_4_0024/0025/0027/0029/0036/0037. No unique value compared to the other entries covering the same source text."
+  },
+  {
+    "id": "q_4_0039",
+    "verdict": "PASS",
+    "reason": "Meaningful question about 복무일반 overview. Answer accurately covers 관련 법규 (7 laws) and 교직원의 임무, all verified on page 259. Source text matches lines 3-21 of the markdown."
+  },
+  {
+    "id": "q_4_0041",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_4_0039: near-identical answer. Question asks 'how laws are applied' (어떻게 적용되나요) but answer merely lists the laws without explaining application. Question-answer mismatch."
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_3_1035",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_3_1036 (identical content except intro). Question asks about '대상자' (target persons) but answer describes procedures, not who specifically is subject to them."
+  },
+  {
+    "id": "q_3_1036",
+    "verdict": "PASS",
+    "reason": "Source text verified against 226쪽.md. Answer faithfully reproduces reinstatement procedures. Question about what to do when illness is cured is directly addressed by item 1 of the answer."
+  },
+  {
+    "id": "q_3_1038",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_3_1039 (identical content except intro). Question asks WHY reinstatement procedures are important but answer just lists the procedures and supplementary rules without explaining importance."
+  },
+  {
+    "id": "q_3_1039",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_3_1038. Source title says '경력평정' but source text starts with '복직절차' section - title mismatch. Question specifically about 경력평정 but answer dumps entire 복직절차+기타 section; 경력평정 only mentioned briefly as '미산입'."
+  },
+  {
+    "id": "q_3_1125",
+    "verdict": "PASS",
+    "reason": "Source text verified against 252쪽.md (types 1-5 of 청원휴직). Answer faithfully reproduces all five types with details and periods. Question about the concept of 청원휴직 is reasonably addressed by listing the types."
+  },
+  {
+    "id": "q_3_1127",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_3_1125 (identical content except intro). Question asks about '대상자' but answer lists types of leave, not who specifically qualifies."
+  },
+  {
+    "id": "q_3_1129",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_3_1125 (identical content except intro). Question about period calculation is only partially addressed - answer lists max durations per type but does not explain how periods are calculated."
+  },
+  {
+    "id": "q_3_1138",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_3_1139 and q_3_1140 (identical content except intro). Question about '조건' (conditions) is vague and the answer just lists two leave types rather than explaining qualification conditions."
+  },
+  {
+    "id": "q_3_1139",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_3_1138 and q_3_1140 (identical content except intro). Question asks about '대상자' but answer lists leave types rather than specifying who qualifies."
+  },
+  {
+    "id": "q_3_1140",
+    "verdict": "PASS",
+    "reason": "Source text verified against 253쪽.md (types 6-7). Answer faithfully reproduces 동반휴직 and 자율연수휴직 details. Question about periods and frequency is directly addressed by the content (3년, 1년, 1회 limits). Best question-answer match in this duplicate group."
+  }
+]

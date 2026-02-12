@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_3_0979",
+    "verdict": "FAIL",
+    "reason": "Question asks '몇 년까지 가능한가요' (how many years valid) about leave application documents - nonsensical, documents don't have a validity period. Answer just lists document requirements. Question-answer mismatch."
+  },
+  {
+    "id": "q_3_0980",
+    "verdict": "FAIL",
+    "reason": "Question asks about '서류 제출 기한' (document submission deadline) in the context of leave period/frequency, but the answer describes leave period rules (1 year, extendable to 2 years) without addressing any document submission deadlines. Question-answer mismatch."
+  },
+  {
+    "id": "q_3_0982",
+    "verdict": "FAIL",
+    "reason": "Template/vague question '중요한 이유는 무엇인가요' (why is it important). Answer is a full section dump of 2-3 불임난임휴직. Not a targeted Q&A pair."
+  },
+  {
+    "id": "q_3_0984",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer - answer is nearly identical to q_3_0982 (same full section dump of 2-3 불임난임휴직). Source text is also identical. Template question pattern."
+  },
+  {
+    "id": "q_3_0986",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer - answer is nearly identical to q_3_0982 and q_3_0984 (same section dump). Template question '실무 적용 시 주의해야 할 점' is generic. Third entry with the same content."
+  },
+  {
+    "id": "q_3_0987",
+    "verdict": "PASS",
+    "reason": "Good specific practical question. Source verified on page 223 (아. 육아휴직과의 관계). Answer correctly states reinstatement is needed first, then prenatal childcare leave or prenatal maternity leave can be applied for. No hallucination."
+  },
+  {
+    "id": "q_3_0989",
+    "verdict": "PASS",
+    "reason": "Good specific question about reinstatement procedure. Source text verified on page 223 (사. 복직절차). Answer provides detailed 5-step procedure accurately reflecting the source page content including 30-day rule, 15-day extension notice, and purpose-misuse penalty."
+  },
+  {
+    "id": "q_3_1001",
+    "verdict": "FAIL",
+    "reason": "Source title says '경력평정' but source.text is actually the 복직절차 section content. Answer is entirely about reinstatement procedures, not career assessment. Page 223 경력평정 info is just '미산입' (line 26). Mismatched source title, question-answer mismatch."
+  },
+  {
+    "id": "q_3_1003",
+    "verdict": "PASS",
+    "reason": "Good specific question about leave eligibility. Source text verified on page 224 (나. 휴직사유 for 가족돌봄휴직). Answer accurately reflects grandparent/grandchild care requirements with presidential decree conditions."
+  },
+  {
+    "id": "q_3_1004",
+    "verdict": "FAIL",
+    "reason": "Question asks '기간은 어떻게 계산하나요' (how is the period calculated) but source and answer describe leave reasons/qualifications from 나. 휴직사유, not period calculation rules (which are in 라. 휴직기간 및 횟수 on page 224). Also duplicate answer with q_3_1003."
+  }
+]

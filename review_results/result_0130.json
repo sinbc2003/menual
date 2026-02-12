@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_3_0960",
+    "verdict": "PASS",
+    "reason": "Good specific question about adoption leave period. Source text verified on page 221. Answer accurately reflects 6-month period, no split use, career recognition, and pay rules from the same page."
+  },
+  {
+    "id": "q_3_0961",
+    "verdict": "FAIL",
+    "reason": "Question asks about '기간' (period/duration) of leave application documents, which is nonsensical - documents don't have a duration. Answer just lists document requirements without addressing any period. Question-answer mismatch."
+  },
+  {
+    "id": "q_3_0962",
+    "verdict": "FAIL",
+    "reason": "Question asks '누가 하나요' (who does it) but answer never addresses who. Answer is identical to q_3_0961 - just dumps document list. Question-answer mismatch plus duplicate answer."
+  },
+  {
+    "id": "q_3_0963",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer - answer is word-for-word identical to q_3_0961 and q_3_0962. All three entries share the same source text and produce the same answer despite different questions."
+  },
+  {
+    "id": "q_3_0966",
+    "verdict": "FAIL",
+    "reason": "Question asks '대상자는 어떻게 선발하나요' (how are candidates selected) implying a selection process, but reinstatement (복직) has no selection - it is a procedural right. Misleading question that doesn't match the source content."
+  },
+  {
+    "id": "q_3_0970",
+    "verdict": "FAIL",
+    "reason": "Template/vague question '중요한 이유는 무엇인가요' (why is it important). Answer is a full section dump of the entire 2-2 입양휴직 section. Not a targeted Q&A pair."
+  },
+  {
+    "id": "q_3_0972",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer - answer is nearly identical to q_3_0970 (same section dump of 2-2 입양휴직). Source text is also identical. Different template question, same content."
+  },
+  {
+    "id": "q_3_0976",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer - answer is nearly identical to q_3_0970 and q_3_0972 (same section dump). Template question '필수 확인 사항' is generic. Third entry with the same content."
+  },
+  {
+    "id": "q_3_0977",
+    "verdict": "FAIL",
+    "reason": "Question asks about '처리 기한' (processing deadline) for leave application documents, but the source and answer contain no deadline information - just a list of required documents. Question-answer mismatch."
+  },
+  {
+    "id": "q_3_0978",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer - answer is word-for-word identical to q_3_0977. Both reference page 222 휴직신청서류 with the same source text and produce the same answer."
+  }
+]

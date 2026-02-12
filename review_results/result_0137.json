@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_3_1171",
+    "verdict": "FAIL",
+    "reason": "Question asks how regulations changed recently (최근에 어떻게 바뀌었나요) but answer only states current rules from page 254 without explaining what changed. Also hallucinated repeated law citation (연수기관 지정에 관한 규칙 listed twice in 관련 법령)."
+  },
+  {
+    "id": "q_3_1172",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_3_1171. Same page 254 source, nearly identical answer. Question about school admin office tasks (학교 행정실) is not specifically addressed by the answer."
+  },
+  {
+    "id": "q_3_1173",
+    "verdict": "PASS",
+    "reason": "Good focused question about 연수휴직의 범위. Answer accurately reflects page 254 source: 규칙 제4조 연수기관, 석사/박사 학위 취득 목적, 야간/계절/시간수업 제외. Source.text verified against 254쪽.md."
+  },
+  {
+    "id": "q_3_1174",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer content with q_3_1165/1166/1167/1168 from batch 0136. Same page 254 source material (items 4-6) presented identically."
+  },
+  {
+    "id": "q_3_1175",
+    "verdict": "FAIL",
+    "reason": "Question asks about impact on teacher careers (교원의 경력에 어떤 영향) but answer only states procedural rules from page 254 without discussing career impact. Source material contains no career-impact information. Question-answer mismatch."
+  },
+  {
+    "id": "q_3_1181",
+    "verdict": "PASS",
+    "reason": "Answer accurately covers page 255 content: item 9 (의무복무기간 후 청원휴직 허가) and 기타 items 1-4. Source.text verified against 255쪽.md. Question is broad but answer correctly presents all referenced content."
+  },
+  {
+    "id": "q_3_1182",
+    "verdict": "FAIL",
+    "reason": "Question asks for detailed 육아휴직 regulations but answer covers general 청원휴직 기타 rules from page 255 where 육아휴직 is only mentioned parenthetically as an exception. Also duplicate answer with q_3_1181. Question-answer mismatch."
+  },
+  {
+    "id": "q_4_0001",
+    "verdict": "PASS",
+    "reason": "Well-structured answer listing 7 직무상 의무 (성실, 복종, 직장이탈금지, 친절공정, 종교중립, 비밀엄수, 청렴). All items verified against pages 259-260 markdown. Source.text matches both pages accurately."
+  },
+  {
+    "id": "q_4_0002",
+    "verdict": "PASS",
+    "reason": "Clear question about 교직원 임무. Answer correctly lists duties of 교장, 교감, 수석교사, 교사, 행정직원 per 초·중등교육법 제20조. All content verified against 259쪽.md. Source.text matches exactly."
+  },
+  {
+    "id": "q_4_0003",
+    "verdict": "PASS",
+    "reason": "Answer correctly lists 6 복무 관련 법규 plus 사립학교법 준용 규정 from page 259. Law numbers and dates verified against 259쪽.md. Source.text is truncated but answer content is fully accurate against the page."
+  }
+]
