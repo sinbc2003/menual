@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_3_0591",
+    "verdict": "PASS",
+    "reason": "Specific question about 연수휴직 휴직사유. Answer accurately covers 근거(교육공무원법 제44조제1항제8호), 휴직사유, 휴직요건(가~라) all verified against page 142 source."
+  },
+  {
+    "id": "q_3_0595",
+    "verdict": "FAIL",
+    "reason": "Vague question (\"휴직사유\" is too broad - many types exist). Answer only covers 연수휴직 from page 142. Near-duplicate content of q_3_0591 with same source text."
+  },
+  {
+    "id": "q_3_0596",
+    "verdict": "PASS",
+    "reason": "Specific question about 연수휴직 호봉승급. Answer correctly states 승급제한, 경력평정 50% 산입, 보수 지급안함(일할계산). All verified against page 143 lines 7-13."
+  },
+  {
+    "id": "q_3_0599",
+    "verdict": "PASS",
+    "reason": "Specific question about 연수기관. Answer correctly lists 4 institutions (대학원 설치 대학, 대학원대학, 한국학중앙연구원, 한국과학기술원), exclusions (원격대학원, 야간/계절/시간수업), and scope. Verified against page 143 lines 29-35."
+  },
+  {
+    "id": "q_3_0600",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_3_0599. Same topic (연수휴직 연수기관), same source page 143, nearly identical answer content listing the same institutions and exclusions."
+  },
+  {
+    "id": "q_3_0608",
+    "verdict": "FAIL",
+    "reason": "Raw dump of entire regulation text (제1조~제5조) copied verbatim from page 143. No synthesis or focused answer - just the full text of 경기도교육청 규칙."
+  },
+  {
+    "id": "q_3_0609",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer of q_3_0608. Question asks specifically about 정의(definitions, 제2조) but answer dumps entire regulation 제1조~제5조 instead of focusing on 제2조(정의)."
+  },
+  {
+    "id": "q_3_0611",
+    "verdict": "FAIL",
+    "reason": "Grammatically broken question (\"규칙하면 어떤 효과가 있나요\" is nonsensical Korean). Same duplicate raw dump answer as q_3_0608/0609/0612/0613."
+  },
+  {
+    "id": "q_3_0612",
+    "verdict": "FAIL",
+    "reason": "Question-answer mismatch. Question asks how candidates are selected (대상자 선발) but source has no selection procedure info. Answer dumps full regulation text without addressing selection."
+  },
+  {
+    "id": "q_3_0613",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer of q_3_0608. Question asks about principles (원칙) but answer is identical raw dump of full regulation text without identifying specific principles."
+  }
+]

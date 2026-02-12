@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_3_0692",
+    "verdict": "FAIL",
+    "reason": "Broken/truncated question - starts with '년의 범위' instead of '1년의 범위' (missing '1'). Also duplicate answer identical to q_3_0690/q_3_0691 (same page 147 휴직기간 및 횟수 dump)."
+  },
+  {
+    "id": "q_3_0693",
+    "verdict": "PASS",
+    "reason": "Factually accurate answer about 자율연수휴직 경력인정, 결원보충, 보수. All facts verified against page 147: 경력평정 미산입, 호봉승급 기간 제외, 결원보충 6월 이상 시 가능(유치원/보건/특수/중등 교사 불가), 보수 미지급 all match source."
+  },
+  {
+    "id": "q_3_0694",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer - verbatim identical content to q_3_0693. Same intro pattern, same source dump, same '주요 수치: 6월' ending."
+  },
+  {
+    "id": "q_3_0695",
+    "verdict": "FAIL",
+    "reason": "Bad question - asks about violations/penalties ('위반하면 어떻게 되나요') but source contains no information about violations of 경력인정/결원보충/보수 rules. Answer just dumps the rules without addressing violations. Hallucinated question topic."
+  },
+  {
+    "id": "q_3_0696",
+    "verdict": "FAIL",
+    "reason": "Grammar error ('보수과' should be '보수와' - 보수 has no 받침 so requires 와 not 과). Also bad question - asks about prohibited items ('금지되는 사항') not covered in source. Answer dumps rules without addressing prohibitions."
+  },
+  {
+    "id": "q_3_0698",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer - identical content to q_3_0693/q_3_0694. Five entries (q_3_0693 through q_3_0698) share the same verbatim answer body."
+  },
+  {
+    "id": "q_3_0700",
+    "verdict": "FAIL",
+    "reason": "Vague question - '다른 규정과 어떤 관계가 있나요' is too broad and unspecific. Answer dumps page 147 content without addressing any specific inter-regulation relationships. Raw dump response to vague question."
+  },
+  {
+    "id": "q_3_0702",
+    "verdict": "FAIL",
+    "reason": "Grammar error in question ('횟수과' should be '횟수와' - 횟수 ends in 수 with no 받침, requires 와 not 과). Also duplicate answer pattern covering same page 147 sections 4)-6)."
+  },
+  {
+    "id": "q_3_0703",
+    "verdict": "FAIL",
+    "reason": "Nonsensical question - '휴직기간 및 횟수 과정에서' treats a section title as a process ('과정'). Duplicate answer identical to q_3_0702. Template-generated question that doesn't make semantic sense."
+  },
+  {
+    "id": "q_3_0704",
+    "verdict": "FAIL",
+    "reason": "Nonsensical question - '휴직신청 제출서류 과정에서 복직절차가 어떻게 적용되나요' is meaningless (documents are not a process, and reinstatement procedure doesn't 'apply' within documents). Template-generated, duplicate answer."
+  }
+]

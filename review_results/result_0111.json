@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_3_0541",
+    "verdict": "FAIL",
+    "reason": "Bad question: '상근근무와 비상근근무의 구별 기준의 기간은 얼마나 되나요?' asks about duration/period of a classification criteria, which is nonsensical. Answer ignores the question and dumps source text verbatim with raw formatting."
+  },
+  {
+    "id": "q_3_0542",
+    "verdict": "FAIL",
+    "reason": "Bad question: '상근근무와 비상근근무의 구별 기준의 횟수 제한이 있나요?' asks about frequency limits for a classification system, which is nonsensical. Answer dumps the same source text as q_3_0541 without addressing the question."
+  },
+  {
+    "id": "q_3_0545",
+    "verdict": "FAIL",
+    "reason": "Question asks about 판례나 사례 (court cases/examples) regarding 상근/비상근 기준, but the source contains no such case law. Answer dumps the same source text without providing any court cases, failing to address the question."
+  },
+  {
+    "id": "q_3_0547",
+    "verdict": "FAIL",
+    "reason": "Raw source dump. Question phrasing is awkward ('발췌에 해당하려면'). Answer pastes the entire 경기도교육청 고용휴직 심사기준 text verbatim with poor formatting ('**고용휴직:** 은', '※ ※'). No synthesis or proper QA formatting."
+  },
+  {
+    "id": "q_3_0548",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_3_0547. '경기도교육청 ... 조건은 무엇인가요?' is the same question as q_3_0547 ('어떤 조건을 충족해야 하나요?'). Identical raw dump answer."
+  },
+  {
+    "id": "q_3_0549",
+    "verdict": "FAIL",
+    "reason": "Bad question: asks about '처리 기한' (processing deadline) which does not exist in the source material on page 140. Answer dumps the same 경기도교육청 text without addressing any deadline, because none exists."
+  },
+  {
+    "id": "q_3_0550",
+    "verdict": "FAIL",
+    "reason": "Nonsensical question: '발췌를 신청할 때 유의사항' implies applying for a document excerpt, which makes no sense. Answer dumps the same source text. The 경기도교육청 심사기준 is a regulation, not an application form."
+  },
+  {
+    "id": "q_3_0554",
+    "verdict": "FAIL",
+    "reason": "Raw source dump presented as summary. Answer copies source text with raw elements ('> ※', '나)', '다)') and labels '관련 분야: 기타' (just the internal heading). Not a genuine summary - no synthesis or reorganization of information."
+  },
+  {
+    "id": "q_3_0555",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer of q_3_0554. Question targets '신규 교사' but answer is identical to q_3_0554 without any tailoring for new teachers. Same raw source dump."
+  },
+  {
+    "id": "q_3_0557",
+    "verdict": "FAIL",
+    "reason": "Question asks about relationships with other regulations but answer just dumps the 고용휴직 excerpt without any analysis of regulatory relationships. '관련 법령: 「휴직기간이 연속하여 5년」' is a fake law reference - this is a quote from the text itself, not a law name."
+  }
+]

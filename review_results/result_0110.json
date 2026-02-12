@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_3_0528",
+    "verdict": "PASS",
+    "reason": "Specific question about 고용휴직 경력인정. Answer accurately covers 상근100%/비상근50% for 경력평정 and 호봉승급, 상근/비상근/기타 classification criteria, law references (승진규정 제11조, 보수규정 제15조), and 복직조치 conditions. All verified against page 140."
+  },
+  {
+    "id": "q_3_0530",
+    "verdict": "FAIL",
+    "reason": "Hallucination: answer states '복직 시 경력증명서에 실제 담당한 주당 수업시수 및 보수지급액이 명시되어야 함' but 경력증명서 is never mentioned on page 140. Fabricated requirement not in source."
+  },
+  {
+    "id": "q_3_0531",
+    "verdict": "PASS",
+    "reason": "Specific question about 고용휴직 5년 연속 제한. Answer accurately covers 5년 초과 시 복직 후 1년 이상 근무 조건, 연속 5년 해석(중간 다른 휴직 포함), 올바른/잘못된 해석 예시. All matches source page 140 lines 35-39."
+  },
+  {
+    "id": "q_3_0532",
+    "verdict": "FAIL",
+    "reason": "Duplicate question of q_3_0528. '고용휴직 경력인정은 어떻게 되나요?' is essentially identical to '고용휴직 중 경력 인정은 어떻게 되나요?'. Answer covers the same content with near-identical structure."
+  },
+  {
+    "id": "q_3_0534",
+    "verdict": "FAIL",
+    "reason": "Duplicate question. '고용휴직에서 상근과 비상근의 구분 기준은 무엇인가요?' overlaps with q_3_0530 and q_3_0536, all asking the same thing about 상근/비상근 구분 기준."
+  },
+  {
+    "id": "q_3_0535",
+    "verdict": "FAIL",
+    "reason": "Duplicate question of q_3_0531. '고용휴직이 연속 5년을 초과하면 어떻게 되나요?' is the same topic as '고용휴직을 5년 이상 연속으로 할 수 있나요?'. Same content in answer."
+  },
+  {
+    "id": "q_3_0536",
+    "verdict": "FAIL",
+    "reason": "Duplicate question. '고용휴직 중 상근과 비상근의 기준은 무엇인가요?' is essentially identical to q_3_0530 and q_3_0534. All three ask about 상근/비상근 구분 기준 in 고용휴직."
+  },
+  {
+    "id": "q_3_0537",
+    "verdict": "PASS",
+    "reason": "Specific question about 고용휴직 허가 조건. Answer accurately covers 경기도 심사기준 (재외교육기관 전임 고용계약만 허가), 불허 사례 (국제기구, 외국기관, 한글학교 등), 5년 연속 제한, 심사 고려사항. All verified against page 140."
+  },
+  {
+    "id": "q_3_0538",
+    "verdict": "FAIL",
+    "reason": "Severe hallucination. Core content (5시간이하 불인정, 6개월 복직조치) is accurate, but the answer fabricates massive amounts of content not on page 140: Case 1/Case 2 examples, 허위 보고 금지 section, 적발 시 징계, 예방 조치 section, 조치 절차 (확인→통보→복직발령), 미복직 시 30일 직권면직, 매 반기별 실태 보고. None of these appear in the source."
+  },
+  {
+    "id": "q_3_0540",
+    "verdict": "FAIL",
+    "reason": "Bad question: '상근근무와 비상근근무의 구별 기준 신청 자격이 있는 사람은 누구인가요?' is nonsensical - 구별 기준 is a classification system, not something one applies for. Answer ignores the question and dumps source text with raw formatting (※ ※, 나), 다) markers)."
+  }
+]

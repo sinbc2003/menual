@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_3_0576",
+    "verdict": "FAIL",
+    "reason": "Bad question: '휴직기간 및 횟수의 절차' is semantically wrong - '절차'(procedure) does not apply to '기간 및 횟수'(duration and number of times). Should use '규정' or '기준' instead."
+  },
+  {
+    "id": "q_3_0577",
+    "verdict": "FAIL",
+    "reason": "Bad question: '휴직기간 및 횟수를 하려면' is grammatically broken - you cannot 'do' duration and number of times. Also duplicate answer identical to q_3_0576."
+  },
+  {
+    "id": "q_3_0580",
+    "verdict": "FAIL",
+    "reason": "Question-answer mismatch: question asks about '금지되는 행위'(prohibited actions) but answer just dumps the general 휴직기간 및 횟수 rules without identifying any specific prohibitions. Also duplicate answer."
+  },
+  {
+    "id": "q_3_0581",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer: identical content to q_3_0576/0577/0580. Four entries with the same answer text from page 142 section 4). No differentiation despite different question angles."
+  },
+  {
+    "id": "q_3_0583",
+    "verdict": "PASS",
+    "reason": "Specific question about 복직 when 휴직 is no longer needed. Answer accurately reflects page 142 section 6) 복직절차: 사유 소멸 시 신고, 임용권자 복직 명령, 입증서류 제출 requirement. Source verified."
+  },
+  {
+    "id": "q_3_0584",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer: content identical to q_3_0571/q_3_0572 (휴직의 요건 가~마). Adding '신규 교사가' to the question does not differentiate the answer in any meaningful way."
+  },
+  {
+    "id": "q_3_0587",
+    "verdict": "FAIL",
+    "reason": "Question-answer mismatch: question asks about 학교장(principal) authority regarding 휴직기간/횟수, but answer does not mention 학교장 at all. Source page 142 references 임용권자, not 학교장. Also duplicate answer."
+  },
+  {
+    "id": "q_3_0588",
+    "verdict": "FAIL",
+    "reason": "Question-answer mismatch: question asks for '구체적인 적용 사례'(specific application examples) but answer only provides the raw rules without any examples. Also duplicate answer with q_3_0576 group."
+  },
+  {
+    "id": "q_3_0589",
+    "verdict": "FAIL",
+    "reason": "Source mismatch: question asks about 육아휴직 규정, but page 142 only says '[붙임] 질병, 육아, 가족돌봄 휴복직 처리 지침 참조'. Answer instead dumps 연수휴직 content from the same page, which is a different topic entirely."
+  },
+  {
+    "id": "q_3_0590",
+    "verdict": "FAIL",
+    "reason": "Bad question: implies a relationship between 육아휴직 and 연수휴직 that does not exist in the source. These are separate sections (사/아) on page 142. Answer mostly covers 연수휴직 only, making the 육아휴직 framing misleading."
+  }
+]

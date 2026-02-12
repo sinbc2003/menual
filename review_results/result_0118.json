@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_3_0675",
+    "verdict": "PASS",
+    "reason": "Well-structured answer covering 자율연수휴직 신청 절차, 요건, 기간, 서류. All facts verified against pages 146-147: 법적근거(교육공무원법 제44조제1항제12호), 대상(10년 이상), 기간(1년 이내), 횟수(1회) all match source."
+  },
+  {
+    "id": "q_3_0676",
+    "verdict": "PASS",
+    "reason": "Specific question about eligibility for 자율연수휴직. Answer correctly identifies 재직기간 10년 이상 교원 requirement, 임용권자 구분(교사/교감:교육장, 교장:교육감), 교원인사자문위원회 의견 청취 등 all verified against page 146."
+  },
+  {
+    "id": "q_3_0679",
+    "verdict": "FAIL",
+    "reason": "Raw dump with broken table formatting. Answer contains pipe characters from source table ('교(원)장 : 도교육청 | | 교사, 교(원)감 : 교육장') not properly reformatted. Poorly structured presentation."
+  },
+  {
+    "id": "q_3_0682",
+    "verdict": "FAIL",
+    "reason": "Vague/ambiguous question - '1번째 항목' does not specify which list or section. Answer dumps 유의사항 content (다) section) which is not clearly the '1st item'. Question-answer mismatch."
+  },
+  {
+    "id": "q_3_0683",
+    "verdict": "FAIL",
+    "reason": "Source mismatch - answer mixes content from PREVIOUS 휴직 type (top of p.146: 경력평정 100% 산입, 호봉승급 100% 산입) with 자율연수휴직. The correct 자율연수휴직 경력인정 is on p.147 (미산입). Misleading conflation of two different leave types."
+  },
+  {
+    "id": "q_3_0684",
+    "verdict": "FAIL",
+    "reason": "Question asks about 휴직사유 기준 but answer dumps previous section's 기타 content (경력평정 100% 산입) instead of the actual 휴직사유 (자기개발 학습·연구, 신체적·정신적 회복). Does not answer the question asked."
+  },
+  {
+    "id": "q_3_0687",
+    "verdict": "FAIL",
+    "reason": "Source mismatch - answer presents previous leave type's 경력인정 data (100% 산입) under 자율연수휴직 context. The actual 자율연수휴직 경력인정 on p.147 is 미산입. Confusingly mixes two different 휴직 types' career recognition data."
+  },
+  {
+    "id": "q_3_0688",
+    "verdict": "FAIL",
+    "reason": "Raw dump of mixed sections from page 146. Question asks about legal provisions for 휴직의 요건 but answer dumps 기타/복직/경력인정 content from previous section instead of addressing the actual 요건 (대상, 절차, 유의사항). Does not answer the question."
+  },
+  {
+    "id": "q_3_0690",
+    "verdict": "FAIL",
+    "reason": "Bad question - '휴직기간 및 횟수의 사유' is nonsensical. Period/frequency (기간/횟수) do not have '사유' (reasons). The question confuses section title with a concept that can have reasons."
+  },
+  {
+    "id": "q_3_0691",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer - substantively identical to q_3_0690 (same source dump of page 147 휴직기간 및 횟수 section with only intro sentence differing). Near-verbatim duplicate content."
+  }
+]
