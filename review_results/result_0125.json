@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_3_0858",
+    "verdict": "FAIL",
+    "reason": "Partially unanswered and duplicate: question asks about '기간과 횟수' (period AND frequency) but answer only addresses period (30일). 횟수 (how many times 복직 can occur) is not discussed. Answer is identical to q_3_0857."
+  },
+  {
+    "id": "q_3_0859",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer and question mismatch: asks '어떻게 계산하나요' (how to calculate the period) but answer provides no calculation methodology - just restates the same 복직절차 content as q_3_0857 and q_3_0858."
+  },
+  {
+    "id": "q_3_0860",
+    "verdict": "FAIL",
+    "reason": "Bad question: includes raw section marker '바' from handbook structure ('바 복직절차'). Answer dumps 복직절차 content but does not specifically list the documents required for 복직, only mentions 복직원 and 증빙서류 in passing."
+  },
+  {
+    "id": "q_3_0861",
+    "verdict": "PASS",
+    "reason": "Specific question asking for summary of 휴직신청서류 content. Answer accurately reproduces the two categories (휴직신청서, 휴직사유 입증서류) with correct details from 213쪽 마. 휴직신청서류 section. Source text verified against markdown."
+  },
+  {
+    "id": "q_3_0862",
+    "verdict": "FAIL",
+    "reason": "Hallucinated question: asks '행정 처리 담당자는 누구인가요' (who is the responsible person) but source page 213 does not identify any specific 담당자. Answer dumps 휴직신청서류 content without addressing the question."
+  },
+  {
+    "id": "q_3_0863",
+    "verdict": "FAIL",
+    "reason": "Hallucinated question premise: asks '규정이 최근에 어떻게 바뀌었나요' (recent regulatory changes to 복직절차) but source contains no information about changes. Answer dumps current 복직절차 rules. Same pattern as q_3_0844."
+  },
+  {
+    "id": "q_3_0865",
+    "verdict": "PASS",
+    "reason": "Specific question about document submission deadline in 복직절차. Answer correctly provides 30일 이내 복귀신고 rule and other relevant procedures from 213쪽. Content verified against source markdown."
+  },
+  {
+    "id": "q_3_0868",
+    "verdict": "FAIL",
+    "reason": "Raw dump: answer spans multiple sections from page 213 (라 동일질병 재발, 휴직횟수, 휴직신청서류, 복직절차) without focusing on '필수 확인 사항'. Overly broad answer that does not specifically identify mandatory checkpoints."
+  },
+  {
+    "id": "q_3_0870",
+    "verdict": "FAIL",
+    "reason": "Bad question construction: '운영상 유의 사항 신청 자격이 있는 사람' conflates section title with question, making it read as if 유의사항 (cautionary notes) is something one 'applies for.' While answer content from 214쪽 is factually accurate, the question is malformed."
+  },
+  {
+    "id": "q_3_0873",
+    "verdict": "FAIL",
+    "reason": "Question mismatch: asks '기간은 얼마나 되나요' (how long is the period) for 운영상 유의 사항, but the 유의사항 section on page 214 discusses conditions/restrictions, not specific time periods. Answer provides no period figure relevant to the question."
+  }
+]

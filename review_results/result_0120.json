@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_3_0707",
+    "verdict": "FAIL",
+    "reason": "Question asks about 임용권자's role but answer dumps sections 4-5 which never mention 임용권자. Also omits 다) 자율연수 계획서 from 제출서류. Question-answer mismatch."
+  },
+  {
+    "id": "q_3_0708",
+    "verdict": "FAIL",
+    "reason": "Question asks how 제출서류 affects 경력 (career) but answer is identical dump of 휴직기간/제출서류 from q_3_0707. Actual career info is in section 7 of page 147 but not included. Duplicate answer + question-answer mismatch."
+  },
+  {
+    "id": "q_3_0709",
+    "verdict": "FAIL",
+    "reason": "Question asks about 복직절차 specifics but answer is identical to q_3_0707/0708. Actual 복직절차 content (section 6: 복직원 제출, 임용권자 복직 명령) is not in the answer. Duplicate answer + question-answer mismatch."
+  },
+  {
+    "id": "q_3_0725",
+    "verdict": "PASS",
+    "reason": "Accurate 병역휴직 휴직/복직 제출서류 listing. All items (입영통지서, 병역부과통지서, 전역증명서, 군복무확인서) verified against page 162."
+  },
+  {
+    "id": "q_3_0728",
+    "verdict": "FAIL",
+    "reason": "Bad question: '의료법을 위해 필요한 서류' is nonsensical. 의료법 is a law, not something you submit documents for. Should ask about 질병휴직 제출서류."
+  },
+  {
+    "id": "q_3_0730",
+    "verdict": "FAIL",
+    "reason": "Vague question ('실제로 어떻게 적용되나요') not answered; answer is raw dump of 제출서류 list. 복직 시 제출서류 entries ②③ have empty content after colons. Does not explain how 질병휴직 is applied in practice."
+  },
+  {
+    "id": "q_3_0732",
+    "verdict": "PASS",
+    "reason": "Accurate. 경력증명서 requirements (주당 수업시수, 보수지급액, 월별 작성, 아포스티유) and additional 복직 서류 all verified against page 163."
+  },
+  {
+    "id": "q_3_0750",
+    "verdict": "PASS",
+    "reason": "Accurate 육아휴직 제출서류 including special cases (임신, 입양, 불임/난임). All items verified against page 164."
+  },
+  {
+    "id": "q_3_0751",
+    "verdict": "PASS",
+    "reason": "Accurate 가족돌봄휴직 휴직/복직 제출서류 listing. All 5 휴직 items and 3 복직 items verified against page 164."
+  },
+  {
+    "id": "q_3_0756",
+    "verdict": "FAIL",
+    "reason": "Question asks about '흔히 발생하는 문제점' (common problems) when applying regulations but answer is just a raw dump of 제출서류 list. Question-answer mismatch; hallucinated question topic."
+  }
+]

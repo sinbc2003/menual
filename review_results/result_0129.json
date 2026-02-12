@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_3_0930",
+    "verdict": "FAIL",
+    "reason": "Duplicate: answer is virtually identical to q_3_0926 (batch_0128) — same source, same 육아휴직수당 content with trivially different question wording."
+  },
+  {
+    "id": "q_3_0935",
+    "verdict": "FAIL",
+    "reason": "Duplicate: answer is virtually identical to q_3_0926 (batch_0128) — same 육아휴직수당 source and content, only minor formatting differences."
+  },
+  {
+    "id": "q_3_0938",
+    "verdict": "PASS",
+    "reason": "Answer accurately summarizes both 복직절차 (4 points) and 육아휴직수당 (caps and rates) from page 218. All content verified against source markdown. Broader scope than individual entries but factually correct as a page summary."
+  },
+  {
+    "id": "q_3_0940",
+    "verdict": "FAIL",
+    "reason": "Duplicate: answer is virtually identical to q_3_0938 — same combined 복직절차 + 육아휴직수당 content from page 218, only question wording differs."
+  },
+  {
+    "id": "q_3_0942",
+    "verdict": "FAIL",
+    "reason": "Source mismatch: question asks about 육아휴직수당 관련 법령 but answer is dominated by 복직절차 content. The 육아휴직수당 portion is truncated after just one cap amount (250만원). Misleading structure for a 법령-focused question."
+  },
+  {
+    "id": "q_3_0946",
+    "verdict": "PASS",
+    "reason": "Answer accurately covers 쌍생아 육아휴직 from page 220: need separate 복직/휴직 applications per child, risk of being treated as extension if not done properly, and loss of 육아휴직수당 및 근속연수 산입. Matches source."
+  },
+  {
+    "id": "q_3_0947",
+    "verdict": "FAIL",
+    "reason": "Hallucination: fabricates extensive date-based examples (2022.3.1 등), invents 세쌍둥이 9년 calculation, fabricates 승급 인정 details (셋째 이상 3년 전 기간), and invents 다태아 출산휴가 120일 — none present in page 220 source. Core principle correct but overwhelmed by unsourced content."
+  },
+  {
+    "id": "q_3_0948",
+    "verdict": "FAIL",
+    "reason": "Hallucination: fabricates Case examples with specific dates, invents sliding-scale formula (3-A년), fabricates 증빙 requirements (재직증명서 등), and invents 징계 warning. Source only states cannot use full 3 years again; answer extrapolates extensively beyond source."
+  },
+  {
+    "id": "q_3_0949",
+    "verdict": "PASS",
+    "reason": "Answer is concise and accurate. Correctly states the requirement for separate 복직/휴직 applications for each child and the consequence of not doing so (연장으로 간주, 수당/근속연수 불인정). Matches page 220 source."
+  },
+  {
+    "id": "q_3_0950",
+    "verdict": "PASS",
+    "reason": "Answer is concise and accurate. Correctly states that prior 육아휴직 under 남녀고용평등법 prevents full 3-year use under 국가공무원법 for the same child, citing 평등의 원칙. Matches page 220 질의회신 source."
+  }
+]
