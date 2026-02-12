@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_4_0213",
+    "verdict": "FAIL",
+    "reason": "Question asks about 학교 행정실 duties but source/answer contain no such info. Answer is garbled raw dump identical to q_4_0211. QUESTION_TOPIC_NOT_ON_PAGE + DUPLICATE_ANSWER."
+  },
+  {
+    "id": "q_4_0214",
+    "verdict": "PASS",
+    "reason": "Specific question about 학교장 공무외 국외여행 processing. Source text from page 266 verified (line 23). Answer accurately covers 연가 활용, 사유란 기재 내용, and purpose (소재파악/비상연락). No hallucination."
+  },
+  {
+    "id": "q_4_0215",
+    "verdict": "PASS",
+    "reason": "Question about 휴업일 신청 방법 is meaningful. Source text from page 266 verified against 휴업일 section (lines 7-25). Answer accurately covers NEIS menu path, application steps, and 사유란 examples."
+  },
+  {
+    "id": "q_4_0216",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_4_0215. Identical source.text, virtually identical answer. Question is rephrased version of same topic with no added value."
+  },
+  {
+    "id": "q_4_0219",
+    "verdict": "FAIL",
+    "reason": "Question asks about 보수 (remuneration) during 휴업일 but page 266 contains no salary information. Answer ignores the question and dumps the same 휴업일 NEIS processing content. QUESTION_TOPIC_NOT_ON_PAGE + DUPLICATE_ANSWER."
+  },
+  {
+    "id": "q_4_0220",
+    "verdict": "FAIL",
+    "reason": "Question asks about 신분 (employment status) during 휴업일 but page 266 contains no status information. Answer is same NEIS processing dump. QUESTION_TOPIC_NOT_ON_PAGE + DUPLICATE_ANSWER."
+  },
+  {
+    "id": "q_4_0221",
+    "verdict": "FAIL",
+    "reason": "Question asks about 판례나 사례 (legal precedents/cases) but source page contains no such content. Answer is same NEIS processing dump. QUESTION_TOPIC_NOT_ON_PAGE + DUPLICATE_ANSWER."
+  },
+  {
+    "id": "q_4_0225",
+    "verdict": "FAIL",
+    "reason": "Question asks about 수업일 기간과 횟수 (period and frequency) but answer only covers NEIS processing method for 수업일. Question topic does not match the answer content provided."
+  },
+  {
+    "id": "q_4_0226",
+    "verdict": "FAIL",
+    "reason": "Question asks how to calculate 수업일 기간 but answer is NEIS processing dump. Question topic not addressed. DUPLICATE_ANSWER with q_4_0225."
+  },
+  {
+    "id": "q_4_0228",
+    "verdict": "FAIL",
+    "reason": "Question asks about 보수 (remuneration) on 수업일 but page 266 수업일 section contains no salary info. Answer is same NEIS processing dump. QUESTION_TOPIC_NOT_ON_PAGE + DUPLICATE_ANSWER."
+  }
+]

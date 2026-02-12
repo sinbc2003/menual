@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_4_0340",
+    "verdict": "PASS",
+    "reason": "Good practical question about when to issue 직무대리 명령서. Answer correctly covers the 15-day rule and exceptions. source.text verified on page 276 line 15. Answer adds related info (한 사람 하나의 직위, 재직무대리 불가, 권한범위) all from page 276."
+  },
+  {
+    "id": "q_4_0341",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_4_0342, q_4_0343, q_4_0346. Answer is raw dump of source text (직무대리규정 clauses 2-3). Question asks for 'definition' but answer just pastes regulation text without synthesis. Template-generated question."
+  },
+  {
+    "id": "q_4_0342",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_4_0341, q_4_0343, q_4_0346. Identical answer text. Question asks about 'classification' (구분) but answer is same raw clause dump that does not address classification at all."
+  },
+  {
+    "id": "q_4_0343",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_4_0341, q_4_0342, q_4_0346. Identical answer text. Question asks about 'result processing' (결과 처리) which is irrelevant to the regulation clause content about designating substitutes."
+  },
+  {
+    "id": "q_4_0346",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_4_0341-q_4_0343. Question is a raw source text fragment ('항에 따른 바로 아래 공무원이 직무대리를 하는 것이 적당하지 아니하다고 인정되는 경우') used as a question - not a natural user question."
+  },
+  {
+    "id": "q_4_0348",
+    "verdict": "PASS",
+    "reason": "Legitimate question asking what Article 6 (직무대리의 운영) is. Answer provides full text of Article 6-8, all verified on page 276. source.text matches page 276 lines 11-19. Answer extends beyond source.text citation but all content is from same page."
+  },
+  {
+    "id": "q_4_0349",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_4_0348. Nearly identical question ('무엇을 뜻하는 건가요' vs '무엇인가요') and identical answer. Redundant entry."
+  },
+  {
+    "id": "q_4_0350",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_4_0348. Question '얼마나 인정되나요' (how much is recognized) is nonsensical for Article 6 content about operational procedures. Template-generated question that does not match content."
+  },
+  {
+    "id": "q_4_0351",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_4_0348. Question asks about '일수' (number of days) but answer dumps entire Article 6 without focusing on the 15-day provision. Template mismatch."
+  },
+  {
+    "id": "q_4_0352",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_4_0348. Question asks about '유형' (types) but answer dumps full Article 6 text without categorizing any types. Template-generated question that does not match content."
+  }
+]

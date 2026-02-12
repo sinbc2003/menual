@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_4_0294",
+    "verdict": "PASS",
+    "reason": "Good question about 겸임 발령 regulations. Answer accurately presents 교육공무원법 제18조 and 교육공무원임용령 제7조의2 content from page 269. Source text verified against markdown (though truncated at end)."
+  },
+  {
+    "id": "q_4_0296",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_4_0294. Nearly identical content covering the same 겸임 regulations from page 269."
+  },
+  {
+    "id": "q_4_0298",
+    "verdict": "PASS",
+    "reason": "Good question about 기관장 직무대리. Answer is comprehensive and accurate - all details (부기관장 대리, 사고 정의, 실장·국장 순위) verified on page 275. Two source citations both confirmed in markdown."
+  },
+  {
+    "id": "q_4_0299",
+    "verdict": "FAIL",
+    "reason": "Duplicate with q_4_0298. Questions are nearly identical ('누가 직무를 대리하나요' vs '누가 직무대리를 하나요') and answers cover the same 기관장 직무대리 content from page 275."
+  },
+  {
+    "id": "q_4_0300",
+    "verdict": "PASS",
+    "reason": "Answer accurately presents 직무대리규정 제1조~제3조 from page 275. Source text verified against markdown. Question reasonably asks what the regulation means."
+  },
+  {
+    "id": "q_4_0301",
+    "verdict": "FAIL",
+    "reason": "Duplicate with q_4_0300. Nearly identical question ('무엇을 뜻하는 건가요' vs '정확히 어떤 것을 의미하나요') and identical answer content."
+  },
+  {
+    "id": "q_4_0303",
+    "verdict": "FAIL",
+    "reason": "Question asks about '자격 요건' (qualification requirements) but source text (제1조~제3조) covers purpose, definitions, and scope - no qualification requirements discussed. Question-answer topic mismatch. Also duplicate answer with q_4_0300."
+  },
+  {
+    "id": "q_4_0304",
+    "verdict": "FAIL",
+    "reason": "Question asks about '절차' (procedure) but answer presents 제1조(목적), 제2조(정의), 제3조(적용 범위) which are definitions and scope, not procedures. Question-answer topic mismatch. Also duplicate answer with q_4_0300."
+  },
+  {
+    "id": "q_4_0308",
+    "verdict": "PASS",
+    "reason": "Answer accurately presents full text of 제4조(기관장과 부기관장의 직무대리) including all four paragraphs. Source text verified against page 275 markdown."
+  },
+  {
+    "id": "q_4_0309",
+    "verdict": "FAIL",
+    "reason": "Duplicate with q_4_0308. Nearly identical question ('무엇인가요' vs '정의가 어떻게 되나요') and identical answer. Also, asking for '정의' (definition) of 제4조 is inaccurate since 제4조 is a substantive provision, not a definition clause."
+  }
+]
