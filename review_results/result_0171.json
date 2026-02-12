@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_4_0595",
+    "verdict": "PASS",
+    "reason": "Good natural question about advertising/sponsorship for teachers. Answer accurately reflects page 288 Q2/A2 prohibition on advertising and sponsorship income with correct legal references. Source text verified."
+  },
+  {
+    "id": "q_4_0596",
+    "verdict": "PASS",
+    "reason": "Good practical question about uploading student videos to YouTube. Answer accurately covers consent requirements, documentation, and procedures from page 288 Q3/A3. Source text verified."
+  },
+  {
+    "id": "q_4_0597",
+    "verdict": "FAIL",
+    "reason": "Duplicate question with q_4_0596 (both ask about uploading student videos to YouTube). Overlapping answer content covering the same consent/blurring/deletion requirements."
+  },
+  {
+    "id": "q_4_0598",
+    "verdict": "FAIL",
+    "reason": "Duplicate question with q_4_0594 from batch 0170 (both ask about vlog filming during work hours). Same source content, same answer substance with excessive verbosity."
+  },
+  {
+    "id": "q_4_0599",
+    "verdict": "FAIL",
+    "reason": "Duplicate question with q_4_0595 (both ask about receiving money/goods for advertising via internet media). Same source content, excessively verbose answer repeating the same prohibition."
+  },
+  {
+    "id": "q_4_0600",
+    "verdict": "FAIL",
+    "reason": "Duplicate topic with q_4_0596 and q_4_0597 (student consent for videos). Excessively verbose answer covering Q3-Q5 from page 288 in a single entry. Much of the detail (e.g. about minors under 14) appears hallucinated beyond source."
+  },
+  {
+    "id": "q_4_0601",
+    "verdict": "PASS",
+    "reason": "Clear question about prohibited items under compliance rules. Answer correctly quotes items 다 and 라 from page 288 준수할 사항 (계속) with proper legal references. Source text verified."
+  },
+  {
+    "id": "q_4_0604",
+    "verdict": "FAIL",
+    "reason": "Duplicate with q_4_0601. Nearly identical question (준수할 사항 계속에서 금지되는 행위) and identical answer content, same source text."
+  },
+  {
+    "id": "q_4_0605",
+    "verdict": "FAIL",
+    "reason": "Meaningless question: 관련 질의·응답을 하려면 어떻게 해야 하나요 treats the section title as a procedural task. Answer is a broken raw dump of all Q1-Q5 with formatting errors (Q1 question text prepended to every answer)."
+  },
+  {
+    "id": "q_4_0606",
+    "verdict": "FAIL",
+    "reason": "Meaningless question: 관련 질의·응답을 신청할 때 (when applying for Q&A) is nonsensical. Duplicate with q_4_0605 (identical answer dump). Same broken formatting with Q1 text incorrectly prepended to all answers."
+  }
+]

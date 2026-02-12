@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_4_0679",
+    "verdict": "FAIL",
+    "reason": "Question-answer mismatch: question asks '기간은 어떻게 계산하나요' (how to calculate the period) but answer is a raw dump of the entire 허가 절차 section without specifically addressing period calculation. Answer copies source.text nearly verbatim."
+  },
+  {
+    "id": "q_4_0684",
+    "verdict": "FAIL",
+    "reason": "Question-answer mismatch: asks '최근에 어떻게 바뀌었나요' (how has it changed recently) but answer never addresses changes. Duplicate answer with q_4_0685/0686/0695 in same batch (identical 허가기준 boilerplate)."
+  },
+  {
+    "id": "q_4_0685",
+    "verdict": "FAIL",
+    "reason": "Question-answer mismatch: asks '잘못 처리하면 어떤 문제가 생기나요' (what problems arise from wrong handling) but answer is generic 허가기준 description, not focused on consequences. Duplicate answer with q_4_0684/0686/0695 in batch."
+  },
+  {
+    "id": "q_4_0686",
+    "verdict": "FAIL",
+    "reason": "Question-answer mismatch: asks '가장 중요한 조건은 무엇인가요' (most important condition) but answer never identifies which condition is most important. Duplicate answer with q_4_0684/0685/0695 in batch."
+  },
+  {
+    "id": "q_4_0690",
+    "verdict": "PASS",
+    "reason": "Source text verified against 290쪽.md (겸직허가 full section). Answer provides comprehensive overview of 허가권자, 허가기준, 허가 절차. While question about 'importance' is only implicitly answered, the coverage is thorough and sourced."
+  },
+  {
+    "id": "q_4_0694",
+    "verdict": "FAIL",
+    "reason": "Poorly formed question: embeds raw source heading '겸직 허가권자 : 소속 기관의 장(학교(원)장 등)' into the question. Asks about '교원의 경력에 어떤 영향' (career impact) which is never addressed in the answer or source material."
+  },
+  {
+    "id": "q_4_0695",
+    "verdict": "FAIL",
+    "reason": "Question-answer mismatch: asks '교육청에서 자주 질의하는 내용' (common queries from education offices) but answer is the same generic 허가기준 boilerplate. Duplicate answer with q_4_0684/0685/0686 in batch."
+  },
+  {
+    "id": "q_4_0696",
+    "verdict": "PASS",
+    "reason": "Source text verified against 291쪽.md Q11/A11 and 관리상 유의사항. Answer correctly explains that 타인 채널 출연 is not '인터넷 개인미디어 활동' but may need 겸직허가 if 영리 or 계속성. Minor elaboration on 계속성 examples but core content accurate."
+  },
+  {
+    "id": "q_4_0697",
+    "verdict": "PASS",
+    "reason": "Source text verified against 291쪽.md (실태조사 section lines 23-29). Answer accurately states 매년 1월/7월, 시·도교육감, 점검 사항, 조치사항, 3월 말 교육부 제출. All details match source. Meaningful, non-duplicate question."
+  },
+  {
+    "id": "q_4_0698",
+    "verdict": "FAIL",
+    "reason": "Near-duplicate of q_4_0696 in same batch. Both reference Q11 on page 291 about 타인 유튜브 출연 and 겸직허가. Questions are essentially identical ('타인의 유튜브에 출연' vs '지인이 운영하는 유튜브에 출연만 하는 경우'). Overlapping answers."
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_4_0721",
+    "verdict": "PASS",
+    "reason": "Meaningful question about administrative procedures for 겸직허가. Answer covers 결과통보, 실태조사 from page 291. Source.text verified. No hallucination."
+  },
+  {
+    "id": "q_4_0723",
+    "verdict": "FAIL",
+    "reason": "Question asks '관련 질의·응답이 교원의 경력에 어떤 영향을 미치나요?' (career impact) but the source content on page 291 says nothing about career impact. Answer dumps 겸직허가 procedures without addressing the question. Question-answer topic mismatch."
+  },
+  {
+    "id": "q_4_0724",
+    "verdict": "PASS",
+    "reason": "Good practical question about 외부강의 procedures. Answer covers 겸직허가, 사전결재, 공문서, 복무처리 - all verified against 292쪽.md. Source.text matches page 292 line 17. No hallucination."
+  },
+  {
+    "id": "q_4_0725",
+    "verdict": "PASS",
+    "reason": "Excellent multi-part question about 외부강의 신고 timing, method, and exemptions. Answer cites pages 292 and 293 correctly. 신고대상, 10일 이내 기한, 국가/지자체 예외, 놓치기 쉬운 기관 all verified against source markdown."
+  },
+  {
+    "id": "q_4_0726",
+    "verdict": "PASS",
+    "reason": "Focused question on when 겸직허가 is needed for 외부강의. Answer accurately covers 시간강사/겸임교수, 1월 초과, 방송/사이버강의 - all from page 292. Source.text verified. Distinct from q_4_0724 in focus."
+  },
+  {
+    "id": "q_4_0727",
+    "verdict": "PASS",
+    "reason": "Question about 외부강의 신고 procedure. Answer covers 신고대상, 사전신고, 10일 이내, 사전결재, 공문서 근거 - all from page 292. Overlaps with q_4_0725 topically but different answer emphasis (복무관리 vs 신고 예외/기관). Source verified."
+  },
+  {
+    "id": "q_4_0728",
+    "verdict": "PASS",
+    "reason": "Question about 제26조 겸직허가 대상자. Answer accurately describes conditions (대학 시간강사, 1월 초과 출강 등) from page 292. Source.text verified against 292쪽.md lines 17-23."
+  },
+  {
+    "id": "q_4_0729",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_4_0728. Same source.text, nearly identical answer. Question about '조건' vs '대상자' yields the same verbatim response."
+  },
+  {
+    "id": "q_4_0730",
+    "verdict": "FAIL",
+    "reason": "Question asks about '필요한 서류' (required documents) but the answer never lists any documents. Page 292 line 63 mentions '〈붙임 1〉 서식' but the answer ignores it. Duplicate answer with q_4_0728/q_4_0729."
+  },
+  {
+    "id": "q_4_0731",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_4_0728-q_4_0730. Question about '신청 방법' gets the same verbatim answer that only lists conditions, not the application method. Page 292 line 63 has relevant info ('〈붙임 1〉 서식에 의하여 소속기관의 장에게 신청') but the answer omits it."
+  }
+]

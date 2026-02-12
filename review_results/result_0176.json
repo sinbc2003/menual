@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_4_0699",
+    "verdict": "PASS",
+    "reason": "Good question about 타인 유튜브 채널 출연 시 겸직허가. Answer correctly distinguishes 허가 불필요/필요 cases based on source A11 on page 291. Source.text verified against 291쪽.md."
+  },
+  {
+    "id": "q_4_0704",
+    "verdict": "FAIL",
+    "reason": "Answer is a raw dump of Q11/A11 format including the original question text as part of the answer ('A11: ... 겸직허가를 받아야 하나요?:...'). Near-duplicate topic with q_4_0699 (same source content from page 291 A11). Question is vague."
+  },
+  {
+    "id": "q_4_0706",
+    "verdict": "FAIL",
+    "reason": "Question asks about '자격 요건' (qualification requirements) but source content is about 실태조사 monitoring procedures on page 291. The answer dumps the full 실태조사 section without addressing 자격 요건 at all. Question-answer topic mismatch."
+  },
+  {
+    "id": "q_4_0708",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_4_0706. Same source.text, nearly identical answer text. Question ('절차') is slightly more fitting than q_4_0706 but the answer is a verbatim copy."
+  },
+  {
+    "id": "q_4_0709",
+    "verdict": "FAIL",
+    "reason": "Question asks about '필요한 서류' (required documents) but the answer never mentions any specific documents. Answer is a duplicate of q_4_0706/q_4_0708. Source page 291 mentions <서식4> but the answer ignores it."
+  },
+  {
+    "id": "q_4_0710",
+    "verdict": "FAIL",
+    "reason": "Meaningless question: '실태조사 및 관리상 유의사항은 얼마나 인정되나요?' ('how much is recognized?') makes no sense for monitoring/survey regulations. Answer is yet another duplicate of the same 실태조사 dump."
+  },
+  {
+    "id": "q_4_0714",
+    "verdict": "FAIL",
+    "reason": "Question asks for '구체적인 적용 사례' (specific application examples) but answer provides none - just dumps the same regulatory text as q_4_0706-q_4_0710. Duplicate answer."
+  },
+  {
+    "id": "q_4_0716",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_4_0706 through q_4_0714. Same source.text, same answer structure. While the question about consequences of mishandling is partially relevant to the 나. section, the answer is an identical copy."
+  },
+  {
+    "id": "q_4_0718",
+    "verdict": "PASS",
+    "reason": "Broad question about 겸직허가 주요 포인트. Answer covers multiple sections from page 291 (절차, Q&A, 실태조사) providing a useful overview. Source.text verified against 291쪽.md. No hallucination detected."
+  },
+  {
+    "id": "q_4_0719",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_4_0718. Same source.text, nearly identical answer content. Question wording differs slightly but the answer is a copy."
+  }
+]

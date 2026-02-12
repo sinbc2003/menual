@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_4_0580",
+    "verdict": "FAIL",
+    "reason": "Question asks about 학교 행정실 업무 (school admin office tasks) which is not in the source. Grammar error: 정의과 should be 정의와. Question-topic mismatch with source content."
+  },
+  {
+    "id": "q_4_0581",
+    "verdict": "FAIL",
+    "reason": "Question asks how the regulation recently changed (어떻게 바뀌었나요) but source/answer only provide the static definition. No change information exists in the source. Question-answer mismatch."
+  },
+  {
+    "id": "q_4_0584",
+    "verdict": "FAIL",
+    "reason": "Question asks 업무를 처리하려면 어떻게 해야 하나요 (how to process work) implying procedural steps, but answer just lists compliance rules. Vague, poorly framed question that does not match answer content."
+  },
+  {
+    "id": "q_4_0587",
+    "verdict": "FAIL",
+    "reason": "Question asks why the guideline is important (중요한 이유) but answer is a raw dump of the entire guideline content without addressing importance. Question-answer mismatch."
+  },
+  {
+    "id": "q_4_0589",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_4_0587 (nearly identical full guideline dump). Awkward question phrasing (과정에서). Same source text as q_4_0587."
+  },
+  {
+    "id": "q_4_0590",
+    "verdict": "FAIL",
+    "reason": "Question asks specifically about the reference table [참고: 인터넷 개인 미디어 활동 영역] but answer does not include the table content. Grammar error in answer: 정의과 should be 정의와. Duplicate answer with q_4_0587/q_4_0589."
+  },
+  {
+    "id": "q_4_0591",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_4_0587/q_4_0589/q_4_0592. Question asks about practical application (실제로 어떻게 적용) but answer is the same guideline text dump without addressing application specifics."
+  },
+  {
+    "id": "q_4_0592",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_4_0591. Question asks about the reference table but answer does not contain it. Same source text and answer pattern as multiple preceding entries."
+  },
+  {
+    "id": "q_4_0593",
+    "verdict": "FAIL",
+    "reason": "Question asks about career impact (경력에 어떤 영향) which is not in the source at all. Answer is the same guideline dump that does not address career implications. Hallucinated question topic."
+  },
+  {
+    "id": "q_4_0594",
+    "verdict": "PASS",
+    "reason": "Good natural question about vlog filming during work hours. Answer accurately reflects page 288 Q1/A1 content including prohibition, exception for official duties, and prior reporting requirement. Source text verified."
+  }
+]

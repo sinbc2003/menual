@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_4_0609",
+    "verdict": "FAIL",
+    "reason": "Malformatted answer: Q1 text appears as prefix to every subsequent Q/A pair (template error). Answer is a raw dump of entire Q1-Q5/A1-A5 section from page 288."
+  },
+  {
+    "id": "q_4_0612",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_4_0609 (identical answer content). Same malformatted template with Q1 prefix on all items. Question about procedures but answer is raw Q&A dump."
+  },
+  {
+    "id": "q_4_0614",
+    "verdict": "PASS",
+    "reason": "Question asks to summarize compliance matters. Answer accurately covers items da-ba from 준수할 사항 and related Q&A from page 288. Source text verified."
+  },
+  {
+    "id": "q_4_0616",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_4_0614. Nearly identical answer content covering the same 준수할 사항 and 관련 질의응답 sections from page 288."
+  },
+  {
+    "id": "q_4_0620",
+    "verdict": "FAIL",
+    "reason": "Answer contains hallucinated details not on page 289: 겸직허가 신청서/겸직심사 체크리스트 submission documents and 임용 후 1개월 이내 deadline are not present in the source page."
+  },
+  {
+    "id": "q_4_0621",
+    "verdict": "PASS",
+    "reason": "Specific question about 계속성 criteria. Answer accurately lists 4 criteria from Q8/A8 and explains scope from Q9/A9 on page 289. Source text verified."
+  },
+  {
+    "id": "q_4_0622",
+    "verdict": "PASS",
+    "reason": "Comprehensive answer about 겸직허가 대상 covering all subsections of page 289 (대상 criteria, 계속성 기준, 계정 유지). Content accurately reflects source."
+  },
+  {
+    "id": "q_4_0629",
+    "verdict": "FAIL",
+    "reason": "Broken question with formatting artifact (*). '인터넷 개인방송*인 경우를 받을 수 있는 자격' is grammatically nonsensical. Answer is raw dump of source text."
+  },
+  {
+    "id": "q_4_0630",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_4_0629 (identical answer). Question contains formatting artifact (*). Same raw source text dump."
+  },
+  {
+    "id": "q_4_0632",
+    "verdict": "FAIL",
+    "reason": "Question asks about duration (기간) but neither answer nor source addresses duration at all. DUPLICATE_ANSWER with q_4_0629/0630. Formatting artifact in question."
+  }
+]

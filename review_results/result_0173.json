@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_4_0633",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_4_0629/0630/0632 series (identical answer). Question contains formatting artifact (*인 경우). Raw source text dump."
+  },
+  {
+    "id": "q_4_0634",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_4_0629/0630/0632/0633 series (identical answer). Question contains formatting artifact (*인 경우). Raw source text dump."
+  },
+  {
+    "id": "q_4_0637",
+    "verdict": "FAIL",
+    "reason": "Nonsensical question: '어떤 경우에 관련 질의응답이 가능한가요' treats Q&A section heading as a regulatory concept. No one would ask 'when is Q&A possible'. Source content (Q8/A8, Q9/A9) is accurate but question is meaningless."
+  },
+  {
+    "id": "q_4_0645",
+    "verdict": "FAIL",
+    "reason": "Question asks about school admin office tasks but answer has nothing about admin office duties. DUPLICATE_ANSWER with q_4_0629 series. Grammar error: 경우과 should be 경우와 (no batchim). Formatting artifact."
+  },
+  {
+    "id": "q_4_0646",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_4_0645 and q_4_0629 series (identical content). Question contains formatting artifact (*인 경우). Raw source text dump."
+  },
+  {
+    "id": "q_4_0652",
+    "verdict": "PASS",
+    "reason": "Question about how 겸직허가 applies in context of Q&A section. Answer accurately covers Q6/A6, Q7/A7 and 겸직허가 overview from page 289 transition. Source text verified."
+  },
+  {
+    "id": "q_4_0653",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_4_0652. Nearly identical answer covering same Q6/A6, Q7/A7 and 겸직허가 대상 content from page 289."
+  },
+  {
+    "id": "q_4_0655",
+    "verdict": "FAIL",
+    "reason": "Question asks about common problems (문제점) when applying regulations, but answer just dumps the regulatory content without addressing any problems. Question-answer mismatch."
+  },
+  {
+    "id": "q_4_0656",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_4_0655. Same question-answer mismatch: asks about common problems (문제점) but answer provides regulatory content only."
+  },
+  {
+    "id": "q_4_0657",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_4_0655/0656 (identical answer content). While this question better fits the answer than 0655/0656, the duplication makes it redundant."
+  }
+]
