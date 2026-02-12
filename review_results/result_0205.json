@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_4_1289",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_4_1290, q_4_1291, q_4_1303, q_4_1304 (all five have identical answers). QUESTION_ANSWER_MISMATCH: '자격 요건' (qualification requirements) is nonsensical for a 사례 (case example). Source text verified against page 321."
+  },
+  {
+    "id": "q_4_1290",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_4_1289, q_4_1291, q_4_1303, q_4_1304 (identical answers). QUESTION_ANSWER_MISMATCH: question asks about '횟수 제한' (frequency limits) but answer about 예방접종 공가 contains no frequency limit information."
+  },
+  {
+    "id": "q_4_1291",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_4_1289, q_4_1290, q_4_1303, q_4_1304 (identical answers). Question is generic but somewhat acceptable; however, the answer duplication makes this entry redundant."
+  },
+  {
+    "id": "q_4_1295",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_4_1296, q_4_1298, q_4_1300, q_4_1301 (all five have identical answers). QUESTION_ANSWER_MISMATCH: question asks about '절차' (procedures) but answer only dumps the 경조사별 휴가일수 table. Table formatting is garbled ('자녀: - 대 상: 1' misattributes column). Source text verified against page 321."
+  },
+  {
+    "id": "q_4_1296",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_4_1295, q_4_1298, q_4_1300, q_4_1301 (identical answers). QUESTION_ANSWER_MISMATCH: question asks about '처리 기한' (deadlines) but answer omits actual deadline info available on page 321 (30일/90일 for 결혼, 120일/150일 for 출산)."
+  },
+  {
+    "id": "q_4_1298",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_4_1295, q_4_1296, q_4_1300, q_4_1301 (identical answers). QUESTION_ANSWER_MISMATCH: question asks about '횟수 제한' (frequency limits) but answer contains no information about any frequency restrictions."
+  },
+  {
+    "id": "q_4_1300",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_4_1295, q_4_1296, q_4_1298, q_4_1301 (identical answers). Question about '예외 사항' is partially relevant (입양 한정, 원격지 mentioned in source) but answer does not highlight these as exceptions."
+  },
+  {
+    "id": "q_4_1301",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_4_1295, q_4_1296, q_4_1298, q_4_1300 (identical answers). Question about '법적 근거' is only partially addressed; answer lists 입양특례법 but omits primary legal basis (국가공무원 복무규정 제20조)."
+  },
+  {
+    "id": "q_4_1303",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_4_1289, q_4_1290, q_4_1291, q_4_1304 (identical answers). GRAMMAR_ERROR: question says '공가의 사례을' but 사례 ends in vowel so particle should be '를' not '을'. Source text verified against page 321."
+  },
+  {
+    "id": "q_4_1304",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_4_1289, q_4_1290, q_4_1291, q_4_1303 (identical answers). Content is valid when considered in isolation, but entirely redundant within this batch."
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_4_1206",
+    "verdict": "PASS",
+    "reason": "Question slightly awkward grammar but understandable. Answer accurately covers all 5 sick leave cases from page 318. Source text verified on page 318."
+  },
+  {
+    "id": "q_4_1207",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_4_1206 (nearly identical answer). Question asks about period/duration but answer is a generic dump of all cases without focusing on period calculation."
+  },
+  {
+    "id": "q_4_1210",
+    "verdict": "FAIL",
+    "reason": "SOURCE_TEXT_IN_QUESTION: question contains raw source text pasted verbatim ('휴가기간이란 휴가시작일과 종료일을 말하므로 각각 다른 사유의 병가를 사용하는 경우'). Also DUPLICATE_ANSWER with q_4_1206."
+  },
+  {
+    "id": "q_4_1211",
+    "verdict": "FAIL",
+    "reason": "QUESTION_ANSWER_MISMATCH: question asks about handling complaints (민원 대응) which is not covered in the source material. Answer ignores the complaint angle and just lists sick leave cases. Also truncated DUPLICATE_ANSWER."
+  },
+  {
+    "id": "q_4_1212",
+    "verdict": "FAIL",
+    "reason": "QUESTION_ANSWER_MISMATCH: question asks about impact on teacher status (교원 신분에 미치는 영향) which is not covered in the source. Answer ignores the status impact angle and just lists cases. Also truncated DUPLICATE_ANSWER."
+  },
+  {
+    "id": "q_4_1214",
+    "verdict": "FAIL",
+    "reason": "SOURCE_TEXT_IN_QUESTION: question is raw source text dump starting mid-calculation ('3일 + ② 7일 + ③ 19일...'). Source.text is a fragment, not a coherent section. Answer merely repeats the fragment."
+  },
+  {
+    "id": "q_4_1216",
+    "verdict": "PASS",
+    "reason": "Natural question asking how sick leave cases apply within leave implementation methods. Answer accurately covers cases 1-2 with proper page structure context. Source text verified on page 318."
+  },
+  {
+    "id": "q_4_1219",
+    "verdict": "FAIL",
+    "reason": "QUESTION_ANSWER_MISMATCH: question asks about administrative procedures (행정적 절차) for sick leave cases, but the source material only contains case calculation examples, not procedures. Answer does not address procedures."
+  },
+  {
+    "id": "q_4_1220",
+    "verdict": "PASS",
+    "reason": "Clear, well-formed question about official leave eligibility. Answer accurately lists all 공가 approval reasons from page 319. Source text verified on page 319. Different topic from the 병가 entries."
+  },
+  {
+    "id": "q_4_1223",
+    "verdict": "FAIL",
+    "reason": "QUESTION_ANSWER_MISMATCH: question asks about precautions/notes (유의사항) when applying for official leave, but the answer provides the list of approval reasons (승인 사유) instead. Page 319 has a separate 나) 공가제도의 운영상 유의사항 section that should answer this question."
+  }
+]

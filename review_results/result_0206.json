@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_4_1305",
+    "verdict": "PASS",
+    "reason": "Source text verified on 321쪽.md (사례7, 제1급감염병 예방접종 공가). Answer accurately reflects source content about 공가 conditions and time limits. No hallucination."
+  },
+  {
+    "id": "q_4_1306",
+    "verdict": "PASS",
+    "reason": "Source text verified on 321쪽.md (경조사별 휴가일수 table, 입양 규정). Answer extends beyond source.text to include items (3)/(4) but all content is from page 321. Question about 법적 근거 is answered with relevant regulations."
+  },
+  {
+    "id": "q_4_1308",
+    "verdict": "FAIL",
+    "reason": "Question is a meaningless positional reference ('휴가종류별 실시방법의 2번째 항목은 무엇인가요?'). No real user would ask about 'the 2nd item'. Not a meaningful QA pair."
+  },
+  {
+    "id": "q_4_1312",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_4_1314. Both dump full page 321 content (공가 사례7 + 경조사휴가 table). Nearly identical answers from same source page."
+  },
+  {
+    "id": "q_4_1314",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_4_1312. Both dump full page 321 content (공가 사례7 + 경조사휴가 table). Nearly identical answers from same source page."
+  },
+  {
+    "id": "q_4_1315",
+    "verdict": "PASS",
+    "reason": "Source verified on 322쪽.md (사례6, 사실혼 경조사휴가). Specific question about 사실혼 배우자 부모 사망 시 경조사휴가. Answer accurately states 불가 with correct reasoning from source."
+  },
+  {
+    "id": "q_4_1316",
+    "verdict": "FAIL",
+    "reason": "Duplicate with q_4_1315 and q_4_1317. All three ask about 사실혼 배우자 경조사휴가 from same source on page 322 with overlapping answers."
+  },
+  {
+    "id": "q_4_1317",
+    "verdict": "FAIL",
+    "reason": "Duplicate with q_4_1315 and q_4_1316. All three ask about 사실혼 배우자 경조사휴가 from same source on page 322 with overlapping answers."
+  },
+  {
+    "id": "q_4_1318",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_4_1319. Both dump full page 322 content (경조사휴가 계속, 배우자출산휴가 개정규정, 사례1). Also duplicated by q_4_1320/q_4_1321/q_4_1322 in batch 0207."
+  },
+  {
+    "id": "q_4_1319",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_4_1318. Both dump full page 322 content (경조사휴가 계속, 배우자출산휴가 개정규정, 사례1). Also duplicated by q_4_1320/q_4_1321/q_4_1322 in batch 0207."
+  }
+]

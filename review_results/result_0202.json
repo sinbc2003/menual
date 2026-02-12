@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_4_1245",
+    "verdict": "FAIL",
+    "reason": "Question asks why leave implementation methods are important (이유), but answer just lists official leave approval reasons without addressing importance. Question-answer mismatch."
+  },
+  {
+    "id": "q_4_1246",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer - virtually identical content to q_4_1245 (same page 319 items 1-9 with same formatting). Both answers list the same 9 approval reasons with identical closing citations."
+  },
+  {
+    "id": "q_4_1248",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer - same page 319 source content as q_4_1245/q_4_1246 (items 1-7 subset). Also, the cited laws in the closing section reference items 11-12 of the page while the answer body only covers items 1-7, creating an inconsistent answer."
+  },
+  {
+    "id": "q_4_1249",
+    "verdict": "FAIL",
+    "reason": "Question asks how official leave reasons affect teacher careers (경력에 영향), but source text (page 319) contains no information about career impact. Answer dumps the same approval reason list without addressing the question. Hallucinated question topic."
+  },
+  {
+    "id": "q_4_1253",
+    "verdict": "PASS",
+    "reason": "Good question asking when official leave can be used. Answer provides well-structured synthesis of page 320 content covering 7 positive cases and ineligible cases. Source text verified against 320쪽.md. No hallucination."
+  },
+  {
+    "id": "q_4_1254",
+    "verdict": "FAIL",
+    "reason": "Question asks about processing procedure (처리 절차) of the precautions, but the answer only describes cases where official leave cannot be granted for union activity. Source text has no procedure information. Question-answer mismatch."
+  },
+  {
+    "id": "q_4_1255",
+    "verdict": "FAIL",
+    "reason": "Grammatically broken question - '유의사항하면 어떤 효과가 있나요' is nonsensical (유의사항 is a noun, adding 하면 is ungrammatical). Also duplicate answer identical to q_4_1254."
+  },
+  {
+    "id": "q_4_1256",
+    "verdict": "FAIL",
+    "reason": "Question asks how 'results' (결과) of precautions are processed, which is nonsensical - precautions do not produce results. Duplicate answer identical to q_4_1254/q_4_1255. Question-answer mismatch."
+  },
+  {
+    "id": "q_4_1257",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer identical to q_4_1254/q_4_1255/q_4_1256. While the question about legal basis is reasonable, the answer is not tailored to it - just repeats the same block of text."
+  },
+  {
+    "id": "q_4_1258",
+    "verdict": "FAIL",
+    "reason": "Question is a raw source text fragment - starts with '에 의한 총회, 대의원회...' which is an incomplete sentence missing its subject (should be '자체규약 등에 의한'). This is a pasted source text dump, not a meaningful question."
+  }
+]
