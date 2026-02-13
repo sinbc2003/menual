@@ -1,0 +1,147 @@
+[
+  {
+    "id": "q_7_0196",
+    "issue_type": "HALLUCINATION",
+    "detail": "답변에 출처에 없는 법령명이 포함됨: 「교육공무원징계령」"
+  },
+  {
+    "id": "q_7_0196",
+    "issue_type": "FABRICATED_DETAIL",
+    "detail": "답변에 출처에 없는 서식 참조가 포함됨: 별지 제3호의3 서식"
+  },
+  {
+    "id": "q_7_0198",
+    "issue_type": "FABRICATED_DETAIL",
+    "detail": "답변에 출처에 없는 서식 참조가 포함됨: 별지 제3호의3 서식"
+  },
+  {
+    "id": "q_7_0200",
+    "issue_type": "FABRICATED_DETAIL",
+    "detail": "답변에 출처에 없는 서식 참조가 포함됨: 별지 제4호 서식"
+  },
+  {
+    "id": "q_7_0201",
+    "issue_type": "FABRICATED_DETAIL",
+    "detail": "답변에 출처에 없는 서식 참조가 포함됨: 별지 제5호의2 서식"
+  },
+  {
+    "id": "q_7_0202",
+    "issue_type": "FABRICATED_DETAIL",
+    "detail": "답변에 출처에 없는 서식 참조가 포함됨: 별지 제3호의3 서식"
+  },
+  {
+    "id": "q_7_0247",
+    "issue_type": "HALLUCINATION",
+    "detail": "답변에 출처에 없는 법령명이 포함됨: 「교육공무원징계령」"
+  },
+  {
+    "id": "q_7_0253",
+    "issue_type": "HALLUCINATION",
+    "detail": "답변에 출처에 없는 법령명이 포함됨: 「교육공무원 징계양정 등에 관한 규칙」"
+  },
+  {
+    "id": "q_7_0256",
+    "issue_type": "HALLUCINATION",
+    "detail": "답변에 출처에 없는 법령명이 포함됨: 「교육공무원 징계양정 등에 관한 규칙」"
+  },
+  {
+    "id": "q_7_0261",
+    "issue_type": "HALLUCINATION",
+    "detail": "답변에 출처에 없는 법령명이 포함됨: 「교육공무원 징계양정 등에 관한 규칙」"
+  },
+  {
+    "id": "q_7_0263",
+    "issue_type": "HALLUCINATION",
+    "detail": "답변에 출처에 없는 법령명이 포함됨: 「교육공무원 징계양정 등에 관한 규칙」"
+  },
+  {
+    "id": "q_7_0268",
+    "issue_type": "FABRICATED_DETAIL",
+    "detail": "답변에 출처에 없는 구체적 수치가 포함됨: 6개월"
+  },
+  {
+    "id": "q_7_0268",
+    "issue_type": "FABRICATED_DETAIL",
+    "detail": "답변에 출처에 없는 구체적 수치가 포함됨: 3년"
+  },
+  {
+    "id": "q_7_0268",
+    "issue_type": "FABRICATED_DETAIL",
+    "detail": "답변에 출처에 없는 구체적 수치가 포함됨: 5년"
+  },
+  {
+    "id": "q_7_0268",
+    "issue_type": "FABRICATED_DETAIL",
+    "detail": "답변에 출처에 없는 구체적 수치가 포함됨: 10년"
+  },
+  {
+    "id": "q_7_0269",
+    "issue_type": "FABRICATED_DETAIL",
+    "detail": "답변에 출처에 없는 구체적 수치가 포함됨: 6개월"
+  },
+  {
+    "id": "q_7_0269",
+    "issue_type": "FABRICATED_DETAIL",
+    "detail": "답변에 출처에 없는 구체적 수치가 포함됨: 10년"
+  },
+  {
+    "id": "q_7_0269",
+    "issue_type": "FABRICATED_DETAIL",
+    "detail": "답변에 출처에 없는 구체적 수치가 포함됨: 5년"
+  },
+  {
+    "id": "q_7_0270",
+    "issue_type": "FABRICATED_DETAIL",
+    "detail": "답변에 출처에 없는 구체적 수치가 포함됨: 3년"
+  },
+  {
+    "id": "q_7_0271",
+    "issue_type": "HALLUCINATION",
+    "detail": "답변에 출처에 없는 법령명이 포함됨: 「국가공무원법」"
+  },
+  {
+    "id": "q_7_0271",
+    "issue_type": "HALLUCINATION",
+    "detail": "답변에 출처에 없는 법령명이 포함됨: 「지방공무원법」"
+  },
+  {
+    "id": "q_7_0271",
+    "issue_type": "HALLUCINATION",
+    "detail": "답변에 출처에 없는 법령명이 포함됨: 「교육공무원법」"
+  },
+  {
+    "id": "q_7_0271",
+    "issue_type": "HALLUCINATION",
+    "detail": "답변에 출처에 없는 법령명이 포함됨: 「도로교통법」"
+  },
+  {
+    "id": "q_7_0271",
+    "issue_type": "HALLUCINATION",
+    "detail": "답변에 출처에 없는 법령명이 포함됨: 「학교폭력예방 및 대책에 관한 법률」"
+  },
+  {
+    "id": "q_7_0271",
+    "issue_type": "HALLUCINATION",
+    "detail": "답변에 출처에 없는 법령명이 포함됨: 「공직선거법」"
+  },
+  {
+    "id": "q_7_0271",
+    "issue_type": "HALLUCINATION",
+    "detail": "답변에 출처에 없는 법령명이 포함됨: 「공직자윤리법」"
+  },
+  {
+    "id": "q_7_0271",
+    "issue_type": "HALLUCINATION",
+    "detail": "답변에 출처에 없는 법령명이 포함됨: 「적극행정 운영규정」"
+  },
+  {
+    "id": "q_7_0271",
+    "issue_type": "HALLUCINATION",
+    "detail": "답변에 출처에 없는 법령명이 포함됨: 「지방공무원 적극행정 운영규정」"
+  },
+  {
+    "id": "q_7_0271",
+    "issue_type": "HALLUCINATION",
+    "detail": "답변에 출처에 없는 법령명이 포함됨: 「부정청탁 및 금품등 수수의 금지에 관한 법률」"
+  }
+]
