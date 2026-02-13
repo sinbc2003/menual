@@ -1,0 +1,218 @@
+[
+  {
+    "id": "q_6_0242",
+    "reason": "Full rule sentence used as topic with generic suffix '에 해당하는 것들은 무엇인가요?' - the sentence IS the rule, not a category"
+  },
+  {
+    "id": "q_6_0244",
+    "reason": "Full rule sentence + meta-question '관련하여 자주 묻는 질문이 있나요?' - asks the handbook to list FAQs about itself"
+  },
+  {
+    "id": "q_6_0250",
+    "reason": "Full rule sentence treated as noun phrase + '에 대해 알아야 할 사항은' - grammatically broken template"
+  },
+  {
+    "id": "q_6_0260",
+    "reason": "Nonsensical: '특수교사...각각 별도로 평정한다.를 받을 수 있는 자격' - treats a rule about separate evaluation as something one qualifies to receive"
+  },
+  {
+    "id": "q_6_0262",
+    "reason": "Nonsensical: '특수교사...각각 별도로 평정한다.는 얼마나 인정되나요?' - asks how much a procedural rule is 'recognized'"
+  },
+  {
+    "id": "q_6_0263",
+    "reason": "Nonsensical: '특수교사...각각 별도로 평정한다.는 몇 년까지 가능한가요?' - asks 'how many years' for a rule about evaluation categories"
+  },
+  {
+    "id": "q_6_0268",
+    "reason": "Nonsensical: long automatic rule about evaluation jurisdiction + '신청 방법을 알려주세요' - this is not something you apply for"
+  },
+  {
+    "id": "q_6_0269",
+    "reason": "Nonsensical: full automatic rule sentence + '를 하려면 어떻게 해야 하나요?' - the rule is an automatic process, not a voluntary action"
+  },
+  {
+    "id": "q_6_0273",
+    "reason": "Nonsensical: rule about which school does the evaluation + '의 점수는 어떻게 계산하나요?' - the rule is about jurisdiction, not scoring"
+  },
+  {
+    "id": "q_6_0279",
+    "reason": "Incomplete/nonsensical: '교육국(과)장은 누가 하나요?' - extremely vague, no context for what the bureau chief 'does'"
+  },
+  {
+    "id": "q_6_0298",
+    "reason": "Nonsensical: '연수성적평정은...나눈다.에 해당하려면 어떤 조건을 충족해야 하나요?' - treats a classification/definition as something you qualify for"
+  },
+  {
+    "id": "q_6_0300",
+    "reason": "Nonsensical: '연수성적평정은...나눈다.의 일수는 어떻게 되나요?' - asks for number of days of a classification definition"
+  },
+  {
+    "id": "q_6_0301",
+    "reason": "Nonsensical: '연수성적평정은...나눈다.의 기간은 얼마나 되나요?' - asks for duration of a definitional rule"
+  },
+  {
+    "id": "q_6_0305",
+    "reason": "Nonsensical: '교육공무원 승진규정을 받을 수 있는 자격이 궁금합니다' - treats a regulation itself as something one receives"
+  },
+  {
+    "id": "q_6_0318",
+    "reason": "Nonsensical: '연수성적평정(승진규정 제4장)는 얼마나 인정되나요?' - asks how much an entire chapter is 'recognized'"
+  },
+  {
+    "id": "q_6_0321",
+    "reason": "Nonsensical: '연수성적평정(승진규정 제4장)가 경력평정에 어떻게 반영되나요?' - asks how an entire chapter is reflected in career evaluation"
+  },
+  {
+    "id": "q_6_0356",
+    "reason": "Nonsensical: '교육부장관와 관련된 법적 근거는 무엇인가요?' - asks for the legal basis of the Minister of Education as a concept"
+  },
+  {
+    "id": "q_6_0395",
+    "reason": "Garbled: '가 전국규모의 연구대회「교육공무원 인사관리규정」제조, 「연구대회 관리에 관한 훈령」 제호는 몇 년까지 가능한가요?' - fragments of regulation citations mashed together incoherently"
+  },
+  {
+    "id": "q_6_0431",
+    "reason": "Nonsensical: '※ 연구대회 등급의 기준 신청 자격이 있는 사람은 누구인가요?' - you don't 'apply for' grading criteria"
+  },
+  {
+    "id": "q_6_0432",
+    "reason": "Nonsensical: '※ 연구대회 등급의 기준의 일수는 어떻게 되나요?' - asks for number of days of grading criteria"
+  },
+  {
+    "id": "q_6_0433",
+    "reason": "Nonsensical: '※ 연구대회 등급의 기준은 얼마나 인정되나요?' - asks how much grading criteria are 'recognized'"
+  },
+  {
+    "id": "q_6_0443",
+    "reason": "Garbled/truncated: '기타 유의사항 - '94.09.22. 이후 장학(교육연에 대해 자세히 설명해주세요' - truncated mid-word, incomplete reference"
+  },
+  {
+    "id": "q_6_0550",
+    "reason": "Nonsensical: '가산점 초과 제한의 범위의 일수는 어떻게 되나요?' - point limit ranges don't have 'days'"
+  },
+  {
+    "id": "q_6_0551",
+    "reason": "Nonsensical: '가산점 초과 제한의 범위의 기간은 얼마나 되나요?' - point limit ranges don't have a 'duration'"
+  },
+  {
+    "id": "q_6_0566",
+    "reason": "Nonsensical: '동일한 평정기간 중의 경력 및 실적의 중복 평정 금지는 얼마나 인정되나요?' - asks how much a prohibition is 'recognized'"
+  },
+  {
+    "id": "q_6_0567",
+    "reason": "Nonsensical: '중복 평정 금지의 기간은 얼마나 되나요?' - asks for duration of a prohibition rule"
+  },
+  {
+    "id": "q_6_0631",
+    "reason": "Nonsensical: '[예시표 구성]의 자격 요건이 어떻게 되나요?' - asks for qualification requirements of a sample table layout"
+  },
+  {
+    "id": "q_6_0632",
+    "reason": "Nonsensical: '[예시표 구성]를 받을 수 있는 자격이 궁금합니다' - asks for qualifications to receive a sample table format"
+  },
+  {
+    "id": "q_6_0634",
+    "reason": "Nonsensical: '[예시표 구성]의 예외 사항이 있나요?' - asks for exceptions to a sample table layout"
+  },
+  {
+    "id": "q_6_0699",
+    "reason": "Nonsensical: '유의사항을 받을 수 있는 자격이 궁금합니다' - treats precautionary notes as something one qualifies to receive"
+  },
+  {
+    "id": "q_6_0701",
+    "reason": "Nonsensical: '유의사항 신청 방법을 알려주세요' - asks for application method for precautionary notes"
+  },
+  {
+    "id": "q_6_0712",
+    "reason": "Nonsensical: '근무성적평정확인위원회는 몇 년까지 가능한가요?' - asks how many years a standing committee is valid"
+  },
+  {
+    "id": "q_6_0724",
+    "reason": "Nonsensical: '근무성적평정조정위원회는 얼마나 인정되나요?' - asks how much a committee is 'recognized'"
+  },
+  {
+    "id": "q_6_0940",
+    "reason": "Nonsensical: '※ 평정사항 _ \"교감등\" 용의 일수는 어떻게 되나요?' - asks for number of days of a form section header"
+  },
+  {
+    "id": "q_6_0945",
+    "reason": "Garbled: '※ 평정사항 _ \"교감등\" 용하면 어떤 효과가 있나요?' - '용하면' is garbled, form section label merged with verb ending"
+  },
+  {
+    "id": "q_7_0014",
+    "reason": "Nonsensical: '징계부가금을 받을 수 있는 자격이 궁금합니다' - treats a disciplinary penalty surcharge as if it were a benefit one qualifies for"
+  },
+  {
+    "id": "q_7_0027",
+    "reason": "Garbled: '징계 및 직위해제의 가번째 항목은 무엇인가요?' - '가번째' is meaningless, likely generation artifact"
+  },
+  {
+    "id": "q_7_0052",
+    "reason": "Nonsensical: '재징계의결 등의 요구는 얼마나 인정되나요?' - asks how much a request for re-deliberation is 'recognized'"
+  },
+  {
+    "id": "q_7_0054",
+    "reason": "Nonsensical: '재징계의결 등의 요구가 경력평정에 어떻게 반영되나요?' - re-disciplinary requests are not reflected in career evaluation"
+  },
+  {
+    "id": "q_7_0091",
+    "reason": "Nonsensical: '징계 사유의 시효를 받을 수 있는 자격이 궁금합니다' - treats a statute of limitations as something one qualifies to receive"
+  },
+  {
+    "id": "q_7_0122",
+    "reason": "Out of scope: asks what types of 제주특별자치도 특별법 exist - a separate law unrelated to personnel handbook content"
+  },
+  {
+    "id": "q_7_0125",
+    "reason": "Garbled: '징계일반의 가번째 항목은 무엇인가요?' - '가번째' is meaningless, likely generation artifact"
+  },
+  {
+    "id": "q_7_0143",
+    "reason": "Garbled/truncated: '의 각 호의 사람이 위원장을 제외한 위원 수의 10분의에 대해' - sentence fragment missing article reference and cut off"
+  },
+  {
+    "id": "q_7_0144",
+    "reason": "Garbled/truncated: '(3)의 각 호의 사람이 위원장을 제외한 위원 수의 1는 어떤 내용인가요?' - truncated regulation fraction"
+  },
+  {
+    "id": "q_7_0151",
+    "reason": "Nonsensical: '징계의결의 요구를 받을 수 있는 자격이 궁금합니다' - treats receiving a disciplinary deliberation request as a qualification"
+  },
+  {
+    "id": "q_7_0174",
+    "reason": "Nonsensical: '징계혐의자의 출석의 일수는 어떻게 되나요?' - asks for number of days of hearing attendance"
+  },
+  {
+    "id": "q_7_0175",
+    "reason": "Nonsensical: '징계혐의자의 출석은 몇 년까지 가능한가요?' - asks how many years hearing attendance is possible"
+  },
+  {
+    "id": "q_7_0177",
+    "reason": "Nonsensical: '징계혐의자의 출석이 경력평정에 어떻게 반영되나요?' - hearing attendance is not reflected in career evaluation"
+  },
+  {
+    "id": "q_7_0182",
+    "reason": "Grammatically broken: '심문과 진술권을 하려면 어떻게 해야 하나요?' - rights cannot be 'done'; nonsensical phrasing"
+  },
+  {
+    "id": "q_7_0183",
+    "reason": "Nonsensical: '심문과 진술권의 처리 기한이 어떻게 되나요?' - rights don't have processing deadlines"
+  },
+  {
+    "id": "q_7_0184",
+    "reason": "Garbled: '심문과 진술권하면 어떤 효과가 있나요?' - '진술권하면' is grammatically broken"
+  },
+  {
+    "id": "q_7_0185",
+    "reason": "Nonsensical: '심문과 진술권이 경력평정에 어떻게 반영되나요?' - hearing rights are not reflected in career evaluation"
+  },
+  {
+    "id": "q_7_0206",
+    "reason": "Nonsensical: '심문과 진술권의 일수는 어떻게 되나요?' - asks for number of days of examination and statement rights"
+  },
+  {
+    "id": "q_7_0157",
+    "reason": "Garbled/decontextualized: '조 각 호의 어느 하나에 해당하는 경우' - missing which article is referenced, incomplete fragment"
+  }
+]

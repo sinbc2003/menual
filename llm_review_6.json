@@ -1,0 +1,406 @@
+[
+  {
+    "id": "q_5_0667",
+    "reason": "Two unrelated questions glued together: a question about 강사수당 and then '신청 자격이 있는 사람은 누구인가요?' tacked on nonsensically"
+  },
+  {
+    "id": "q_5_0669",
+    "reason": "Section title ending with '?' treated as noun, then '에 관한 기간과 횟수를 알려주세요' appended - asking duration/frequency of a pay rate is nonsensical"
+  },
+  {
+    "id": "q_5_0670",
+    "reason": "Section title ending with '?' treated as noun, then '의 기간은 얼마나 되나요?' appended - asking duration of a pay rate is nonsensical"
+  },
+  {
+    "id": "q_5_0671",
+    "reason": "Section title ending with '?' treated as noun, then '에 해당하는 것들은 무엇인가요?' appended - nonsensical"
+  },
+  {
+    "id": "q_5_0674",
+    "reason": "Section title ending with '?' treated as noun, then '에서 3년이라는 기준은 어떤 의미인가요?' appended - fabricates a '3년' criterion"
+  },
+  {
+    "id": "q_5_0675",
+    "reason": "Two unrelated questions glued together: a yes/no question about 가족돌봄휴가 and then '신청 자격이 있는 사람은 누구인가요?' tacked on"
+  },
+  {
+    "id": "q_5_0678",
+    "reason": "'기간제교원도 가족돌봄휴가를 받을 수 있나?를 하려면 어떻게 해야 하나요?' - 'to do [can they get family care leave]?' is nonsensical"
+  },
+  {
+    "id": "q_5_0679",
+    "reason": "Yes/no question title treated as noun with '에 관한 기간과 횟수를 알려주세요' appended - grammatically broken"
+  },
+  {
+    "id": "q_5_0690",
+    "reason": "Yes/no question title treated as noun with '에 관한 규정이 최근에 어떻게 바뀌었나요?' appended - grammatically broken"
+  },
+  {
+    "id": "q_5_0697",
+    "reason": "Yes/no question title treated as noun with '의 구체적인 적용 기준과 범위를 설명해주세요' appended - grammatically broken"
+  },
+  {
+    "id": "q_5_0706",
+    "reason": "Specific scenario question with '신청 자격이 있는 사람은 누구인가요?' nonsensically appended - two unrelated questions glued"
+  },
+  {
+    "id": "q_5_0710",
+    "reason": "Yes/no scenario question with '의 일수는 어떻게 되나요?' appended - asking 'how many days is [can this person be hired?]' is nonsensical"
+  },
+  {
+    "id": "q_5_0711",
+    "reason": "Yes/no scenario question with '는 몇 년까지 가능한가요?' appended - asking 'how many years is [can this person be hired?] possible' is nonsensical"
+  },
+  {
+    "id": "q_5_0714",
+    "reason": "Yes/no question about substitute hiring possibility with '의 대상자는 누구인가요?' appended - grammatically broken"
+  },
+  {
+    "id": "q_5_0718",
+    "reason": "Yes/no question about whether substitute hiring is possible with '를 위반하면 어떻게 되나요?' appended - you cannot 'violate' a yes/no question"
+  },
+  {
+    "id": "q_5_0719",
+    "reason": "Yes/no question about substitute hiring with '에서 금지되는 행위는 무엇인가요?' appended - nonsensical"
+  },
+  {
+    "id": "q_5_0722",
+    "reason": "Yes/no question about teacher hiring with '를 받을 수 있는 자격이 궁금합니다' appended - 'qualification to receive [can they be hired?]' is nonsensical"
+  },
+  {
+    "id": "q_5_0724",
+    "reason": "Yes/no question with '의 횟수 제한이 있나요?' appended - asking frequency limit of a yes/no question is nonsensical"
+  },
+  {
+    "id": "q_5_0725",
+    "reason": "Yes/no question with '의 일수는 어떻게 되나요?' appended - asking 'how many days' of a yes/no question is nonsensical"
+  },
+  {
+    "id": "q_5_0729",
+    "reason": "Law name with generic verb: '교육공무원법을 하려면' - 'to do the Education Public Officials Act' is nonsensical"
+  },
+  {
+    "id": "q_5_0750",
+    "reason": "Law name with generic suffix: '〈교육공무원법〉의 대상자는 누구인가요?' - asking 'who is the target of an entire law' is nonsensical"
+  },
+  {
+    "id": "q_5_0751",
+    "reason": "Law name with generic verb: '〈교육공무원법〉를 하려면' - 'to do the Act' is nonsensical"
+  },
+  {
+    "id": "q_5_0754",
+    "reason": "Law name with generic suffix: '〈교육공무원법〉 기간은 어떻게 계산하나요?' - asking 'how to calculate the duration of a law' is nonsensical"
+  },
+  {
+    "id": "q_5_0758",
+    "reason": "Law name with generic suffix: '〈교육공무원법〉의 기간은 얼마나 되나요?' - asking 'how long is a law' is nonsensical"
+  },
+  {
+    "id": "q_5_0759",
+    "reason": "Law name with generic suffix: '〈교육공무원법〉를 분류하면 어떻게 되나요?' - asking 'how to classify a law' is too vague and nonsensical"
+  },
+  {
+    "id": "q_5_0760",
+    "reason": "Law name with generic suffix: '〈교육공무원법〉에는 어떤 종류가 있나요?' - asking 'what kinds of the Act exist' is nonsensical"
+  },
+  {
+    "id": "q_5_0762",
+    "reason": "Law name with generic suffix: '〈교육공무원법〉가 제한되는 경우' - asking 'when is a law restricted' is nonsensical"
+  },
+  {
+    "id": "q_5_0764",
+    "reason": "Law name with generic suffix: '〈교육공무원법〉의 세부 기준을 설명해주세요' - asking to explain detailed criteria of an entire law is too vague to be useful"
+  },
+  {
+    "id": "q_5_0765",
+    "reason": "Law name with generic suffix: '〈교육공무원법〉에서 서류 제출 기한은' - asking about document submission deadline of an entire law is nonsensical"
+  },
+  {
+    "id": "q_5_0786",
+    "reason": "Section title with inapplicable suffix: '계약제교원 운용 근거가 제한되는 경우' - asking when a legal basis is 'restricted' is nonsensical"
+  },
+  {
+    "id": "q_5_0790",
+    "reason": "Law name with generic suffix: '〈교육공무원임용령〉 신청 자격이 있는 사람' - asking who is eligible to apply for a decree is nonsensical"
+  },
+  {
+    "id": "q_5_0791",
+    "reason": "Law name with generic suffix: '〈교육공무원임용령〉의 대상자는 누구인가요?' - asking who is the target of a decree is nonsensical"
+  },
+  {
+    "id": "q_5_0792",
+    "reason": "Law name with generic suffix: '〈교육공무원임용령〉의 일수는 어떻게 되나요?' - asking how many days a decree is is nonsensical"
+  },
+  {
+    "id": "q_5_0793",
+    "reason": "Law name with generic suffix: '〈교육공무원임용령〉는 몇 년까지 가능한가요?' - asking how many years a decree is possible is nonsensical"
+  },
+  {
+    "id": "q_5_0801",
+    "reason": "Law name with generic suffix: '〈교육공무원임용령〉의 행정 처리 담당자는 누구인가요?' - asking who administratively processes a decree is nonsensical"
+  },
+  {
+    "id": "q_5_0813",
+    "reason": "Law name with generic suffix: '〈공무원보수규정〉 신청 자격이 있는 사람은 누구인가요?' - asking who is eligible to apply for a pay regulation is nonsensical"
+  },
+  {
+    "id": "q_5_0814",
+    "reason": "Law name with generic verb: '〈공무원보수규정〉를 하려면 어떤 요건이 필요한가요?' - 'to do the pay regulation' is nonsensical"
+  },
+  {
+    "id": "q_5_0815",
+    "reason": "Law name with generic suffix: '〈공무원보수규정〉는 얼마나 인정되나요?' - asking how much a regulation is recognized is nonsensical"
+  },
+  {
+    "id": "q_5_0816",
+    "reason": "Law name with generic suffix: '〈공무원보수규정〉는 몇 년까지 가능한가요?' - asking how many years a regulation is possible is nonsensical"
+  },
+  {
+    "id": "q_5_0820",
+    "reason": "Law name with generic suffix: '〈공무원보수규정〉의 행정 처리 담당자는 누구인가요?' - asking who processes a regulation is nonsensical"
+  },
+  {
+    "id": "q_5_0829",
+    "reason": "Law name with generic suffix: '〈기간제 및 단시간근로자 보호 등에 관한 법률〉 신청 자격이 있는 사람은 누구인가요?' - asking who is eligible to apply for a law is nonsensical"
+  },
+  {
+    "id": "q_5_0830",
+    "reason": "Law name with generic suffix: '〈기간제 및 단시간근로자 보호 등에 관한 법률〉를 받을 수 있는 자격' - asking qualification to receive a law is nonsensical"
+  },
+  {
+    "id": "q_5_0832",
+    "reason": "Law name with generic suffix: asking 'duration and frequency of a law' is nonsensical"
+  },
+  {
+    "id": "q_5_0836",
+    "reason": "Law name with generic suffix: '〈초·중등교육법〉를 받을 수 있는 자격' - asking qualification to receive a law is nonsensical"
+  },
+  {
+    "id": "q_5_0838",
+    "reason": "Law name with generic suffix: '〈초·중등교육법〉 신청 방법을 알려주세요' - asking how to apply for a law is nonsensical"
+  },
+  {
+    "id": "q_5_0850",
+    "reason": "Truncated text: '교육과정 운영상 필요한 경에 대해' - '경' is truncated from '경우', resulting in broken question"
+  },
+  {
+    "id": "q_5_0857",
+    "reason": "Law name with generic verb: '〈초·중등교육법시행령〉를 하려면 어떤 요건이 필요한가요?' - 'to do a decree' is nonsensical"
+  },
+  {
+    "id": "q_5_0860",
+    "reason": "Law name with generic suffix: asking duration and frequency of a decree is nonsensical"
+  },
+  {
+    "id": "q_5_0893",
+    "reason": "Definition treated as noun: '비영리기관 : 영리가 아닌 공익활동 수행기관은 얼마나 인정되나요?' - asking how much a definition is recognized is nonsensical"
+  },
+  {
+    "id": "q_5_0894",
+    "reason": "Definition treated as noun: '비영리기관 : 영리가 아닌 공익활동 수행기관은 몇 년까지 가능한가요?' - asking how many years a definition is possible is nonsensical"
+  },
+  {
+    "id": "q_5_0898",
+    "reason": "Category name with generic suffix: '사회단체의 일수는 어떻게 되나요?' - asking how many days a social organization is is nonsensical"
+  },
+  {
+    "id": "q_5_0918",
+    "reason": "Section title with generic verb: '직무예시를 하려면 어떻게 해야 하나요?' - 'to do a job example' is nonsensical"
+  },
+  {
+    "id": "q_5_0922",
+    "reason": "Section title with generic suffix: '직무예시 계속을 위해 필요한 서류는 무엇인가요?' - asking documents needed 'to continue a job example' is nonsensical"
+  },
+  {
+    "id": "q_5_0940",
+    "reason": "Incomplete/truncated: begins with '란 다음 각 호의...' - missing subject, making it incomprehensible"
+  },
+  {
+    "id": "q_5_0941",
+    "reason": "Note text treated as action: '※ 무기계약근로자로 전환되지 않는 계약제교원은 다음과 같음을 하려면' - 'to do [the following list]' is nonsensical"
+  },
+  {
+    "id": "q_5_0943",
+    "reason": "Note text treated as noun: '다음과 같음은 몇 년까지 가능한가요?' - asking how many years a note is possible is nonsensical"
+  },
+  {
+    "id": "q_5_0945",
+    "reason": "Note text treated as noun: '다음과 같음의 유형을 알려주세요' - asking types of a note is nonsensical"
+  },
+  {
+    "id": "q_5_0966",
+    "reason": "Incomplete fragment: '주 미만으로 근로하는 경우' - missing number before '주' (weeks), making it unanswerable"
+  },
+  {
+    "id": "q_5_1026",
+    "reason": "Process name with inapplicable suffix: asking how many years a record registration process is possible is nonsensical"
+  },
+  {
+    "id": "q_5_1027",
+    "reason": "Process name with inapplicable suffix: asking how much a record registration process is recognized is nonsensical"
+  },
+  {
+    "id": "q_5_1035",
+    "reason": "NEIS instruction sentence treated as noun: '...재직으로 변경하여 재사용함.는 얼마나 인정되나요?' - asking how much a system instruction is recognized is nonsensical"
+  },
+  {
+    "id": "q_5_1036",
+    "reason": "NEIS instruction sentence treated as noun: '...재사용함.의 승급 인정은' - asking about pay grade recognition of a system instruction is nonsensical"
+  },
+  {
+    "id": "q_5_1037",
+    "reason": "NEIS instruction sentence treated as noun: '...재사용함.가 경력평정에 어떻게 반영되나요?' - asking how a system instruction affects career evaluation is nonsensical"
+  },
+  {
+    "id": "q_5_1052",
+    "reason": "NEIS screen name with inapplicable suffix: asking conditions to qualify for a UI screen is nonsensical"
+  },
+  {
+    "id": "q_5_1053",
+    "reason": "NEIS screen name with generic verb: '[계약제교원 자료전송 - 요청 화면]를 하려면' - 'to do a screen' is nonsensical"
+  },
+  {
+    "id": "q_5_1057",
+    "reason": "NEIS screen name with generic suffix: asking 'types of a screen' is nonsensical"
+  },
+  {
+    "id": "q_5_1059",
+    "reason": "NEIS screen name with generic suffix: asking 'what kinds of a confirmation screen exist' is nonsensical"
+  },
+  {
+    "id": "q_5_1069",
+    "reason": "NEIS screen name with inapplicable suffix: asking a screen's relationship with regulations is nonsensical"
+  },
+  {
+    "id": "q_5_1080",
+    "reason": "NEIS tab name with generic suffix: asking 'what kinds of a tab exist' is nonsensical"
+  },
+  {
+    "id": "q_5_1083",
+    "reason": "NEIS tab name with inapplicable suffix: '근무사항 탭]는 얼마나 지급되나요?' - asking how much a tab is paid is nonsensical"
+  },
+  {
+    "id": "q_5_1105",
+    "reason": "Section title with inapplicable suffix: '퇴직처리의 지급 방법이 어떻게 되나요?' - asking payment method of a processing procedure conflates 퇴직처리 with 퇴직금"
+  },
+  {
+    "id": "q_5_1111",
+    "reason": "NEIS screen name with generic suffix: '[계약직교원 상세]에는 어떤 종류가 있나요?' - asking what kinds of a detail screen exist is nonsensical"
+  },
+  {
+    "id": "q_5_1112",
+    "reason": "NEIS screen name with generic suffix: '[계약직교원 상세]의 유형을 알려주세요' - asking types of a detail screen is nonsensical"
+  },
+  {
+    "id": "q_5_1113",
+    "reason": "NEIS screen name with generic suffix: '[계약직교원 상세] 대상자는 어떻게 선발하나요?' - asking how to select targets of a screen is nonsensical"
+  },
+  {
+    "id": "q_5_1155",
+    "reason": "Incomplete/truncated: '으로 변경이 필요한 경우 어떻게 처리하나요?' - begins with particle '으로' with no subject, making it incomprehensible"
+  },
+  {
+    "id": "q_5_1156",
+    "reason": "NEIS screen name with inapplicable suffix: asking conditions to qualify for '[인력풀 승인 상세 화면]' is nonsensical"
+  },
+  {
+    "id": "q_5_1157",
+    "reason": "NEIS screen name with generic suffix: asking who is eligible to apply for a screen is nonsensical"
+  },
+  {
+    "id": "q_5_1162",
+    "reason": "NEIS screen name with inapplicable suffix: asking the legal basis of a UI screen is nonsensical"
+  },
+  {
+    "id": "q_5_1175",
+    "reason": "NEIS popup name with inapplicable suffix: asking qualification requirements of a popup is nonsensical"
+  },
+  {
+    "id": "q_5_1176",
+    "reason": "NEIS popup name with inapplicable suffix: asking qualification to receive a popup is nonsensical"
+  },
+  {
+    "id": "q_5_1180",
+    "reason": "NEIS popup name with inapplicable suffix: asking a popup's effect on promotion is nonsensical"
+  },
+  {
+    "id": "q_5_1181",
+    "reason": "NEIS popup name with generic suffix: asking about recent changes to a popup is nonsensical"
+  },
+  {
+    "id": "q_5_1186",
+    "reason": "NEIS popup name with generic suffix: asking key content teachers should know about a popup is nonsensical"
+  },
+  {
+    "id": "q_5_1485",
+    "reason": "Section title with generic verb: '육아휴직 요건을 하려면 어떻게 해야 하나요?' - 'to do parental leave requirements' is nonsensical"
+  },
+  {
+    "id": "q_5_1486",
+    "reason": "Section title with inapplicable suffix: '육아휴직 요건의 일수는 어떻게 되나요?' - asking how many days the requirements are is nonsensical"
+  },
+  {
+    "id": "q_5_0757",
+    "reason": "Legal clause fragment with generic suffix: '임용권자는 다음 각호의 어느 하나에 해당하는 경우 주의해야 할 점이 있나요?' - incomplete clause used as question"
+  },
+  {
+    "id": "q_6_0035",
+    "reason": "Section title with generic verb: '교육전문직원으로서 평정 대상자를 하려면 어떤 요건이 필요한가요?' - 'to do evaluation targets' is nonsensical"
+  },
+  {
+    "id": "q_6_0037",
+    "reason": "Section title with inapplicable suffix: '교육전문직원으로서 평정 대상자의 처리 기한이 어떻게 되나요?' - asking processing deadline of an evaluation target category is nonsensical"
+  },
+  {
+    "id": "q_6_0055",
+    "reason": "Section title with generic verb: '평정영역을 하려면 어떤 요건이 필요한가요?' - 'to do evaluation domains' is nonsensical"
+  },
+  {
+    "id": "q_6_0057",
+    "reason": "Section title with generic suffix: '평정영역에 관한 기간과 횟수를 알려주세요' - asking duration and frequency of evaluation domains is nonsensical"
+  },
+  {
+    "id": "q_6_0102",
+    "reason": "Garbled text: '[별표 ] 경력의 등급 및 종별 승진규정 제조 관련' - '제조' is garbled from article numbers, making the question incomprehensible"
+  },
+  {
+    "id": "q_6_0143",
+    "reason": "Section title with generic verb: '경력평정상의 유의점을 하려면 어떻게 해야 하나요?' - 'to do cautions' is nonsensical"
+  },
+  {
+    "id": "q_6_0146",
+    "reason": "Section title with inapplicable suffix: '경력평정상의 유의점의 일수는 어떻게 되나요?' - asking how many days cautions are is nonsensical"
+  },
+  {
+    "id": "q_6_0152",
+    "reason": "Rule statement treated as action: '...경력평정에 포함하여 계산한다.를 하려면 어떤 요건이 필요한가요?' - 'to do [a rule statement]' is nonsensical"
+  },
+  {
+    "id": "q_6_0157",
+    "reason": "Calculation rule treated as noun: '...일 단위로 계산한다.의 횟수 제한이 있나요?' - asking frequency limit of a calculation rule is nonsensical"
+  },
+  {
+    "id": "q_6_0201",
+    "reason": "Section title with inapplicable suffix: '평정점의 분포비율은 얼마나 인정되나요?' - asking how much a distribution ratio is recognized is nonsensical"
+  },
+  {
+    "id": "q_6_0205",
+    "reason": "Section title with inapplicable suffix: '평정점의 분포비율의 지급 방법이 어떻게 되나요?' - asking payment method of a score distribution ratio is nonsensical"
+  },
+  {
+    "id": "q_6_0206",
+    "reason": "Section title with inapplicable suffix: '평정점의 분포비율은 얼마나 지급되나요?' - asking how much a distribution ratio is paid is nonsensical"
+  },
+  {
+    "id": "q_6_0208",
+    "reason": "Garbled text: '분포비율승진규정 제조 및 제조의는' - '제조' is garbled from article numbers, question is incomprehensible"
+  },
+  {
+    "id": "q_6_0211",
+    "reason": "Section title with inapplicable suffix: '평정점 환산율에 관한 기간과 횟수를 알려주세요' - asking duration and frequency of a conversion rate is nonsensical"
+  },
+  {
+    "id": "q_6_0212",
+    "reason": "Section title with inapplicable suffix: '평정점 환산율은 몇 년까지 가능한가요?' - asking how many years a conversion rate is possible is nonsensical"
+  }
+]

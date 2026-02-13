@@ -1,0 +1,326 @@
+[
+  {
+    "id": "q_2_0152",
+    "reason": "No subject specified. '복무는 어떻게 이루어지나요?' is unanswerable without context about what type or whose duty."
+  },
+  {
+    "id": "q_3_0140",
+    "reason": "No subject specified. '요건에 대한 세부 내용을 알려주세요' — which requirements? Completely decontextualized."
+  },
+  {
+    "id": "q_3_0293",
+    "reason": "No subject specified. '처리과정 및 절차의 기준이 어떻게 되나요?' — process and procedure of what?"
+  },
+  {
+    "id": "q_3_0316",
+    "reason": "Garbled fragment. '학교에서 구비할 서류(가) 질병, 육아, 가는 어떤 내용인가요?' — subsection marker '(가)' is misinterpreted and sentence breaks down."
+  },
+  {
+    "id": "q_3_0318",
+    "reason": "Garbled fragment. '본교 복직1. 인사기에 대해' — '복직1. 인사기' is a corrupted section reference, not a coherent subject."
+  },
+  {
+    "id": "q_3_0666",
+    "reason": "Garbled table/section reference used as question subject. '호봉승급: 승급기간에 미산입 - 나)결원보충:에 대해 자세히 설명해주세요' — broken cell reference from a table."
+  },
+  {
+    "id": "q_3_0681",
+    "reason": "Garbled table/section reference. '호봉승급: 100% 산입 - 나)결원보충: 6에 대해 자세히 설명해주세요' — broken cell reference from a table."
+  },
+  {
+    "id": "q_3_0745",
+    "reason": "Nonsensical combination. '복직 시 제출서류의 산정 기준은 무엇인가요?' — submission documents don't have '산정 기준' (calculation standards)."
+  },
+  {
+    "id": "q_3_0746",
+    "reason": "Nonsensical combination. '복직 시 제출서류를 받을 수 있는 조건은 무엇인가요?' — you don't 'receive' submission documents; you submit them."
+  },
+  {
+    "id": "q_3_0752",
+    "reason": "Tautological/circular. '휴직 시 제출서류를 위해 필요한 서류는 무엇인가요?' — 'documents needed for submission documents' is circular."
+  },
+  {
+    "id": "q_3_0879",
+    "reason": "Generic section label as subject. '기타가 경력평정에 어떻게 반영되나요?' — '기타' (Other/Miscellaneous) is not a meaningful subject."
+  },
+  {
+    "id": "q_3_0880",
+    "reason": "Generic section label as subject. '기타가 적용되지 않는 경우는 언제인가요?' — '기타' (Other) is not a meaningful subject."
+  },
+  {
+    "id": "q_3_0954",
+    "reason": "Garbled/incomplete text. '교사가 에 따라 육아휴직을 사용한 경우' — missing text between '가' and '에 따라', making it nonsensical."
+  },
+  {
+    "id": "q_3_0995",
+    "reason": "Nonsensical combination. '공무원보수규정의 일수는 어떻게 되나요?' — asks about 'days' of a regulation title."
+  },
+  {
+    "id": "q_4_0224",
+    "reason": "Nonsensical combination. '수업일의 처리 기한이 어떻게 되나요?' — asks about a 'processing deadline' for 'school day', which makes no sense."
+  },
+  {
+    "id": "q_4_0283",
+    "reason": "Vague/decontextualized. '임용권자 또는 임용제청권자는 다음 각 호의 어느 하나에 해당하는 경우' — '다음 각 호' (the following items) has no referent outside the source document."
+  },
+  {
+    "id": "q_4_0401",
+    "reason": "Nonsensical. '사례 5】 기타의 일수는 어떻게 되나요?' — asks about 'days' of 'Case 5 Other', a section label with a generic suffix."
+  },
+  {
+    "id": "q_4_0452",
+    "reason": "Nonsensical combination. '적용 대상 및 범위에서 서류 제출 기한은 어떻게 되나요?' — a section title with an unrelated generic question about document deadlines."
+  },
+  {
+    "id": "q_4_0586",
+    "reason": "Truncated/garbled. '본인 또는 다른 사람의 콘텐츠(영상, 음성, 사는 어떤 내용인가요?' — text is cut off mid-word at '사'."
+  },
+  {
+    "id": "q_4_0613",
+    "reason": "Garbled double-question. 'A1의 근무시간 중 교사들의 개인 일상을 담은 유튜브 브이로그 촬영은 가능한가요?는 어떻게 되나요?' — an existing Q&A label with '는 어떻게 되나요?' awkwardly appended."
+  },
+  {
+    "id": "q_4_0648",
+    "reason": "Garbled double-question. 'A6의 [long existing answer text]...어떻게 해야 하나요?는 어떻게 되나요?' — existing Q&A text with generic suffix producing nonsensical double-question."
+  },
+  {
+    "id": "q_4_0649",
+    "reason": "Garbled double-question. 'A7의 [long existing answer text]...어떻게 해야 하나요?는 어떻게 되나요?' — same pattern as q_4_0648."
+  },
+  {
+    "id": "q_4_0717",
+    "reason": "Garbled double-question. 'A11의 [long Q&A text]...겸직허가를 받아야 하나요?는 어떻게 되나요?' — existing Q&A label with generic suffix appended."
+  },
+  {
+    "id": "q_4_0787",
+    "reason": "Nonsensical. '국민권익위원회 청탁금지법 매뉴얼을 받을 수 있는 자격이 궁금합니다' — asks about qualifications to 'receive' a publicly available reference manual."
+  },
+  {
+    "id": "q_4_0788",
+    "reason": "Nonsensical. '국민권익위원회 청탁금지법 매뉴얼 신청 자격이 있는 사람은 누구인가요?' — treats a reference manual as something requiring application eligibility."
+  },
+  {
+    "id": "q_4_0789",
+    "reason": "Nonsensical. '국민권익위원회 청탁금지법 매뉴얼은 몇 년까지 가능한가요?' — asks 'for how many years is a manual possible'."
+  },
+  {
+    "id": "q_4_0803",
+    "reason": "Grammatically broken. '신고대상에서 제외되는...범위를 하려면 어떤 요건이 필요한가요?' — '범위를 하려면' is missing a verb after '범위를'."
+  },
+  {
+    "id": "q_4_0804",
+    "reason": "Nonsensical combination. Asks about application precautions for a definitional scope — you don't 'apply for' a scope definition."
+  },
+  {
+    "id": "q_4_0805",
+    "reason": "Nonsensical combination. Asks about '처리 기한' (processing deadline) for a definitional scope — a scope definition doesn't have a deadline."
+  },
+  {
+    "id": "q_4_0808",
+    "reason": "Grammatically broken. '놓치기 쉬운 신고의무대상 기관...를 하려면 어떤 요건이 필요한가요?' — '기관을 하려면' is missing a verb."
+  },
+  {
+    "id": "q_4_0810",
+    "reason": "Nonsensical combination. Asks about '처리 기한' (processing deadline) for a list of institutions."
+  },
+  {
+    "id": "q_4_0811",
+    "reason": "Nonsensical combination. Asks about the '절차' (procedure) of a list of institutions — a list is not a procedure."
+  },
+  {
+    "id": "q_4_0812",
+    "reason": "Nonsensical combination. Asks how to calculate the '기간' (period) of a list of institutions."
+  },
+  {
+    "id": "q_4_0818",
+    "reason": "Nonsensical. Asks who the administrative handler is for a published reference manual (청탁금지법 매뉴얼)."
+  },
+  {
+    "id": "q_4_0849",
+    "reason": "Nonsensical combination. '적용대상별 사례금 상한액의 일수는 어떻게 되나요?' — asks about 'days' of an honorarium ceiling amount."
+  },
+  {
+    "id": "q_4_0947",
+    "reason": "Nonsensical. '직무 능률을 떨어뜨릴 우려가 있는지?는 얼마나 인정되나요?' — asks 'how much is recognized' about a yes/no evaluation criterion."
+  },
+  {
+    "id": "q_4_0951",
+    "reason": "Nonsensical/fabricated. '직무 능률을 떨어뜨릴 우려가 있는지?에서 1일이라는 기준은 어떤 의미인가요?' — fabricates a '1 day standard' for a criterion that has no such standard."
+  },
+  {
+    "id": "q_5_0048",
+    "reason": "Too vague, no subject. '공통사항을 확인하려면 어떤 요건이 필요한가요?' — common matters of what?"
+  },
+  {
+    "id": "q_5_0080",
+    "reason": "Nonsensical. '임용 시 구비서류는 몇 년까지 가능한가요?' — asks 'for how many years are appointment documents possible'."
+  },
+  {
+    "id": "q_5_0110",
+    "reason": "Section marker as subject. '학교에서 ※ 참고 사항 관련 업무를 처리하려면' — '※ 참고 사항' (Reference Notes) is a generic section marker, not a meaningful topic."
+  },
+  {
+    "id": "q_5_0262",
+    "reason": "Starts mid-sentence. '따라 퇴직연금일시금을 지급받거나...' — begins with '따라' (according to), missing the regulation reference that precedes it."
+  },
+  {
+    "id": "q_5_0344",
+    "reason": "Nonsensical combination. '임용 형태를 위해 필요한 서류는 무엇인가요?' — asks about documents needed 'for an employment type', grammatically awkward and unclear."
+  },
+  {
+    "id": "q_5_0365",
+    "reason": "Nonsensical combination. '계약서에 명기의 일수는 어떻게 되나요?' — '명기의 일수' (days of specification) is nonsensical."
+  },
+  {
+    "id": "q_5_0538",
+    "reason": "Wrong domain. '제품 또는 원료 등을 몰래 훔치거나 불법 반출한 경우' — about stealing products/raw materials in an industrial/manufacturing context, not relevant to education personnel handbook."
+  },
+  {
+    "id": "q_5_0682",
+    "reason": "Garbled structure. A complete question ('특수학교와 특수학급에서 기간제교원 채용은 어떤 기준으로 해야 하나?') is reused as the subject of another question with '의 자격 요건이 어떻게 되나요?' appended."
+  },
+  {
+    "id": "q_5_0683",
+    "reason": "Garbled structure. Same complete question reused as subject with '신청 자격이 있는 사람은 누구인가요?' appended."
+  },
+  {
+    "id": "q_5_1167",
+    "reason": "UI screen name as subject. '경기도교육청 계약제교원인력풀 시도교육청 선택 화면]의 처리 절차' — asking about the processing procedure of a screen name."
+  },
+  {
+    "id": "q_5_1168",
+    "reason": "UI screen name as subject. '경기도교육청 계약제교원인력풀 시도교육청 선택 화면]는 어떻게 진행되나요?' — asks how a UI screen 'proceeds'."
+  },
+  {
+    "id": "q_5_1172",
+    "reason": "UI/form label as subject. '기본정보 입력항목:의 기간은 얼마나 되나요?' — asks about the 'period' of a form field label."
+  },
+  {
+    "id": "q_5_1173",
+    "reason": "Nonsensical. '기본정보 입력항목:는 얼마나 인정되나요?' — asks 'how much is basic info input fields recognized'."
+  },
+  {
+    "id": "q_5_1184",
+    "reason": "Nonsensical. '기본정보 입력항목:의 행정 처리 담당자는 누구인가요?' — asks who the administrative handler is for a form input field label."
+  },
+  {
+    "id": "q_5_1191",
+    "reason": "UI label as subject. '신청서 선택:의 처리 기한이 어떻게 되나요?' — '신청서 선택:' is a UI button/label."
+  },
+  {
+    "id": "q_5_1192",
+    "reason": "UI label as subject. '신청서 선택:의 기간은 얼마나 되나요?'"
+  },
+  {
+    "id": "q_5_1193",
+    "reason": "Nonsensical. '신청서 선택:는 몇 년까지 가능한가요?' — asks 'for how many years is a UI selection possible'."
+  },
+  {
+    "id": "q_5_1195",
+    "reason": "UI label as subject. '신청서 선택:의 유형을 알려주세요' — asks for types of a UI selection label."
+  },
+  {
+    "id": "q_5_1207",
+    "reason": "UI screen name as subject. '인력풀신청현황 화면]의 대상자는 누구인가요?' — asks who the 'target' of a screen display is."
+  },
+  {
+    "id": "q_5_1219",
+    "reason": "UI label as subject. '학교에서 승인 상태 설명: 관련 업무를 처리하려면' — '승인 상태 설명:' is a UI label."
+  },
+  {
+    "id": "q_5_1509",
+    "reason": "Awkward/nonsensical combination. '육아휴직 사용의 일수는 어떻게 되나요?' — '사용의 일수' (days of usage) is awkward phrasing; should ask about period/duration directly."
+  },
+  {
+    "id": "q_5_1568",
+    "reason": "Nonsensical. '[long Q&A title about whether to permit parental leave]의 일수는 어떻게 되나요?' — asks about 'days' of a yes/no policy question title."
+  },
+  {
+    "id": "q_5_1574",
+    "reason": "Nonsensical. '육아휴직을 허용하지 않을 수 있는 경우는?의 횟수 제한이 있나요?' — asks about frequency limits of a policy question title."
+  },
+  {
+    "id": "q_5_1575",
+    "reason": "Nonsensical. '육아휴직을 허용하지 않을 수 있는 경우는?의 기간은 얼마나 되나요?' — asks about the 'period' of a policy question title."
+  },
+  {
+    "id": "q_5_1576",
+    "reason": "Nonsensical. '육아휴직을 허용하지 않을 수 있는 경우는?의 승급 인정은 어떻게 되나요?' — asks about salary step recognition of a policy question title."
+  },
+  {
+    "id": "q_5_1619",
+    "reason": "Garbled text. 'Q 동일학교에서 근무했던 전全기간을 합산하여 개월 이상' — missing number before '개월' (months), and 全 not properly rendered as (全)."
+  },
+  {
+    "id": "q_6_0030",
+    "reason": "Nonsensical combination. '교원으로서 자격연수 대상자의 일수는 어떻게 되나요?' — asks about 'days' of qualification training candidates, which makes no sense."
+  },
+  {
+    "id": "q_6_0369",
+    "reason": "Sentence fragment as question subject. '~⑩)만 기재하고, 총점 이후의 란(⑪~⑬)은 공란에 대해 자세히 설명해주세요' — a table instruction fragment, not a proper question."
+  },
+  {
+    "id": "q_6_0378",
+    "reason": "Grammatically broken/nonsensical. '어떤 경우에 기간을 합산하는 경우 60일을 2개월이 가능한가요?' — sentence structure is broken and unclear."
+  },
+  {
+    "id": "q_6_0581",
+    "reason": "Nonsensical combination. Asks about '행정 처리 담당자' (administrative handler) of a school list/table title (대상학교 현황)."
+  },
+  {
+    "id": "q_6_0586",
+    "reason": "Nonsensical. '농·어촌...대상학교 현황...는 어떻게 이루어지나요?' — asks 'how is the status list carried out', treating a data table as a process."
+  },
+  {
+    "id": "q_6_0589",
+    "reason": "Garbled date and nonsensical. '대상학교 현황 자 현재를 받을 수 있는 자격이 궁금합니다' — date garbled (missing '2025. 2. 28.'), and asks about 'qualifications to receive' a reference list."
+  },
+  {
+    "id": "q_6_0591",
+    "reason": "Nonsensical combination. Asks about document submission deadlines for a school status/reference list."
+  },
+  {
+    "id": "q_6_0593",
+    "reason": "Nonsensical combination. Asks who is eligible to 'apply for' a school status/reference list."
+  },
+  {
+    "id": "q_6_0595",
+    "reason": "Grammatically broken. '대상학교 현황(2025. 2. 28.자 현재)하면 어떤 효과가 있나요?' — treats a table title as a verb ('현황하면')."
+  },
+  {
+    "id": "q_6_0636",
+    "reason": "Section label with colon as subject. '정원 특이사항:의 행정 처리 담당자는 누구인가요?'"
+  },
+  {
+    "id": "q_6_0637",
+    "reason": "Section label with colon as subject. '정원 특이사항:는 다른 규정과 어떤 관계가 있나요?'"
+  },
+  {
+    "id": "q_6_0638",
+    "reason": "Section label with colon as subject. '정원 특이사항:을 한눈에 이해할 수 있도록 설명해주세요'"
+  },
+  {
+    "id": "q_6_0647",
+    "reason": "Nonsensical combination. '「교사 근무성적 평정 상황표」 작성요령의 자격 요건이 어떻게 되나요?' — asks about qualification requirements for a form-filling instruction guide."
+  },
+  {
+    "id": "q_6_0740",
+    "reason": "Sentence fragment as subject. '외의 기관에 파견은 평정할 수 없음은 얼마나 인정되나요?' — a rule statement fragment ('외의 기관에 파견은 평정할 수 없음') used as subject with nonsensical suffix."
+  },
+  {
+    "id": "q_6_0741",
+    "reason": "Opaque label reference. '학교에서 A1 관련 업무를 처리하려면 어떻게 해야 하나요?' — 'A1' is a Q&A label meaningless without the source document context."
+  },
+  {
+    "id": "q_7_0018",
+    "reason": "Starts mid-sentence. '조에 따라 공무원의 징계 의결을 요구하는 경우' — '조에 따라' (according to Article...) is missing the article number."
+  },
+  {
+    "id": "q_7_0019",
+    "reason": "Decontextualized reference. '그 징계 사유가 다음 각 호의 어느 하나에 해당하는 경우' — '다음 각 호' (the following items) refers to items not included in the question."
+  },
+  {
+    "id": "q_7_0469",
+    "reason": "Generic section label as subject. '※ 비고의 세부 기준을 설명해주세요' — '비고' (Notes/Remarks) is a generic section label without meaningful context."
+  }
+]

@@ -1,0 +1,374 @@
+[
+  {
+    "id": "q_4_1529",
+    "reason": "Nonsensical: '특별법은 누가 하나요?' - a law is not something someone 'does'. Grammatically broken."
+  },
+  {
+    "id": "q_4_1530",
+    "reason": "Vague section title + generic suffix: '기본방침 신청 방법을 알려주세요' - '기본방침' (basic policy) is not something you apply for."
+  },
+  {
+    "id": "q_4_1535",
+    "reason": "Nonsensical: '기본방침을 사용하려면 어떻게 해야 하나요?' - a policy is not something you 'use'."
+  },
+  {
+    "id": "q_4_1536",
+    "reason": "Vague section title: '기본방침의 법적 근거는?' - without context, '기본방침' alone is unidentifiable."
+  },
+  {
+    "id": "q_4_1548",
+    "reason": "Vague section title: '기본방침이 교원의 신분에 미치는 영향' - '기본방침' alone is too vague to identify which policy."
+  },
+  {
+    "id": "q_4_1549",
+    "reason": "Vague section title: '기본방침과 관련하여 학교 행정실에서 처리하는 업무' - '기본방침' alone is unidentifiable."
+  },
+  {
+    "id": "q_4_1554",
+    "reason": "Truncated/incomplete: law title is cut off mid-sentence ('교육에 대해 자세히 설명해주세요'), making the question unanswerable."
+  },
+  {
+    "id": "q_4_1555",
+    "reason": "Garbled text: '가번째 항목' - '가번째' is not a valid Korean word; placeholder or OCR error."
+  },
+  {
+    "id": "q_4_1562",
+    "reason": "Nonsensical template: '예규 제4조 제5항 신청 방법' - a legal article is not something you 'apply for'."
+  },
+  {
+    "id": "q_4_1563",
+    "reason": "Nonsensical template: '예규 제4조 제5항을 신청할 때' - you cannot 'apply for' a legal article."
+  },
+  {
+    "id": "q_4_1565",
+    "reason": "Nonsensical template: '예규 제4조 제5항 기간은 어떻게 계산하나요?' - a legal article does not have a calculable period."
+  },
+  {
+    "id": "q_4_1579",
+    "reason": "Nonsensical template: '예규 제4조 제5항을 잘못 처리하면' - a regulation article is not something you 'process'."
+  },
+  {
+    "id": "q_4_1589",
+    "reason": "Nonsensical template: '예규 제4조 제5항이 교원의 경력에 어떤 영향을 미치나요?' - a regulation citation doesn't impact career directly."
+  },
+  {
+    "id": "q_4_1590",
+    "reason": "Nonsensical: '어떤 경우에 기타사항이 가능한가요?' - '기타사항' (miscellaneous) is not something that becomes 'possible'."
+  },
+  {
+    "id": "q_4_1591",
+    "reason": "Vague section title: '기타사항의 조건은?' - '기타사항' is too vague without any context."
+  },
+  {
+    "id": "q_4_1595",
+    "reason": "Nonsensical template: '기타사항 기간은 어떻게 계산하나요?' - miscellaneous matters don't have a calculable period."
+  },
+  {
+    "id": "q_4_1597",
+    "reason": "Vague section title: '학교장이 기타사항 관련하여 권한이 있나요?' - too vague."
+  },
+  {
+    "id": "q_4_1603",
+    "reason": "Vague section title: '기타사항에 관해 교육청에서 자주 질의하는 내용' - too vague."
+  },
+  {
+    "id": "q_4_1605",
+    "reason": "Grammatically broken: '나이스 상신 방법을 하려면' - '방법을 하다' is not valid Korean."
+  },
+  {
+    "id": "q_4_1609",
+    "reason": "Nonsensical template: '나이스 상신 방법은 몇 년까지 가능한가요?' - a submission method doesn't have a year limit."
+  },
+  {
+    "id": "q_4_1615",
+    "reason": "Nonsensical template: '근무상신이 잘못된 경우 기간은 어떻게 계산하나요?' - an error correction case doesn't have a period."
+  },
+  {
+    "id": "q_4_1616",
+    "reason": "Nonsensical template: '근무상신이 잘못된 경우의 기간은 얼마나 되나요?' - same issue as above."
+  },
+  {
+    "id": "q_4_1631",
+    "reason": "Nonsensical template: '나이스 상신 방법이 교원의 경력에 어떤 영향을 미치나요?' - a submission method doesn't affect career."
+  },
+  {
+    "id": "q_4_1632",
+    "reason": "Nonsensical template: '근무상신이 잘못된 경우가 교원의 경력에 어떤 영향을 미치나요?' - an admin correction process doesn't inherently affect career."
+  },
+  {
+    "id": "q_5_0007",
+    "reason": "Nonsensical template: '계약제교원의 개념을 받을 수 있는 자격' - you cannot 'receive qualifications for a concept'."
+  },
+  {
+    "id": "q_5_0009",
+    "reason": "Nonsensical template: '계약제교원의 개념을 하려면' - you cannot 'do a concept'."
+  },
+  {
+    "id": "q_5_0010",
+    "reason": "Nonsensical template: '계약제교원의 개념을 위해 필요한 서류' - a concept doesn't require documents."
+  },
+  {
+    "id": "q_5_0021",
+    "reason": "Nonsensical template: '계약제교원의 개념의 특이사항이나 예외 규정' - a concept doesn't have exception rules."
+  },
+  {
+    "id": "q_5_0022",
+    "reason": "Nonsensical template: '계약제교원의 개념의 세부 기준' - a concept doesn't have detailed criteria."
+  },
+  {
+    "id": "q_5_0023",
+    "reason": "Nonsensical template: '학교장이 계약제교원의 개념 관련하여 권한이 있나요?' - a concept is not under anyone's authority."
+  },
+  {
+    "id": "q_5_0050",
+    "reason": "Vague section title: '공통사항의 절차는 어떻게 되나요?' - '공통사항' alone is too vague."
+  },
+  {
+    "id": "q_5_0052",
+    "reason": "Nonsensical template: '공통사항은 얼마나 인정되나요?' - common matters can't be 'recognized in amount'."
+  },
+  {
+    "id": "q_5_0054",
+    "reason": "Vague section title: '공통사항의 법적 근거는?' - too generic without context."
+  },
+  {
+    "id": "q_5_0061",
+    "reason": "Vague section title: '신규 교사가 공통사항에 대해 알아야 할 사항' - too generic."
+  },
+  {
+    "id": "q_5_0072",
+    "reason": "Nonsensical template: '임용 시 구비서류가 교원의 신분에 미치는 영향' - documents don't affect teacher status."
+  },
+  {
+    "id": "q_5_0096",
+    "reason": "Section title as subject: '제도 운영 목적 규정을 적용할 때 흔히 발생하는 문제점' - a purpose statement isn't a regulation to apply."
+  },
+  {
+    "id": "q_5_0090",
+    "reason": "Nonsensical template: '채용서류의 반환의 승급 인정은 어떻게 되나요?' - returning documents has nothing to do with grade promotion."
+  },
+  {
+    "id": "q_5_0105",
+    "reason": "Nonsensical template: '채용서류의 반환이 교원의 신분에 미치는 영향' - returning application docs doesn't affect teacher status."
+  },
+  {
+    "id": "q_5_0109",
+    "reason": "Vague section title: '※ 참고 사항이 교원의 신분에 미치는 영향' - '참고 사항' (reference notes) is too vague."
+  },
+  {
+    "id": "q_5_0120",
+    "reason": "Nonsensical template: '4대보험: 관계 법령에 의함의 조건은?' - template applied to a note saying 'per relevant laws'."
+  },
+  {
+    "id": "q_5_0121",
+    "reason": "Nonsensical template: '4대보험: 관계 법령에 의함의 대상자는?' - same issue."
+  },
+  {
+    "id": "q_5_0122",
+    "reason": "Nonsensical template: '4대보험: 관계 법령에 의함의 처리 절차가 궁금합니다' - same issue."
+  },
+  {
+    "id": "q_5_0123",
+    "reason": "Nonsensical template: '4대보험: 관계 법령에 의함의 절차는?' - same issue."
+  },
+  {
+    "id": "q_5_0125",
+    "reason": "Nonsensical template: '4대보험: 관계 법령에 의함의 일수는?' - 'per relevant laws' doesn't have days."
+  },
+  {
+    "id": "q_5_0131",
+    "reason": "Nonsensical template: '기간제 교원의 일수는 어떻게 되나요?' - a teacher type doesn't have 'days'."
+  },
+  {
+    "id": "q_5_0139",
+    "reason": "Truncated: '명예퇴직 교원은 원칙적으로 기간제교원으로 임용할 수 없에 대해 자세히 설명해주세요' - '없다' truncated to '없', then generic suffix appended."
+  },
+  {
+    "id": "q_5_0147",
+    "reason": "Nonsensical template: '기간제 교원은 얼마나 인정되나요?' - teachers are not 'recognized in amount'."
+  },
+  {
+    "id": "q_5_0153",
+    "reason": "Garbled template: '계약제교원 운영 지침의 ①번째 항목은?' - '①번째' is garbled; mixing symbol with ordinal suffix."
+  },
+  {
+    "id": "q_5_0235",
+    "reason": "Nonsensical template: '임용기간을 하려면 어떻게 해야 하나요?' - an appointment period is not something you 'do'."
+  },
+  {
+    "id": "q_5_0263",
+    "reason": "Garbled/incomplete: '만약 을 적용받는 사람이' - missing subject after '만약'; clearly truncated reference."
+  },
+  {
+    "id": "q_5_0277",
+    "reason": "Nonsensical template: '인사 관리는 얼마나 인정되나요?' - personnel management can't be 'recognized in amount'."
+  },
+  {
+    "id": "q_5_0282",
+    "reason": "Nonsensical template: '※ 계약서 작성 예시에 해당하려면 어떤 조건을 충족해야 하나요?' - you can't 'qualify for' a contract example."
+  },
+  {
+    "id": "q_5_0283",
+    "reason": "Nonsensical template: '어떤 경우에 ※ 계약서 작성 예시가 가능한가요?' - an example is not something that becomes 'possible'."
+  },
+  {
+    "id": "q_5_0284",
+    "reason": "Nonsensical template: '※ 계약서 작성 예시의 일수는?' - a contract example doesn't have 'days'."
+  },
+  {
+    "id": "q_5_0285",
+    "reason": "Nonsensical template: '※ 계약서 작성 예시의 기간은?' - a contract example doesn't have a duration."
+  },
+  {
+    "id": "q_5_0349",
+    "reason": "Truncated: '개월 미만의 정규교원 결원 발생' - missing number before '개월' (months)."
+  },
+  {
+    "id": "q_5_0352",
+    "reason": "Nonsensical template: '임용 자격(별표2)는 몇 년까지 가능한가요?' - a qualification table doesn't have a year limit."
+  },
+  {
+    "id": "q_5_0353",
+    "reason": "Nonsensical template: '임용 자격(별표2)는 얼마나 인정되나요?' - a legal table isn't 'recognized in amount'."
+  },
+  {
+    "id": "q_5_0355",
+    "reason": "Nonsensical template: '임용 자격(별표2)에서 금지되는 행위는?' - a qualification table doesn't list prohibited actions."
+  },
+  {
+    "id": "q_5_0387",
+    "reason": "Garbled placeholder: '000원이라는 기준은 어떤 의미인가요?' - '000원' is a placeholder, not a real amount."
+  },
+  {
+    "id": "q_5_0391",
+    "reason": "Nonsensical template: '정규교원 결원보충 강사는 얼마나 인정되나요?' - a substitute instructor isn't 'recognized in amount'."
+  },
+  {
+    "id": "q_5_0417",
+    "reason": "Grammatically broken: '강사수당 단가 및 적용기준하면 어떤 효과가 있나요?' - '적용기준하면' is not valid Korean."
+  },
+  {
+    "id": "q_5_0504",
+    "reason": "Nonsensical template: '영리업무 및 겸직 허가의 일수는?' - a permission type doesn't have 'days'."
+  },
+  {
+    "id": "q_5_0510",
+    "reason": "Nonsensical template: '산학겸임교사 운영 지침 기간은 어떻게 계산하나요?' - a guideline document doesn't have a calculable period."
+  },
+  {
+    "id": "q_5_0519",
+    "reason": "Nonsensical mashup: '정치활동 금지에서 특별휴가에 대한 규정은?' - political activity ban and special leave are unrelated topics."
+  },
+  {
+    "id": "q_5_0524",
+    "reason": "Nonsensical template: '※ 근로기준법에 해당하려면 어떤 조건을 충족해야 하나요?' - you can't 'qualify for' the Labor Standards Act."
+  },
+  {
+    "id": "q_5_0526",
+    "reason": "Nonsensical template: '※ 근로기준법에 관한 기간과 횟수를 알려주세요' - a law doesn't have 'period and frequency'."
+  },
+  {
+    "id": "q_5_0527",
+    "reason": "Nonsensical template: '※ 근로기준법은 몇 년까지 가능한가요?' - a law doesn't have a year limit."
+  },
+  {
+    "id": "q_5_0537",
+    "reason": "Nonsensical: asks what documents are needed for embezzlement/corruption - this is a disciplinary offense description, not a service."
+  },
+  {
+    "id": "q_5_0559",
+    "reason": "Nonsensical template: '임용계약기간 중 계약해지의 양정 기준이 궁금합니다' - contract termination is not a disciplinary action with sentencing standards."
+  },
+  {
+    "id": "q_5_0584",
+    "reason": "Nonsensical: FAQ question title ('1개월의 의미는?') treated as a subject with '를 하려면 어떤 요건이 필요한가요?' appended."
+  },
+  {
+    "id": "q_5_0585",
+    "reason": "Nonsensical: FAQ question title treated as subject with '의 자격 요건이 어떻게 되나요?' appended."
+  },
+  {
+    "id": "q_5_0586",
+    "reason": "Nonsensical: FAQ question title treated as subject with '의 일수는 어떻게 되나요?' appended - a question doesn't have 'days'."
+  },
+  {
+    "id": "q_5_0587",
+    "reason": "Nonsensical: FAQ question title treated as subject with '는 얼마나 인정되나요?' appended."
+  },
+  {
+    "id": "q_5_0590",
+    "reason": "Truncated + nonsensical: '개월 이상' missing '1' before 개월, and FAQ title used as subject with template suffix."
+  },
+  {
+    "id": "q_5_0598",
+    "reason": "Nonsensical: FAQ question title ('3월 1일 포함 여부는?') treated as subject with '의 처리 기한이 어떻게 되나요?' appended."
+  },
+  {
+    "id": "q_5_0599",
+    "reason": "Nonsensical: FAQ question title treated as subject with '를 하려면 어떻게 해야 하나요?' - a question is not something you 'do'."
+  },
+  {
+    "id": "q_5_0600",
+    "reason": "Nonsensical: FAQ question title treated as subject with '의 횟수 제한이 있나요?' - a question doesn't have frequency limits."
+  },
+  {
+    "id": "q_5_0602",
+    "reason": "Nonsensical: FAQ question title treated as subject with '를 분류하면 어떻게 되나요?' - a question can't be classified."
+  },
+  {
+    "id": "q_5_0603",
+    "reason": "Nonsensical: FAQ question title treated as subject with '에는 어떤 것들이 포함되나요?' - a question doesn't contain items."
+  },
+  {
+    "id": "q_5_0606",
+    "reason": "Nonsensical: long FAQ question used as subject with '를 받을 수 있는 자격이 궁금합니다' - a yes/no policy question is not something you qualify for."
+  },
+  {
+    "id": "q_5_0607",
+    "reason": "Nonsensical: FAQ question used as subject with '를 하려면 어떤 요건이 필요한가요?' - a question is not something you do."
+  },
+  {
+    "id": "q_5_0608",
+    "reason": "Nonsensical: FAQ question used as subject with '는 몇 년까지 가능한가요?' - a yes/no question doesn't have a year limit."
+  },
+  {
+    "id": "q_5_0611",
+    "reason": "Nonsensical: FAQ question used as subject with '과 관련하여 금지되는 사항을 알려주세요' - asking what's prohibited about a question."
+  },
+  {
+    "id": "q_5_0633",
+    "reason": "Nonsensical: long FAQ question used as subject with '의 대상자는 누구인가요?' appended to a yes/no question."
+  },
+  {
+    "id": "q_5_0634",
+    "reason": "Nonsensical: FAQ question used as subject with '의 자격 요건이 어떻게 되나요?' appended."
+  },
+  {
+    "id": "q_5_0635",
+    "reason": "Nonsensical: FAQ question used as subject with '의 일수는 어떻게 되나요?' - a yes/no question doesn't have days."
+  },
+  {
+    "id": "q_5_0636",
+    "reason": "Nonsensical: FAQ question used as subject with '는 몇 년까지 가능한가요?' - a yes/no question doesn't have a year limit."
+  },
+  {
+    "id": "q_5_0641",
+    "reason": "Nonsensical: FAQ question ('4년을 초과하여 근무할 수 있는가?') used as subject with '를 하려면 어떻게 해야 하나요?' - you can't 'do' a question."
+  },
+  {
+    "id": "q_5_0643",
+    "reason": "Nonsensical: FAQ question used as subject with '의 기간은 얼마나 되나요?' - a question doesn't have a duration."
+  },
+  {
+    "id": "q_5_0644",
+    "reason": "Nonsensical: FAQ question used as subject with '는 얼마나 인정되나요?' - a question isn't recognized in amount."
+  },
+  {
+    "id": "q_5_0652",
+    "reason": "Nonsensical: FAQ title + arrow used as subject with '기간은 어떻게 계산하나요?' appended - an eligibility target doesn't have a calculable period."
+  },
+  {
+    "id": "q_5_0653",
+    "reason": "Nonsensical: FAQ title used as subject with '이 승진에 미치는 영향은?' - being a contract teacher target doesn't affect promotion generically."
+  }
+]

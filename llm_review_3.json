@@ -1,0 +1,234 @@
+[
+  {
+    "id": "q_3_0982",
+    "reason": "Generic template question - asks why a subsection number '2-3. 불임·난임휴직' is 'important'; treats section label as subject with a vague generic suffix"
+  },
+  {
+    "id": "q_3_1003",
+    "reason": "Nonsensical - '휴직사유를 받을 수 있는 자격' (qualifications to receive a leave reason); you don't 'receive' a leave reason"
+  },
+  {
+    "id": "q_3_1005",
+    "reason": "Nonsensical - '휴직사유는 몇 년까지 가능한가요?' (how many years is a leave reason possible for?); leave reasons don't have a year limit"
+  },
+  {
+    "id": "q_3_1010",
+    "reason": "Nonsensical - '휴직의 요건을 받을 수 있는 자격' (qualifications to receive leave requirements); template garbage, you don't 'receive' requirements"
+  },
+  {
+    "id": "q_3_1013",
+    "reason": "Nonsensical - '휴직의 요건 기간 중 신분' (status during the period of leave requirements); 'leave requirements' is not a time period"
+  },
+  {
+    "id": "q_3_1015",
+    "reason": "Nonsensical - '휴직기간 및 횟수를 받을 수 있는 자격' (qualifications to receive leave period and frequency); template garbage"
+  },
+  {
+    "id": "q_4_0016",
+    "reason": "Nonsensical - '교직원의 임무를 위해 필요한 서류' (documents needed for teachers' duties); duties are not something you file paperwork for"
+  },
+  {
+    "id": "q_4_0017",
+    "reason": "Nonsensical - '교직원의 임무를 신청할 때' (when applying for teachers' duties); you don't 'apply for' duties"
+  },
+  {
+    "id": "q_4_0018",
+    "reason": "Nonsensical - '교직원의 임무에 특례가 적용되는 경우' (special exceptions to duties); template question inappropriately applied to section title about job duties"
+  },
+  {
+    "id": "q_4_0019",
+    "reason": "Nonsensical - '교직원의 임무가 적용되지 않는 경우' (cases where duties don't apply); duties always apply, this is template garbage"
+  },
+  {
+    "id": "q_4_0027",
+    "reason": "Nonsensical - '직무상 의무의 양정 기준' (disciplinary sentencing standards of duty obligations); 양정 기준 is a disciplinary term awkwardly applied to the concept of obligations itself"
+  },
+  {
+    "id": "q_4_0033",
+    "reason": "Nonsensical - '교직원의 임무를 잘못 처리하면' (if you incorrectly process teachers' duties); duties are not something you 'process'"
+  },
+  {
+    "id": "q_4_0072",
+    "reason": "Nonsensical - '복무일반을 하려면 어떻게 해야 하나요?' (how do I do general service affairs?); '복무일반' is a section title, not an action"
+  },
+  {
+    "id": "q_4_0073",
+    "reason": "Nonsensical - '복무일반 신청 방법' (how to apply for general service affairs); you don't 'apply for' a section heading"
+  },
+  {
+    "id": "q_4_0074",
+    "reason": "Nonsensical - '복무일반은 얼마나 인정되나요?' (how much is general service affairs recognized?); section title treated as a countable benefit"
+  },
+  {
+    "id": "q_4_0075",
+    "reason": "Nonsensical - '복무일반의 일수는 어떻게 되나요?' (how many days for general service affairs?); section title treated as a leave type with countable days"
+  },
+  {
+    "id": "q_4_0091",
+    "reason": "Template garbage - '복무일반을 분류하면 어떻게 되나요?' (how do you classify general service affairs?); generic template applied to section heading"
+  },
+  {
+    "id": "q_4_0092",
+    "reason": "Near-duplicate of q_4_0091 - '복무일반의 구분이 어떻게 되나요?' is the same question rephrased"
+  },
+  {
+    "id": "q_4_0099",
+    "reason": "Nonsensical - '일반적 관리를 하려면 어떤 요건이 필요한가요?' (what requirements to do general management?); section title '일반적 관리' treated as an action to apply for"
+  },
+  {
+    "id": "q_4_0101",
+    "reason": "Nonsensical - '일반적 관리의 처리 기한' (processing deadline for general management); section title treated as a procedural item with deadlines"
+  },
+  {
+    "id": "q_4_0102",
+    "reason": "Nonsensical - '일반적 관리를 하려면 어떻게 해야 하나요?' (how do I do general management?); section title treated as a specific procedure"
+  },
+  {
+    "id": "q_4_0153",
+    "reason": "Nonsensical - '교육공무원법은 몇 년까지 가능한가요?' (how many years is the Education Public Officials Act possible for?); a law doesn't have a year limit"
+  },
+  {
+    "id": "q_4_0200",
+    "reason": "Garbled phrasing - '학교장 근무 상황 신청 방법을 신청할 때 유의사항' (precautions when applying for the application method); redundant double 신청 is nonsensical"
+  },
+  {
+    "id": "q_4_0204",
+    "reason": "Nonsensical - '학교장 근무 상황 신청 방법 중 보수는 어떻게 되나요?' (what is the salary in the application method?); an application method doesn't have a salary"
+  },
+  {
+    "id": "q_4_0207",
+    "reason": "Nonsensical - '교육공무원법을 신청할 때 유의사항' (precautions when applying for the Education Public Officials Act); you don't 'apply for' a law"
+  },
+  {
+    "id": "q_4_0220",
+    "reason": "Nonsensical - '휴업일 기간 중 신분은 어떻게 되나요?' (what is your status during break days?); your civil servant status doesn't change during regular break days"
+  },
+  {
+    "id": "q_4_0225",
+    "reason": "Nonsensical - '수업일에 관한 기간과 횟수를 알려주세요' (tell me the period and frequency of school days); template question treating school days as if they were a leave type"
+  },
+  {
+    "id": "q_4_0226",
+    "reason": "Nonsensical - '수업일 기간은 어떻게 계산하나요?' (how do you calculate school day periods?); school days are not calculated like leave periods"
+  },
+  {
+    "id": "q_4_0228",
+    "reason": "Nonsensical - '수업일 중 보수는 어떻게 되나요?' (what is the salary during school days?); normal salary applies during school days, making this meaningless"
+  },
+  {
+    "id": "q_4_0233",
+    "reason": "Nonsensical - '휴업일에서 서류 제출 기한은 어떻게 되나요?' (document submission deadline for break days?); break days don't have document submission deadlines"
+  },
+  {
+    "id": "q_4_0257",
+    "reason": "Nonsensical - '메시지 전송 기간에 승급이 되나요?' (can you get promoted during message sending period?); completely unrelated concepts mashed together"
+  },
+  {
+    "id": "q_4_0260",
+    "reason": "Grammatically broken - '공람자로 추가된 담당자가 근무상황의 휴가세부사항을 확인의 신청 절차는 어떻게 되나요?' is garbled and unclear"
+  },
+  {
+    "id": "q_4_0275",
+    "reason": "Nonsensical - '제6조(직무대리의 운영)는 얼마나 인정되나요?' (how much is Article 6 recognized?); a regulation article is not something that gets 'recognized' in quantity"
+  },
+  {
+    "id": "q_4_0276",
+    "reason": "Nonsensical - '제6조(직무대리의 운영)의 일수는 어떻게 되나요?' (how many days for Article 6?); a regulation article doesn't have a day count"
+  },
+  {
+    "id": "q_4_0291",
+    "reason": "Nonsensical - '겸임·직무대리·겸직의 2번째 항목은 무엇인가요?' asks for the '2nd item' of a topic title as if it's a numbered list"
+  },
+  {
+    "id": "q_4_0350",
+    "reason": "Nonsensical - '제6조(직무대리의 운영)는 얼마나 인정되나요?' (how much is Article 6 recognized?); same template problem as q_4_0275"
+  },
+  {
+    "id": "q_4_0351",
+    "reason": "Nonsensical - '제6조(직무대리의 운영)의 일수는 어떻게 되나요?' (how many days for Article 6?); same template problem as q_4_0276"
+  },
+  {
+    "id": "q_4_0374",
+    "reason": "Nonsensical - extremely long case title (yes/no question about 육아휴직 중 아르바이트) used as subject with '몇 년까지 가능한가요?' tacked on; a yes/no case question doesn't have a year limit"
+  },
+  {
+    "id": "q_4_0375",
+    "reason": "Nonsensical - same long case title with '기간은 어떻게 계산하나요?' tacked on; the case is a yes/no question, not a time-based concept"
+  },
+  {
+    "id": "q_4_0379",
+    "reason": "Nonsensical - same long case title with '경력평정에 어떻게 반영되나요?' tacked on; a yes/no case question about whether something is allowed doesn't get reflected in career evaluation"
+  },
+  {
+    "id": "q_4_0392",
+    "reason": "Nonsensical - '부동산 임대가 교원의 경력에 어떤 영향을 미치나요?' (how does real estate rental affect a teacher's career?); rental activity doesn't affect career evaluation records"
+  },
+  {
+    "id": "q_4_0451",
+    "reason": "Nonsensical - '어떤 경우에 학원법이 가능한가요?' (in what case is the Academy Act possible?); a law is not something that becomes 'possible'"
+  },
+  {
+    "id": "q_4_0497",
+    "reason": "Nonsensical - '평생직업교육학원을 받을 수 있는 자격' (qualifications to receive a lifelong vocational education academy); you don't 'receive' an academy"
+  },
+  {
+    "id": "q_4_0498",
+    "reason": "Nonsensical - '어떤 경우에 평생직업교육학원이 가능한가요?' (in what case is a lifelong vocational education academy possible?); an academy is not something that becomes 'possible' for a person"
+  },
+  {
+    "id": "q_4_0499",
+    "reason": "Nonsensical - '평생직업교육학원의 절차' (the procedure of a lifelong vocational education academy); an academy type doesn't have a 'procedure' by itself"
+  },
+  {
+    "id": "q_4_0500",
+    "reason": "Nonsensical - '평생직업교육학원을 하려면' (how do I do a lifelong vocational education academy?); an academy is not an action; missing critical verb like 'teach at'"
+  },
+  {
+    "id": "q_4_0501",
+    "reason": "Nonsensical - '평생직업교육학원 기간은 어떻게 계산하나요?' (how to calculate the period of an academy?); an academy type doesn't have a calculable period"
+  },
+  {
+    "id": "q_4_0502",
+    "reason": "Nonsensical - '평생직업교육학원에 관한 기간과 횟수' (period and frequency of an academy); template treating an academy type as if it were a leave type"
+  },
+  {
+    "id": "q_4_0555",
+    "reason": "Nonsensical - '지침의 목적 및 적용이 경력평정에 어떻게 반영되나요?' (how is purpose and application of guidelines reflected in career evaluation?); a section heading about purpose/scope doesn't get reflected in career evaluation"
+  },
+  {
+    "id": "q_4_0558",
+    "reason": "Nonsensical - '지침의 목적 및 적용의 양정 기준' (disciplinary sentencing standards for purpose and application of guidelines); a section heading about purpose/scope doesn't have disciplinary standards"
+  },
+  {
+    "id": "q_4_0563",
+    "reason": "Nonsensical - '정의를 하려면 어떤 요건이 필요한가요?' (what requirements are needed to do a definition?); you don't 'do' a definition"
+  },
+  {
+    "id": "q_4_0605",
+    "reason": "Nonsensical - '관련 질의·응답을 하려면 어떻게 해야 하나요?' (how do I do related Q&A?); treats a Q&A reference section title as an action to perform"
+  },
+  {
+    "id": "q_4_0606",
+    "reason": "Nonsensical - '관련 질의·응답을 신청할 때 유의사항' (precautions when applying for related Q&A); you don't 'apply for' a Q&A section"
+  },
+  {
+    "id": "q_4_0629",
+    "reason": "Nonsensical - '인터넷 개인방송*인 경우를 받을 수 있는 자격' (qualifications to receive the case of internet personal broadcasting); template garbage"
+  },
+  {
+    "id": "q_4_0632",
+    "reason": "Nonsensical - '인터넷 개인방송*인 경우의 기간은 얼마나 되나요?' (how long is the period of the case of internet personal broadcasting?); a case type doesn't have an inherent duration"
+  },
+  {
+    "id": "q_4_0633",
+    "reason": "Nonsensical - '인터넷 개인방송*인 경우를 분류하면' (how do you classify the case of internet personal broadcasting?); template question treating a case label as classifiable"
+  },
+  {
+    "id": "q_4_0634",
+    "reason": "Vague template - '인터넷 개인방송*인 경우에 해당하는 것들은 무엇인가요?' too vague and generic to be a useful question"
+  },
+  {
+    "id": "q_4_0637",
+    "reason": "Nonsensical - '어떤 경우에 관련 질의·응답이 가능한가요?' (in what case is related Q&A possible?); treats a Q&A section title as something that becomes 'possible'"
+  }
+]
