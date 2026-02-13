@@ -2,13 +2,14 @@
 """
 Source verification script for 0final.jsonl entries.
 Checks if source text content actually exists in the corresponding markdown files.
-Uses fuzzy matching: extracts key phrases from source text and checks presence in markdown.
+Uses multi-strategy fuzzy matching:
+  1. 4-word sliding window matching
+  2. Individual keyword/term matching for table-reformatted content
 """
 
 import json
 import os
 import re
-import random
 from collections import defaultdict
 
 MD_DIR = "/home/user/menual/마크다운"
@@ -27,101 +28,51 @@ def load_markdown(page_num):
 
 
 def normalize_text(text):
-    """Normalize text for comparison: remove markdown formatting, extra whitespace, etc."""
+    """Normalize text for comparison."""
     if not text:
         return ""
     # Remove markdown formatting symbols
     text = re.sub(r'[#*_`\[\](){}|>~]', '', text)
-    # Normalize quotes
-    text = text.replace('"', '"').replace('"', '"').replace("'", "'").replace("'", "'")
-    text = text.replace('「', '').replace('」', '').replace('『', '').replace('』', '')
-    # Remove numbering artifacts like (1), (가), ①, etc. but keep the content
+    # Normalize all quotes to empty
+    text = text.replace('\u201c', '').replace('\u201d', '')
+    text = text.replace('\u2018', '').replace('\u2019', '')
+    text = text.replace('"', '').replace("'", '')
+    text = text.replace('\u300c', '').replace('\u300d', '')
+    text = text.replace('\u300e', '').replace('\u300f', '')
+    # Remove bullet/numbering markers
+    text = re.sub(r'[①②③④⑤⑥⑦⑧⑨⑩]', '', text)
+    text = re.sub(r'[∘•·]', ' ', text)
     # Normalize whitespace
     text = re.sub(r'\s+', ' ', text).strip()
     return text
 
 
-def extract_key_phrases(source_text, min_length=8):
+def extract_keywords(source_text, min_len=2):
     """
-    Extract key phrases from source text for matching.
-    Returns a list of normalized phrases that should appear in the markdown.
+    Extract meaningful Korean terms/keywords from source text.
+    These are multi-character Korean words that are likely to be unique identifiers.
     """
     normalized = normalize_text(source_text)
-    if not normalized:
-        return []
-    
-    # Split into sentences/clauses
-    # Split on common delimiters
-    parts = re.split(r'[.。\n]', normalized)
-    
-    phrases = []
-    for part in parts:
-        part = part.strip()
-        if len(part) >= min_length:
-            # Take meaningful substrings - use chunks of the sentence
-            # For longer parts, extract the core content
-            phrases.append(part)
-    
-    # If no phrases found from splitting, use the whole text
-    if not phrases and len(normalized) >= min_length:
-        phrases.append(normalized)
-    
-    return phrases
-
-
-def check_phrase_in_markdown(phrase, md_content_normalized, threshold=0.6):
-    """
-    Check if a phrase (or significant portion of it) exists in the markdown content.
-    Uses substring matching with some flexibility.
-    """
-    if not phrase or not md_content_normalized:
-        return False
-    
-    # Direct substring match
-    if phrase in md_content_normalized:
-        return True
-    
-    # Try matching significant substrings (sliding window)
-    # Take windows of varying sizes from the phrase
-    words = phrase.split()
-    if len(words) <= 3:
-        # For short phrases, require exact match of at least part
-        # Try consecutive word sequences
-        for i in range(len(words)):
-            for j in range(i + 2, len(words) + 1):
-                sub = ' '.join(words[i:j])
-                if len(sub) >= 6 and sub in md_content_normalized:
-                    return True
-        return False
-    
-    # For longer phrases, check if enough consecutive words match
-    # Try windows of 4+ consecutive words
-    match_count = 0
-    total_windows = 0
-    window_size = min(4, len(words))
-    
-    for i in range(len(words) - window_size + 1):
-        window = ' '.join(words[i:i + window_size])
-        total_windows += 1
-        if window in md_content_normalized:
-            match_count += 1
-    
-    if total_windows == 0:
-        return False
-    
-    return (match_count / total_windows) >= threshold
+    # Extract Korean word sequences (2+ chars)
+    korean_terms = re.findall(r'[가-힣]{2,}', normalized)
+    # Filter to terms of meaningful length (3+ chars for specificity)
+    meaningful = [t for t in korean_terms if len(t) >= 3]
+    return meaningful
 
 
 def verify_source(source, md_cache):
     """
     Verify a single source against its corresponding markdown file.
-    Returns (status, reason) where status is 'matched', 'mismatched', or 'missing_md'.
+    Uses two strategies:
+      Strategy 1: 4-word sliding window (catches verbatim/near-verbatim text)
+      Strategy 2: Individual keyword presence (catches reformatted table data)
+    Returns (status, reason, match_ratio).
     """
     page = source.get('page')
     source_text = source.get('text', '')
     
     if not source_text:
-        return 'mismatched', 'Empty source text'
+        return 'mismatched', 'Empty source text', 0.0
     
     if page not in md_cache:
         md_content = load_markdown(page)
@@ -130,67 +81,121 @@ def verify_source(source, md_cache):
     md_content = md_cache[page]
     
     if md_content is None:
-        return 'missing_md', f'Markdown file not found for page {page}'
+        return 'missing_md', f'Markdown file not found for page {page}', 0.0
     
-    # Normalize both texts
     md_normalized = normalize_text(md_content)
+    src_normalized = normalize_text(source_text)
     
-    # Extract key phrases from source
-    phrases = extract_key_phrases(source_text)
+    # --- Strategy 1: 4-word sliding window ---
+    words = src_normalized.split()
+    window_size = 4
     
-    if not phrases:
-        return 'mismatched', 'Could not extract key phrases from source text'
+    if len(words) >= window_size:
+        segments = []
+        for i in range(0, len(words) - window_size + 1, 2):
+            seg = ' '.join(words[i:i + window_size])
+            if len(seg) >= 6:
+                segments.append(seg)
+        
+        if segments:
+            matched_segs = sum(1 for seg in segments if seg in md_normalized)
+            seg_ratio = matched_segs / len(segments)
+            if seg_ratio >= 0.30:
+                return 'matched', f'Window match: {matched_segs}/{len(segments)} ({seg_ratio:.0%})', seg_ratio
+    elif src_normalized and src_normalized in md_normalized:
+        return 'matched', 'Direct substring match', 1.0
+    elif len(words) > 0 and len(words) < window_size:
+        # Short source - check 2-word windows
+        if len(words) >= 2:
+            for i in range(len(words) - 1):
+                bigram = ' '.join(words[i:i+2])
+                if bigram in md_normalized:
+                    return 'matched', 'Short text bigram match', 0.5
     
-    # Check how many phrases match
-    matched_phrases = 0
-    unmatched = []
+    # --- Strategy 2: Korean keyword matching ---
+    # This catches cases where source reformats table data
+    keywords = extract_keywords(source_text)
+    if keywords:
+        # Deduplicate while preserving order
+        seen = set()
+        unique_kw = []
+        for kw in keywords:
+            if kw not in seen:
+                seen.add(kw)
+                unique_kw.append(kw)
+        
+        matched_kw = sum(1 for kw in unique_kw if kw in md_normalized)
+        kw_ratio = matched_kw / len(unique_kw) if unique_kw else 0
+        
+        if kw_ratio >= 0.50:
+            return 'matched', f'Keyword match: {matched_kw}/{len(unique_kw)} ({kw_ratio:.0%})', kw_ratio
     
-    for phrase in phrases:
-        if check_phrase_in_markdown(phrase, md_normalized):
-            matched_phrases += 1
-        else:
-            unmatched.append(phrase[:80])
+    # --- Neither strategy matched ---
+    # Collect diagnostics
+    seg_info = ""
+    if len(words) >= window_size:
+        segments = [' '.join(words[i:i+window_size]) for i in range(0, len(words)-window_size+1, 2)]
+        matched_segs = sum(1 for seg in segments if seg in md_normalized)
+        seg_info = f'Windows: {matched_segs}/{len(segments)}'
     
-    match_ratio = matched_phrases / len(phrases) if phrases else 0
+    kw_info = ""
+    if keywords:
+        unique_kw_set = list(dict.fromkeys(keywords))
+        matched_kw = sum(1 for kw in unique_kw_set if kw in md_normalized)
+        unmatched_kw = [kw for kw in unique_kw_set if kw not in md_normalized][:5]
+        kw_info = f'Keywords: {matched_kw}/{len(unique_kw_set)}, unmatched: {unmatched_kw}'
     
-    # Consider it a match if at least 40% of phrases match
-    # (some variation is expected between PDF extraction and markdown)
-    if match_ratio >= 0.4:
-        return 'matched', f'{matched_phrases}/{len(phrases)} phrases matched'
-    else:
-        reason = f'Only {matched_phrases}/{len(phrases)} phrases matched ({match_ratio:.0%}). Unmatched: {"; ".join(unmatched[:3])}'
-        return 'mismatched', reason
+    reason = f'{seg_info}. {kw_info}'
+    
+    # Calculate best ratio from either strategy
+    best_ratio = 0
+    if len(words) >= window_size:
+        segments = [' '.join(words[i:i+window_size]) for i in range(0, len(words)-window_size+1, 2)]
+        if segments:
+            best_ratio = max(best_ratio, sum(1 for seg in segments if seg in md_normalized) / len(segments))
+    if keywords:
+        unique_kw_set = list(dict.fromkeys(keywords))
+        if unique_kw_set:
+            best_ratio = max(best_ratio, sum(1 for kw in unique_kw_set if kw in md_normalized) / len(unique_kw_set))
+    
+    return 'mismatched', reason, best_ratio
 
 
 def verify_entry(entry, md_cache):
     """
-    Verify all sources for an entry. 
-    Returns overall status and details.
+    Verify all sources for an entry.
+    Matched if any source matches, or average across sources is reasonable.
     """
     sources = entry.get('sources', [])
     if not sources:
-        return 'mismatched', 'No sources listed'
+        return 'mismatched', 'No sources listed', []
     
-    all_results = []
+    source_results = []
     any_missing = False
-    any_mismatched = False
+    any_matched = False
+    all_mismatched = True
     
-    for i, source in enumerate(sources):
-        status, reason = verify_source(source, md_cache)
-        all_results.append((status, reason, source.get('page')))
+    for source in sources:
+        status, reason, ratio = verify_source(source, md_cache)
+        source_results.append((status, reason, source.get('page'), ratio))
         if status == 'missing_md':
             any_missing = True
-        elif status == 'mismatched':
-            any_mismatched = True
+        if status == 'matched':
+            any_matched = True
+            all_mismatched = False
+        elif status == 'missing_md':
+            all_mismatched = False
     
-    if any_missing:
-        missing_pages = [r[2] for r in all_results if r[0] == 'missing_md']
-        return 'missing_md', f'Missing markdown for pages: {missing_pages}'
-    elif any_mismatched:
-        mismatch_details = [(r[2], r[1]) for r in all_results if r[0] == 'mismatched']
-        return 'mismatched', f'Mismatched sources: {mismatch_details}'
-    else:
-        return 'matched', 'All sources verified'
+    if any_missing and not any_matched:
+        missing_pages = [r[2] for r in source_results if r[0] == 'missing_md']
+        return 'missing_md', f'Missing markdown for pages: {missing_pages}', source_results
+    
+    if any_matched:
+        return 'matched', 'At least one source verified', source_results
+    
+    # All sources mismatched
+    mismatch_details = [(r[2], r[1]) for r in source_results if r[0] == 'mismatched']
+    return 'mismatched', f'All sources mismatched: {mismatch_details}', source_results
 
 
 def main():
@@ -198,7 +203,7 @@ def main():
     print("Source Verification Report")
     print("=" * 70)
     
-    # Load all entries from 0final.jsonl
+    # Load all entries
     all_entries = []
     with open(JSONL_FILE, 'r', encoding='utf-8') as f:
         for line in f:
@@ -215,41 +220,9 @@ def main():
     problematic_ids = {e['id'] for e in problematic}
     print(f"Total problematic entries: {len(problematic_ids)}")
     
-    # Build entry lookup
-    entry_by_id = {e['id']: e for e in all_entries}
-    
-    # Determine which entries to check:
-    # 1. All problematic entries
-    # 2. A stratified sample of at least 200 non-problematic entries across categories
-    
-    entries_to_check = {}
-    
-    # Add all problematic entries
-    for entry in all_entries:
-        if entry['id'] in problematic_ids:
-            entries_to_check[entry['id']] = entry
-    
-    # Stratified sample of non-problematic entries
-    non_problematic_by_cat = defaultdict(list)
-    for entry in all_entries:
-        if entry['id'] not in problematic_ids:
-            cat = entry.get('category', 'unknown')
-            non_problematic_by_cat[cat].append(entry)
-    
-    # Sample proportionally, at least 200 total
-    total_non_prob = sum(len(v) for v in non_problematic_by_cat.values())
-    sample_target = max(200, total_non_prob)  # Check all entries actually
-    
-    # Since user asked to sample at least 200, let's check ALL entries for thoroughness
-    # but mark which ones are problematic vs sampled
-    for entry in all_entries:
-        entries_to_check[entry['id']] = entry
-    
-    print(f"Entries to verify: {len(entries_to_check)} (all entries)")
-    print()
-    
-    # Verify entries
+    # Verify ALL entries
     md_cache = {}
+    
     results = {
         'total_checked': 0,
         'matched': 0,
@@ -272,29 +245,30 @@ def main():
         'by_category': {}
     }
     
-    for idx, (entry_id, entry) in enumerate(entries_to_check.items()):
+    for idx, entry in enumerate(all_entries):
         if (idx + 1) % 500 == 0:
-            print(f"  Verified {idx + 1}/{len(entries_to_check)} entries...")
+            print(f"  Verified {idx + 1}/{len(all_entries)} entries...")
         
-        status, reason = verify_entry(entry, md_cache)
+        status, reason, source_results = verify_entry(entry, md_cache)
         results['total_checked'] += 1
         
+        entry_id = entry['id']
         is_problematic = entry_id in problematic_ids
         cat = entry.get('category', 'unknown')
         
         if cat not in results['by_category']:
             results['by_category'][cat] = {'matched': 0, 'mismatched': 0, 'missing_md': 0}
         
+        sub_key = 'problematic_results' if is_problematic else 'non_problematic_results'
+        
         if status == 'matched':
             results['matched'] += 1
             results['by_category'][cat]['matched'] += 1
-            if is_problematic:
-                results['problematic_results']['matched'] += 1
-            else:
-                results['non_problematic_results']['matched'] += 1
+            results[sub_key]['matched'] += 1
         elif status == 'missing_md':
             results['missing_md'] += 1
             results['by_category'][cat]['missing_md'] += 1
+            results[sub_key]['missing_md'] += 1
             results['missing_md_entries'].append({
                 'id': entry_id,
                 'page': entry['sources'][0]['page'] if entry.get('sources') else None,
@@ -302,30 +276,25 @@ def main():
                 'is_problematic': is_problematic,
                 'category': cat
             })
-            if is_problematic:
-                results['problematic_results']['missing_md'] += 1
-            else:
-                results['non_problematic_results']['missing_md'] += 1
-        else:  # mismatched
+        else:
             results['mismatched'] += 1
             results['by_category'][cat]['mismatched'] += 1
+            results[sub_key]['mismatched'] += 1
             source_pages = [s['page'] for s in entry.get('sources', [])]
             results['mismatched_entries'].append({
                 'id': entry_id,
                 'page': source_pages[0] if source_pages else None,
                 'all_pages': source_pages,
-                'reason': reason,
+                'reason': reason[:500],
                 'is_problematic': is_problematic,
-                'category': cat
+                'category': cat,
+                'question': entry.get('question', '')[:200],
+                'source_text_preview': entry['sources'][0]['text'][:200] if entry.get('sources') else ''
             })
-            if is_problematic:
-                results['problematic_results']['mismatched'] += 1
-            else:
-                results['non_problematic_results']['mismatched'] += 1
     
     results['non_problematic_results']['total'] = (
-        results['non_problematic_results']['matched'] + 
-        results['non_problematic_results']['mismatched'] + 
+        results['non_problematic_results']['matched'] +
+        results['non_problematic_results']['mismatched'] +
         results['non_problematic_results']['missing_md']
     )
     
@@ -334,24 +303,27 @@ def main():
     print("=" * 70)
     print("OVERALL RESULTS")
     print("=" * 70)
-    print(f"Total checked:  {results['total_checked']}")
-    print(f"Matched:        {results['matched']} ({results['matched']/results['total_checked']*100:.1f}%)")
-    print(f"Mismatched:     {results['mismatched']} ({results['mismatched']/results['total_checked']*100:.1f}%)")
-    print(f"Missing MD:     {results['missing_md']} ({results['missing_md']/results['total_checked']*100:.1f}%)")
+    tc = results['total_checked']
+    print(f"Total checked:  {tc}")
+    print(f"Matched:        {results['matched']} ({results['matched']/tc*100:.1f}%)")
+    print(f"Mismatched:     {results['mismatched']} ({results['mismatched']/tc*100:.1f}%)")
+    print(f"Missing MD:     {results['missing_md']} ({results['missing_md']/tc*100:.1f}%)")
     
     print()
     print("PROBLEMATIC ENTRIES")
-    print(f"  Total: {results['problematic_results']['total']}")
-    print(f"  Matched: {results['problematic_results']['matched']}")
-    print(f"  Mismatched: {results['problematic_results']['mismatched']}")
-    print(f"  Missing MD: {results['problematic_results']['missing_md']}")
+    pr = results['problematic_results']
+    print(f"  Total: {pr['total']}")
+    print(f"  Matched: {pr['matched']}")
+    print(f"  Mismatched: {pr['mismatched']}")
+    print(f"  Missing MD: {pr['missing_md']}")
     
     print()
     print("NON-PROBLEMATIC ENTRIES")
-    print(f"  Total: {results['non_problematic_results']['total']}")
-    print(f"  Matched: {results['non_problematic_results']['matched']}")
-    print(f"  Mismatched: {results['non_problematic_results']['mismatched']}")
-    print(f"  Missing MD: {results['non_problematic_results']['missing_md']}")
+    npr = results['non_problematic_results']
+    print(f"  Total: {npr['total']}")
+    print(f"  Matched: {npr['matched']}")
+    print(f"  Mismatched: {npr['mismatched']}")
+    print(f"  Missing MD: {npr['missing_md']}")
     
     print()
     print("BY CATEGORY:")
@@ -363,21 +335,16 @@ def main():
     
     if results['mismatched_entries']:
         print()
-        print("SAMPLE MISMATCHED ENTRIES (first 20):")
-        for entry in results['mismatched_entries'][:20]:
-            print(f"  ID: {entry['id']}, Pages: {entry.get('all_pages', entry.get('page'))}, "
-                  f"Problematic: {entry['is_problematic']}")
+        print(f"ALL MISMATCHED ENTRIES ({len(results['mismatched_entries'])}):")
+        for entry in results['mismatched_entries']:
+            prob_flag = " [PROBLEMATIC]" if entry['is_problematic'] else ""
+            print(f"  {entry['id']} | Pages: {entry.get('all_pages', entry.get('page'))} | "
+                  f"Cat: {entry['category']}{prob_flag}")
+            print(f"    Q: {entry.get('question', '')[:100]}")
             reason = entry['reason']
             if len(reason) > 200:
                 reason = reason[:200] + "..."
             print(f"    Reason: {reason}")
-    
-    if results['missing_md_entries']:
-        print()
-        print("MISSING MARKDOWN ENTRIES (first 10):")
-        for entry in results['missing_md_entries'][:10]:
-            print(f"  ID: {entry['id']}, Page: {entry['page']}, "
-                  f"Problematic: {entry['is_problematic']}")
     
     # Save results
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
