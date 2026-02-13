@@ -1,0 +1,35 @@
+{"id": "q_5_0576", "action": "PASS"}
+{"id": "q_5_0577", "action": "PASS"}
+{"id": "q_5_0578", "action": "PASS"}
+{"id": "q_5_0579", "action": "DELETE", "reason": "q_5_0576과 중복 ('1개월' 계산, 동일 소스 동일 답변)"}
+{"id": "q_5_0580", "action": "DELETE", "reason": "q_5_0577과 중복 (3월 1일 포함)"}
+{"id": "q_5_0581", "action": "DELETE", "reason": "q_5_0578과 중복 (병가+출산휴가 합산)"}
+{"id": "q_5_0582", "action": "PASS"}
+{"id": "q_5_0583", "action": "DELETE", "reason": "q_5_0578 + q_5_0582 내용 합친 중복"}
+{"id": "q_5_0584", "action": "DELETE", "reason": "깨진 질문 (질의 제목 + '를 하려면'), q_5_0576과 동일 답변, 17개 중복 (q_5_0584-0627)"}
+{"id": "q_5_0585", "action": "DELETE", "reason": "깨진 질문 (질의 제목 + '자격 요건'), q_5_0576과 동일 답변"}
+{"id": "q_5_0586", "action": "DELETE", "reason": "깨진 질문 (질의 제목 + '일수'), q_5_0576과 동일 답변"}
+{"id": "q_5_0587", "action": "DELETE", "reason": "'얼마나 인정되나요' 무의미 질문, q_5_0576과 동일 답변"}
+{"id": "q_5_0590", "action": "DELETE", "reason": "깨진 질문 ('1' 누락 → '개월 이상'), q_5_0576과 동일 답변"}
+{"id": "q_5_0591", "action": "DELETE", "reason": "'2월이라는 기준' 무의미 질문 (예시의 숫자에 불과), q_5_0576과 동일 답변"}
+{"id": "q_5_0596", "action": "DELETE", "reason": "q_5_0576에 이미 포함된 민법 제160조 내용, 중복"}
+{"id": "q_5_0598", "action": "DELETE", "reason": "깨진 질문 (질의 제목 + '처리 기한'), q_5_0577과 동일 답변, 7개 중복 (q_5_0598-0619)"}
+{"id": "q_5_0599", "action": "DELETE", "reason": "깨진 질문 (질의 제목 + '하려면'), q_5_0577과 동일 답변"}
+{"id": "q_5_0600", "action": "DELETE", "reason": "'횟수 제한' 무의미 질문, q_5_0577과 동일 답변"}
+{"id": "q_5_0602", "action": "DELETE", "reason": "'분류하면' 무의미 질문, q_5_0577과 동일 답변"}
+{"id": "q_5_0603", "action": "DELETE", "reason": "q_5_0577과 동일 답변 중복"}
+{"id": "q_5_0605", "action": "DELETE", "reason": "q_5_0577에 이미 포함된 내용 (결원기간 공휴일/휴업일)"}
+{"id": "q_5_0606", "action": "DELETE", "reason": "깨진 질문 (질의 제목 + '자격'), q_5_0578과 동일 답변, 6개 중복 (q_5_0606-0622)"}
+{"id": "q_5_0607", "action": "DELETE", "reason": "깨진 질문 (질의 제목 + '요건'), q_5_0578과 동일 답변"}
+{"id": "q_5_0608", "action": "DELETE", "reason": "'몇 년까지 가능한가요' 무의미 질문, q_5_0578과 동일 답변"}
+{"id": "q_5_0610", "action": "DELETE", "reason": "q_5_0578과 동일 답변 중복"}
+{"id": "q_5_0611", "action": "DELETE", "reason": "조사 오류 '경우?과→경우?와', q_5_0578과 동일 답변"}
+{"id": "q_5_0617", "action": "DELETE", "reason": "q_5_0577과 동일 답변 중복"}
+{"id": "q_5_0618", "action": "DELETE", "reason": "q_5_0577과 동일 답변 중복"}
+{"id": "q_5_0619", "action": "DELETE", "reason": "q_5_0577과 동일 답변 중복"}
+{"id": "q_5_0620", "action": "DELETE", "reason": "'최근에 어떻게 바뀌었나요' 허구 질문, q_5_0578과 동일 답변"}
+{"id": "q_5_0622", "action": "DELETE", "reason": "q_5_0578과 동일 답변 중복"}
+{"id": "q_5_0623", "action": "DELETE", "reason": "페이지 덤프형 답변 (page 360 전체)"}
+{"id": "q_5_0625", "action": "DELETE", "reason": "섹션 제목 질문, 페이지 덤프, q_5_0623과 동일 답변"}
+{"id": "q_5_0627", "action": "DELETE", "reason": "페이지 덤프, q_5_0623과 유사 답변"}
+{"id": "q_5_0629", "action": "DELETE", "reason": "q_5_0577과 동일 답변 중복"}

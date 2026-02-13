@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_4_1225",
+    "verdict": "FAIL",
+    "reason": "QUESTION_ANSWER_MISMATCH: question asks how the official leave period is calculated, but the answer provides the full list of approval reasons instead. The period calculation info is in the 유의사항 section item (1) on page 319, which the answer ignores."
+  },
+  {
+    "id": "q_4_1230",
+    "verdict": "PASS",
+    "reason": "Slightly awkward question wording but meaningful. Answer accurately lists all 5 공가제도 운영상 유의사항 items from page 319. Source text verified on page 319 나) section."
+  },
+  {
+    "id": "q_4_1231",
+    "verdict": "FAIL",
+    "reason": "GRAMMAR_ERROR: question is grammatically nonsensical ('유의사항이 가능한가요' - precautions being possible/impossible makes no sense). DUPLICATE_ANSWER with q_4_1230 (nearly identical answer)."
+  },
+  {
+    "id": "q_4_1232",
+    "verdict": "FAIL",
+    "reason": "QUESTION_ANSWER_MISMATCH: question asks about procedures (절차) but the source lists precautionary guidelines, not procedures. DUPLICATE_ANSWER with q_4_1230."
+  },
+  {
+    "id": "q_4_1235",
+    "verdict": "FAIL",
+    "reason": "QUESTION_ANSWER_MISMATCH: question asks about number of days (일수) but the answer lists general precautions without specifically addressing day counts. DUPLICATE_ANSWER with q_4_1230."
+  },
+  {
+    "id": "q_4_1237",
+    "verdict": "FAIL",
+    "reason": "SOURCE_TEXT_IN_QUESTION: question contains verbatim source text from 유의사항 item (4) ('행사 참가는 학교의 장이 선수·심판 등 공가활용이 불가피하다고 인정되는 경우'). DUPLICATE_ANSWER with q_4_1230."
+  },
+  {
+    "id": "q_4_1240",
+    "verdict": "FAIL",
+    "reason": "QUESTION_ANSWER_MISMATCH: question asks whether the school principal has authority regarding official leave, but the answer just lists approval reasons without discussing the principal's role. The authority text ('학교의 장은... 공가를 승인하여야 함') is on page 318, not addressed."
+  },
+  {
+    "id": "q_4_1241",
+    "verdict": "FAIL",
+    "reason": "QUESTION_ANSWER_MISMATCH: question asks about school administrative office (행정실) tasks, which is a fabricated angle not covered in the source. Answer lists 유의사항 items without addressing admin office duties. DUPLICATE_ANSWER with q_4_1230."
+  },
+  {
+    "id": "q_4_1242",
+    "verdict": "FAIL",
+    "reason": "QUESTION_ANSWER_MISMATCH: question asks about consequences of mishandling (잘못 처리하면 어떤 문제), a fabricated angle not in the source. Answer lists 유의사항 items without discussing consequences. DUPLICATE_ANSWER with q_4_1230."
+  },
+  {
+    "id": "q_4_1244",
+    "verdict": "FAIL",
+    "reason": "MECHANICAL_QUESTION: question asks for 'the 6th item of 휴가종류별 실시방법' which is overly mechanical and ambiguous (6th item of which sub-section?). Source.text is a single fragment. Not a meaningful question a real user would ask."
+  }
+]

@@ -1,0 +1,26 @@
+{"id": "q_5_0409", "action": "DELETE", "reason": "q_5_0396과 동일 답변 중복 (page 352 시간당 강사 수당)"}
+{"id": "q_5_0410", "action": "PASS"}
+{"id": "q_5_0411", "action": "DELETE", "reason": "q_5_0410과 중복 (강사 주휴수당), 허구 88000원 예시 추가"}
+{"id": "q_5_0412", "action": "DELETE", "reason": "섹션 제목 질문 (강사수당 단가 적용기준), 페이지 덤프, 7개 중복 (q_5_0412-0438)"}
+{"id": "q_5_0416", "action": "DELETE", "reason": "'경력평정에 어떻게 반영' 허구 질문, q_5_0412와 동일 답변"}
+{"id": "q_5_0417", "action": "DELETE", "reason": "'어떤 효과가 있나요' 무의미 질문, q_5_0412와 동일 답변"}
+{"id": "q_5_0418", "action": "DELETE", "reason": "'최근 변경사항' 허구 질문, q_5_0412와 동일 답변"}
+{"id": "q_5_0420", "action": "DELETE", "reason": "q_5_0410과 중복 (※ 강사 주휴수당 지급 기준), 11개 중복 (q_5_0420-0440)"}
+{"id": "q_5_0421", "action": "DELETE", "reason": "q_5_0420과 동일 답변 중복"}
+{"id": "q_5_0422", "action": "DELETE", "reason": "q_5_0420과 동일 답변 중복"}
+{"id": "q_5_0425", "action": "DELETE", "reason": "q_5_0420과 동일 답변 중복"}
+{"id": "q_5_0426", "action": "DELETE", "reason": "q_5_0420과 동일 답변 중복"}
+{"id": "q_5_0428", "action": "DELETE", "reason": "섹션 제목 질문 (임금명세서 교부), 4개 중복 (q_5_0428-0431)"}
+{"id": "q_5_0429", "action": "DELETE", "reason": "q_5_0428과 동일 답변 중복"}
+{"id": "q_5_0430", "action": "DELETE", "reason": "q_5_0428과 동일 답변 중복"}
+{"id": "q_5_0431", "action": "DELETE", "reason": "q_5_0428과 동일 답변 중복"}
+{"id": "q_5_0436", "action": "DELETE", "reason": "'민원이 들어오면' 허구 질문, q_5_0412와 동일 답변"}
+{"id": "q_5_0437", "action": "DELETE", "reason": "q_5_0412와 동일 답변 중복"}
+{"id": "q_5_0438", "action": "DELETE", "reason": "q_5_0412와 동일 답변 중복"}
+{"id": "q_5_0439", "action": "DELETE", "reason": "q_5_0420과 동일 답변 중복"}
+{"id": "q_5_0440", "action": "DELETE", "reason": "q_5_0420과 동일 답변 중복"}
+{"id": "q_5_0442", "action": "DELETE", "reason": "'교원의 신분에 미치는 영향' 허구 질문, q_5_0428과 동일 답변"}
+{"id": "q_5_0443", "action": "DELETE", "reason": "q_5_0428과 동일 답변 중복"}
+{"id": "q_5_0445", "action": "DELETE", "reason": "페이지 덤프형 답변 (강사 보수 처우 전체)"}
+{"id": "q_5_0446", "action": "DELETE", "reason": "'흔히 발생하는 문제점' 허구 질문, 페이지 덤프"}
+{"id": "q_5_0447", "action": "DELETE", "reason": "페이지 덤프형 답변"}

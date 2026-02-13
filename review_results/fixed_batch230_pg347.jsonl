@@ -1,0 +1,27 @@
+{"id": "q_5_0208", "action": "DELETE", "reason": "포괄적 페이지 덤프형 답변"}
+{"id": "q_5_0209", "action": "PASS"}
+{"id": "q_5_0211", "action": "PASS"}
+{"id": "q_5_0212", "action": "DELETE", "reason": "q_5_0209와 중복 (임용기간)"}
+{"id": "q_5_0214", "action": "DELETE", "reason": "q_5_0209와 중복 (계약기간)"}
+{"id": "q_5_0215", "action": "PASS"}
+{"id": "q_5_0216", "action": "PASS"}
+{"id": "q_5_0217", "action": "DELETE", "reason": "q_5_0211과 중복 (가산점 부여 대상/방법)"}
+{"id": "q_5_0219", "action": "DELETE", "reason": "q_5_0211과 동일 답변 중복"}
+{"id": "q_5_0221", "action": "DELETE", "reason": "q_5_0211과 동일 답변 중복"}
+{"id": "q_5_0224", "action": "DELETE", "reason": "q_5_0211과 동일 답변 중복, '보훈보상대상자법 신청 자격' 부적절 질문"}
+{"id": "q_5_0225", "action": "DELETE", "reason": "q_5_0215와 중복 (성범죄경력조회)"}
+{"id": "q_5_0227", "action": "DELETE", "reason": "q_5_0215와 동일 답변 중복"}
+{"id": "q_5_0228", "action": "DELETE", "reason": "q_5_0215와 동일 답변 중복"}
+{"id": "q_5_0231", "action": "DELETE", "reason": "소스 텍스트를 질문으로 붙여넣기, q_5_0215와 중복"}
+{"id": "q_5_0233", "action": "DELETE", "reason": "q_5_0209와 동일 답변 중복"}
+{"id": "q_5_0234", "action": "DELETE", "reason": "q_5_0209와 동일 답변 중복"}
+{"id": "q_5_0235", "action": "DELETE", "reason": "'임용기간을 하려면' 문법 오류, q_5_0209와 중복"}
+{"id": "q_5_0236", "action": "DELETE", "reason": "q_5_0209와 동일 답변 중복"}
+{"id": "q_5_0239", "action": "DELETE", "reason": "q_5_0209와 동일 답변 중복"}
+{"id": "q_5_0241", "action": "DELETE", "reason": "'최근에 어떻게 바뀌었나요' 허구 질문"}
+{"id": "q_5_0242", "action": "DELETE", "reason": "'참고 서식이 있나요' 답변에 서식 정보 없음, '과' 조사 오류 (와)"}
+{"id": "q_5_0244", "action": "DELETE", "reason": "q_5_0215와 동일 답변 중복"}
+{"id": "q_5_0246", "action": "DELETE", "reason": "'교원의 신분에 미치는 영향' 허구 질문"}
+{"id": "q_5_0249", "action": "DELETE", "reason": "q_5_0209와 동일 답변 중복"}
+{"id": "q_5_0250", "action": "DELETE", "reason": "소스 텍스트를 질문으로 붙여넣기"}
+{"id": "q_5_0251", "action": "DELETE", "reason": "포괄적 페이지 덤프형 답변"}

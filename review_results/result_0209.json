@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_4_1347",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer: identical content to q_4_1346 (batch_0208). Question asks 'how to take maternity leave' but answer is about 배우자 유산·사산 provisions and case examples, not the application procedure."
+  },
+  {
+    "id": "q_4_1348",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer: identical content to q_4_1346 and q_4_1347. Question asks about period (기간) and frequency (횟수) of maternity leave but answer does not clearly state the 90-day period (that is on page 323) and does not discuss frequency at all."
+  },
+  {
+    "id": "q_4_1351",
+    "verdict": "FAIL",
+    "reason": "Malformed question: '만약 주 이내 유·사산한 경우' is missing a number before 주 (should be '15주', '16주' etc.). The question is nonsensical without specifying the pregnancy week. Duplicate answer content with q_4_1346/q_4_1347/q_4_1348."
+  },
+  {
+    "id": "q_4_1352",
+    "verdict": "PASS",
+    "reason": "Source verified against page 324 markdown. Answer accurately describes 여성교원 난임치료시술휴가 categories (인공수정 2일, 체외수정 동결배아 3일) matching the source text. Meaningful question."
+  },
+  {
+    "id": "q_4_1353",
+    "verdict": "FAIL",
+    "reason": "Duplicate of q_4_1352: question is a rephrasing ('분류하면' vs '구분이') and the answer is identical. Same source text, same answer content."
+  },
+  {
+    "id": "q_4_1355",
+    "verdict": "FAIL",
+    "reason": "Question-answer mismatch: question asks about 판례나 사례 (precedents or cases) regarding 난임치료시술휴가, but the answer provides regulatory text about leave categories. No precedents or cases are presented. Duplicate answer content with q_4_1352."
+  },
+  {
+    "id": "q_4_1357",
+    "verdict": "FAIL",
+    "reason": "Question-answer mismatch: question asks about the impact of maternity leave on a teacher's status (교원의 신분에 미치는 영향) but the answer dumps page 324 content about 배우자 유산·사산 provisions without addressing the question topic at all."
+  },
+  {
+    "id": "q_4_1360",
+    "verdict": "FAIL",
+    "reason": "Meaningless question: '3번째 항목' is ambiguous without context. Source.text is a broken fragment starting with '에 따른' (missing '(3)' prefix). Answer is a raw text dump without context. Not a natural or useful question."
+  },
+  {
+    "id": "q_4_1361",
+    "verdict": "FAIL",
+    "reason": "Mechanical/template question: '5번째 항목은 무엇인가요' is not a natural question anyone would ask. Answer is a raw source text dump including markdown artifact ('---'). Not useful as a QA entry."
+  },
+  {
+    "id": "q_4_1362",
+    "verdict": "FAIL",
+    "reason": "Question is raw source text dump: '여성교원 (가) 인공수정 시술을 받는 경우: 시술을은 어떤 내용인가요' pastes source text directly into the question. Grammar error: '시술을은' uses double particles (을+은). Not a natural question."
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_4_1259",
+    "verdict": "PASS",
+    "reason": "Question asks about official leave eligibility. Answer comprehensively covers all 7 cases from page 320 with accurate content. Source text verified against 320쪽.md. Answer extends beyond truncated source.text but all content is on the same page."
+  },
+  {
+    "id": "q_4_1261",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer - nearly identical to q_4_1259 (same 7 cases from page 320). Question asks about procedure (절차) but answer lists case examples, not procedures. Question-answer mismatch."
+  },
+  {
+    "id": "q_4_1264",
+    "verdict": "FAIL",
+    "reason": "Question asks about time duration limit (몇 년까지 가능한가요) which is not covered anywhere in the source text on page 320. Hallucinated question topic. Also duplicate answer identical to q_4_1259/q_4_1261."
+  },
+  {
+    "id": "q_4_1266",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer - same 7 cases as q_4_1259/q_4_1261/q_4_1264. While the question specifically references case 1 content, the answer dumps all 7 cases instead of addressing the specific question about education dispatch procedures."
+  },
+  {
+    "id": "q_4_1267",
+    "verdict": "FAIL",
+    "reason": "Question asks about handling complaints (민원 대응) which is not covered in the source text. Page 320 describes cases where leave cannot be granted, not complaint handling procedures. Hallucinated question topic."
+  },
+  {
+    "id": "q_4_1268",
+    "verdict": "FAIL",
+    "reason": "Question asks about document submission deadline (서류 제출 기한) which is entirely absent from the source text on page 320. Hallucinated question topic. The answer just repeats union activity precautions."
+  },
+  {
+    "id": "q_4_1270",
+    "verdict": "FAIL",
+    "reason": "Grammar error: '사례과' should be '사례와' (사례 ends without batchim, requiring 와 not 과). Also question asks about reference forms (참고 서식) not covered in source. Answer dumps case examples instead."
+  },
+  {
+    "id": "q_4_1271",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer - identical to q_4_1259/q_4_1261/q_4_1264/q_4_1266 (same 7 cases). Five entries with the same answer content is excessive duplication."
+  },
+  {
+    "id": "q_4_1272",
+    "verdict": "FAIL",
+    "reason": "Question asks about the responsible administrative officer (행정 처리 담당자) which is not addressed in the source text on page 320. Hallucinated question topic. Also duplicate answer identical to other entries."
+  },
+  {
+    "id": "q_4_1275",
+    "verdict": "PASS",
+    "reason": "Good question connecting the precautions section (나) and cases section (다) of page 320. Answer covers both sections accurately. Source text verified - spans both subsections on the same page. No hallucination."
+  }
+]

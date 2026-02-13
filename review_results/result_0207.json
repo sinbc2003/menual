@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_4_1320",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_4_1318/q_4_1319 (batch 0206) and q_4_1321/q_4_1322 (this batch). All dump identical page 322 경조사휴가 계속 content with trivially different questions."
+  },
+  {
+    "id": "q_4_1321",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_4_1318/q_4_1319/q_4_1320/q_4_1322. All dump identical page 322 경조사휴가 계속 content with trivially different questions."
+  },
+  {
+    "id": "q_4_1322",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_4_1318/q_4_1319/q_4_1320/q_4_1321. All dump identical page 322 경조사휴가 계속 content with trivially different questions."
+  },
+  {
+    "id": "q_4_1323",
+    "verdict": "FAIL",
+    "reason": "Answer contains hallucinated content: '배우자가 유산·사산한 경우 3일 휴가 (1회 분할 사용 가능)' is NOT found on source page 323. Page 323 only covers female employee 유산·사산 leave table, not spouse leave."
+  },
+  {
+    "id": "q_4_1325",
+    "verdict": "PASS",
+    "reason": "Source verified on 323쪽.md (출산휴가 90일/120일/100일). Answer accurately covers 단태아/다태아/미숙아 출산휴가 with details all found on page 323. Clear, specific question."
+  },
+  {
+    "id": "q_4_1327",
+    "verdict": "FAIL",
+    "reason": "Duplicate with q_4_1325. Both cover 출산휴가 일수 from page 323 with substantially overlapping answers. q_4_1325 already covers 분할사용 details."
+  },
+  {
+    "id": "q_4_1328",
+    "verdict": "FAIL",
+    "reason": "Duplicate with q_4_1325. Essentially same question ('출산휴가는 몇 일' vs '출산휴가는 며칠') with same source page 323 and overlapping answer content."
+  },
+  {
+    "id": "q_4_1329",
+    "verdict": "PASS",
+    "reason": "Source verified on 323쪽.md (출산전 분할사용 44일/59일 범위, 3가지 사유). Specific question about 출산전 분할사용 with accurate answer. Distinct from q_4_1325 which focuses on 일수."
+  },
+  {
+    "id": "q_4_1331",
+    "verdict": "FAIL",
+    "reason": "Question-answer mismatch. Question asks '출산휴가를 하려면 어떤 요건이 필요한가요?' (requirements for maternity leave) but answer provides 유산·사산 일수 table instead. Does not address the actual question."
+  },
+  {
+    "id": "q_4_1332",
+    "verdict": "FAIL",
+    "reason": "Question-answer mismatch and duplicate. Question asks '출산휴가의 횟수 제한이 있나요?' (frequency limit) but answer gives irrelevant 유산·사산 일수 table. Also duplicate answer with q_4_1331."
+  }
+]

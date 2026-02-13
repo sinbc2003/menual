@@ -1,0 +1,18 @@
+{"id": "q_5_0381", "action": "DELETE", "reason": "섹션 제목 질문, 짧은 페이지 덤프, 5개 중복 (q_5_0381-0387)"}
+{"id": "q_5_0382", "action": "DELETE", "reason": "q_5_0381과 동일 답변 중복"}
+{"id": "q_5_0383", "action": "DELETE", "reason": "q_5_0381과 동일 답변 중복"}
+{"id": "q_5_0384", "action": "DELETE", "reason": "q_5_0381과 동일 답변 중복"}
+{"id": "q_5_0387", "action": "DELETE", "reason": "'000원이라는 기준' 깨진 질문, q_5_0381과 동일 답변"}
+{"id": "q_5_0388", "action": "DELETE", "reason": "섹션 제목 질문 (정규교원 결원보충 강사), 페이지 덤프, 10개 중복 (q_5_0388-0409)"}
+{"id": "q_5_0389", "action": "DELETE", "reason": "q_5_0388과 동일 답변 중복"}
+{"id": "q_5_0390", "action": "DELETE", "reason": "'기간 어떻게 계산' 무의미 질문, q_5_0388과 동일 답변"}
+{"id": "q_5_0391", "action": "DELETE", "reason": "q_5_0388과 동일 답변 중복"}
+{"id": "q_5_0396", "action": "DELETE", "reason": "섹션 제목 질문 (시간당 강사 수당 지급 기준), 페이지 덤프, 10개 중복 (q_5_0396-0409)"}
+{"id": "q_5_0397", "action": "DELETE", "reason": "q_5_0396과 동일 답변 중복"}
+{"id": "q_5_0399", "action": "DELETE", "reason": "q_5_0396과 동일 답변 중복"}
+{"id": "q_5_0400", "action": "DELETE", "reason": "q_5_0396과 동일 답변 중복"}
+{"id": "q_5_0401", "action": "DELETE", "reason": "q_5_0396과 동일 답변 중복"}
+{"id": "q_5_0404", "action": "DELETE", "reason": "'서류 제출 기한' 허구 질문, q_5_0388과 동일 답변"}
+{"id": "q_5_0405", "action": "DELETE", "reason": "'정규교원 결원보충 강사을' 조사 오류 (을→를), q_5_0388과 동일 답변"}
+{"id": "q_5_0407", "action": "DELETE", "reason": "'행정 처리 담당자' 허구 질문, q_5_0396과 동일 답변"}
+{"id": "q_5_0408", "action": "DELETE", "reason": "q_5_0396과 동일 답변 중복"}

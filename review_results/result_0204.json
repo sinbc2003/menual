@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_4_1276",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_4_1277 and q_4_1278 (identical answers). Question premise fabricated: source page 320 never mentions '교육청에서 자주 질의하는 내용'. Answer is raw dump of source text."
+  },
+  {
+    "id": "q_4_1277",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_4_1276 and q_4_1278 (identical answers). QUESTION_ANSWER_MISMATCH: question asks about '행정적으로 필요한 절차' (administrative procedures) but answer only lists cases where 공가 cannot be used for union activities."
+  },
+  {
+    "id": "q_4_1278",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_4_1276 and q_4_1277 (identical answers). All three entries share the same page 320 source text and produce the same answer verbatim."
+  },
+  {
+    "id": "q_4_1279",
+    "verdict": "PASS",
+    "reason": "Source text verified against page 321 (lines 11-14). Answer accurately explains 제1급 감염병 예방접종 공가 eligibility. Question is specific and practical. Minor: answer adds 검역감염병 info from page 320 without citing it, but content is factually correct."
+  },
+  {
+    "id": "q_4_1280",
+    "verdict": "PASS",
+    "reason": "Source text verified against page 321 (line 50). Answer correctly covers 20일/25일 (from table on same page), 120일/150일 periods, 3회/5회 split limits. Question is practical and well-formed. No within-batch duplicate."
+  },
+  {
+    "id": "q_4_1282",
+    "verdict": "FAIL",
+    "reason": "DUPLICATE_ANSWER with q_4_1280: same source, nearly identical core content (배우자 출산휴가 20일/25일, 120일/150일, 3회/5회). Also adds 개정 적용례 content from page 322 without citing it in sources."
+  },
+  {
+    "id": "q_4_1284",
+    "verdict": "PASS",
+    "reason": "Source text verified against page 321 (line 39). Answer accurately covers 원격지 2일 가산, 왕복 8시간 기준, 본인 결혼 결혼식장 기준 (line 41), 입양 제외. Unique question angle with no duplicates."
+  },
+  {
+    "id": "q_4_1285",
+    "verdict": "PASS",
+    "reason": "Sources verified: page 321 (line 50) and page 322 (lines 12-25). Answer comprehensively covers 배우자 출산휴가 개정 내용 with correct examples. Both source pages properly cited. Distinct angle from q_4_1280 (focuses on the 2025.2.11 개정 increase)."
+  },
+  {
+    "id": "q_4_1287",
+    "verdict": "FAIL",
+    "reason": "SOURCE_UNCITED: answer includes 사례5 (2025.2.20 출산 example from page 322 line 43) and 사실혼 관계 case (page 322 lines 45-49) but only cites page 321 as source. Near-duplicate core content with q_4_1280 and q_4_1285."
+  },
+  {
+    "id": "q_4_1288",
+    "verdict": "PASS",
+    "reason": "Source text verified against page 321 (lines 9-14, 사례7). Answer accurately explains 예방접종 공가 conditions (제1급 감염병 한정, 인플루엔자 제외, 직접 필요한 시간). Question about '조건' reasonably matched by answer. Not duplicate within batch (different structure from q_4_1279)."
+  }
+]

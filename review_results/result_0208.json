@@ -1,0 +1,52 @@
+[
+  {
+    "id": "q_4_1334",
+    "verdict": "FAIL",
+    "reason": "Answer hallucination: answer presents a 유산·사산 table (10/30/60/90일) from section (3) on page 323, but the source.text is from section (1) about general maternity leave. Also, question '출산휴가의 결과는 어떻게 처리되나요' is poorly formed - maternity leave does not have '결과' to process."
+  },
+  {
+    "id": "q_4_1336",
+    "verdict": "FAIL",
+    "reason": "Question-answer mismatch: question asks about the legal basis (법적 근거) for maternity leave, but the answer is a raw dump of source text about maternity leave procedures. The laws cited (모자보건법) are referenced for premature baby provisions, not as the legal basis for maternity leave itself."
+  },
+  {
+    "id": "q_4_1337",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer: answer content is nearly identical to q_4_1336. Both dump the same page 323 source material about maternity leave. Also, as a 'summary' request, the answer fails to summarize - it just reproduces the full source text."
+  },
+  {
+    "id": "q_4_1339",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer: answer content overlaps heavily with q_4_1336/q_4_1337. Question is vague ('특별 휴가가 어떻게 적용되나요') when the source is specifically about 출산휴가. Answer extends beyond source.text by adding section (2) content."
+  },
+  {
+    "id": "q_4_1340",
+    "verdict": "FAIL",
+    "reason": "Duplicate answer with q_4_1339. Grammar error in answer: '특별 휴가과 출산휴가' should be '특별 휴가와 출산휴가' (휴가 ends without batchim, so particle should be 와 not 과)."
+  },
+  {
+    "id": "q_4_1341",
+    "verdict": "FAIL",
+    "reason": "Question-answer mismatch: question asks about 임용권자의 역할 (appointing authority's role) but the answer never mentions 임용권자 at all - it just dumps 출산휴가 procedures. Grammar error in question: '실시방법와' should be '실시방법과' (법 has batchim so particle should be 과). Duplicate answer content."
+  },
+  {
+    "id": "q_4_1342",
+    "verdict": "FAIL",
+    "reason": "Question-answer mismatch: question asks about common problems (문제점) when applying maternity leave regulations, but the answer just lists standard regulations without identifying any problems. Duplicate answer content with above entries."
+  },
+  {
+    "id": "q_4_1344",
+    "verdict": "PASS",
+    "reason": "Meaningful question about spouse miscarriage/stillbirth leave. Answer correctly identifies 3-day leave from source. Source.text verified against page 324. Answer extends with reasonable details derived from cross-referenced section (3) on page 323."
+  },
+  {
+    "id": "q_4_1345",
+    "verdict": "FAIL",
+    "reason": "Answer contains content not from the referenced source page 324: 신선배아 이식 4일, 유급/무급 distinction (최초 2일 유급, 3일 이후 무급), and male teacher provisions are not on page 324 - likely from page 325 or beyond. Hallucinated content beyond source."
+  },
+  {
+    "id": "q_4_1346",
+    "verdict": "FAIL",
+    "reason": "Question-answer mismatch: question asks about 출산휴가 process ('어떤 과정을 거치나요') but the answer dumps page 324 content about 배우자 유산·사산 provisions and cases, which does not describe a process for taking maternity leave."
+  }
+]

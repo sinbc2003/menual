@@ -1,0 +1,22 @@
+{"id": "q_5_0297", "action": "PASS"}
+{"id": "q_5_0299", "action": "PASS"}
+{"id": "q_5_0300", "action": "DELETE", "reason": "q_5_0299와 거의 동일 답변 중복 (인력풀 등록)"}
+{"id": "q_5_0301", "action": "DELETE", "reason": "q_5_0297와 중복 (명예교사 임용), 허구 내용 추가"}
+{"id": "q_5_0302", "action": "PASS"}
+{"id": "q_5_0303", "action": "DELETE", "reason": "q_5_0297와 중복 (명예교사), 허구 추가 ('특징' 섹션 소스에 없음)"}
+{"id": "q_5_0304", "action": "DELETE", "reason": "q_5_0299와 중복 (NEIS 인력풀 등록)"}
+{"id": "q_5_0305", "action": "PASS"}
+{"id": "q_5_0306", "action": "DELETE", "reason": "섹션 제목 질문, 페이지 덤프형 답변"}
+{"id": "q_5_0307", "action": "DELETE", "reason": "q_5_0306과 동일 답변 중복"}
+{"id": "q_5_0309", "action": "DELETE", "reason": "q_5_0306과 동일 답변 중복"}
+{"id": "q_5_0310", "action": "DELETE", "reason": "'기간 어떻게 계산' 무의미 질문, q_5_0306과 동일 답변"}
+{"id": "q_5_0316", "action": "DELETE", "reason": "'필요한 서류' 허구 질문, 답변에 서류 정보 없음, 페이지 덤프"}
+{"id": "q_5_0325", "action": "DELETE", "reason": "'기간은 얼마나' 무의미 질문 (강사 임용 사유에 대해), 페이지 덤프"}
+{"id": "q_5_0328", "action": "DELETE", "reason": "'교원의 신분에 미치는 영향' 허구 질문, 페이지 덤프"}
+{"id": "q_5_0330", "action": "DELETE", "reason": "'가장 중요한 조건' 허구 질문, q_5_0328과 동일 답변"}
+{"id": "q_5_0331", "action": "DELETE", "reason": "'학교장이 권한이 있나요' 허구 질문, 명예교사 페이지 덤프"}
+{"id": "q_5_0334", "action": "DELETE", "reason": "페이지 덤프형 답변 (전체 page 350 내용)"}
+{"id": "q_5_0335", "action": "DELETE", "reason": "'와' 조사 오류 (지침와→지침과), 페이지 덤프"}
+{"id": "q_5_0336", "action": "DELETE", "reason": "산학겸임교사 Q이나 답변에 세부 내용 없음 (별도 지침에 따른다는 것만), 페이지 덤프"}
+{"id": "q_5_0337", "action": "DELETE", "reason": "q_5_0334와 동일 답변 중복"}
+{"id": "q_5_0338", "action": "DELETE", "reason": "'필수 확인 사항' 허구 질문, 페이지 덤프"}
